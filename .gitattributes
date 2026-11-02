@@ -12,6 +12,12 @@
 *.yml text eol=lf
 *.sh text eol=lf
 *.ps1 text eol=crlf
+*.csv text eol=lf
+
+# Data fixtures must preserve exact byte digests without line-ending translation
+fixtures/** -text
+tests/fixtures/** -text
+src/urbangraph/fixtures/** -text
 
 # Git Large File Storage (LFS) for binary model weights, wheels, and images
 *.whl filter=lfs diff=lfs merge=lfs -text

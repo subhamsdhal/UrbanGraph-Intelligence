@@ -1,12 +1,58 @@
 Relative Path,File Type,Category,Size Bytes,SHA-256,Purpose
 .env.example,.example,Project Root,738,5fe0a8c1a105c58b2f7e36fbafc79892e8e05e78b96dd8e54b236a97a40c3e37,"Repository governance, licensing & environment templates"
 .env.production.template,.template,Project Root,1034,5bc1dc927778f8c8271ff1f629ce0f60cb659f29b046438fa959c8092e6ef812,"Repository governance, licensing & environment templates"
-.gitattributes,none,Project Root,709,ec7087fd5364231aecde3466aa9750a3b865441cbd9e304dbadbab1ecf1b8bb2,"Repository governance, licensing & environment templates"
+.git/COMMIT_EDITMSG,none,Project Root,76,edfb6836d7a2f65ea262729437a4d2a432ebfa6f6ce02bd62010903c2b8103c3,"Repository governance, licensing & environment templates"
+.git/HEAD,none,Project Root,21,28d25bf82af4c0e2b72f50959b2beb859e3e60b9630a5e8c603dad4ddb2b6e80,"Repository governance, licensing & environment templates"
+.git/config,none,Project Root,444,6acb722b4e1518416306800e2016842f47d5457884f4604ad9f5364843fdc15b,"Repository governance, licensing & environment templates"
+.git/description,none,Project Root,73,85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee,"Repository governance, licensing & environment templates"
+.git/hooks/applypatch-msg.sample,.sample,Project Root,478,0223497a0b8b033aa58a3a521b8629869386cf7ab0e2f101963d328aa62193f7,"Repository governance, licensing & environment templates"
+.git/hooks/commit-msg.sample,.sample,Project Root,1972,efc1401b0e99d1ff51494d154d98b46c1e99059bcd8bf9f73cecde19fd3eb23b,"Repository governance, licensing & environment templates"
+.git/hooks/fsmonitor-watchman.sample,.sample,Project Root,4611,9159720099ad5595b8e66645cbfd47763c1e920f46e0b50ae75e642bbec57ef0,"Repository governance, licensing & environment templates"
+.git/hooks/post-checkout,none,Project Root,360,8d606e58cce98604696a4abcf3ae1ebde6f9f31ac72bb0d44e2444cc39f26030,"Repository governance, licensing & environment templates"
+.git/hooks/post-commit,none,Project Root,356,f3eb4d1f62924c09d481a0563a84b158c66eb2feb3431cfdb3e6760aab4d661d,"Repository governance, licensing & environment templates"
+.git/hooks/post-merge,none,Project Root,354,cecb594e8fa65831654fc95e96db9f1249e09c52810c6fbb2b428280aac22158,"Repository governance, licensing & environment templates"
+.git/hooks/post-update.sample,.sample,Project Root,189,81765af2daef323061dcbc5e61fc16481cb74b3bac9ad8a174b186523586f6c5,"Repository governance, licensing & environment templates"
+.git/hooks/pre-applypatch.sample,.sample,Project Root,424,e15c5b469ea3e0a695bea6f2c82bcf8e62821074939ddd85b77e0007ff165475,"Repository governance, licensing & environment templates"
+.git/hooks/pre-commit.sample,.sample,Project Root,1649,57185b7b9f05239d7ab52db045f5b89eb31348d7b2177eab214f5eb872e1971b,"Repository governance, licensing & environment templates"
+.git/hooks/pre-merge-commit.sample,.sample,Project Root,416,d3825a70337940ebbd0a5c072984e13245920cdf8898bd225c8d27a6dfc9cb53,"Repository governance, licensing & environment templates"
+.git/hooks/pre-push,none,Project Root,350,a52d0510d0f8c75e27852156ec6f7791f0d8ed65fc58fcc368dd1de0a60a1d74,"Repository governance, licensing & environment templates"
+.git/hooks/pre-push.sample,.sample,Project Root,1374,ecce9c7e04d3f5dd9d8ada81753dd1d549a9634b26770042b58dda00217d086a,"Repository governance, licensing & environment templates"
+.git/hooks/pre-rebase.sample,.sample,Project Root,4898,4febce867790052338076f4e66cc47efb14879d18097d1d61c8261859eaaa7b3,"Repository governance, licensing & environment templates"
+.git/hooks/pre-receive.sample,.sample,Project Root,544,a4c3d2b9c7bb3fd8d1441c31bd4ee71a595d66b44fcf49ddb310252320169989,"Repository governance, licensing & environment templates"
+.git/hooks/prepare-commit-msg.sample,.sample,Project Root,1492,e9ddcaa4189fddd25ed97fc8c789eca7b6ca16390b2392ae3276f0c8e1aa4619,"Repository governance, licensing & environment templates"
+.git/hooks/push-to-checkout.sample,.sample,Project Root,2783,a53d0741798b287c6dd7afa64aee473f305e65d3f49463bb9d7408ec3b12bf5f,"Repository governance, licensing & environment templates"
+.git/hooks/sendemail-validate.sample,.sample,Project Root,2308,44ebfc923dc5466bc009602f0ecf067b9c65459abfe8868ddc49b78e6ced7a92,"Repository governance, licensing & environment templates"
+.git/hooks/update.sample,.sample,Project Root,3650,8d5f2fa83e103cf08b57eaa67521df9194f45cbdbcb37da52ad586097a14d106,"Repository governance, licensing & environment templates"
+.git/index,none,Project Root,47793,c8991bcb8e286e1fca1504cc9bfb3332c15d2e851438d7458ed4a91178661282,"Repository governance, licensing & environment templates"
+.git/info/exclude,none,Project Root,240,6671fe83b7a07c8932ee89164d1f2793b2318058eb8b98dc5c06ee0a5a3b0ec1,"Repository governance, licensing & environment templates"
+.git/info/refs,none,Project Root,57,b08b0d0a9f183a227a8e49fba6309ec991d176868fe6d0a65e7f9256893eaeb7,"Repository governance, licensing & environment templates"
+.git/lfs/cache/locks/refs/heads/main/verifiable,none,Project Root,24,6135f1a42b79d204759b644a7b6f3fe04c30fe0d3f14c6fae05f99ce63670baa,"Repository governance, licensing & environment templates"
+.git/lfs/objects/1d/0e/1d0e847fd67b2388d3d4d1d22e236d07ff4f83b63d520e6cc7119b02b634b440,none,Project Root,1548020,1d0e847fd67b2388d3d4d1d22e236d07ff4f83b63d520e6cc7119b02b634b440,"Repository governance, licensing & environment templates"
+.git/lfs/objects/3a/3f/3a3fde5f63b8ab372448011b3aec18d73228bd97f7de34f9e72d9f9dc9891752,none,Project Root,250226,3a3fde5f63b8ab372448011b3aec18d73228bd97f7de34f9e72d9f9dc9891752,"Repository governance, licensing & environment templates"
+.git/lfs/objects/43/55/4355e24ab4f46ab13a57baa829fa033b935c78f09a34e93da66aef500023cf77,none,Project Root,378955,4355e24ab4f46ab13a57baa829fa033b935c78f09a34e93da66aef500023cf77,"Repository governance, licensing & environment templates"
+.git/lfs/objects/83/87/838752a26004f505b3b904d604b307d0b60093fdbaadbd01f893385ef5cbe2cc,none,Project Root,107,838752a26004f505b3b904d604b307d0b60093fdbaadbd01f893385ef5cbe2cc,"Repository governance, licensing & environment templates"
+.git/lfs/objects/b0/cf/b0cfc7297bbc6c5f76b790f15bd5cca40873e48c7d34089cc32460fb360b3c97,none,Project Root,1267084,b0cfc7297bbc6c5f76b790f15bd5cca40873e48c7d34089cc32460fb360b3c97,"Repository governance, licensing & environment templates"
+.git/lfs/objects/b4/cc/b4cce4e920fba2ebb88c2b54fe1b02d788e60c6b5f458d2004219631c2391e78,none,Project Root,307701,b4cce4e920fba2ebb88c2b54fe1b02d788e60c6b5f458d2004219631c2391e78,"Repository governance, licensing & environment templates"
+.git/lfs/objects/c4/39/c4397b22b45ce4cac8466956b4ca5b7378721b21481fdf94f466584cb47a83d8,none,Project Root,30899,c4397b22b45ce4cac8466956b4ca5b7378721b21481fdf94f466584cb47a83d8,"Repository governance, licensing & environment templates"
+.git/lfs/objects/d8/ea/d8ea944b5415d787dd4633daf1c28956e279a18966a75fb01d864485c2f68908,none,Project Root,478710,d8ea944b5415d787dd4633daf1c28956e279a18966a75fb01d864485c2f68908,"Repository governance, licensing & environment templates"
+.git/lfs/objects/e1/52/e1521d3920be6f23e8a9a5318f17cebec9933a073045ad57601e164a2fc7ba9c,none,Project Root,202160,e1521d3920be6f23e8a9a5318f17cebec9933a073045ad57601e164a2fc7ba9c,"Repository governance, licensing & environment templates"
+.git/lfs/objects/f0/80/f08061e820baa08e0e4cebcfff9da931753be5c789c184fad0dce83e78bda1e2,none,Project Root,187215,f08061e820baa08e0e4cebcfff9da931753be5c789c184fad0dce83e78bda1e2,"Repository governance, licensing & environment templates"
+.git/logs/HEAD,none,Project Root,229,6dcfc50ee8bce831ece606796169ea9c7a3a5120a107754275915b4c264abdc9,"Repository governance, licensing & environment templates"
+.git/logs/refs/heads/main,none,Project Root,229,6dcfc50ee8bce831ece606796169ea9c7a3a5120a107754275915b4c264abdc9,"Repository governance, licensing & environment templates"
+.git/logs/refs/remotes/origin/main,none,Project Root,150,c6b4067aa554e493db181ae10e46417fef1e54ada4d26f7a15b87069c0c9ca9e,"Repository governance, licensing & environment templates"
+.git/objects/info/packs,none,Project Root,54,9a5b3d212b9abd225535e893954fa1de6641bbb5e4414e1f81da95f27ea74dd3,"Repository governance, licensing & environment templates"
+.git/objects/pack/multi-pack-index,none,Project Root,15224,4cd0c3820caa1ea3e73e6cdc6e4faf0d09c3acfd7310251475b97aa875012899,"Repository governance, licensing & environment templates"
+.git/objects/pack/pack-c1f2cb4c1741b6df8456d9056229ab67521c6091.idx,.idx,Project Root,15128,f0896ac6f81c29a1a252a4e905f0b6521063bf2704db8f87205ea2cc5cffe21d,"Repository governance, licensing & environment templates"
+.git/objects/pack/pack-c1f2cb4c1741b6df8456d9056229ab67521c6091.pack,.pack,Project Root,1409717,95a2601139ae516c686f64cefc39dc59d03f5775334167d81df5085fbf17fec4,"Repository governance, licensing & environment templates"
+.git/objects/pack/pack-c1f2cb4c1741b6df8456d9056229ab67521c6091.rev,.rev,Project Root,2060,a70f98993b975878fb4c64344b0a0f6a0641ecf7e4b0c441c3eec4f7df9392ec,"Repository governance, licensing & environment templates"
+.git/refs/heads/main,none,Project Root,41,938036950fcdf7e50cca830e47837d63ae857e89f778b4c74a03b5c87f14864c,"Repository governance, licensing & environment templates"
+.git/refs/remotes/origin/main,none,Project Root,41,938036950fcdf7e50cca830e47837d63ae857e89f778b4c74a03b5c87f14864c,"Repository governance, licensing & environment templates"
+.gitattributes,none,Project Root,860,74e36a6043c1ebd9e077543dacaa9f29b5970c045f35454d6451d6e4980fbab2,"Repository governance, licensing & environment templates"
 .gitignore,none,Project Root,940,62a939618c8f560537a409557a477964c32624e8d8f9eb87200c2d60eb9db651,"Repository governance, licensing & environment templates"
 LICENSE,none,Project Root,6964,8cb756991c590578d855fad5308acd2ce633a2b3c50b912673aa6bcdff474332,"Repository governance, licensing & environment templates"
 MASTER_BACKUP_AND_CLEANUP_GUIDE.md,.md,Project Root,3453,2f303c9b3b488d4925e1fde4779433930122390b6e06dbb2f166eb83dbd52cb8,"Repository governance, licensing & environment templates"
 MASTER_PROJECT_FINAL_ACCEPTANCE.md,.md,Project Root,4021,89f13a9a3d53c418352a9f9dc0a4e0042520a0ad463552e0c6714cb96a6eab97,"Repository governance, licensing & environment templates"
-MASTER_PROJECT_INVENTORY.csv,.csv,Project Root,81047,45771c285a2715409ee73e0e7a9c04b45d81b2146bd062afa295cb77cedc0a3f,"Repository governance, licensing & environment templates"
+MASTER_PROJECT_INVENTORY.csv,.csv,Project Root,80676,0cdcea09de5b2394e7c4256c458368e6f674806a70bf45d9b8ad306b90036873,"Repository governance, licensing & environment templates"
 README.md,.md,Project Root,20104,24a744aacaead0d0ed462ac9bd6ad7c5c0bc6244d52ec2bddb11fe5f213e8513,"Repository governance, licensing & environment templates"
 acceptance/35_STEP_ACCEPTANCE_PROOF.json,.json,Acceptance Records,6838,d8c2c4bb9d0053be1ce6735c719a2bec519fa549673a527dd2aeb74516ecfec8,Acceptance ledgers & UI verification screenshots
 acceptance/FINAL_CLIENT_ACCEPTANCE_CHECKLIST.md,.md,Acceptance Records,1755,fbd73c5d2ec0d9c73dcd6153d4ada06ad46bc5ff97807d6b70f39019b06e3d47,Acceptance ledgers & UI verification screenshots
@@ -113,11 +159,11 @@ evidence/18_ROLLBACK_VERIFICATION.md,.md,Audit Evidence,1943,b7d2430b4108b6400d9
 evidence/EXECUTION_LEDGER.md,.md,Audit Evidence,6434,b980431e3912011ec2ae46e37bc60451e8552002056f75b8f3cf80cfca358a88,"JUnit XML receipts, SBOM, and audit logs"
 examples/api_client_example.py,.py,Developer Examples,960,1083f8a7893007b292fd6f3dba1b6233b9b53fc55087de1c468192a5699c02d7,API client usage snippets & curl scripts
 fixtures/FIXTURES_README.md,.md,Data Fixtures,552,a4325d286e6789840d7da50993b7a7136b8d192516e9599fa0bb30e07c52a5db,Synthetic power grid topologies & load profiles
-fixtures/eg006/fixtures/battery_scenario.json,.json,Data Fixtures,6782,e4b6475ca865b6380bc47b8185154a269c2e4761cc7f25e816f8a280323c9374,Synthetic power grid topologies & load profiles
-fixtures/eg006/fixtures/forecasts_and_intervals.json,.json,Data Fixtures,134121,104e11b4e0a1b685e4dcd5d18ffaf02e0b30c410beada832f9289b2f5fc28e71,Synthetic power grid topologies & load profiles
-fixtures/eg006/fixtures/graph.json,.json,Data Fixtures,826,53ab0372a5bdd8902fc829e149d7e741e52558fbf9a52a3a18cc6edd5e4c3790,Synthetic power grid topologies & load profiles
-fixtures/eg006/fixtures/hourly_energy.csv,.csv,Data Fixtures,96057,6e8b0fa2bca8eb10db068df20c647894c95a63eade9de096302a13bcc8b0e3c3,Synthetic power grid topologies & load profiles
-fixtures/eg006/manifest.json,.json,Data Fixtures,850,dbb346f67e45dccc6a0738244417856ad486e184b5f539b711e21ef5c526b9ae,Synthetic power grid topologies & load profiles
+fixtures/eg006/fixtures/battery_scenario.json,.json,Data Fixtures,6529,b1b096704215e0cb76badd385edb496546e7322e2a6bfddb5438cfc1560ba0a5,Synthetic power grid topologies & load profiles
+fixtures/eg006/fixtures/forecasts_and_intervals.json,.json,Data Fixtures,129073,df026d3a4e1b7ca10b534afcadb1c0d98441809fc8391f58dab30f540b949369,Synthetic power grid topologies & load profiles
+fixtures/eg006/fixtures/graph.json,.json,Data Fixtures,783,2bc6d22d1d9a3b51f86af31554d2dd76729df1a1de04f06d3d72d13fabf95831,Synthetic power grid topologies & load profiles
+fixtures/eg006/fixtures/hourly_energy.csv,.csv,Data Fixtures,93656,82ba2590c498aceedf2883c3c5c1bacf491f44892c3be78f2ebecbec2084a5d9,Synthetic power grid topologies & load profiles
+fixtures/eg006/manifest.json,.json,Data Fixtures,823,b874f63bd9215a3defdf706691fdc703cf8c5147eaf7dce4415a237352ecf3bd,Synthetic power grid topologies & load profiles
 frontend/README.md,.md,Source Code (Frontend),626,c6653911428515aae9c5a11d9ed72ed6863515ea6db1b0f1773454ba90d962cb,React 18 / TypeScript SPA user interface
 frontend/index.html,.html,Source Code (Frontend),391,294e14d72a24aefecd3845897d6758b0611509ed532d3bd4aa6eea2086a3d6be,React 18 / TypeScript SPA user interface
 frontend/package-lock.json,.json,Source Code (Frontend),142338,0f8b4685f81b6c9eadd2176c9273142fa39b2c52d2581b0e57e25d25b1991552,React 18 / TypeScript SPA user interface
@@ -285,11 +331,11 @@ src/urbangraph/evaluation/planning.py,.py,Source Code (Backend),7979,4d7811a4640
 src/urbangraph/evaluation/preprocessing.py,.py,Source Code (Backend),7095,2c8e51347a8021589ed593eaa95466577f979104e810e2f45ff2ddddaa5e9bb3,Core Python application logic and bundled static assets
 src/urbangraph/evaluation/temporal.py,.py,Source Code (Backend),4552,d6a4f06d5520b766d216a1c7571ff4bc393ff1c0c5d30a7aa2d8c1b6c5398632,Core Python application logic and bundled static assets
 src/urbangraph/evaluation/windows.py,.py,Source Code (Backend),6924,2a210c927551ee0b060c0d07abe019a4297b254066cd7682b9932f6caa7a490e,Core Python application logic and bundled static assets
-src/urbangraph/fixtures/eg006/fixtures/battery_scenario.json,.json,Source Code (Backend),6782,e4b6475ca865b6380bc47b8185154a269c2e4761cc7f25e816f8a280323c9374,Core Python application logic and bundled static assets
-src/urbangraph/fixtures/eg006/fixtures/forecasts_and_intervals.json,.json,Source Code (Backend),134121,104e11b4e0a1b685e4dcd5d18ffaf02e0b30c410beada832f9289b2f5fc28e71,Core Python application logic and bundled static assets
-src/urbangraph/fixtures/eg006/fixtures/graph.json,.json,Source Code (Backend),826,53ab0372a5bdd8902fc829e149d7e741e52558fbf9a52a3a18cc6edd5e4c3790,Core Python application logic and bundled static assets
-src/urbangraph/fixtures/eg006/fixtures/hourly_energy.csv,.csv,Source Code (Backend),96057,6e8b0fa2bca8eb10db068df20c647894c95a63eade9de096302a13bcc8b0e3c3,Core Python application logic and bundled static assets
-src/urbangraph/fixtures/eg006/manifest.json,.json,Source Code (Backend),850,dbb346f67e45dccc6a0738244417856ad486e184b5f539b711e21ef5c526b9ae,Core Python application logic and bundled static assets
+src/urbangraph/fixtures/eg006/fixtures/battery_scenario.json,.json,Source Code (Backend),6529,b1b096704215e0cb76badd385edb496546e7322e2a6bfddb5438cfc1560ba0a5,Core Python application logic and bundled static assets
+src/urbangraph/fixtures/eg006/fixtures/forecasts_and_intervals.json,.json,Source Code (Backend),129073,df026d3a4e1b7ca10b534afcadb1c0d98441809fc8391f58dab30f540b949369,Core Python application logic and bundled static assets
+src/urbangraph/fixtures/eg006/fixtures/graph.json,.json,Source Code (Backend),783,2bc6d22d1d9a3b51f86af31554d2dd76729df1a1de04f06d3d72d13fabf95831,Core Python application logic and bundled static assets
+src/urbangraph/fixtures/eg006/fixtures/hourly_energy.csv,.csv,Source Code (Backend),93656,82ba2590c498aceedf2883c3c5c1bacf491f44892c3be78f2ebecbec2084a5d9,Core Python application logic and bundled static assets
+src/urbangraph/fixtures/eg006/manifest.json,.json,Source Code (Backend),823,b874f63bd9215a3defdf706691fdc703cf8c5147eaf7dce4415a237352ecf3bd,Core Python application logic and bundled static assets
 src/urbangraph/governance/__init__.py,.py,Source Code (Backend),415,eb48c021258fa4aef482a45c16a85cdd0424d50c4f89e0502540b8ba8408e87e,Core Python application logic and bundled static assets
 src/urbangraph/governance/lifecycle.py,.py,Source Code (Backend),8561,a98cedad23bef3a8e8cc017e2f2354124b2022ad07c1e8ecf5d5789be3f65584,Core Python application logic and bundled static assets
 src/urbangraph/graphs/__init__.py,.py,Source Code (Backend),80,1329ccb30c0acdd6e5efed72c957df8fde8ea8fe60666108306084f447dce3cf,Core Python application logic and bundled static assets
@@ -406,16 +452,16 @@ tests/evaluation/test_metrics.py,.py,Test Suite,4330,c983751839e57127f93a49217b6
 tests/evaluation/test_planning_windows.py,.py,Test Suite,8825,15af27af849cab19904f7281373b1db41359d50a2bfd0c62dc14db3acce751cf,"Unit, integration, and E2E regression test cases"
 tests/evaluation/test_positional.py,.py,Test Suite,7039,0ab8e21553c4c63fee5688af1ffb120cfd64e93c1d2a3da0ef503795dcd78bc9,"Unit, integration, and E2E regression test cases"
 tests/fixtures/checkpoints/urbangraphformer_synth.pt,.pt,Test Suite,307701,b4cce4e920fba2ebb88c2b54fe1b02d788e60c6b5f458d2004219631c2391e78,"Unit, integration, and E2E regression test cases"
-tests/fixtures/eg006/fixtures/battery_scenario.json,.json,Test Suite,6782,e4b6475ca865b6380bc47b8185154a269c2e4761cc7f25e816f8a280323c9374,"Unit, integration, and E2E regression test cases"
-tests/fixtures/eg006/fixtures/forecasts_and_intervals.json,.json,Test Suite,134121,104e11b4e0a1b685e4dcd5d18ffaf02e0b30c410beada832f9289b2f5fc28e71,"Unit, integration, and E2E regression test cases"
-tests/fixtures/eg006/fixtures/graph.json,.json,Test Suite,826,53ab0372a5bdd8902fc829e149d7e741e52558fbf9a52a3a18cc6edd5e4c3790,"Unit, integration, and E2E regression test cases"
-tests/fixtures/eg006/fixtures/hourly_energy.csv,.csv,Test Suite,96057,6e8b0fa2bca8eb10db068df20c647894c95a63eade9de096302a13bcc8b0e3c3,"Unit, integration, and E2E regression test cases"
-tests/fixtures/eg006/manifest.json,.json,Test Suite,850,dbb346f67e45dccc6a0738244417856ad486e184b5f539b711e21ef5c526b9ae,"Unit, integration, and E2E regression test cases"
-tests/fixtures/p3_synthetic_bundle/calibration.json,.json,Test Suite,89,310ddea8006398213873b1f61afd333e50f9ec6b46ede9cd7c5a0feea74f57b8,"Unit, integration, and E2E regression test cases"
-tests/fixtures/p3_synthetic_bundle/graph.json,.json,Test Suite,106,500cf94768911e269475c71a9f70cfc6ffabbd7fdf4504ad746836617a97fc11,"Unit, integration, and E2E regression test cases"
-tests/fixtures/p3_synthetic_bundle/manifest.json,.json,Test Suite,968,82fa24b6e93f66b728e7d2ee6dfc1b9c5c803c9c6cab81897bd845f358dd9fcb,"Unit, integration, and E2E regression test cases"
-tests/fixtures/p3_synthetic_bundle/model.bin,.bin,Test Suite,107,838752a26004f505b3b904d604b307d0b60093fdbaadbd01f893385ef5cbe2cc,"Unit, integration, and E2E regression test cases"
-tests/fixtures/p3_synthetic_bundle/transform.json,.json,Test Suite,77,c61b0d79906a94ca9196eaa5944831caa513687f5e8b272a297c1ffb4cf21a59,"Unit, integration, and E2E regression test cases"
+tests/fixtures/eg006/fixtures/battery_scenario.json,.json,Test Suite,6529,b1b096704215e0cb76badd385edb496546e7322e2a6bfddb5438cfc1560ba0a5,"Unit, integration, and E2E regression test cases"
+tests/fixtures/eg006/fixtures/forecasts_and_intervals.json,.json,Test Suite,129073,df026d3a4e1b7ca10b534afcadb1c0d98441809fc8391f58dab30f540b949369,"Unit, integration, and E2E regression test cases"
+tests/fixtures/eg006/fixtures/graph.json,.json,Test Suite,783,2bc6d22d1d9a3b51f86af31554d2dd76729df1a1de04f06d3d72d13fabf95831,"Unit, integration, and E2E regression test cases"
+tests/fixtures/eg006/fixtures/hourly_energy.csv,.csv,Test Suite,93656,82ba2590c498aceedf2883c3c5c1bacf491f44892c3be78f2ebecbec2084a5d9,"Unit, integration, and E2E regression test cases"
+tests/fixtures/eg006/manifest.json,.json,Test Suite,823,b874f63bd9215a3defdf706691fdc703cf8c5147eaf7dce4415a237352ecf3bd,"Unit, integration, and E2E regression test cases"
+tests/fixtures/p3_synthetic_bundle/calibration.json,.json,Test Suite,88,22b6e70d162317c9fc73242594387a6f25b3a92504be18ef11eb689a777b635c,"Unit, integration, and E2E regression test cases"
+tests/fixtures/p3_synthetic_bundle/graph.json,.json,Test Suite,105,4998a0e73feb31e01acb2ac2644405f10e309ac1c2bd0dec67c9f692f91a7dbf,"Unit, integration, and E2E regression test cases"
+tests/fixtures/p3_synthetic_bundle/manifest.json,.json,Test Suite,967,0864c1993288a5460c771211332bda622aacbca31156c10f2f62f3d0f4bc4405,"Unit, integration, and E2E regression test cases"
+tests/fixtures/p3_synthetic_bundle/model.bin,.bin,Test Suite,106,06b99631f0777f182c229f140e6a66e1b2aecb020492a59c0cddc8be10eff825,"Unit, integration, and E2E regression test cases"
+tests/fixtures/p3_synthetic_bundle/transform.json,.json,Test Suite,76,d32e54d020c98f06cd3b2f59074fef2cb5ee196c3d9615a89d6f53cf79bdaf9c,"Unit, integration, and E2E regression test cases"
 tests/governance/test_lifecycle_and_recovery.py,.py,Test Suite,5202,4d0e5056a74e0141a33756be86eb5553625b4c19770f3c9b2b9080a9c6422912,"Unit, integration, and E2E regression test cases"
 tests/graphs/test_artifact_adversarial.py,.py,Test Suite,4807,87df272a0f192c360954cad54df26585c276aa125cc77925ac32aeb3050a399f,"Unit, integration, and E2E regression test cases"
 tests/graphs/test_graphs.py,.py,Test Suite,12060,88b970b35e9be95e9d771ac75b61d2211d6517615b5f7c171413c17ea52ee6d5,"Unit, integration, and E2E regression test cases"
@@ -443,4 +489,4 @@ tests/test_logging.py,.py,Test Suite,2370,99c2e6c12d64820e5928ad14264dcf661d79e0
 tests/test_reproducibility.py,.py,Test Suite,4587,2d3c7e61b4d745939b658688bd03f5eb3df62f98cc4209fa890d7a2407e97fc4,"Unit, integration, and E2E regression test cases"
 tests/uncertainty/test_conformal_workflow.py,.py,Test Suite,7903,b3dd8a35ac1da11e65978996b2ab81c9c837fd79c8656bebc0a73298b59b615f,"Unit, integration, and E2E regression test cases"
 tests/uncertainty/test_traffic_conformal.py,.py,Test Suite,7274,0a472a08c05910d9d175cd11d698fc467db883b19ad85fe7f1698b641a26470b,"Unit, integration, and E2E regression test cases"
-checksums/SHA256SUMS.txt,.txt,Cryptographic Verification,46279,7b73c7fe09513c1a84131ecd538c86e06fdc8e76fd8c5fd845a18cf454b3587a,Authoritative SHA-256 signatures of all package files
+checksums/SHA256SUMS.txt,.txt,Cryptographic Verification,51319,080571cf0d73fa9078a6a32b1a157b2c90714bf6ca1885c83aeb18975c97fdde,Authoritative SHA-256 signatures of all package files
