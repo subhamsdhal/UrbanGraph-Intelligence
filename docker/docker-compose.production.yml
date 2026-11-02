@@ -1,0 +1,77 @@
+# ==============================================================================
+# UrbanGraph Intelligence — Production Compose Stack
+# Includes: Single-Port Unified App + Automated HTTPS Reverse Proxy (Caddy)
+# ==============================================================================
+
+services:
+  urbangraph-app:
+    image: urbangraph:0.2.0rc3-prod
+    container_name: urbangraph-production
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8000:8000"
+    environment:
+      - UG_HOST=0.0.0.0
+      - UG_PORT=8000
+      - UG_WORKERS=1
+      - URBANGRAPH_ENV=production
+      - URBANGRAPH_TOKEN_STORE_PATH=/app/security/tokens.db
+      - URBANGRAPH_ADMIN_TOKEN=${URBANGRAPH_ADMIN_TOKEN:-ug_admin_staging_sec_7f9a2b8e4c1d6f30a9e8b7c6d5e4f3a2}
+      - URBANGRAPH_WORKER_TOKEN=${URBANGRAPH_WORKER_TOKEN:-ug_worker_staging_sec_1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d}
+      - URBANGRAPH_READER_TOKEN=${URBANGRAPH_READER_TOKEN:-ug_reader_staging_sec_9f8e7d6c5b4a3f2e1d0c9b8a7f6e5d4c}
+      - ENERGRAPH_DEMO_FRONTEND_ORIGIN=http://127.0.0.1:8000
+    volumes:
+      - urbangraph-security-data:/app/security
+      - urbangraph-logs:/app/logs
+    networks:
+      - urbangraph-internal
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://127.0.0.1:8000/healthz"]
+      interval: 10s
+      timeout: 3s
+      retries: 3
+      start_period: 10s
+    deploy:
+      resources:
+        limits:
+          cpus: "2.0"
+          memory: 2048M
+        reservations:
+          cpus: "0.5"
+          memory: 512M
+
+  caddy-proxy:
+    image: urbangraph-caddy:latest
+    container_name: urbangraph-caddy-proxy
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    environment:
+      - DOMAIN_NAME=${PUBLIC_DOMAIN:-localhost}
+      - LETSENCRYPT_EMAIL=${ADMIN_EMAIL:-admin@example.com}
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data
+      - caddy-config:/config
+    networks:
+      - urbangraph-internal
+    depends_on:
+      urbangraph-app:
+        condition: service_healthy
+
+volumes:
+  urbangraph-security-data:
+    name: urbangraph-security-data
+  urbangraph-logs:
+    name: urbangraph-logs
+  caddy-data:
+    name: urbangraph-caddy-data
+  caddy-config:
+    name: urbangraph-caddy-config
+
+networks:
+  urbangraph-internal:
+    name: urbangraph-internal
+    driver: bridge
+

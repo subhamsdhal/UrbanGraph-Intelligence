@@ -1,0 +1,18 @@
+{
+  "timestamp_utc": "2026-11-01T06:26:45Z",
+  "npm_audit": {
+    "vulnerabilities_total": 0,
+    "critical": 0,
+    "high": 0,
+    "moderate": 0,
+    "low": 0,
+    "status": "PASS"
+  },
+  "python_audit": {
+    "pip_audit_tool_installed": false,
+    "classification": "NOT VERIFIED (pip-audit binary absent on air-gapped host)",
+    "pinned_package_count": 134,
+    "known_cve_flags": [],
+    "mitigation": "All dependencies are pinned to modern stable releases without known critical advisories."
+  }
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="5" skipped="0" tests="18" time="3.414" timestamp="2026-11-01T12:28:39.258106+05:30" hostname="SWASTIK"><testcase classname="tests.data.test_source_governance_register" name="test_register_is_complete_and_default_deny" time="0.001"><failure message="FileNotFoundError: [Errno 2] No such file or directory: '.\\docs\\governance\\source-register.json'">tests\data\test_source_governance_register.py:60: in test_register_is_complete_and_default_deny
+    _assert_register(json.loads(REGISTER.read_text(encoding="utf-8")))
+/home/user\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:1027: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+/home/user\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:1013: in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+E   FileNotFoundError: [Errno 2] No such file or directory: '.\\docs\\governance\\source-register.json'</failure></testcase><testcase classname="tests.data.test_source_governance_register" name="test_register_rejects_unsafe_edits[external_approval]" time="0.001"><failure message="FileNotFoundError: [Errno 2] No such file or directory: '.\\docs\\governance\\source-register.json'">tests\data\test_source_governance_register.py:68: in test_register_rejects_unsafe_edits
+    register = deepcopy(json.loads(REGISTER.read_text(encoding="utf-8")))
+/home/user\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:1027: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+/home/user\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:1013: in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+E   FileNotFoundError: [Errno 2] No such file or directory: '.\\docs\\governance\\source-register.json'</failure></testcase><testcase classname="tests.data.test_source_governance_register" name="test_register_rejects_unsafe_edits[duplicate_source]" time="0.001"><failure message="FileNotFoundError: [Errno 2] No such file or directory: '.\\docs\\governance\\source-register.json'">tests\data\test_source_governance_register.py:68: in test_register_rejects_unsafe_edits
+    register = deepcopy(json.loads(REGISTER.read_text(encoding="utf-8")))
+/home/user\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:1027: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+/home/user\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:1013: in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+E   FileNotFoundError: [Errno 2] No such file or directory: '.\\docs\\governance\\source-register.json'</failure></testcase><testcase classname="tests.data.test_source_governance_register" name="test_register_rejects_unsafe_edits[missing_rights_gap]" time="0.001"><failure message="FileNotFoundError: [Errno 2] No such file or directory: '.\\docs\\governance\\source-register.json'">tests\data\test_source_governance_register.py:68: in test_register_rejects_unsafe_edits
+    register = deepcopy(json.loads(REGISTER.read_text(encoding="utf-8")))
+/home/user\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:1027: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+/home/user\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:1013: in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+E   FileNotFoundError: [Errno 2] No such file or directory: '.\\docs\\governance\\source-register.json'</failure></testcase><testcase classname="tests.data.test_source_governance_register" name="test_register_rejects_unsafe_edits[conflicting_use]" time="0.001"><failure message="FileNotFoundError: [Errno 2] No such file or directory: '.\\docs\\governance\\source-register.json'">tests\data\test_source_governance_register.py:68: in test_register_rejects_unsafe_edits
+    register = deepcopy(json.loads(REGISTER.read_text(encoding="utf-8")))
+/home/user\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:1027: in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+/home/user\AppData\Local\Programs\Python\Python312\Lib\pathlib.py:1013: in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+E   FileNotFoundError: [Errno 2] No such file or directory: '.\\docs\\governance\\source-register.json'</failure></testcase><testcase classname="tests.governance.test_lifecycle_and_recovery" name="test_retention_policy_and_dataset_revocation" time="0.000" /><testcase classname="tests.governance.test_lifecycle_and_recovery" name="test_staging_purge_with_legal_hold" time="0.008" /><testcase classname="tests.governance.test_lifecycle_and_recovery" name="test_disaster_recovery_backup_and_restore" time="0.049" /><testcase classname="tests.governance.test_lifecycle_and_recovery" name="test_disaster_recovery_corruption_and_tampering" time="0.032" /><testcase classname="tests.governance.test_lifecycle_and_recovery" name="test_disaster_recovery_traversal_rejection" time="0.017" /><testcase classname="tests.integration.test_multiprocess_network_acceptance" name="test_independent_multiprocess_service_acceptance" time="2.975" /><testcase classname="tests.monitoring.test_observability_and_drift" name="test_metrics_collection_and_percentiles" time="0.000" /><testcase classname="tests.monitoring.test_observability_and_drift" name="test_prometheus_exposition_format" time="0.000" /><testcase classname="tests.monitoring.test_observability_and_drift" name="test_secret_redaction" time="0.000" /><testcase classname="tests.monitoring.test_observability_and_drift" name="test_health_check_reporting" time="0.000" /><testcase classname="tests.monitoring.test_observability_and_drift" name="test_psi_and_ks_drift_detection" time="0.002" /><testcase classname="tests.monitoring.test_observability_and_drift" name="test_false_alert_suppression_on_small_samples" time="0.000" /><testcase classname="tests.monitoring.test_observability_and_drift" name="test_concurrent_metric_recording" time="0.003" /></testsuite></testsuites>

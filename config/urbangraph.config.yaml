@@ -1,0 +1,36 @@
+# UrbanGraph Intelligence Master System Configuration
+version: "0.2.0rc3"
+environment: "production"
+
+server:
+  host: "0.0.0.0"
+  port: 8080
+  workers: 1
+  timeout_seconds: 60
+  cors_allowed_origins:
+    - "http://127.0.0.1:8000"
+    - "http://localhost:8000"
+
+security:
+  token_database: "/app/security/tokens.db"
+  token_validity_hours: 8
+  rate_limit_per_minute: 100
+  admin_rate_limit_per_minute: 5
+
+grid:
+  default_fixture: "eg006"
+  fixture_path: "/app/urbangraph/fixtures"
+  base_mva: 100.0
+  voltage_limits:
+    min_pu: 0.95
+    max_pu: 1.05
+
+solver:
+  engine: "highs"
+  mip_gap: 0.01
+  time_limit_seconds: 30.0
+
+forecasting:
+  model_path: "/app/urbangraph/checkpoints/urbangraphformer_synth.pt"
+  horizon_hours: 24
+  confidence_interval: 0.95

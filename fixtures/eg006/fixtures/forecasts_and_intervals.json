@@ -1,0 +1,5048 @@
+{
+  "forecast_rule": "previous-day same hour plus fixed regional offset",
+  "interval_label": "illustrative band; not conformal or calibrated",
+  "records": [
+    {
+      "horizon_hours": 1,
+      "lower_MW": 172.75,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 181.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-01T00:00:00Z",
+      "truth_MW": 184.0,
+      "upper_MW": 189.25
+    },
+    {
+      "horizon_hours": 2,
+      "lower_MW": 172.5,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 181.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-01T01:00:00Z",
+      "truth_MW": 184.0,
+      "upper_MW": 189.5
+    },
+    {
+      "horizon_hours": 3,
+      "lower_MW": 172.25,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 181.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-01T02:00:00Z",
+      "truth_MW": 184.0,
+      "upper_MW": 189.75
+    },
+    {
+      "horizon_hours": 4,
+      "lower_MW": 172.0,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 181.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-01T03:00:00Z",
+      "truth_MW": 184.0,
+      "upper_MW": 190.0
+    },
+    {
+      "horizon_hours": 5,
+      "lower_MW": 174.75,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 184.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-01T04:00:00Z",
+      "truth_MW": 187.0,
+      "upper_MW": 193.25
+    },
+    {
+      "horizon_hours": 6,
+      "lower_MW": 177.5,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 187.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-01T05:00:00Z",
+      "truth_MW": 190.0,
+      "upper_MW": 196.5
+    },
+    {
+      "horizon_hours": 7,
+      "lower_MW": 180.25,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 190.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-01T06:00:00Z",
+      "truth_MW": 193.0,
+      "upper_MW": 199.75
+    },
+    {
+      "horizon_hours": 8,
+      "lower_MW": 183.0,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 193.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-01T07:00:00Z",
+      "truth_MW": 196.0,
+      "upper_MW": 203.0
+    },
+    {
+      "horizon_hours": 9,
+      "lower_MW": 185.75,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 196.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-01T08:00:00Z",
+      "truth_MW": 199.0,
+      "upper_MW": 206.25
+    },
+    {
+      "horizon_hours": 10,
+      "lower_MW": 188.5,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 199.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-01T09:00:00Z",
+      "truth_MW": 202.0,
+      "upper_MW": 209.5
+    },
+    {
+      "horizon_hours": 11,
+      "lower_MW": 191.25,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 202.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-01T10:00:00Z",
+      "truth_MW": 205.0,
+      "upper_MW": 212.75
+    },
+    {
+      "horizon_hours": 12,
+      "lower_MW": 194.0,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 205.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-01T11:00:00Z",
+      "truth_MW": 208.0,
+      "upper_MW": 216.0
+    },
+    {
+      "horizon_hours": 13,
+      "lower_MW": 196.75,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 208.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-01T12:00:00Z",
+      "truth_MW": 211.0,
+      "upper_MW": 219.25
+    },
+    {
+      "horizon_hours": 14,
+      "lower_MW": 199.5,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 211.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-01T13:00:00Z",
+      "truth_MW": 214.0,
+      "upper_MW": 222.5
+    },
+    {
+      "horizon_hours": 15,
+      "lower_MW": 202.25,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 214.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-01T14:00:00Z",
+      "truth_MW": 217.0,
+      "upper_MW": 225.75
+    },
+    {
+      "horizon_hours": 16,
+      "lower_MW": 205.0,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 217.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-01T15:00:00Z",
+      "truth_MW": 220.0,
+      "upper_MW": 229.0
+    },
+    {
+      "horizon_hours": 17,
+      "lower_MW": 201.75,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 214.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-01T16:00:00Z",
+      "truth_MW": 217.0,
+      "upper_MW": 226.25
+    },
+    {
+      "horizon_hours": 18,
+      "lower_MW": 198.5,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 211.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-01T17:00:00Z",
+      "truth_MW": 214.0,
+      "upper_MW": 223.5
+    },
+    {
+      "horizon_hours": 19,
+      "lower_MW": 195.25,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 208.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-01T18:00:00Z",
+      "truth_MW": 211.0,
+      "upper_MW": 220.75
+    },
+    {
+      "horizon_hours": 20,
+      "lower_MW": 192.0,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 205.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-01T19:00:00Z",
+      "truth_MW": 208.0,
+      "upper_MW": 218.0
+    },
+    {
+      "horizon_hours": 21,
+      "lower_MW": 188.75,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 202.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-01T20:00:00Z",
+      "truth_MW": 205.0,
+      "upper_MW": 215.25
+    },
+    {
+      "horizon_hours": 22,
+      "lower_MW": 185.5,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 199.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-01T21:00:00Z",
+      "truth_MW": 202.0,
+      "upper_MW": 212.5
+    },
+    {
+      "horizon_hours": 23,
+      "lower_MW": 182.25,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 196.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-01T22:00:00Z",
+      "truth_MW": 199.0,
+      "upper_MW": 209.75
+    },
+    {
+      "horizon_hours": 24,
+      "lower_MW": 179.0,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 193.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-01T23:00:00Z",
+      "truth_MW": 196.0,
+      "upper_MW": 207.0
+    },
+    {
+      "horizon_hours": 1,
+      "lower_MW": 274.75,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 283.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-01T00:00:00Z",
+      "truth_MW": 284.0,
+      "upper_MW": 291.25
+    },
+    {
+      "horizon_hours": 2,
+      "lower_MW": 274.5,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 283.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-01T01:00:00Z",
+      "truth_MW": 284.0,
+      "upper_MW": 291.5
+    },
+    {
+      "horizon_hours": 3,
+      "lower_MW": 274.25,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 283.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-01T02:00:00Z",
+      "truth_MW": 284.0,
+      "upper_MW": 291.75
+    },
+    {
+      "horizon_hours": 4,
+      "lower_MW": 274.0,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 283.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-01T03:00:00Z",
+      "truth_MW": 284.0,
+      "upper_MW": 292.0
+    },
+    {
+      "horizon_hours": 5,
+      "lower_MW": 276.75,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 286.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-01T04:00:00Z",
+      "truth_MW": 287.0,
+      "upper_MW": 295.25
+    },
+    {
+      "horizon_hours": 6,
+      "lower_MW": 279.5,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 289.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-01T05:00:00Z",
+      "truth_MW": 290.0,
+      "upper_MW": 298.5
+    },
+    {
+      "horizon_hours": 7,
+      "lower_MW": 282.25,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 292.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-01T06:00:00Z",
+      "truth_MW": 293.0,
+      "upper_MW": 301.75
+    },
+    {
+      "horizon_hours": 8,
+      "lower_MW": 285.0,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 295.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-01T07:00:00Z",
+      "truth_MW": 296.0,
+      "upper_MW": 305.0
+    },
+    {
+      "horizon_hours": 9,
+      "lower_MW": 287.75,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 298.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-01T08:00:00Z",
+      "truth_MW": 299.0,
+      "upper_MW": 308.25
+    },
+    {
+      "horizon_hours": 10,
+      "lower_MW": 290.5,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 301.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-01T09:00:00Z",
+      "truth_MW": 302.0,
+      "upper_MW": 311.5
+    },
+    {
+      "horizon_hours": 11,
+      "lower_MW": 293.25,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 304.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-01T10:00:00Z",
+      "truth_MW": 305.0,
+      "upper_MW": 314.75
+    },
+    {
+      "horizon_hours": 12,
+      "lower_MW": 296.0,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 307.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-01T11:00:00Z",
+      "truth_MW": 308.0,
+      "upper_MW": 318.0
+    },
+    {
+      "horizon_hours": 13,
+      "lower_MW": 298.75,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 310.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-01T12:00:00Z",
+      "truth_MW": 311.0,
+      "upper_MW": 321.25
+    },
+    {
+      "horizon_hours": 14,
+      "lower_MW": 301.5,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 313.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-01T13:00:00Z",
+      "truth_MW": 314.0,
+      "upper_MW": 324.5
+    },
+    {
+      "horizon_hours": 15,
+      "lower_MW": 304.25,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 316.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-01T14:00:00Z",
+      "truth_MW": 317.0,
+      "upper_MW": 327.75
+    },
+    {
+      "horizon_hours": 16,
+      "lower_MW": 307.0,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 319.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-01T15:00:00Z",
+      "truth_MW": 320.0,
+      "upper_MW": 331.0
+    },
+    {
+      "horizon_hours": 17,
+      "lower_MW": 303.75,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 316.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-01T16:00:00Z",
+      "truth_MW": 317.0,
+      "upper_MW": 328.25
+    },
+    {
+      "horizon_hours": 18,
+      "lower_MW": 300.5,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 313.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-01T17:00:00Z",
+      "truth_MW": 314.0,
+      "upper_MW": 325.5
+    },
+    {
+      "horizon_hours": 19,
+      "lower_MW": 297.25,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 310.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-01T18:00:00Z",
+      "truth_MW": 311.0,
+      "upper_MW": 322.75
+    },
+    {
+      "horizon_hours": 20,
+      "lower_MW": 294.0,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 307.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-01T19:00:00Z",
+      "truth_MW": 308.0,
+      "upper_MW": 320.0
+    },
+    {
+      "horizon_hours": 21,
+      "lower_MW": 290.75,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 304.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-01T20:00:00Z",
+      "truth_MW": 305.0,
+      "upper_MW": 317.25
+    },
+    {
+      "horizon_hours": 22,
+      "lower_MW": 287.5,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 301.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-01T21:00:00Z",
+      "truth_MW": 302.0,
+      "upper_MW": 314.5
+    },
+    {
+      "horizon_hours": 23,
+      "lower_MW": 284.25,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 298.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-01T22:00:00Z",
+      "truth_MW": 299.0,
+      "upper_MW": 311.75
+    },
+    {
+      "horizon_hours": 24,
+      "lower_MW": 281.0,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 295.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-01T23:00:00Z",
+      "truth_MW": 296.0,
+      "upper_MW": 309.0
+    },
+    {
+      "horizon_hours": 1,
+      "lower_MW": 376.75,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 385.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-01T00:00:00Z",
+      "truth_MW": 384.0,
+      "upper_MW": 393.25
+    },
+    {
+      "horizon_hours": 2,
+      "lower_MW": 376.5,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 385.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-01T01:00:00Z",
+      "truth_MW": 384.0,
+      "upper_MW": 393.5
+    },
+    {
+      "horizon_hours": 3,
+      "lower_MW": 376.25,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 385.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-01T02:00:00Z",
+      "truth_MW": 384.0,
+      "upper_MW": 393.75
+    },
+    {
+      "horizon_hours": 4,
+      "lower_MW": 376.0,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 385.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-01T03:00:00Z",
+      "truth_MW": 384.0,
+      "upper_MW": 394.0
+    },
+    {
+      "horizon_hours": 5,
+      "lower_MW": 378.75,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 388.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-01T04:00:00Z",
+      "truth_MW": 387.0,
+      "upper_MW": 397.25
+    },
+    {
+      "horizon_hours": 6,
+      "lower_MW": 381.5,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 391.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-01T05:00:00Z",
+      "truth_MW": 390.0,
+      "upper_MW": 400.5
+    },
+    {
+      "horizon_hours": 7,
+      "lower_MW": 384.25,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 394.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-01T06:00:00Z",
+      "truth_MW": 393.0,
+      "upper_MW": 403.75
+    },
+    {
+      "horizon_hours": 8,
+      "lower_MW": 387.0,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 397.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-01T07:00:00Z",
+      "truth_MW": 396.0,
+      "upper_MW": 407.0
+    },
+    {
+      "horizon_hours": 9,
+      "lower_MW": 389.75,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 400.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-01T08:00:00Z",
+      "truth_MW": 399.0,
+      "upper_MW": 410.25
+    },
+    {
+      "horizon_hours": 10,
+      "lower_MW": 392.5,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 403.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-01T09:00:00Z",
+      "truth_MW": 402.0,
+      "upper_MW": 413.5
+    },
+    {
+      "horizon_hours": 11,
+      "lower_MW": 395.25,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 406.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-01T10:00:00Z",
+      "truth_MW": 405.0,
+      "upper_MW": 416.75
+    },
+    {
+      "horizon_hours": 12,
+      "lower_MW": 398.0,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 409.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-01T11:00:00Z",
+      "truth_MW": 408.0,
+      "upper_MW": 420.0
+    },
+    {
+      "horizon_hours": 13,
+      "lower_MW": 400.75,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 412.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-01T12:00:00Z",
+      "truth_MW": 411.0,
+      "upper_MW": 423.25
+    },
+    {
+      "horizon_hours": 14,
+      "lower_MW": 403.5,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 415.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-01T13:00:00Z",
+      "truth_MW": 414.0,
+      "upper_MW": 426.5
+    },
+    {
+      "horizon_hours": 15,
+      "lower_MW": 406.25,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 418.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-01T14:00:00Z",
+      "truth_MW": 417.0,
+      "upper_MW": 429.75
+    },
+    {
+      "horizon_hours": 16,
+      "lower_MW": 409.0,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 421.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-01T15:00:00Z",
+      "truth_MW": 420.0,
+      "upper_MW": 433.0
+    },
+    {
+      "horizon_hours": 17,
+      "lower_MW": 405.75,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 418.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-01T16:00:00Z",
+      "truth_MW": 417.0,
+      "upper_MW": 430.25
+    },
+    {
+      "horizon_hours": 18,
+      "lower_MW": 402.5,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 415.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-01T17:00:00Z",
+      "truth_MW": 414.0,
+      "upper_MW": 427.5
+    },
+    {
+      "horizon_hours": 19,
+      "lower_MW": 399.25,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 412.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-01T18:00:00Z",
+      "truth_MW": 411.0,
+      "upper_MW": 424.75
+    },
+    {
+      "horizon_hours": 20,
+      "lower_MW": 396.0,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 409.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-01T19:00:00Z",
+      "truth_MW": 408.0,
+      "upper_MW": 422.0
+    },
+    {
+      "horizon_hours": 21,
+      "lower_MW": 392.75,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 406.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-01T20:00:00Z",
+      "truth_MW": 405.0,
+      "upper_MW": 419.25
+    },
+    {
+      "horizon_hours": 22,
+      "lower_MW": 389.5,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 403.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-01T21:00:00Z",
+      "truth_MW": 402.0,
+      "upper_MW": 416.5
+    },
+    {
+      "horizon_hours": 23,
+      "lower_MW": 386.25,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 400.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-01T22:00:00Z",
+      "truth_MW": 399.0,
+      "upper_MW": 413.75
+    },
+    {
+      "horizon_hours": 24,
+      "lower_MW": 383.0,
+      "origin_utc": "2030-03-31T23:00:00Z",
+      "point_MW": 397.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-01T23:00:00Z",
+      "truth_MW": 396.0,
+      "upper_MW": 411.0
+    },
+    {
+      "horizon_hours": 1,
+      "lower_MW": 173.75,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 182.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-02T00:00:00Z",
+      "truth_MW": 196.0,
+      "upper_MW": 190.25
+    },
+    {
+      "horizon_hours": 2,
+      "lower_MW": 173.5,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 182.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-02T01:00:00Z",
+      "truth_MW": 196.0,
+      "upper_MW": 190.5
+    },
+    {
+      "horizon_hours": 3,
+      "lower_MW": 173.25,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 182.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-02T02:00:00Z",
+      "truth_MW": 196.0,
+      "upper_MW": 190.75
+    },
+    {
+      "horizon_hours": 4,
+      "lower_MW": 173.0,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 182.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-02T03:00:00Z",
+      "truth_MW": 196.0,
+      "upper_MW": 191.0
+    },
+    {
+      "horizon_hours": 5,
+      "lower_MW": 175.75,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 185.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-02T04:00:00Z",
+      "truth_MW": 199.0,
+      "upper_MW": 194.25
+    },
+    {
+      "horizon_hours": 6,
+      "lower_MW": 178.5,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 188.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-02T05:00:00Z",
+      "truth_MW": 202.0,
+      "upper_MW": 197.5
+    },
+    {
+      "horizon_hours": 7,
+      "lower_MW": 181.25,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 191.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-02T06:00:00Z",
+      "truth_MW": 205.0,
+      "upper_MW": 200.75
+    },
+    {
+      "horizon_hours": 8,
+      "lower_MW": 184.0,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 194.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-02T07:00:00Z",
+      "truth_MW": 208.0,
+      "upper_MW": 204.0
+    },
+    {
+      "horizon_hours": 9,
+      "lower_MW": 186.75,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 197.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-02T08:00:00Z",
+      "truth_MW": 211.0,
+      "upper_MW": 207.25
+    },
+    {
+      "horizon_hours": 10,
+      "lower_MW": 189.5,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 200.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-02T09:00:00Z",
+      "truth_MW": 214.0,
+      "upper_MW": 210.5
+    },
+    {
+      "horizon_hours": 11,
+      "lower_MW": 192.25,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 203.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-02T10:00:00Z",
+      "truth_MW": 217.0,
+      "upper_MW": 213.75
+    },
+    {
+      "horizon_hours": 12,
+      "lower_MW": 195.0,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 206.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-02T11:00:00Z",
+      "truth_MW": 220.0,
+      "upper_MW": 217.0
+    },
+    {
+      "horizon_hours": 13,
+      "lower_MW": 197.75,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 209.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-02T12:00:00Z",
+      "truth_MW": 223.0,
+      "upper_MW": 220.25
+    },
+    {
+      "horizon_hours": 14,
+      "lower_MW": 200.5,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 212.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-02T13:00:00Z",
+      "truth_MW": 226.0,
+      "upper_MW": 223.5
+    },
+    {
+      "horizon_hours": 15,
+      "lower_MW": 203.25,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 215.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-02T14:00:00Z",
+      "truth_MW": 229.0,
+      "upper_MW": 226.75
+    },
+    {
+      "horizon_hours": 16,
+      "lower_MW": 206.0,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 218.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-02T15:00:00Z",
+      "truth_MW": 232.0,
+      "upper_MW": 230.0
+    },
+    {
+      "horizon_hours": 17,
+      "lower_MW": 202.75,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 215.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-02T16:00:00Z",
+      "truth_MW": 229.0,
+      "upper_MW": 227.25
+    },
+    {
+      "horizon_hours": 18,
+      "lower_MW": 199.5,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 212.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-02T17:00:00Z",
+      "truth_MW": 226.0,
+      "upper_MW": 224.5
+    },
+    {
+      "horizon_hours": 19,
+      "lower_MW": 196.25,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 209.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-02T18:00:00Z",
+      "truth_MW": 223.0,
+      "upper_MW": 221.75
+    },
+    {
+      "horizon_hours": 20,
+      "lower_MW": 193.0,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 206.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-02T19:00:00Z",
+      "truth_MW": 220.0,
+      "upper_MW": 219.0
+    },
+    {
+      "horizon_hours": 21,
+      "lower_MW": 189.75,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 203.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-02T20:00:00Z",
+      "truth_MW": 217.0,
+      "upper_MW": 216.25
+    },
+    {
+      "horizon_hours": 22,
+      "lower_MW": 186.5,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 200.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-02T21:00:00Z",
+      "truth_MW": 214.0,
+      "upper_MW": 213.5
+    },
+    {
+      "horizon_hours": 23,
+      "lower_MW": 183.25,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 197.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-02T22:00:00Z",
+      "truth_MW": 211.0,
+      "upper_MW": 210.75
+    },
+    {
+      "horizon_hours": 24,
+      "lower_MW": 180.0,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 194.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-02T23:00:00Z",
+      "truth_MW": 208.0,
+      "upper_MW": 208.0
+    },
+    {
+      "horizon_hours": 1,
+      "lower_MW": 275.75,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 284.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-02T00:00:00Z",
+      "truth_MW": 296.0,
+      "upper_MW": 292.25
+    },
+    {
+      "horizon_hours": 2,
+      "lower_MW": 275.5,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 284.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-02T01:00:00Z",
+      "truth_MW": 296.0,
+      "upper_MW": 292.5
+    },
+    {
+      "horizon_hours": 3,
+      "lower_MW": 275.25,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 284.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-02T02:00:00Z",
+      "truth_MW": 296.0,
+      "upper_MW": 292.75
+    },
+    {
+      "horizon_hours": 4,
+      "lower_MW": 275.0,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 284.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-02T03:00:00Z",
+      "truth_MW": 296.0,
+      "upper_MW": 293.0
+    },
+    {
+      "horizon_hours": 5,
+      "lower_MW": 277.75,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 287.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-02T04:00:00Z",
+      "truth_MW": 299.0,
+      "upper_MW": 296.25
+    },
+    {
+      "horizon_hours": 6,
+      "lower_MW": 280.5,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 290.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-02T05:00:00Z",
+      "truth_MW": 302.0,
+      "upper_MW": 299.5
+    },
+    {
+      "horizon_hours": 7,
+      "lower_MW": 283.25,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 293.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-02T06:00:00Z",
+      "truth_MW": 305.0,
+      "upper_MW": 302.75
+    },
+    {
+      "horizon_hours": 8,
+      "lower_MW": 286.0,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 296.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-02T07:00:00Z",
+      "truth_MW": 308.0,
+      "upper_MW": 306.0
+    },
+    {
+      "horizon_hours": 9,
+      "lower_MW": 288.75,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 299.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-02T08:00:00Z",
+      "truth_MW": 311.0,
+      "upper_MW": 309.25
+    },
+    {
+      "horizon_hours": 10,
+      "lower_MW": 291.5,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 302.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-02T09:00:00Z",
+      "truth_MW": 314.0,
+      "upper_MW": 312.5
+    },
+    {
+      "horizon_hours": 11,
+      "lower_MW": 294.25,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 305.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-02T10:00:00Z",
+      "truth_MW": 317.0,
+      "upper_MW": 315.75
+    },
+    {
+      "horizon_hours": 12,
+      "lower_MW": 297.0,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 308.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-02T11:00:00Z",
+      "truth_MW": 320.0,
+      "upper_MW": 319.0
+    },
+    {
+      "horizon_hours": 13,
+      "lower_MW": 299.75,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 311.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-02T12:00:00Z",
+      "truth_MW": 323.0,
+      "upper_MW": 322.25
+    },
+    {
+      "horizon_hours": 14,
+      "lower_MW": 302.5,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 314.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-02T13:00:00Z",
+      "truth_MW": 326.0,
+      "upper_MW": 325.5
+    },
+    {
+      "horizon_hours": 15,
+      "lower_MW": 305.25,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 317.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-02T14:00:00Z",
+      "truth_MW": 329.0,
+      "upper_MW": 328.75
+    },
+    {
+      "horizon_hours": 16,
+      "lower_MW": 308.0,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 320.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-02T15:00:00Z",
+      "truth_MW": 332.0,
+      "upper_MW": 332.0
+    },
+    {
+      "horizon_hours": 17,
+      "lower_MW": 304.75,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 317.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-02T16:00:00Z",
+      "truth_MW": 329.0,
+      "upper_MW": 329.25
+    },
+    {
+      "horizon_hours": 18,
+      "lower_MW": 301.5,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 314.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-02T17:00:00Z",
+      "truth_MW": 326.0,
+      "upper_MW": 326.5
+    },
+    {
+      "horizon_hours": 19,
+      "lower_MW": 298.25,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 311.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-02T18:00:00Z",
+      "truth_MW": 323.0,
+      "upper_MW": 323.75
+    },
+    {
+      "horizon_hours": 20,
+      "lower_MW": 295.0,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 308.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-02T19:00:00Z",
+      "truth_MW": 320.0,
+      "upper_MW": 321.0
+    },
+    {
+      "horizon_hours": 21,
+      "lower_MW": 291.75,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 305.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-02T20:00:00Z",
+      "truth_MW": 317.0,
+      "upper_MW": 318.25
+    },
+    {
+      "horizon_hours": 22,
+      "lower_MW": 288.5,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 302.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-02T21:00:00Z",
+      "truth_MW": 314.0,
+      "upper_MW": 315.5
+    },
+    {
+      "horizon_hours": 23,
+      "lower_MW": 285.25,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 299.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-02T22:00:00Z",
+      "truth_MW": 311.0,
+      "upper_MW": 312.75
+    },
+    {
+      "horizon_hours": 24,
+      "lower_MW": 282.0,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 296.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-02T23:00:00Z",
+      "truth_MW": 308.0,
+      "upper_MW": 310.0
+    },
+    {
+      "horizon_hours": 1,
+      "lower_MW": 377.75,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 386.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-02T00:00:00Z",
+      "truth_MW": 396.0,
+      "upper_MW": 394.25
+    },
+    {
+      "horizon_hours": 2,
+      "lower_MW": 377.5,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 386.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-02T01:00:00Z",
+      "truth_MW": 396.0,
+      "upper_MW": 394.5
+    },
+    {
+      "horizon_hours": 3,
+      "lower_MW": 377.25,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 386.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-02T02:00:00Z",
+      "truth_MW": 396.0,
+      "upper_MW": 394.75
+    },
+    {
+      "horizon_hours": 4,
+      "lower_MW": 377.0,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 386.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-02T03:00:00Z",
+      "truth_MW": 396.0,
+      "upper_MW": 395.0
+    },
+    {
+      "horizon_hours": 5,
+      "lower_MW": 379.75,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 389.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-02T04:00:00Z",
+      "truth_MW": 399.0,
+      "upper_MW": 398.25
+    },
+    {
+      "horizon_hours": 6,
+      "lower_MW": 382.5,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 392.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-02T05:00:00Z",
+      "truth_MW": 402.0,
+      "upper_MW": 401.5
+    },
+    {
+      "horizon_hours": 7,
+      "lower_MW": 385.25,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 395.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-02T06:00:00Z",
+      "truth_MW": 405.0,
+      "upper_MW": 404.75
+    },
+    {
+      "horizon_hours": 8,
+      "lower_MW": 388.0,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 398.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-02T07:00:00Z",
+      "truth_MW": 408.0,
+      "upper_MW": 408.0
+    },
+    {
+      "horizon_hours": 9,
+      "lower_MW": 390.75,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 401.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-02T08:00:00Z",
+      "truth_MW": 411.0,
+      "upper_MW": 411.25
+    },
+    {
+      "horizon_hours": 10,
+      "lower_MW": 393.5,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 404.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-02T09:00:00Z",
+      "truth_MW": 414.0,
+      "upper_MW": 414.5
+    },
+    {
+      "horizon_hours": 11,
+      "lower_MW": 396.25,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 407.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-02T10:00:00Z",
+      "truth_MW": 417.0,
+      "upper_MW": 417.75
+    },
+    {
+      "horizon_hours": 12,
+      "lower_MW": 399.0,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 410.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-02T11:00:00Z",
+      "truth_MW": 420.0,
+      "upper_MW": 421.0
+    },
+    {
+      "horizon_hours": 13,
+      "lower_MW": 401.75,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 413.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-02T12:00:00Z",
+      "truth_MW": 423.0,
+      "upper_MW": 424.25
+    },
+    {
+      "horizon_hours": 14,
+      "lower_MW": 404.5,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 416.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-02T13:00:00Z",
+      "truth_MW": 426.0,
+      "upper_MW": 427.5
+    },
+    {
+      "horizon_hours": 15,
+      "lower_MW": 407.25,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 419.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-02T14:00:00Z",
+      "truth_MW": 429.0,
+      "upper_MW": 430.75
+    },
+    {
+      "horizon_hours": 16,
+      "lower_MW": 410.0,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 422.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-02T15:00:00Z",
+      "truth_MW": 432.0,
+      "upper_MW": 434.0
+    },
+    {
+      "horizon_hours": 17,
+      "lower_MW": 406.75,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 419.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-02T16:00:00Z",
+      "truth_MW": 429.0,
+      "upper_MW": 431.25
+    },
+    {
+      "horizon_hours": 18,
+      "lower_MW": 403.5,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 416.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-02T17:00:00Z",
+      "truth_MW": 426.0,
+      "upper_MW": 428.5
+    },
+    {
+      "horizon_hours": 19,
+      "lower_MW": 400.25,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 413.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-02T18:00:00Z",
+      "truth_MW": 423.0,
+      "upper_MW": 425.75
+    },
+    {
+      "horizon_hours": 20,
+      "lower_MW": 397.0,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 410.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-02T19:00:00Z",
+      "truth_MW": 420.0,
+      "upper_MW": 423.0
+    },
+    {
+      "horizon_hours": 21,
+      "lower_MW": 393.75,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 407.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-02T20:00:00Z",
+      "truth_MW": 417.0,
+      "upper_MW": 420.25
+    },
+    {
+      "horizon_hours": 22,
+      "lower_MW": 390.5,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 404.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-02T21:00:00Z",
+      "truth_MW": 414.0,
+      "upper_MW": 417.5
+    },
+    {
+      "horizon_hours": 23,
+      "lower_MW": 387.25,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 401.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-02T22:00:00Z",
+      "truth_MW": 411.0,
+      "upper_MW": 414.75
+    },
+    {
+      "horizon_hours": 24,
+      "lower_MW": 384.0,
+      "origin_utc": "2030-04-01T23:00:00Z",
+      "point_MW": 398.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-02T23:00:00Z",
+      "truth_MW": 408.0,
+      "upper_MW": 412.0
+    },
+    {
+      "horizon_hours": 1,
+      "lower_MW": 185.75,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 194.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-03T00:00:00Z",
+      "truth_MW": 196.0,
+      "upper_MW": 202.25
+    },
+    {
+      "horizon_hours": 2,
+      "lower_MW": 185.5,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 194.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-03T01:00:00Z",
+      "truth_MW": 196.0,
+      "upper_MW": 202.5
+    },
+    {
+      "horizon_hours": 3,
+      "lower_MW": 185.25,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 194.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-03T02:00:00Z",
+      "truth_MW": 196.0,
+      "upper_MW": 202.75
+    },
+    {
+      "horizon_hours": 4,
+      "lower_MW": 185.0,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 194.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-03T03:00:00Z",
+      "truth_MW": 196.0,
+      "upper_MW": 203.0
+    },
+    {
+      "horizon_hours": 5,
+      "lower_MW": 187.75,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 197.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-03T04:00:00Z",
+      "truth_MW": 199.0,
+      "upper_MW": 206.25
+    },
+    {
+      "horizon_hours": 6,
+      "lower_MW": 190.5,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 200.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-03T05:00:00Z",
+      "truth_MW": 202.0,
+      "upper_MW": 209.5
+    },
+    {
+      "horizon_hours": 7,
+      "lower_MW": 193.25,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 203.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-03T06:00:00Z",
+      "truth_MW": 205.0,
+      "upper_MW": 212.75
+    },
+    {
+      "horizon_hours": 8,
+      "lower_MW": 196.0,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 206.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-03T07:00:00Z",
+      "truth_MW": 208.0,
+      "upper_MW": 216.0
+    },
+    {
+      "horizon_hours": 9,
+      "lower_MW": 198.75,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 209.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-03T08:00:00Z",
+      "truth_MW": 211.0,
+      "upper_MW": 219.25
+    },
+    {
+      "horizon_hours": 10,
+      "lower_MW": 201.5,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 212.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-03T09:00:00Z",
+      "truth_MW": 214.0,
+      "upper_MW": 222.5
+    },
+    {
+      "horizon_hours": 11,
+      "lower_MW": 204.25,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 215.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-03T10:00:00Z",
+      "truth_MW": 217.0,
+      "upper_MW": 225.75
+    },
+    {
+      "horizon_hours": 12,
+      "lower_MW": 207.0,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 218.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-03T11:00:00Z",
+      "truth_MW": 220.0,
+      "upper_MW": 229.0
+    },
+    {
+      "horizon_hours": 13,
+      "lower_MW": 209.75,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 221.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-03T12:00:00Z",
+      "truth_MW": 223.0,
+      "upper_MW": 232.25
+    },
+    {
+      "horizon_hours": 14,
+      "lower_MW": 212.5,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 224.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-03T13:00:00Z",
+      "truth_MW": 226.0,
+      "upper_MW": 235.5
+    },
+    {
+      "horizon_hours": 15,
+      "lower_MW": 215.25,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 227.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-03T14:00:00Z",
+      "truth_MW": 229.0,
+      "upper_MW": 238.75
+    },
+    {
+      "horizon_hours": 16,
+      "lower_MW": 218.0,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 230.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-03T15:00:00Z",
+      "truth_MW": 232.0,
+      "upper_MW": 242.0
+    },
+    {
+      "horizon_hours": 17,
+      "lower_MW": 214.75,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 227.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-03T16:00:00Z",
+      "truth_MW": 229.0,
+      "upper_MW": 239.25
+    },
+    {
+      "horizon_hours": 18,
+      "lower_MW": 211.5,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 224.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-03T17:00:00Z",
+      "truth_MW": 226.0,
+      "upper_MW": 236.5
+    },
+    {
+      "horizon_hours": 19,
+      "lower_MW": 208.25,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 221.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-03T18:00:00Z",
+      "truth_MW": 223.0,
+      "upper_MW": 233.75
+    },
+    {
+      "horizon_hours": 20,
+      "lower_MW": 205.0,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 218.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-03T19:00:00Z",
+      "truth_MW": 220.0,
+      "upper_MW": 231.0
+    },
+    {
+      "horizon_hours": 21,
+      "lower_MW": 201.75,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 215.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-03T20:00:00Z",
+      "truth_MW": 217.0,
+      "upper_MW": 228.25
+    },
+    {
+      "horizon_hours": 22,
+      "lower_MW": 198.5,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 212.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-03T21:00:00Z",
+      "truth_MW": 214.0,
+      "upper_MW": 225.5
+    },
+    {
+      "horizon_hours": 23,
+      "lower_MW": 195.25,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 209.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-03T22:00:00Z",
+      "truth_MW": 211.0,
+      "upper_MW": 222.75
+    },
+    {
+      "horizon_hours": 24,
+      "lower_MW": 192.0,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 206.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-03T23:00:00Z",
+      "truth_MW": 208.0,
+      "upper_MW": 220.0
+    },
+    {
+      "horizon_hours": 1,
+      "lower_MW": 287.75,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 296.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-03T00:00:00Z",
+      "truth_MW": 296.0,
+      "upper_MW": 304.25
+    },
+    {
+      "horizon_hours": 2,
+      "lower_MW": 287.5,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 296.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-03T01:00:00Z",
+      "truth_MW": 296.0,
+      "upper_MW": 304.5
+    },
+    {
+      "horizon_hours": 3,
+      "lower_MW": 287.25,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 296.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-03T02:00:00Z",
+      "truth_MW": 296.0,
+      "upper_MW": 304.75
+    },
+    {
+      "horizon_hours": 4,
+      "lower_MW": 287.0,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 296.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-03T03:00:00Z",
+      "truth_MW": 296.0,
+      "upper_MW": 305.0
+    },
+    {
+      "horizon_hours": 5,
+      "lower_MW": 289.75,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 299.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-03T04:00:00Z",
+      "truth_MW": 299.0,
+      "upper_MW": 308.25
+    },
+    {
+      "horizon_hours": 6,
+      "lower_MW": 292.5,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 302.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-03T05:00:00Z",
+      "truth_MW": 302.0,
+      "upper_MW": 311.5
+    },
+    {
+      "horizon_hours": 7,
+      "lower_MW": 295.25,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 305.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-03T06:00:00Z",
+      "truth_MW": 305.0,
+      "upper_MW": 314.75
+    },
+    {
+      "horizon_hours": 8,
+      "lower_MW": 298.0,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 308.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-03T07:00:00Z",
+      "truth_MW": 308.0,
+      "upper_MW": 318.0
+    },
+    {
+      "horizon_hours": 9,
+      "lower_MW": 300.75,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 311.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-03T08:00:00Z",
+      "truth_MW": 311.0,
+      "upper_MW": 321.25
+    },
+    {
+      "horizon_hours": 10,
+      "lower_MW": 303.5,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 314.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-03T09:00:00Z",
+      "truth_MW": 314.0,
+      "upper_MW": 324.5
+    },
+    {
+      "horizon_hours": 11,
+      "lower_MW": 306.25,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 317.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-03T10:00:00Z",
+      "truth_MW": 317.0,
+      "upper_MW": 327.75
+    },
+    {
+      "horizon_hours": 12,
+      "lower_MW": 309.0,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 320.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-03T11:00:00Z",
+      "truth_MW": 320.0,
+      "upper_MW": 331.0
+    },
+    {
+      "horizon_hours": 13,
+      "lower_MW": 311.75,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 323.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-03T12:00:00Z",
+      "truth_MW": 323.0,
+      "upper_MW": 334.25
+    },
+    {
+      "horizon_hours": 14,
+      "lower_MW": 314.5,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 326.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-03T13:00:00Z",
+      "truth_MW": 326.0,
+      "upper_MW": 337.5
+    },
+    {
+      "horizon_hours": 15,
+      "lower_MW": 317.25,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 329.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-03T14:00:00Z",
+      "truth_MW": 329.0,
+      "upper_MW": 340.75
+    },
+    {
+      "horizon_hours": 16,
+      "lower_MW": 320.0,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 332.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-03T15:00:00Z",
+      "truth_MW": 332.0,
+      "upper_MW": 344.0
+    },
+    {
+      "horizon_hours": 17,
+      "lower_MW": 316.75,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 329.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-03T16:00:00Z",
+      "truth_MW": 329.0,
+      "upper_MW": 341.25
+    },
+    {
+      "horizon_hours": 18,
+      "lower_MW": 313.5,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 326.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-03T17:00:00Z",
+      "truth_MW": 326.0,
+      "upper_MW": 338.5
+    },
+    {
+      "horizon_hours": 19,
+      "lower_MW": 310.25,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 323.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-03T18:00:00Z",
+      "truth_MW": 323.0,
+      "upper_MW": 335.75
+    },
+    {
+      "horizon_hours": 20,
+      "lower_MW": 307.0,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 320.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-03T19:00:00Z",
+      "truth_MW": 320.0,
+      "upper_MW": 333.0
+    },
+    {
+      "horizon_hours": 21,
+      "lower_MW": 303.75,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 317.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-03T20:00:00Z",
+      "truth_MW": 317.0,
+      "upper_MW": 330.25
+    },
+    {
+      "horizon_hours": 22,
+      "lower_MW": 300.5,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 314.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-03T21:00:00Z",
+      "truth_MW": 314.0,
+      "upper_MW": 327.5
+    },
+    {
+      "horizon_hours": 23,
+      "lower_MW": 297.25,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 311.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-03T22:00:00Z",
+      "truth_MW": 311.0,
+      "upper_MW": 324.75
+    },
+    {
+      "horizon_hours": 24,
+      "lower_MW": 294.0,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 308.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-03T23:00:00Z",
+      "truth_MW": 308.0,
+      "upper_MW": 322.0
+    },
+    {
+      "horizon_hours": 1,
+      "lower_MW": 389.75,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 398.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-03T00:00:00Z",
+      "truth_MW": 396.0,
+      "upper_MW": 406.25
+    },
+    {
+      "horizon_hours": 2,
+      "lower_MW": 389.5,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 398.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-03T01:00:00Z",
+      "truth_MW": 396.0,
+      "upper_MW": 406.5
+    },
+    {
+      "horizon_hours": 3,
+      "lower_MW": 389.25,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 398.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-03T02:00:00Z",
+      "truth_MW": 396.0,
+      "upper_MW": 406.75
+    },
+    {
+      "horizon_hours": 4,
+      "lower_MW": 389.0,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 398.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-03T03:00:00Z",
+      "truth_MW": 396.0,
+      "upper_MW": 407.0
+    },
+    {
+      "horizon_hours": 5,
+      "lower_MW": 391.75,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 401.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-03T04:00:00Z",
+      "truth_MW": 399.0,
+      "upper_MW": 410.25
+    },
+    {
+      "horizon_hours": 6,
+      "lower_MW": 394.5,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 404.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-03T05:00:00Z",
+      "truth_MW": 402.0,
+      "upper_MW": 413.5
+    },
+    {
+      "horizon_hours": 7,
+      "lower_MW": 397.25,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 407.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-03T06:00:00Z",
+      "truth_MW": 405.0,
+      "upper_MW": 416.75
+    },
+    {
+      "horizon_hours": 8,
+      "lower_MW": 400.0,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 410.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-03T07:00:00Z",
+      "truth_MW": 408.0,
+      "upper_MW": 420.0
+    },
+    {
+      "horizon_hours": 9,
+      "lower_MW": 402.75,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 413.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-03T08:00:00Z",
+      "truth_MW": 411.0,
+      "upper_MW": 423.25
+    },
+    {
+      "horizon_hours": 10,
+      "lower_MW": 405.5,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 416.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-03T09:00:00Z",
+      "truth_MW": 414.0,
+      "upper_MW": 426.5
+    },
+    {
+      "horizon_hours": 11,
+      "lower_MW": 408.25,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 419.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-03T10:00:00Z",
+      "truth_MW": 417.0,
+      "upper_MW": 429.75
+    },
+    {
+      "horizon_hours": 12,
+      "lower_MW": 411.0,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 422.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-03T11:00:00Z",
+      "truth_MW": 420.0,
+      "upper_MW": 433.0
+    },
+    {
+      "horizon_hours": 13,
+      "lower_MW": 413.75,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 425.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-03T12:00:00Z",
+      "truth_MW": 423.0,
+      "upper_MW": 436.25
+    },
+    {
+      "horizon_hours": 14,
+      "lower_MW": 416.5,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 428.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-03T13:00:00Z",
+      "truth_MW": 426.0,
+      "upper_MW": 439.5
+    },
+    {
+      "horizon_hours": 15,
+      "lower_MW": 419.25,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 431.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-03T14:00:00Z",
+      "truth_MW": 429.0,
+      "upper_MW": 442.75
+    },
+    {
+      "horizon_hours": 16,
+      "lower_MW": 422.0,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 434.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-03T15:00:00Z",
+      "truth_MW": 432.0,
+      "upper_MW": 446.0
+    },
+    {
+      "horizon_hours": 17,
+      "lower_MW": 418.75,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 431.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-03T16:00:00Z",
+      "truth_MW": 429.0,
+      "upper_MW": 443.25
+    },
+    {
+      "horizon_hours": 18,
+      "lower_MW": 415.5,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 428.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-03T17:00:00Z",
+      "truth_MW": 426.0,
+      "upper_MW": 440.5
+    },
+    {
+      "horizon_hours": 19,
+      "lower_MW": 412.25,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 425.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-03T18:00:00Z",
+      "truth_MW": 423.0,
+      "upper_MW": 437.75
+    },
+    {
+      "horizon_hours": 20,
+      "lower_MW": 409.0,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 422.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-03T19:00:00Z",
+      "truth_MW": 420.0,
+      "upper_MW": 435.0
+    },
+    {
+      "horizon_hours": 21,
+      "lower_MW": 405.75,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 419.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-03T20:00:00Z",
+      "truth_MW": 417.0,
+      "upper_MW": 432.25
+    },
+    {
+      "horizon_hours": 22,
+      "lower_MW": 402.5,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 416.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-03T21:00:00Z",
+      "truth_MW": 414.0,
+      "upper_MW": 429.5
+    },
+    {
+      "horizon_hours": 23,
+      "lower_MW": 399.25,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 413.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-03T22:00:00Z",
+      "truth_MW": 411.0,
+      "upper_MW": 426.75
+    },
+    {
+      "horizon_hours": 24,
+      "lower_MW": 396.0,
+      "origin_utc": "2030-04-02T23:00:00Z",
+      "point_MW": 410.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-03T23:00:00Z",
+      "truth_MW": 408.0,
+      "upper_MW": 424.0
+    },
+    {
+      "horizon_hours": 1,
+      "lower_MW": 185.75,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 194.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-04T00:00:00Z",
+      "truth_MW": 196.0,
+      "upper_MW": 202.25
+    },
+    {
+      "horizon_hours": 2,
+      "lower_MW": 185.5,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 194.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-04T01:00:00Z",
+      "truth_MW": 196.0,
+      "upper_MW": 202.5
+    },
+    {
+      "horizon_hours": 3,
+      "lower_MW": 185.25,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 194.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-04T02:00:00Z",
+      "truth_MW": 196.0,
+      "upper_MW": 202.75
+    },
+    {
+      "horizon_hours": 4,
+      "lower_MW": 185.0,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 194.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-04T03:00:00Z",
+      "truth_MW": 196.0,
+      "upper_MW": 203.0
+    },
+    {
+      "horizon_hours": 5,
+      "lower_MW": 187.75,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 197.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-04T04:00:00Z",
+      "truth_MW": 199.0,
+      "upper_MW": 206.25
+    },
+    {
+      "horizon_hours": 6,
+      "lower_MW": 190.5,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 200.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-04T05:00:00Z",
+      "truth_MW": 202.0,
+      "upper_MW": 209.5
+    },
+    {
+      "horizon_hours": 7,
+      "lower_MW": 193.25,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 203.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-04T06:00:00Z",
+      "truth_MW": 205.0,
+      "upper_MW": 212.75
+    },
+    {
+      "horizon_hours": 8,
+      "lower_MW": 196.0,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 206.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-04T07:00:00Z",
+      "truth_MW": 208.0,
+      "upper_MW": 216.0
+    },
+    {
+      "horizon_hours": 9,
+      "lower_MW": 198.75,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 209.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-04T08:00:00Z",
+      "truth_MW": 211.0,
+      "upper_MW": 219.25
+    },
+    {
+      "horizon_hours": 10,
+      "lower_MW": 201.5,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 212.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-04T09:00:00Z",
+      "truth_MW": 214.0,
+      "upper_MW": 222.5
+    },
+    {
+      "horizon_hours": 11,
+      "lower_MW": 204.25,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 215.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-04T10:00:00Z",
+      "truth_MW": 217.0,
+      "upper_MW": 225.75
+    },
+    {
+      "horizon_hours": 12,
+      "lower_MW": 207.0,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 218.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-04T11:00:00Z",
+      "truth_MW": 220.0,
+      "upper_MW": 229.0
+    },
+    {
+      "horizon_hours": 13,
+      "lower_MW": 209.75,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 221.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-04T12:00:00Z",
+      "truth_MW": 223.0,
+      "upper_MW": 232.25
+    },
+    {
+      "horizon_hours": 14,
+      "lower_MW": 212.5,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 224.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-04T13:00:00Z",
+      "truth_MW": 226.0,
+      "upper_MW": 235.5
+    },
+    {
+      "horizon_hours": 15,
+      "lower_MW": 215.25,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 227.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-04T14:00:00Z",
+      "truth_MW": 229.0,
+      "upper_MW": 238.75
+    },
+    {
+      "horizon_hours": 16,
+      "lower_MW": 218.0,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 230.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-04T15:00:00Z",
+      "truth_MW": 232.0,
+      "upper_MW": 242.0
+    },
+    {
+      "horizon_hours": 17,
+      "lower_MW": 214.75,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 227.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-04T16:00:00Z",
+      "truth_MW": 229.0,
+      "upper_MW": 239.25
+    },
+    {
+      "horizon_hours": 18,
+      "lower_MW": 211.5,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 224.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-04T17:00:00Z",
+      "truth_MW": 226.0,
+      "upper_MW": 236.5
+    },
+    {
+      "horizon_hours": 19,
+      "lower_MW": 208.25,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 221.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-04T18:00:00Z",
+      "truth_MW": 223.0,
+      "upper_MW": 233.75
+    },
+    {
+      "horizon_hours": 20,
+      "lower_MW": 205.0,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 218.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-04T19:00:00Z",
+      "truth_MW": 220.0,
+      "upper_MW": 231.0
+    },
+    {
+      "horizon_hours": 21,
+      "lower_MW": 201.75,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 215.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-04T20:00:00Z",
+      "truth_MW": 217.0,
+      "upper_MW": 228.25
+    },
+    {
+      "horizon_hours": 22,
+      "lower_MW": 198.5,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 212.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-04T21:00:00Z",
+      "truth_MW": 214.0,
+      "upper_MW": 225.5
+    },
+    {
+      "horizon_hours": 23,
+      "lower_MW": 195.25,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 209.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-04T22:00:00Z",
+      "truth_MW": 211.0,
+      "upper_MW": 222.75
+    },
+    {
+      "horizon_hours": 24,
+      "lower_MW": 192.0,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 206.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-04T23:00:00Z",
+      "truth_MW": 208.0,
+      "upper_MW": 220.0
+    },
+    {
+      "horizon_hours": 1,
+      "lower_MW": 287.75,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 296.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-04T00:00:00Z",
+      "truth_MW": 296.0,
+      "upper_MW": 304.25
+    },
+    {
+      "horizon_hours": 2,
+      "lower_MW": 287.5,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 296.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-04T01:00:00Z",
+      "truth_MW": 296.0,
+      "upper_MW": 304.5
+    },
+    {
+      "horizon_hours": 3,
+      "lower_MW": 287.25,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 296.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-04T02:00:00Z",
+      "truth_MW": 296.0,
+      "upper_MW": 304.75
+    },
+    {
+      "horizon_hours": 4,
+      "lower_MW": 287.0,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 296.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-04T03:00:00Z",
+      "truth_MW": 296.0,
+      "upper_MW": 305.0
+    },
+    {
+      "horizon_hours": 5,
+      "lower_MW": 289.75,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 299.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-04T04:00:00Z",
+      "truth_MW": 299.0,
+      "upper_MW": 308.25
+    },
+    {
+      "horizon_hours": 6,
+      "lower_MW": 292.5,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 302.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-04T05:00:00Z",
+      "truth_MW": 302.0,
+      "upper_MW": 311.5
+    },
+    {
+      "horizon_hours": 7,
+      "lower_MW": 295.25,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 305.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-04T06:00:00Z",
+      "truth_MW": 305.0,
+      "upper_MW": 314.75
+    },
+    {
+      "horizon_hours": 8,
+      "lower_MW": 298.0,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 308.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-04T07:00:00Z",
+      "truth_MW": 308.0,
+      "upper_MW": 318.0
+    },
+    {
+      "horizon_hours": 9,
+      "lower_MW": 300.75,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 311.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-04T08:00:00Z",
+      "truth_MW": 311.0,
+      "upper_MW": 321.25
+    },
+    {
+      "horizon_hours": 10,
+      "lower_MW": 303.5,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 314.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-04T09:00:00Z",
+      "truth_MW": 314.0,
+      "upper_MW": 324.5
+    },
+    {
+      "horizon_hours": 11,
+      "lower_MW": 306.25,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 317.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-04T10:00:00Z",
+      "truth_MW": 317.0,
+      "upper_MW": 327.75
+    },
+    {
+      "horizon_hours": 12,
+      "lower_MW": 309.0,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 320.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-04T11:00:00Z",
+      "truth_MW": 320.0,
+      "upper_MW": 331.0
+    },
+    {
+      "horizon_hours": 13,
+      "lower_MW": 311.75,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 323.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-04T12:00:00Z",
+      "truth_MW": 323.0,
+      "upper_MW": 334.25
+    },
+    {
+      "horizon_hours": 14,
+      "lower_MW": 314.5,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 326.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-04T13:00:00Z",
+      "truth_MW": 326.0,
+      "upper_MW": 337.5
+    },
+    {
+      "horizon_hours": 15,
+      "lower_MW": 317.25,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 329.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-04T14:00:00Z",
+      "truth_MW": 329.0,
+      "upper_MW": 340.75
+    },
+    {
+      "horizon_hours": 16,
+      "lower_MW": 320.0,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 332.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-04T15:00:00Z",
+      "truth_MW": 332.0,
+      "upper_MW": 344.0
+    },
+    {
+      "horizon_hours": 17,
+      "lower_MW": 316.75,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 329.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-04T16:00:00Z",
+      "truth_MW": 329.0,
+      "upper_MW": 341.25
+    },
+    {
+      "horizon_hours": 18,
+      "lower_MW": 313.5,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 326.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-04T17:00:00Z",
+      "truth_MW": 326.0,
+      "upper_MW": 338.5
+    },
+    {
+      "horizon_hours": 19,
+      "lower_MW": 310.25,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 323.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-04T18:00:00Z",
+      "truth_MW": 323.0,
+      "upper_MW": 335.75
+    },
+    {
+      "horizon_hours": 20,
+      "lower_MW": 307.0,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 320.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-04T19:00:00Z",
+      "truth_MW": 320.0,
+      "upper_MW": 333.0
+    },
+    {
+      "horizon_hours": 21,
+      "lower_MW": 303.75,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 317.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-04T20:00:00Z",
+      "truth_MW": 317.0,
+      "upper_MW": 330.25
+    },
+    {
+      "horizon_hours": 22,
+      "lower_MW": 300.5,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 314.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-04T21:00:00Z",
+      "truth_MW": 314.0,
+      "upper_MW": 327.5
+    },
+    {
+      "horizon_hours": 23,
+      "lower_MW": 297.25,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 311.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-04T22:00:00Z",
+      "truth_MW": 311.0,
+      "upper_MW": 324.75
+    },
+    {
+      "horizon_hours": 24,
+      "lower_MW": 294.0,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 308.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-04T23:00:00Z",
+      "truth_MW": 308.0,
+      "upper_MW": 322.0
+    },
+    {
+      "horizon_hours": 1,
+      "lower_MW": 389.75,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 398.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-04T00:00:00Z",
+      "truth_MW": 396.0,
+      "upper_MW": 406.25
+    },
+    {
+      "horizon_hours": 2,
+      "lower_MW": 389.5,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 398.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-04T01:00:00Z",
+      "truth_MW": 396.0,
+      "upper_MW": 406.5
+    },
+    {
+      "horizon_hours": 3,
+      "lower_MW": 389.25,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 398.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-04T02:00:00Z",
+      "truth_MW": 396.0,
+      "upper_MW": 406.75
+    },
+    {
+      "horizon_hours": 4,
+      "lower_MW": 389.0,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 398.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-04T03:00:00Z",
+      "truth_MW": 396.0,
+      "upper_MW": 407.0
+    },
+    {
+      "horizon_hours": 5,
+      "lower_MW": 391.75,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 401.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-04T04:00:00Z",
+      "truth_MW": 399.0,
+      "upper_MW": 410.25
+    },
+    {
+      "horizon_hours": 6,
+      "lower_MW": 394.5,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 404.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-04T05:00:00Z",
+      "truth_MW": 402.0,
+      "upper_MW": 413.5
+    },
+    {
+      "horizon_hours": 7,
+      "lower_MW": 397.25,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 407.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-04T06:00:00Z",
+      "truth_MW": 405.0,
+      "upper_MW": 416.75
+    },
+    {
+      "horizon_hours": 8,
+      "lower_MW": 400.0,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 410.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-04T07:00:00Z",
+      "truth_MW": 408.0,
+      "upper_MW": 420.0
+    },
+    {
+      "horizon_hours": 9,
+      "lower_MW": 402.75,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 413.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-04T08:00:00Z",
+      "truth_MW": 411.0,
+      "upper_MW": 423.25
+    },
+    {
+      "horizon_hours": 10,
+      "lower_MW": 405.5,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 416.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-04T09:00:00Z",
+      "truth_MW": 414.0,
+      "upper_MW": 426.5
+    },
+    {
+      "horizon_hours": 11,
+      "lower_MW": 408.25,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 419.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-04T10:00:00Z",
+      "truth_MW": 417.0,
+      "upper_MW": 429.75
+    },
+    {
+      "horizon_hours": 12,
+      "lower_MW": 411.0,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 422.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-04T11:00:00Z",
+      "truth_MW": 420.0,
+      "upper_MW": 433.0
+    },
+    {
+      "horizon_hours": 13,
+      "lower_MW": 413.75,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 425.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-04T12:00:00Z",
+      "truth_MW": 423.0,
+      "upper_MW": 436.25
+    },
+    {
+      "horizon_hours": 14,
+      "lower_MW": 416.5,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 428.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-04T13:00:00Z",
+      "truth_MW": 426.0,
+      "upper_MW": 439.5
+    },
+    {
+      "horizon_hours": 15,
+      "lower_MW": 419.25,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 431.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-04T14:00:00Z",
+      "truth_MW": 429.0,
+      "upper_MW": 442.75
+    },
+    {
+      "horizon_hours": 16,
+      "lower_MW": 422.0,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 434.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-04T15:00:00Z",
+      "truth_MW": 432.0,
+      "upper_MW": 446.0
+    },
+    {
+      "horizon_hours": 17,
+      "lower_MW": 418.75,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 431.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-04T16:00:00Z",
+      "truth_MW": 429.0,
+      "upper_MW": 443.25
+    },
+    {
+      "horizon_hours": 18,
+      "lower_MW": 415.5,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 428.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-04T17:00:00Z",
+      "truth_MW": 426.0,
+      "upper_MW": 440.5
+    },
+    {
+      "horizon_hours": 19,
+      "lower_MW": 412.25,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 425.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-04T18:00:00Z",
+      "truth_MW": 423.0,
+      "upper_MW": 437.75
+    },
+    {
+      "horizon_hours": 20,
+      "lower_MW": 409.0,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 422.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-04T19:00:00Z",
+      "truth_MW": 420.0,
+      "upper_MW": 435.0
+    },
+    {
+      "horizon_hours": 21,
+      "lower_MW": 405.75,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 419.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-04T20:00:00Z",
+      "truth_MW": 417.0,
+      "upper_MW": 432.25
+    },
+    {
+      "horizon_hours": 22,
+      "lower_MW": 402.5,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 416.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-04T21:00:00Z",
+      "truth_MW": 414.0,
+      "upper_MW": 429.5
+    },
+    {
+      "horizon_hours": 23,
+      "lower_MW": 399.25,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 413.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-04T22:00:00Z",
+      "truth_MW": 411.0,
+      "upper_MW": 426.75
+    },
+    {
+      "horizon_hours": 24,
+      "lower_MW": 396.0,
+      "origin_utc": "2030-04-03T23:00:00Z",
+      "point_MW": 410.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-04T23:00:00Z",
+      "truth_MW": 408.0,
+      "upper_MW": 424.0
+    },
+    {
+      "horizon_hours": 1,
+      "lower_MW": 185.75,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 194.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-05T00:00:00Z",
+      "truth_MW": 196.0,
+      "upper_MW": 202.25
+    },
+    {
+      "horizon_hours": 2,
+      "lower_MW": 185.5,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 194.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-05T01:00:00Z",
+      "truth_MW": 196.0,
+      "upper_MW": 202.5
+    },
+    {
+      "horizon_hours": 3,
+      "lower_MW": 185.25,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 194.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-05T02:00:00Z",
+      "truth_MW": 196.0,
+      "upper_MW": 202.75
+    },
+    {
+      "horizon_hours": 4,
+      "lower_MW": 185.0,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 194.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-05T03:00:00Z",
+      "truth_MW": 196.0,
+      "upper_MW": 203.0
+    },
+    {
+      "horizon_hours": 5,
+      "lower_MW": 187.75,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 197.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-05T04:00:00Z",
+      "truth_MW": 199.0,
+      "upper_MW": 206.25
+    },
+    {
+      "horizon_hours": 6,
+      "lower_MW": 190.5,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 200.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-05T05:00:00Z",
+      "truth_MW": 202.0,
+      "upper_MW": 209.5
+    },
+    {
+      "horizon_hours": 7,
+      "lower_MW": 193.25,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 203.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-05T06:00:00Z",
+      "truth_MW": 205.0,
+      "upper_MW": 212.75
+    },
+    {
+      "horizon_hours": 8,
+      "lower_MW": 196.0,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 206.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-05T07:00:00Z",
+      "truth_MW": 208.0,
+      "upper_MW": 216.0
+    },
+    {
+      "horizon_hours": 9,
+      "lower_MW": 198.75,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 209.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-05T08:00:00Z",
+      "truth_MW": 211.0,
+      "upper_MW": 219.25
+    },
+    {
+      "horizon_hours": 10,
+      "lower_MW": 201.5,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 212.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-05T09:00:00Z",
+      "truth_MW": 214.0,
+      "upper_MW": 222.5
+    },
+    {
+      "horizon_hours": 11,
+      "lower_MW": 204.25,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 215.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-05T10:00:00Z",
+      "truth_MW": 217.0,
+      "upper_MW": 225.75
+    },
+    {
+      "horizon_hours": 12,
+      "lower_MW": 207.0,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 218.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-05T11:00:00Z",
+      "truth_MW": 220.0,
+      "upper_MW": 229.0
+    },
+    {
+      "horizon_hours": 13,
+      "lower_MW": 209.75,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 221.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-05T12:00:00Z",
+      "truth_MW": 223.0,
+      "upper_MW": 232.25
+    },
+    {
+      "horizon_hours": 14,
+      "lower_MW": 212.5,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 224.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-05T13:00:00Z",
+      "truth_MW": 226.0,
+      "upper_MW": 235.5
+    },
+    {
+      "horizon_hours": 15,
+      "lower_MW": 215.25,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 227.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-05T14:00:00Z",
+      "truth_MW": 229.0,
+      "upper_MW": 238.75
+    },
+    {
+      "horizon_hours": 16,
+      "lower_MW": 218.0,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 230.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-05T15:00:00Z",
+      "truth_MW": 232.0,
+      "upper_MW": 242.0
+    },
+    {
+      "horizon_hours": 17,
+      "lower_MW": 214.75,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 227.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-05T16:00:00Z",
+      "truth_MW": 229.0,
+      "upper_MW": 239.25
+    },
+    {
+      "horizon_hours": 18,
+      "lower_MW": 211.5,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 224.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-05T17:00:00Z",
+      "truth_MW": 226.0,
+      "upper_MW": 236.5
+    },
+    {
+      "horizon_hours": 19,
+      "lower_MW": 208.25,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 221.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-05T18:00:00Z",
+      "truth_MW": 223.0,
+      "upper_MW": 233.75
+    },
+    {
+      "horizon_hours": 20,
+      "lower_MW": 205.0,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 218.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-05T19:00:00Z",
+      "truth_MW": 220.0,
+      "upper_MW": 231.0
+    },
+    {
+      "horizon_hours": 21,
+      "lower_MW": 201.75,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 215.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-05T20:00:00Z",
+      "truth_MW": 217.0,
+      "upper_MW": 228.25
+    },
+    {
+      "horizon_hours": 22,
+      "lower_MW": 198.5,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 212.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-05T21:00:00Z",
+      "truth_MW": 214.0,
+      "upper_MW": 225.5
+    },
+    {
+      "horizon_hours": 23,
+      "lower_MW": 195.25,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 209.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-05T22:00:00Z",
+      "truth_MW": 211.0,
+      "upper_MW": 222.75
+    },
+    {
+      "horizon_hours": 24,
+      "lower_MW": 192.0,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 206.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-05T23:00:00Z",
+      "truth_MW": 208.0,
+      "upper_MW": 220.0
+    },
+    {
+      "horizon_hours": 1,
+      "lower_MW": 287.75,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 296.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-05T00:00:00Z",
+      "truth_MW": 296.0,
+      "upper_MW": 304.25
+    },
+    {
+      "horizon_hours": 2,
+      "lower_MW": 287.5,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 296.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-05T01:00:00Z",
+      "truth_MW": 296.0,
+      "upper_MW": 304.5
+    },
+    {
+      "horizon_hours": 3,
+      "lower_MW": 287.25,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 296.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-05T02:00:00Z",
+      "truth_MW": 296.0,
+      "upper_MW": 304.75
+    },
+    {
+      "horizon_hours": 4,
+      "lower_MW": 287.0,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 296.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-05T03:00:00Z",
+      "truth_MW": 296.0,
+      "upper_MW": 305.0
+    },
+    {
+      "horizon_hours": 5,
+      "lower_MW": 289.75,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 299.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-05T04:00:00Z",
+      "truth_MW": 299.0,
+      "upper_MW": 308.25
+    },
+    {
+      "horizon_hours": 6,
+      "lower_MW": 292.5,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 302.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-05T05:00:00Z",
+      "truth_MW": 302.0,
+      "upper_MW": 311.5
+    },
+    {
+      "horizon_hours": 7,
+      "lower_MW": 295.25,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 305.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-05T06:00:00Z",
+      "truth_MW": 305.0,
+      "upper_MW": 314.75
+    },
+    {
+      "horizon_hours": 8,
+      "lower_MW": 298.0,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 308.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-05T07:00:00Z",
+      "truth_MW": 308.0,
+      "upper_MW": 318.0
+    },
+    {
+      "horizon_hours": 9,
+      "lower_MW": 300.75,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 311.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-05T08:00:00Z",
+      "truth_MW": 311.0,
+      "upper_MW": 321.25
+    },
+    {
+      "horizon_hours": 10,
+      "lower_MW": 303.5,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 314.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-05T09:00:00Z",
+      "truth_MW": 314.0,
+      "upper_MW": 324.5
+    },
+    {
+      "horizon_hours": 11,
+      "lower_MW": 306.25,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 317.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-05T10:00:00Z",
+      "truth_MW": 317.0,
+      "upper_MW": 327.75
+    },
+    {
+      "horizon_hours": 12,
+      "lower_MW": 309.0,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 320.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-05T11:00:00Z",
+      "truth_MW": 320.0,
+      "upper_MW": 331.0
+    },
+    {
+      "horizon_hours": 13,
+      "lower_MW": 311.75,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 323.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-05T12:00:00Z",
+      "truth_MW": 323.0,
+      "upper_MW": 334.25
+    },
+    {
+      "horizon_hours": 14,
+      "lower_MW": 314.5,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 326.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-05T13:00:00Z",
+      "truth_MW": 326.0,
+      "upper_MW": 337.5
+    },
+    {
+      "horizon_hours": 15,
+      "lower_MW": 317.25,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 329.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-05T14:00:00Z",
+      "truth_MW": 329.0,
+      "upper_MW": 340.75
+    },
+    {
+      "horizon_hours": 16,
+      "lower_MW": 320.0,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 332.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-05T15:00:00Z",
+      "truth_MW": 332.0,
+      "upper_MW": 344.0
+    },
+    {
+      "horizon_hours": 17,
+      "lower_MW": 316.75,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 329.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-05T16:00:00Z",
+      "truth_MW": 329.0,
+      "upper_MW": 341.25
+    },
+    {
+      "horizon_hours": 18,
+      "lower_MW": 313.5,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 326.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-05T17:00:00Z",
+      "truth_MW": 326.0,
+      "upper_MW": 338.5
+    },
+    {
+      "horizon_hours": 19,
+      "lower_MW": 310.25,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 323.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-05T18:00:00Z",
+      "truth_MW": 323.0,
+      "upper_MW": 335.75
+    },
+    {
+      "horizon_hours": 20,
+      "lower_MW": 307.0,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 320.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-05T19:00:00Z",
+      "truth_MW": 320.0,
+      "upper_MW": 333.0
+    },
+    {
+      "horizon_hours": 21,
+      "lower_MW": 303.75,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 317.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-05T20:00:00Z",
+      "truth_MW": 317.0,
+      "upper_MW": 330.25
+    },
+    {
+      "horizon_hours": 22,
+      "lower_MW": 300.5,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 314.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-05T21:00:00Z",
+      "truth_MW": 314.0,
+      "upper_MW": 327.5
+    },
+    {
+      "horizon_hours": 23,
+      "lower_MW": 297.25,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 311.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-05T22:00:00Z",
+      "truth_MW": 311.0,
+      "upper_MW": 324.75
+    },
+    {
+      "horizon_hours": 24,
+      "lower_MW": 294.0,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 308.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-05T23:00:00Z",
+      "truth_MW": 308.0,
+      "upper_MW": 322.0
+    },
+    {
+      "horizon_hours": 1,
+      "lower_MW": 389.75,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 398.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-05T00:00:00Z",
+      "truth_MW": 396.0,
+      "upper_MW": 406.25
+    },
+    {
+      "horizon_hours": 2,
+      "lower_MW": 389.5,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 398.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-05T01:00:00Z",
+      "truth_MW": 396.0,
+      "upper_MW": 406.5
+    },
+    {
+      "horizon_hours": 3,
+      "lower_MW": 389.25,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 398.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-05T02:00:00Z",
+      "truth_MW": 396.0,
+      "upper_MW": 406.75
+    },
+    {
+      "horizon_hours": 4,
+      "lower_MW": 389.0,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 398.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-05T03:00:00Z",
+      "truth_MW": 396.0,
+      "upper_MW": 407.0
+    },
+    {
+      "horizon_hours": 5,
+      "lower_MW": 391.75,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 401.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-05T04:00:00Z",
+      "truth_MW": 399.0,
+      "upper_MW": 410.25
+    },
+    {
+      "horizon_hours": 6,
+      "lower_MW": 394.5,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 404.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-05T05:00:00Z",
+      "truth_MW": 402.0,
+      "upper_MW": 413.5
+    },
+    {
+      "horizon_hours": 7,
+      "lower_MW": 397.25,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 407.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-05T06:00:00Z",
+      "truth_MW": 405.0,
+      "upper_MW": 416.75
+    },
+    {
+      "horizon_hours": 8,
+      "lower_MW": 400.0,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 410.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-05T07:00:00Z",
+      "truth_MW": 408.0,
+      "upper_MW": 420.0
+    },
+    {
+      "horizon_hours": 9,
+      "lower_MW": 402.75,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 413.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-05T08:00:00Z",
+      "truth_MW": 411.0,
+      "upper_MW": 423.25
+    },
+    {
+      "horizon_hours": 10,
+      "lower_MW": 405.5,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 416.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-05T09:00:00Z",
+      "truth_MW": 414.0,
+      "upper_MW": 426.5
+    },
+    {
+      "horizon_hours": 11,
+      "lower_MW": 408.25,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 419.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-05T10:00:00Z",
+      "truth_MW": 417.0,
+      "upper_MW": 429.75
+    },
+    {
+      "horizon_hours": 12,
+      "lower_MW": 411.0,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 422.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-05T11:00:00Z",
+      "truth_MW": 420.0,
+      "upper_MW": 433.0
+    },
+    {
+      "horizon_hours": 13,
+      "lower_MW": 413.75,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 425.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-05T12:00:00Z",
+      "truth_MW": 423.0,
+      "upper_MW": 436.25
+    },
+    {
+      "horizon_hours": 14,
+      "lower_MW": 416.5,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 428.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-05T13:00:00Z",
+      "truth_MW": 426.0,
+      "upper_MW": 439.5
+    },
+    {
+      "horizon_hours": 15,
+      "lower_MW": 419.25,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 431.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-05T14:00:00Z",
+      "truth_MW": 429.0,
+      "upper_MW": 442.75
+    },
+    {
+      "horizon_hours": 16,
+      "lower_MW": 422.0,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 434.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-05T15:00:00Z",
+      "truth_MW": 432.0,
+      "upper_MW": 446.0
+    },
+    {
+      "horizon_hours": 17,
+      "lower_MW": 418.75,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 431.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-05T16:00:00Z",
+      "truth_MW": 429.0,
+      "upper_MW": 443.25
+    },
+    {
+      "horizon_hours": 18,
+      "lower_MW": 415.5,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 428.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-05T17:00:00Z",
+      "truth_MW": 426.0,
+      "upper_MW": 440.5
+    },
+    {
+      "horizon_hours": 19,
+      "lower_MW": 412.25,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 425.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-05T18:00:00Z",
+      "truth_MW": 423.0,
+      "upper_MW": 437.75
+    },
+    {
+      "horizon_hours": 20,
+      "lower_MW": 409.0,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 422.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-05T19:00:00Z",
+      "truth_MW": 420.0,
+      "upper_MW": 435.0
+    },
+    {
+      "horizon_hours": 21,
+      "lower_MW": 405.75,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 419.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-05T20:00:00Z",
+      "truth_MW": 417.0,
+      "upper_MW": 432.25
+    },
+    {
+      "horizon_hours": 22,
+      "lower_MW": 402.5,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 416.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-05T21:00:00Z",
+      "truth_MW": 414.0,
+      "upper_MW": 429.5
+    },
+    {
+      "horizon_hours": 23,
+      "lower_MW": 399.25,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 413.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-05T22:00:00Z",
+      "truth_MW": 411.0,
+      "upper_MW": 426.75
+    },
+    {
+      "horizon_hours": 24,
+      "lower_MW": 396.0,
+      "origin_utc": "2030-04-04T23:00:00Z",
+      "point_MW": 410.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-05T23:00:00Z",
+      "truth_MW": 408.0,
+      "upper_MW": 424.0
+    },
+    {
+      "horizon_hours": 1,
+      "lower_MW": 185.75,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 194.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-06T00:00:00Z",
+      "truth_MW": 196.0,
+      "upper_MW": 202.25
+    },
+    {
+      "horizon_hours": 2,
+      "lower_MW": 185.5,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 194.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-06T01:00:00Z",
+      "truth_MW": 196.0,
+      "upper_MW": 202.5
+    },
+    {
+      "horizon_hours": 3,
+      "lower_MW": 185.25,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 194.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-06T02:00:00Z",
+      "truth_MW": 196.0,
+      "upper_MW": 202.75
+    },
+    {
+      "horizon_hours": 4,
+      "lower_MW": 185.0,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 194.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-06T03:00:00Z",
+      "truth_MW": 196.0,
+      "upper_MW": 203.0
+    },
+    {
+      "horizon_hours": 5,
+      "lower_MW": 187.75,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 197.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-06T04:00:00Z",
+      "truth_MW": 199.0,
+      "upper_MW": 206.25
+    },
+    {
+      "horizon_hours": 6,
+      "lower_MW": 190.5,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 200.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-06T05:00:00Z",
+      "truth_MW": 202.0,
+      "upper_MW": 209.5
+    },
+    {
+      "horizon_hours": 7,
+      "lower_MW": 193.25,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 203.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-06T06:00:00Z",
+      "truth_MW": 205.0,
+      "upper_MW": 212.75
+    },
+    {
+      "horizon_hours": 8,
+      "lower_MW": 196.0,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 206.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-06T07:00:00Z",
+      "truth_MW": 208.0,
+      "upper_MW": 216.0
+    },
+    {
+      "horizon_hours": 9,
+      "lower_MW": 198.75,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 209.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-06T08:00:00Z",
+      "truth_MW": 211.0,
+      "upper_MW": 219.25
+    },
+    {
+      "horizon_hours": 10,
+      "lower_MW": 201.5,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 212.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-06T09:00:00Z",
+      "truth_MW": 214.0,
+      "upper_MW": 222.5
+    },
+    {
+      "horizon_hours": 11,
+      "lower_MW": 204.25,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 215.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-06T10:00:00Z",
+      "truth_MW": 217.0,
+      "upper_MW": 225.75
+    },
+    {
+      "horizon_hours": 12,
+      "lower_MW": 207.0,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 218.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-06T11:00:00Z",
+      "truth_MW": 220.0,
+      "upper_MW": 229.0
+    },
+    {
+      "horizon_hours": 13,
+      "lower_MW": 209.75,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 221.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-06T12:00:00Z",
+      "truth_MW": 223.0,
+      "upper_MW": 232.25
+    },
+    {
+      "horizon_hours": 14,
+      "lower_MW": 212.5,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 224.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-06T13:00:00Z",
+      "truth_MW": 226.0,
+      "upper_MW": 235.5
+    },
+    {
+      "horizon_hours": 15,
+      "lower_MW": 215.25,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 227.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-06T14:00:00Z",
+      "truth_MW": 229.0,
+      "upper_MW": 238.75
+    },
+    {
+      "horizon_hours": 16,
+      "lower_MW": 218.0,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 230.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-06T15:00:00Z",
+      "truth_MW": 232.0,
+      "upper_MW": 242.0
+    },
+    {
+      "horizon_hours": 17,
+      "lower_MW": 214.75,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 227.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-06T16:00:00Z",
+      "truth_MW": 229.0,
+      "upper_MW": 239.25
+    },
+    {
+      "horizon_hours": 18,
+      "lower_MW": 211.5,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 224.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-06T17:00:00Z",
+      "truth_MW": 226.0,
+      "upper_MW": 236.5
+    },
+    {
+      "horizon_hours": 19,
+      "lower_MW": 208.25,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 221.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-06T18:00:00Z",
+      "truth_MW": 223.0,
+      "upper_MW": 233.75
+    },
+    {
+      "horizon_hours": 20,
+      "lower_MW": 205.0,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 218.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-06T19:00:00Z",
+      "truth_MW": 220.0,
+      "upper_MW": 231.0
+    },
+    {
+      "horizon_hours": 21,
+      "lower_MW": 201.75,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 215.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-06T20:00:00Z",
+      "truth_MW": 217.0,
+      "upper_MW": 228.25
+    },
+    {
+      "horizon_hours": 22,
+      "lower_MW": 198.5,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 212.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-06T21:00:00Z",
+      "truth_MW": 214.0,
+      "upper_MW": 225.5
+    },
+    {
+      "horizon_hours": 23,
+      "lower_MW": 195.25,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 209.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-06T22:00:00Z",
+      "truth_MW": 211.0,
+      "upper_MW": 222.75
+    },
+    {
+      "horizon_hours": 24,
+      "lower_MW": 192.0,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 206.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-06T23:00:00Z",
+      "truth_MW": 208.0,
+      "upper_MW": 220.0
+    },
+    {
+      "horizon_hours": 1,
+      "lower_MW": 287.75,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 296.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-06T00:00:00Z",
+      "truth_MW": 296.0,
+      "upper_MW": 304.25
+    },
+    {
+      "horizon_hours": 2,
+      "lower_MW": 287.5,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 296.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-06T01:00:00Z",
+      "truth_MW": 296.0,
+      "upper_MW": 304.5
+    },
+    {
+      "horizon_hours": 3,
+      "lower_MW": 287.25,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 296.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-06T02:00:00Z",
+      "truth_MW": 296.0,
+      "upper_MW": 304.75
+    },
+    {
+      "horizon_hours": 4,
+      "lower_MW": 287.0,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 296.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-06T03:00:00Z",
+      "truth_MW": 296.0,
+      "upper_MW": 305.0
+    },
+    {
+      "horizon_hours": 5,
+      "lower_MW": 289.75,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 299.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-06T04:00:00Z",
+      "truth_MW": 299.0,
+      "upper_MW": 308.25
+    },
+    {
+      "horizon_hours": 6,
+      "lower_MW": 292.5,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 302.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-06T05:00:00Z",
+      "truth_MW": 302.0,
+      "upper_MW": 311.5
+    },
+    {
+      "horizon_hours": 7,
+      "lower_MW": 295.25,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 305.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-06T06:00:00Z",
+      "truth_MW": 305.0,
+      "upper_MW": 314.75
+    },
+    {
+      "horizon_hours": 8,
+      "lower_MW": 298.0,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 308.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-06T07:00:00Z",
+      "truth_MW": 308.0,
+      "upper_MW": 318.0
+    },
+    {
+      "horizon_hours": 9,
+      "lower_MW": 300.75,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 311.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-06T08:00:00Z",
+      "truth_MW": 311.0,
+      "upper_MW": 321.25
+    },
+    {
+      "horizon_hours": 10,
+      "lower_MW": 303.5,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 314.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-06T09:00:00Z",
+      "truth_MW": 314.0,
+      "upper_MW": 324.5
+    },
+    {
+      "horizon_hours": 11,
+      "lower_MW": 306.25,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 317.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-06T10:00:00Z",
+      "truth_MW": 317.0,
+      "upper_MW": 327.75
+    },
+    {
+      "horizon_hours": 12,
+      "lower_MW": 309.0,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 320.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-06T11:00:00Z",
+      "truth_MW": 320.0,
+      "upper_MW": 331.0
+    },
+    {
+      "horizon_hours": 13,
+      "lower_MW": 311.75,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 323.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-06T12:00:00Z",
+      "truth_MW": 323.0,
+      "upper_MW": 334.25
+    },
+    {
+      "horizon_hours": 14,
+      "lower_MW": 314.5,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 326.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-06T13:00:00Z",
+      "truth_MW": 326.0,
+      "upper_MW": 337.5
+    },
+    {
+      "horizon_hours": 15,
+      "lower_MW": 317.25,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 329.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-06T14:00:00Z",
+      "truth_MW": 329.0,
+      "upper_MW": 340.75
+    },
+    {
+      "horizon_hours": 16,
+      "lower_MW": 320.0,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 332.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-06T15:00:00Z",
+      "truth_MW": 332.0,
+      "upper_MW": 344.0
+    },
+    {
+      "horizon_hours": 17,
+      "lower_MW": 316.75,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 329.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-06T16:00:00Z",
+      "truth_MW": 329.0,
+      "upper_MW": 341.25
+    },
+    {
+      "horizon_hours": 18,
+      "lower_MW": 313.5,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 326.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-06T17:00:00Z",
+      "truth_MW": 326.0,
+      "upper_MW": 338.5
+    },
+    {
+      "horizon_hours": 19,
+      "lower_MW": 310.25,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 323.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-06T18:00:00Z",
+      "truth_MW": 323.0,
+      "upper_MW": 335.75
+    },
+    {
+      "horizon_hours": 20,
+      "lower_MW": 307.0,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 320.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-06T19:00:00Z",
+      "truth_MW": 320.0,
+      "upper_MW": 333.0
+    },
+    {
+      "horizon_hours": 21,
+      "lower_MW": 303.75,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 317.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-06T20:00:00Z",
+      "truth_MW": 317.0,
+      "upper_MW": 330.25
+    },
+    {
+      "horizon_hours": 22,
+      "lower_MW": 300.5,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 314.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-06T21:00:00Z",
+      "truth_MW": 314.0,
+      "upper_MW": 327.5
+    },
+    {
+      "horizon_hours": 23,
+      "lower_MW": 297.25,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 311.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-06T22:00:00Z",
+      "truth_MW": 311.0,
+      "upper_MW": 324.75
+    },
+    {
+      "horizon_hours": 24,
+      "lower_MW": 294.0,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 308.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-06T23:00:00Z",
+      "truth_MW": 308.0,
+      "upper_MW": 322.0
+    },
+    {
+      "horizon_hours": 1,
+      "lower_MW": 389.75,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 398.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-06T00:00:00Z",
+      "truth_MW": 396.0,
+      "upper_MW": 406.25
+    },
+    {
+      "horizon_hours": 2,
+      "lower_MW": 389.5,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 398.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-06T01:00:00Z",
+      "truth_MW": 396.0,
+      "upper_MW": 406.5
+    },
+    {
+      "horizon_hours": 3,
+      "lower_MW": 389.25,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 398.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-06T02:00:00Z",
+      "truth_MW": 396.0,
+      "upper_MW": 406.75
+    },
+    {
+      "horizon_hours": 4,
+      "lower_MW": 389.0,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 398.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-06T03:00:00Z",
+      "truth_MW": 396.0,
+      "upper_MW": 407.0
+    },
+    {
+      "horizon_hours": 5,
+      "lower_MW": 391.75,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 401.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-06T04:00:00Z",
+      "truth_MW": 399.0,
+      "upper_MW": 410.25
+    },
+    {
+      "horizon_hours": 6,
+      "lower_MW": 394.5,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 404.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-06T05:00:00Z",
+      "truth_MW": 402.0,
+      "upper_MW": 413.5
+    },
+    {
+      "horizon_hours": 7,
+      "lower_MW": 397.25,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 407.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-06T06:00:00Z",
+      "truth_MW": 405.0,
+      "upper_MW": 416.75
+    },
+    {
+      "horizon_hours": 8,
+      "lower_MW": 400.0,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 410.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-06T07:00:00Z",
+      "truth_MW": 408.0,
+      "upper_MW": 420.0
+    },
+    {
+      "horizon_hours": 9,
+      "lower_MW": 402.75,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 413.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-06T08:00:00Z",
+      "truth_MW": 411.0,
+      "upper_MW": 423.25
+    },
+    {
+      "horizon_hours": 10,
+      "lower_MW": 405.5,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 416.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-06T09:00:00Z",
+      "truth_MW": 414.0,
+      "upper_MW": 426.5
+    },
+    {
+      "horizon_hours": 11,
+      "lower_MW": 408.25,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 419.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-06T10:00:00Z",
+      "truth_MW": 417.0,
+      "upper_MW": 429.75
+    },
+    {
+      "horizon_hours": 12,
+      "lower_MW": 411.0,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 422.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-06T11:00:00Z",
+      "truth_MW": 420.0,
+      "upper_MW": 433.0
+    },
+    {
+      "horizon_hours": 13,
+      "lower_MW": 413.75,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 425.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-06T12:00:00Z",
+      "truth_MW": 423.0,
+      "upper_MW": 436.25
+    },
+    {
+      "horizon_hours": 14,
+      "lower_MW": 416.5,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 428.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-06T13:00:00Z",
+      "truth_MW": 426.0,
+      "upper_MW": 439.5
+    },
+    {
+      "horizon_hours": 15,
+      "lower_MW": 419.25,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 431.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-06T14:00:00Z",
+      "truth_MW": 429.0,
+      "upper_MW": 442.75
+    },
+    {
+      "horizon_hours": 16,
+      "lower_MW": 422.0,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 434.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-06T15:00:00Z",
+      "truth_MW": 432.0,
+      "upper_MW": 446.0
+    },
+    {
+      "horizon_hours": 17,
+      "lower_MW": 418.75,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 431.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-06T16:00:00Z",
+      "truth_MW": 429.0,
+      "upper_MW": 443.25
+    },
+    {
+      "horizon_hours": 18,
+      "lower_MW": 415.5,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 428.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-06T17:00:00Z",
+      "truth_MW": 426.0,
+      "upper_MW": 440.5
+    },
+    {
+      "horizon_hours": 19,
+      "lower_MW": 412.25,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 425.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-06T18:00:00Z",
+      "truth_MW": 423.0,
+      "upper_MW": 437.75
+    },
+    {
+      "horizon_hours": 20,
+      "lower_MW": 409.0,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 422.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-06T19:00:00Z",
+      "truth_MW": 420.0,
+      "upper_MW": 435.0
+    },
+    {
+      "horizon_hours": 21,
+      "lower_MW": 405.75,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 419.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-06T20:00:00Z",
+      "truth_MW": 417.0,
+      "upper_MW": 432.25
+    },
+    {
+      "horizon_hours": 22,
+      "lower_MW": 402.5,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 416.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-06T21:00:00Z",
+      "truth_MW": 414.0,
+      "upper_MW": 429.5
+    },
+    {
+      "horizon_hours": 23,
+      "lower_MW": 399.25,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 413.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-06T22:00:00Z",
+      "truth_MW": 411.0,
+      "upper_MW": 426.75
+    },
+    {
+      "horizon_hours": 24,
+      "lower_MW": 396.0,
+      "origin_utc": "2030-04-05T23:00:00Z",
+      "point_MW": 410.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-06T23:00:00Z",
+      "truth_MW": 408.0,
+      "upper_MW": 424.0
+    },
+    {
+      "horizon_hours": 1,
+      "lower_MW": 185.75,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 194.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-07T00:00:00Z",
+      "truth_MW": 184.0,
+      "upper_MW": 202.25
+    },
+    {
+      "horizon_hours": 2,
+      "lower_MW": 185.5,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 194.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-07T01:00:00Z",
+      "truth_MW": 184.0,
+      "upper_MW": 202.5
+    },
+    {
+      "horizon_hours": 3,
+      "lower_MW": 185.25,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 194.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-07T02:00:00Z",
+      "truth_MW": 184.0,
+      "upper_MW": 202.75
+    },
+    {
+      "horizon_hours": 4,
+      "lower_MW": 185.0,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 194.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-07T03:00:00Z",
+      "truth_MW": 184.0,
+      "upper_MW": 203.0
+    },
+    {
+      "horizon_hours": 5,
+      "lower_MW": 187.75,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 197.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-07T04:00:00Z",
+      "truth_MW": 187.0,
+      "upper_MW": 206.25
+    },
+    {
+      "horizon_hours": 6,
+      "lower_MW": 190.5,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 200.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-07T05:00:00Z",
+      "truth_MW": 190.0,
+      "upper_MW": 209.5
+    },
+    {
+      "horizon_hours": 7,
+      "lower_MW": 193.25,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 203.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-07T06:00:00Z",
+      "truth_MW": 193.0,
+      "upper_MW": 212.75
+    },
+    {
+      "horizon_hours": 8,
+      "lower_MW": 196.0,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 206.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-07T07:00:00Z",
+      "truth_MW": 196.0,
+      "upper_MW": 216.0
+    },
+    {
+      "horizon_hours": 9,
+      "lower_MW": 198.75,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 209.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-07T08:00:00Z",
+      "truth_MW": 199.0,
+      "upper_MW": 219.25
+    },
+    {
+      "horizon_hours": 10,
+      "lower_MW": 201.5,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 212.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-07T09:00:00Z",
+      "truth_MW": 202.0,
+      "upper_MW": 222.5
+    },
+    {
+      "horizon_hours": 11,
+      "lower_MW": 204.25,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 215.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-07T10:00:00Z",
+      "truth_MW": 205.0,
+      "upper_MW": 225.75
+    },
+    {
+      "horizon_hours": 12,
+      "lower_MW": 207.0,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 218.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-07T11:00:00Z",
+      "truth_MW": 208.0,
+      "upper_MW": 229.0
+    },
+    {
+      "horizon_hours": 13,
+      "lower_MW": 209.75,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 221.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-07T12:00:00Z",
+      "truth_MW": 211.0,
+      "upper_MW": 232.25
+    },
+    {
+      "horizon_hours": 14,
+      "lower_MW": 212.5,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 224.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-07T13:00:00Z",
+      "truth_MW": 214.0,
+      "upper_MW": 235.5
+    },
+    {
+      "horizon_hours": 15,
+      "lower_MW": 215.25,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 227.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-07T14:00:00Z",
+      "truth_MW": 217.0,
+      "upper_MW": 238.75
+    },
+    {
+      "horizon_hours": 16,
+      "lower_MW": 218.0,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 230.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-07T15:00:00Z",
+      "truth_MW": 220.0,
+      "upper_MW": 242.0
+    },
+    {
+      "horizon_hours": 17,
+      "lower_MW": 214.75,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 227.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-07T16:00:00Z",
+      "truth_MW": 217.0,
+      "upper_MW": 239.25
+    },
+    {
+      "horizon_hours": 18,
+      "lower_MW": 211.5,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 224.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-07T17:00:00Z",
+      "truth_MW": 214.0,
+      "upper_MW": 236.5
+    },
+    {
+      "horizon_hours": 19,
+      "lower_MW": 208.25,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 221.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-07T18:00:00Z",
+      "truth_MW": 211.0,
+      "upper_MW": 233.75
+    },
+    {
+      "horizon_hours": 20,
+      "lower_MW": 205.0,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 218.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-07T19:00:00Z",
+      "truth_MW": 208.0,
+      "upper_MW": 231.0
+    },
+    {
+      "horizon_hours": 21,
+      "lower_MW": 201.75,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 215.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-07T20:00:00Z",
+      "truth_MW": 205.0,
+      "upper_MW": 228.25
+    },
+    {
+      "horizon_hours": 22,
+      "lower_MW": 198.5,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 212.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-07T21:00:00Z",
+      "truth_MW": 202.0,
+      "upper_MW": 225.5
+    },
+    {
+      "horizon_hours": 23,
+      "lower_MW": 195.25,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 209.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-07T22:00:00Z",
+      "truth_MW": 199.0,
+      "upper_MW": 222.75
+    },
+    {
+      "horizon_hours": 24,
+      "lower_MW": 192.0,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 206.0,
+      "region_id": "SYN_A",
+      "target_utc": "2030-04-07T23:00:00Z",
+      "truth_MW": 196.0,
+      "upper_MW": 220.0
+    },
+    {
+      "horizon_hours": 1,
+      "lower_MW": 287.75,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 296.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-07T00:00:00Z",
+      "truth_MW": 284.0,
+      "upper_MW": 304.25
+    },
+    {
+      "horizon_hours": 2,
+      "lower_MW": 287.5,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 296.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-07T01:00:00Z",
+      "truth_MW": 284.0,
+      "upper_MW": 304.5
+    },
+    {
+      "horizon_hours": 3,
+      "lower_MW": 287.25,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 296.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-07T02:00:00Z",
+      "truth_MW": 284.0,
+      "upper_MW": 304.75
+    },
+    {
+      "horizon_hours": 4,
+      "lower_MW": 287.0,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 296.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-07T03:00:00Z",
+      "truth_MW": 284.0,
+      "upper_MW": 305.0
+    },
+    {
+      "horizon_hours": 5,
+      "lower_MW": 289.75,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 299.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-07T04:00:00Z",
+      "truth_MW": 287.0,
+      "upper_MW": 308.25
+    },
+    {
+      "horizon_hours": 6,
+      "lower_MW": 292.5,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 302.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-07T05:00:00Z",
+      "truth_MW": 290.0,
+      "upper_MW": 311.5
+    },
+    {
+      "horizon_hours": 7,
+      "lower_MW": 295.25,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 305.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-07T06:00:00Z",
+      "truth_MW": 293.0,
+      "upper_MW": 314.75
+    },
+    {
+      "horizon_hours": 8,
+      "lower_MW": 298.0,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 308.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-07T07:00:00Z",
+      "truth_MW": 296.0,
+      "upper_MW": 318.0
+    },
+    {
+      "horizon_hours": 9,
+      "lower_MW": 300.75,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 311.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-07T08:00:00Z",
+      "truth_MW": 299.0,
+      "upper_MW": 321.25
+    },
+    {
+      "horizon_hours": 10,
+      "lower_MW": 303.5,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 314.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-07T09:00:00Z",
+      "truth_MW": 302.0,
+      "upper_MW": 324.5
+    },
+    {
+      "horizon_hours": 11,
+      "lower_MW": 306.25,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 317.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-07T10:00:00Z",
+      "truth_MW": 305.0,
+      "upper_MW": 327.75
+    },
+    {
+      "horizon_hours": 12,
+      "lower_MW": 309.0,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 320.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-07T11:00:00Z",
+      "truth_MW": 308.0,
+      "upper_MW": 331.0
+    },
+    {
+      "horizon_hours": 13,
+      "lower_MW": 311.75,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 323.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-07T12:00:00Z",
+      "truth_MW": 311.0,
+      "upper_MW": 334.25
+    },
+    {
+      "horizon_hours": 14,
+      "lower_MW": 314.5,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 326.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-07T13:00:00Z",
+      "truth_MW": 314.0,
+      "upper_MW": 337.5
+    },
+    {
+      "horizon_hours": 15,
+      "lower_MW": 317.25,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 329.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-07T14:00:00Z",
+      "truth_MW": 317.0,
+      "upper_MW": 340.75
+    },
+    {
+      "horizon_hours": 16,
+      "lower_MW": 320.0,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 332.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-07T15:00:00Z",
+      "truth_MW": 320.0,
+      "upper_MW": 344.0
+    },
+    {
+      "horizon_hours": 17,
+      "lower_MW": 316.75,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 329.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-07T16:00:00Z",
+      "truth_MW": 317.0,
+      "upper_MW": 341.25
+    },
+    {
+      "horizon_hours": 18,
+      "lower_MW": 313.5,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 326.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-07T17:00:00Z",
+      "truth_MW": 314.0,
+      "upper_MW": 338.5
+    },
+    {
+      "horizon_hours": 19,
+      "lower_MW": 310.25,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 323.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-07T18:00:00Z",
+      "truth_MW": 311.0,
+      "upper_MW": 335.75
+    },
+    {
+      "horizon_hours": 20,
+      "lower_MW": 307.0,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 320.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-07T19:00:00Z",
+      "truth_MW": 308.0,
+      "upper_MW": 333.0
+    },
+    {
+      "horizon_hours": 21,
+      "lower_MW": 303.75,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 317.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-07T20:00:00Z",
+      "truth_MW": 305.0,
+      "upper_MW": 330.25
+    },
+    {
+      "horizon_hours": 22,
+      "lower_MW": 300.5,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 314.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-07T21:00:00Z",
+      "truth_MW": 302.0,
+      "upper_MW": 327.5
+    },
+    {
+      "horizon_hours": 23,
+      "lower_MW": 297.25,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 311.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-07T22:00:00Z",
+      "truth_MW": 299.0,
+      "upper_MW": 324.75
+    },
+    {
+      "horizon_hours": 24,
+      "lower_MW": 294.0,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 308.0,
+      "region_id": "SYN_B",
+      "target_utc": "2030-04-07T23:00:00Z",
+      "truth_MW": 296.0,
+      "upper_MW": 322.0
+    },
+    {
+      "horizon_hours": 1,
+      "lower_MW": 389.75,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 398.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-07T00:00:00Z",
+      "truth_MW": 384.0,
+      "upper_MW": 406.25
+    },
+    {
+      "horizon_hours": 2,
+      "lower_MW": 389.5,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 398.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-07T01:00:00Z",
+      "truth_MW": 384.0,
+      "upper_MW": 406.5
+    },
+    {
+      "horizon_hours": 3,
+      "lower_MW": 389.25,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 398.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-07T02:00:00Z",
+      "truth_MW": 384.0,
+      "upper_MW": 406.75
+    },
+    {
+      "horizon_hours": 4,
+      "lower_MW": 389.0,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 398.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-07T03:00:00Z",
+      "truth_MW": 384.0,
+      "upper_MW": 407.0
+    },
+    {
+      "horizon_hours": 5,
+      "lower_MW": 391.75,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 401.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-07T04:00:00Z",
+      "truth_MW": 387.0,
+      "upper_MW": 410.25
+    },
+    {
+      "horizon_hours": 6,
+      "lower_MW": 394.5,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 404.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-07T05:00:00Z",
+      "truth_MW": 390.0,
+      "upper_MW": 413.5
+    },
+    {
+      "horizon_hours": 7,
+      "lower_MW": 397.25,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 407.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-07T06:00:00Z",
+      "truth_MW": 393.0,
+      "upper_MW": 416.75
+    },
+    {
+      "horizon_hours": 8,
+      "lower_MW": 400.0,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 410.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-07T07:00:00Z",
+      "truth_MW": 396.0,
+      "upper_MW": 420.0
+    },
+    {
+      "horizon_hours": 9,
+      "lower_MW": 402.75,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 413.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-07T08:00:00Z",
+      "truth_MW": 399.0,
+      "upper_MW": 423.25
+    },
+    {
+      "horizon_hours": 10,
+      "lower_MW": 405.5,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 416.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-07T09:00:00Z",
+      "truth_MW": 402.0,
+      "upper_MW": 426.5
+    },
+    {
+      "horizon_hours": 11,
+      "lower_MW": 408.25,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 419.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-07T10:00:00Z",
+      "truth_MW": 405.0,
+      "upper_MW": 429.75
+    },
+    {
+      "horizon_hours": 12,
+      "lower_MW": 411.0,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 422.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-07T11:00:00Z",
+      "truth_MW": 408.0,
+      "upper_MW": 433.0
+    },
+    {
+      "horizon_hours": 13,
+      "lower_MW": 413.75,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 425.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-07T12:00:00Z",
+      "truth_MW": 411.0,
+      "upper_MW": 436.25
+    },
+    {
+      "horizon_hours": 14,
+      "lower_MW": 416.5,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 428.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-07T13:00:00Z",
+      "truth_MW": 414.0,
+      "upper_MW": 439.5
+    },
+    {
+      "horizon_hours": 15,
+      "lower_MW": 419.25,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 431.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-07T14:00:00Z",
+      "truth_MW": 417.0,
+      "upper_MW": 442.75
+    },
+    {
+      "horizon_hours": 16,
+      "lower_MW": 422.0,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 434.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-07T15:00:00Z",
+      "truth_MW": 420.0,
+      "upper_MW": 446.0
+    },
+    {
+      "horizon_hours": 17,
+      "lower_MW": 418.75,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 431.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-07T16:00:00Z",
+      "truth_MW": 417.0,
+      "upper_MW": 443.25
+    },
+    {
+      "horizon_hours": 18,
+      "lower_MW": 415.5,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 428.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-07T17:00:00Z",
+      "truth_MW": 414.0,
+      "upper_MW": 440.5
+    },
+    {
+      "horizon_hours": 19,
+      "lower_MW": 412.25,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 425.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-07T18:00:00Z",
+      "truth_MW": 411.0,
+      "upper_MW": 437.75
+    },
+    {
+      "horizon_hours": 20,
+      "lower_MW": 409.0,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 422.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-07T19:00:00Z",
+      "truth_MW": 408.0,
+      "upper_MW": 435.0
+    },
+    {
+      "horizon_hours": 21,
+      "lower_MW": 405.75,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 419.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-07T20:00:00Z",
+      "truth_MW": 405.0,
+      "upper_MW": 432.25
+    },
+    {
+      "horizon_hours": 22,
+      "lower_MW": 402.5,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 416.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-07T21:00:00Z",
+      "truth_MW": 402.0,
+      "upper_MW": 429.5
+    },
+    {
+      "horizon_hours": 23,
+      "lower_MW": 399.25,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 413.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-07T22:00:00Z",
+      "truth_MW": 399.0,
+      "upper_MW": 426.75
+    },
+    {
+      "horizon_hours": 24,
+      "lower_MW": 396.0,
+      "origin_utc": "2030-04-06T23:00:00Z",
+      "point_MW": 410.0,
+      "region_id": "SYN_C",
+      "target_utc": "2030-04-07T23:00:00Z",
+      "truth_MW": 396.0,
+      "upper_MW": 424.0
+    }
+  ],
+  "schema_version": "urbangraph-synthetic-demo-1.0",
+  "synthetic": true
+}

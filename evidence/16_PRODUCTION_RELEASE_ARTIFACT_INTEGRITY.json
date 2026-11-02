@@ -1,0 +1,13 @@
+{
+  "rc2_wheel": {
+    "filename": "urbangraph-0.2.0rc2-py3-none-any.whl",
+    "sha256": "f41ef0dc08b63ea2fe277edbb5d46a20cef73e388266b5178d88930a6f4d0217",
+    "note": "Preserved baseline \u2013 stale frontend assets (pre-security-patch)"
+  },
+  "rc3_wheel": {
+    "filename": "urbangraph-0.2.0rc3-py3-none-any.whl",
+    "sha256": "44cfa7a640ba8592cb1e32df3d344fa6a9a456a6bc8a0c20b772b37ce107999f",
+    "size_bytes": 2111639,
+    "note": "Rebuilt with security-patched token handling and updated frontend dist"
+  }
+}

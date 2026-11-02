@@ -1,0 +1,23 @@
+{
+  "title": "UrbanGraph Intelligence Operations Dashboard",
+  "panels": [
+    {
+      "id": 1,
+      "title": "HTTP Request Rate",
+      "type": "graph",
+      "targets": [{"expr": "rate(http_requests_total[1m])"}]
+    },
+    {
+      "id": 2,
+      "title": "P95 Request Latency",
+      "type": "graph",
+      "targets": [{"expr": "histogram_quantile(0.95, rate(http_request_duration_seconds_bucket[1m]))"}]
+    },
+    {
+      "id": 3,
+      "title": "Power Flow & MILP Optimization Solves",
+      "type": "stat",
+      "targets": [{"expr": "sum(rate(urbangraph_optimizations_total[5m]))"}]
+    }
+  ]
+}

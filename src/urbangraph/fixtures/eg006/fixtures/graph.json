@@ -1,0 +1,43 @@
+{
+  "coordinate_system": "invented unit square; not latitude/longitude",
+  "edges": [
+    {
+      "from": "SYN_A",
+      "to": "SYN_B",
+      "weight": 0.7
+    },
+    {
+      "from": "SYN_B",
+      "to": "SYN_C",
+      "weight": 0.6
+    },
+    {
+      "from": "SYN_C",
+      "to": "SYN_A",
+      "weight": 0.4
+    }
+  ],
+  "meaning": "display-only invented graph; no electrical or geographic inference",
+  "regions": [
+    {
+      "id": "SYN_A",
+      "label": "Fictional A",
+      "x": 0.1,
+      "y": 0.3
+    },
+    {
+      "id": "SYN_B",
+      "label": "Fictional B",
+      "x": 0.7,
+      "y": 0.2
+    },
+    {
+      "id": "SYN_C",
+      "label": "Fictional C",
+      "x": 0.5,
+      "y": 0.8
+    }
+  ],
+  "schema_version": "urbangraph-synthetic-demo-1.0",
+  "synthetic": true
+}

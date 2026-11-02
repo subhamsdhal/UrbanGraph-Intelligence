@@ -1,0 +1,16 @@
+Endpoint,Public,Reader,Worker,Admin,Notes
+GET /healthz,YES,YES,YES,YES,Unauthenticated liveness probe
+GET /readyz,YES,YES,YES,YES,Unauthenticated readiness probe
+GET /metrics,YES,YES,YES,YES,Prometheus exposition endpoint
+GET /,YES,YES,YES,YES,Static SPA index HTML
+GET /assets/*,YES,YES,YES,YES,Static CSS/JS/vector chunks
+GET /api/v1/meta,NO,YES,YES,YES,Requires Bearer token
+GET /api/v1/regions,NO,YES,YES,YES,Requires Bearer token
+GET /api/v1/graph,NO,YES,YES,YES,Requires Bearer token
+GET /api/v1/series,NO,YES,YES,YES,Requires Bearer token
+GET /api/v1/forecasts,NO,YES,YES,YES,Requires Bearer token
+GET /api/v1/dispatch,NO,YES,YES,YES,Requires Bearer token
+GET /api/v1/monitoring/*,NO,YES,YES,YES,Requires Bearer token
+POST /api/v1/predict,NO,NO (403),YES,YES,Inference restricted to Worker/Admin
+POST /api/v1/admin/rotate-token,NO,NO (403),NO (403),YES,Zero-downtime secret rotation
+GET /api/v1/admin/tokens,NO,NO (403),NO (403),YES,Redacted active token inventory

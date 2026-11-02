@@ -1,0 +1,13 @@
+apiVersion: v2
+name: energraph-ai
+description: Production Helm chart for EnerGraph AI / UrbanGraph Intelligence Broker & Forecasting Services
+type: application
+version: 1.0.0
+appVersion: "0.2.0rc3"
+keywords:
+  - urbangraph
+  - spatiotemporal
+  - conformal-uncertainty
+  - energy-forecasting
+maintainers:
+  - name: UrbanGraph Engineering Team

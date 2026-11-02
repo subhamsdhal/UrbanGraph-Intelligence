@@ -1,0 +1,1 @@
+[{"name": "pip", "version": "25.0.1"}, {"name": "urbangraph", "version": "0.2.0rc3"}]

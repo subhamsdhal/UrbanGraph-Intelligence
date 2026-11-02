@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+  <testsuite name="api-contract-tests" tests="15" failures="0">
+    <testcase name="1. GET /api/v1/meta" time="0.0174">
+    </testcase>
+    <testcase name="2. GET /api/v1/regions" time="0.0028">
+    </testcase>
+    <testcase name="3. GET /api/v1/graph" time="0.0024">
+    </testcase>
+    <testcase name="4. GET /api/v1/series" time="0.0098">
+    </testcase>
+    <testcase name="5. GET /api/v1/forecasts" time="0.0026">
+    </testcase>
+    <testcase name="6. GET /api/v1/dispatch" time="0.0025">
+    </testcase>
+    <testcase name="7. POST /api/v1/predict (Baseline)" time="0.0209">
+    </testcase>
+    <testcase name="8. POST /api/v1/predict (With Injected Outage)" time="0.0171">
+    </testcase>
+    <testcase name="9. GET /api/v1/monitoring/drift" time="0.0033">
+    </testcase>
+    <testcase name="10. GET /api/v1/monitoring/health" time="0.0029">
+    </testcase>
+    <testcase name="11. GET /healthz" time="0.0027">
+    </testcase>
+    <testcase name="12. GET /readyz" time="0.0027">
+    </testcase>
+    <testcase name="13. GET /metrics" time="0.0027">
+    </testcase>
+    <testcase name="14. GET /api/v1/admin/tokens" time="0.0037">
+    </testcase>
+    <testcase name="15. POST /api/v1/admin/rotate-token" time="0.0042">
+    </testcase>
+  </testsuite>
+</testsuites>

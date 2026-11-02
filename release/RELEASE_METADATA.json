@@ -1,0 +1,26 @@
+{
+  "release": "UrbanGraph Intelligence Production RC3",
+  "version": "0.2.0rc3",
+  "timestamp_utc": "2026-11-01 13:40:00 UTC",
+  "status": "ENTERPRISE_CLIENT_STAGING_READY",
+  "wheel": {
+    "filename": "urbangraph-0.2.0rc3-py3-none-any.whl",
+    "size_bytes": 1262676,
+    "sha256": "30b675854a952c7b070dd392b4f7904966c66c48d8fecd6e18e537beb0b1022f"
+  },
+  "container": {
+    "image": "urbangraph:0.2.0rc3",
+    "user": "65534:65534",
+    "read_only_rootfs": true
+  },
+  "neural_checkpoint": {
+    "filename": "urbangraphformer_synth.pt",
+    "size_bytes": 307701,
+    "sha256": "b4cce4e920fba2ebb88c2b54fe1b02d788e60c6b5f458d2004219631c2391e78"
+  },
+  "frontend_bundle": {
+    "filename": "index-CMUR15TM.js",
+    "size_bytes": 2056475,
+    "sha256": "3576868bb88f5e6fbeb5b10078bece1b5c64a17e66033b8b2d53b149a7286a2b"
+  }
+}

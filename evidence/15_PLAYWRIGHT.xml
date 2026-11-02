@@ -1,0 +1,18 @@
+<testsuites id="" name="" tests="6" failures="0" skipped="0" errors="0" time="16.349301">
+<testsuite name="demo.spec.ts" timestamp="2026-11-01T06:40:40.552Z" hostname="desktop-chromium" tests="3" failures="0" skipped="0" time="9.8" errors="0">
+<testcase name="synthetic forecast, graph, and battery journey" classname="demo.spec.ts" time="4.672">
+</testcase>
+<testcase name="geospatial command center interactive journey" classname="demo.spec.ts" time="3.6">
+</testcase>
+<testcase name="deck.gl webgl, maplibre vector style, and svg fallback toggling" classname="demo.spec.ts" time="1.528">
+</testcase>
+</testsuite>
+<testsuite name="demo.spec.ts" timestamp="2026-11-01T06:40:40.552Z" hostname="mobile-chromium" tests="3" failures="0" skipped="0" time="8.869" errors="0">
+<testcase name="synthetic forecast, graph, and battery journey" classname="demo.spec.ts" time="3.509">
+</testcase>
+<testcase name="geospatial command center interactive journey" classname="demo.spec.ts" time="3.085">
+</testcase>
+<testcase name="deck.gl webgl, maplibre vector style, and svg fallback toggling" classname="demo.spec.ts" time="2.275">
+</testcase>
+</testsuite>
+</testsuites>

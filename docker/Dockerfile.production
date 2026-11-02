@@ -1,0 +1,90 @@
+# ==============================================================================
+# UrbanGraph Intelligence — Standalone Multi-Stage Production Container Image
+# Candidate Release: 0.2.0rc3
+# Base: python:3.12-slim-bookworm
+# Hardened, non-root execution (UID 65534), standalone wheel installation
+# ==============================================================================
+
+FROM python:3.12-slim-bookworm AS builder
+
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    PIP_DISABLE_PIP_VERSION_CHECK=1
+
+WORKDIR /build
+
+# Install build dependencies for C-extensions
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends \
+        build-essential \
+        libgomp1 \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copy authoritative distribution wheel
+COPY dist/urbangraph-0.2.0rc3-py3-none-any.whl /build/
+
+# Create wheelhouse with pinned production dependencies and zero known vulnerabilities
+RUN pip install --no-cache-dir --upgrade pip && \
+    pip install --no-cache-dir \
+        torch \
+        --index-url https://download.pytorch.org/whl/cpu && \
+    pip install --no-cache-dir --upgrade 'setuptools>=84.1.0' && \
+    pip install --no-cache-dir \
+        scipy>=1.15.0 \
+        numpy>=2.2.0 \
+        pandas>=2.2.0 \
+        pyarrow>=19.0.0 \
+        fastapi>=0.115.0 \
+        starlette>=1.0.0 \
+        uvicorn[standard]>=0.34.0 \
+        pydantic>=2.10.0 \
+        pyyaml>=6.0.1 \
+        pip-audit>=2.8.0 \
+        /build/urbangraph-0.2.0rc3-py3-none-any.whl && \
+    pip-audit --desc
+
+# ==============================================================================
+# Final Minimal Runtime Stage
+# ==============================================================================
+FROM python:3.12-slim-bookworm AS runtime
+
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    PIP_DISABLE_PIP_VERSION_CHECK=1 \
+    UG_HOST=0.0.0.0 \
+    UG_PORT=8000 \
+    UG_WORKERS=1 \
+    URBANGRAPH_ENV=production
+
+# Install minimal runtime libraries (OpenMP runtime for PyTorch / HiGHS)
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends \
+        libgomp1 \
+        ca-certificates \
+        curl \
+    && rm -rf /var/lib/apt/lists/* && \
+    pip install --no-cache-dir --upgrade pip
+
+# Copy installed python site-packages from builder
+COPY --from=builder /usr/local/lib/python3.12/site-packages /usr/local/lib/python3.12/site-packages
+COPY --from=builder /usr/local/bin /usr/local/bin
+
+# Prepare unprivileged persistent state directory for SQLite WAL tokens
+WORKDIR /app
+RUN mkdir -p /app/security /app/logs && \
+    chown -R 65534:65534 /app
+
+# Switch to unprivileged non-root user (nobody:nogroup)
+USER 65534:65534
+
+# Expose standard application port
+EXPOSE 8000
+
+# Health and readiness probes
+HEALTHCHECK --interval=15s --timeout=5s --start-period=10s --retries=3 \
+    CMD curl -f http://127.0.0.1:8000/healthz || exit 1
+
+# Launch production unified server
+ENTRYPOINT ["python", "-m", "urbangraph.production_server"]
+CMD ["--host", "0.0.0.0", "--port", "8000", "--workers", "1"]
+

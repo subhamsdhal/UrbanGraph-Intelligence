@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="7" failures="0" skipped="0" tests="7" time="17.857" timestamp="2026-11-01T12:22:53.052041+05:30" hostname="SWASTIK"><testcase classname="" name="tests.energy.test_energy" time="0.000"><error message="collection failure">ImportError while importing test module '.\tests\energy\test_energy.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/home/user\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests\energy\test_energy.py:32: in &lt;module&gt;
+    from energraph.canonical import materialize, open_energy, parse_csv, quality
+src\energraph\canonical.py:29: in &lt;module&gt;
+    from urbangraph.evaluation.dataset import EvaluationDataset, identity
+src\urbangraph\evaluation\dataset.py:14: in &lt;module&gt;
+    from urbangraph.datasets.governed_canonical import read_canonical
+src\urbangraph\datasets\governed_canonical.py:17: in &lt;module&gt;
+    from urbangraph.datasets.materialization import (
+src\urbangraph\datasets\materialization.py:22: in &lt;module&gt;
+    from urbangraph.datasets.canonical import (
+src\urbangraph\datasets\canonical.py:12: in &lt;module&gt;
+    import pyarrow as pa  # type: ignore[import-untyped]
+E   ModuleNotFoundError: No module named 'pyarrow'</error></testcase><testcase classname="" name="tests.energy.test_governed_derived" time="0.000"><error message="collection failure">ImportError while importing test module '.\tests\energy\test_governed_derived.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/home/user\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests\energy\test_governed_derived.py:10: in &lt;module&gt;
+    from energraph.canonical import materialize, open_energy, parse_csv
+src\energraph\canonical.py:29: in &lt;module&gt;
+    from urbangraph.evaluation.dataset import EvaluationDataset, identity
+src\urbangraph\evaluation\dataset.py:14: in &lt;module&gt;
+    from urbangraph.datasets.governed_canonical import read_canonical
+src\urbangraph\datasets\governed_canonical.py:17: in &lt;module&gt;
+    from urbangraph.datasets.materialization import (
+src\urbangraph\datasets\materialization.py:22: in &lt;module&gt;
+    from urbangraph.datasets.canonical import (
+src\urbangraph\datasets\canonical.py:12: in &lt;module&gt;
+    import pyarrow as pa  # type: ignore[import-untyped]
+E   ModuleNotFoundError: No module named 'pyarrow'</error></testcase><testcase classname="" name="tests.energy.test_graph_neural" time="0.000"><error message="collection failure">ImportError while importing test module '.\tests\energy\test_graph_neural.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/home/user\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests\energy\test_graph_neural.py:10: in &lt;module&gt;
+    from energraph.graph_models import EnergyForecaster, EnergyModelConfig
+src\energraph\graph_models.py:12: in &lt;module&gt;
+    from energraph.regions import country_registry
+src\energraph\regions.py:12: in &lt;module&gt;
+    from urbangraph.evaluation.dataset import identity
+src\urbangraph\evaluation\dataset.py:14: in &lt;module&gt;
+    from urbangraph.datasets.governed_canonical import read_canonical
+src\urbangraph\datasets\governed_canonical.py:17: in &lt;module&gt;
+    from urbangraph.datasets.materialization import (
+src\urbangraph\datasets\materialization.py:22: in &lt;module&gt;
+    from urbangraph.datasets.canonical import (
+src\urbangraph\datasets\canonical.py:12: in &lt;module&gt;
+    import pyarrow as pa  # type: ignore[import-untyped]
+E   ModuleNotFoundError: No module named 'pyarrow'</error></testcase><testcase classname="" name="tests.energy.test_multi_parent_lineage" time="0.000"><error message="collection failure">ImportError while importing test module '.\tests\energy\test_multi_parent_lineage.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/home/user\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests\energy\test_multi_parent_lineage.py:12: in &lt;module&gt;
+    from energraph.multivariable import materialize_joined_multi, open_multi, project_multi
+src\energraph\multivariable.py:22: in &lt;module&gt;
+    from energraph.canonical import _parse_csv_verified, logical_hash, quality
+src\energraph\canonical.py:29: in &lt;module&gt;
+    from urbangraph.evaluation.dataset import EvaluationDataset, identity
+src\urbangraph\evaluation\dataset.py:14: in &lt;module&gt;
+    from urbangraph.datasets.governed_canonical import read_canonical
+src\urbangraph\datasets\governed_canonical.py:17: in &lt;module&gt;
+    from urbangraph.datasets.materialization import (
+src\urbangraph\datasets\materialization.py:22: in &lt;module&gt;
+    from urbangraph.datasets.canonical import (
+src\urbangraph\datasets\canonical.py:12: in &lt;module&gt;
+    import pyarrow as pa  # type: ignore[import-untyped]
+E   ModuleNotFoundError: No module named 'pyarrow'</error></testcase><testcase classname="" name="tests.energy.test_multiregion" time="0.000"><error message="collection failure">ImportError while importing test module '.\tests\energy\test_multiregion.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/home/user\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests\energy\test_multiregion.py:15: in &lt;module&gt;
+    from energraph.energy_graphs import (
+src\energraph\energy_graphs.py:25: in &lt;module&gt;
+    from energraph.canonical import logical_hash
+src\energraph\canonical.py:29: in &lt;module&gt;
+    from urbangraph.evaluation.dataset import EvaluationDataset, identity
+src\urbangraph\evaluation\dataset.py:14: in &lt;module&gt;
+    from urbangraph.datasets.governed_canonical import read_canonical
+src\urbangraph\datasets\governed_canonical.py:17: in &lt;module&gt;
+    from urbangraph.datasets.materialization import (
+src\urbangraph\datasets\materialization.py:22: in &lt;module&gt;
+    from urbangraph.datasets.canonical import (
+src\urbangraph\datasets\canonical.py:12: in &lt;module&gt;
+    import pyarrow as pa  # type: ignore[import-untyped]
+E   ModuleNotFoundError: No module named 'pyarrow'</error></testcase><testcase classname="" name="tests.energy.test_optimization" time="0.000"><error message="collection failure">ImportError while importing test module '.\tests\energy\test_optimization.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/home/user\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests\energy\test_optimization.py:9: in &lt;module&gt;
+    from energraph.optimization.physical import (
+src\energraph\optimization\__init__.py:11: in &lt;module&gt;
+    from energraph.optimization.population import DecisionInputs
+src\energraph\optimization\population.py:13: in &lt;module&gt;
+    from energraph.regional_data import load_regional_plan
+src\energraph\regional_data.py:22: in &lt;module&gt;
+    from energraph.canonical import _parse_csv_verified, logical_hash, quality
+src\energraph\canonical.py:29: in &lt;module&gt;
+    from urbangraph.evaluation.dataset import EvaluationDataset, identity
+src\urbangraph\evaluation\dataset.py:14: in &lt;module&gt;
+    from urbangraph.datasets.governed_canonical import read_canonical
+src\urbangraph\datasets\governed_canonical.py:17: in &lt;module&gt;
+    from urbangraph.datasets.materialization import (
+src\urbangraph\datasets\materialization.py:22: in &lt;module&gt;
+    from urbangraph.datasets.canonical import (
+src\urbangraph\datasets\canonical.py:12: in &lt;module&gt;
+    import pyarrow as pa  # type: ignore[import-untyped]
+E   ModuleNotFoundError: No module named 'pyarrow'</error></testcase><testcase classname="" name="tests.energy.test_renewables" time="0.000"><error message="collection failure">ImportError while importing test module '.\tests\energy\test_renewables.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/home/user\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests\energy\test_renewables.py:12: in &lt;module&gt;
+    from energraph.energy_boosting import error_summary, run_energy, verify_energy_run
+src\energraph\energy_boosting.py:26: in &lt;module&gt;
+    from energraph.experiments import MODELS, code_fingerprint, origins, predict, scores, truth
+src\energraph\experiments.py:26: in &lt;module&gt;
+    from energraph.evaluation import load_plan
+src\energraph\evaluation.py:19: in &lt;module&gt;
+    from energraph.canonical import open_energy
+src\energraph\canonical.py:29: in &lt;module&gt;
+    from urbangraph.evaluation.dataset import EvaluationDataset, identity
+src\urbangraph\evaluation\dataset.py:14: in &lt;module&gt;
+    from urbangraph.datasets.governed_canonical import read_canonical
+src\urbangraph\datasets\governed_canonical.py:17: in &lt;module&gt;
+    from urbangraph.datasets.materialization import (
+src\urbangraph\datasets\materialization.py:22: in &lt;module&gt;
+    from urbangraph.datasets.canonical import (
+src\urbangraph\datasets\canonical.py:12: in &lt;module&gt;
+    import pyarrow as pa  # type: ignore[import-untyped]
+E   ModuleNotFoundError: No module named 'pyarrow'</error></testcase></testsuite></testsuites>

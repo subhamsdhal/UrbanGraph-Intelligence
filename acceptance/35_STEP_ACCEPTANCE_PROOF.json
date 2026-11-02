@@ -1,0 +1,247 @@
+[
+  {
+    "step": 1,
+    "title": "Python 3.11+ Runtime Detection",
+    "status": "PASS",
+    "detail": "Detected Python 3.12.10",
+    "duration_ms": 0.0
+  },
+  {
+    "step": 2,
+    "title": "Isolated Cleanroom Virtualenv Ready",
+    "status": "PASS",
+    "detail": "Verified cleanroom at C:\\urbangraph-cleanroom-final",
+    "duration_ms": 0.07
+  },
+  {
+    "step": 3,
+    "title": "Definitive Wheel Binary Integrity",
+    "status": "PASS",
+    "detail": "Size: 1267084 bytes, SHA: b0cfc7297bbc...",
+    "duration_ms": 1.41
+  },
+  {
+    "step": 4,
+    "title": "Clean Wheel Reinstall in Cleanroom",
+    "status": "PASS",
+    "detail": "Installed urbangraph-0.2.0rc3 without network access",
+    "duration_ms": 3908.08
+  },
+  {
+    "step": 5,
+    "title": "Package Namespace & Import Verification",
+    "status": "PASS",
+    "detail": "Namespaces urbangraph and energraph imported cleanly",
+    "duration_ms": 4720.77
+  },
+  {
+    "step": 6,
+    "title": "Fixture Manifest & Tree Integrity",
+    "status": "PASS",
+    "detail": "Manifest verified with 4 fixtures (230041 bytes)",
+    "duration_ms": 0.34
+  },
+  {
+    "step": 7,
+    "title": "UrbanGraphFormer Checkpoint Integrity",
+    "status": "PASS",
+    "detail": "Size: 307701 bytes, SHA: b4cce4e920fb...",
+    "duration_ms": 0.46
+  },
+  {
+    "step": 8,
+    "title": "Port 8000 Availability & Config Verification",
+    "status": "PASS",
+    "detail": "Port 8000 confirmed available on 127.0.0.1",
+    "duration_ms": 2977.32
+  },
+  {
+    "step": 9,
+    "title": "Background Production Server Launch",
+    "status": "PASS",
+    "detail": "Spawned server process PID 30536",
+    "duration_ms": 11.31
+  },
+  {
+    "step": 10,
+    "title": "PID File Registration",
+    "status": "PASS",
+    "detail": "Written PID 30536 to urbangraph.pid",
+    "duration_ms": 2.38
+  },
+  {
+    "step": 11,
+    "title": "Readiness Probe (/readyz)",
+    "status": "PASS",
+    "detail": "Engine and fixtures ready: {'ready': true}",
+    "duration_ms": 540.19
+  },
+  {
+    "step": 12,
+    "title": "Liveness Probe (/healthz)",
+    "status": "PASS",
+    "detail": "Status ok: {'status': 'ok'}",
+    "duration_ms": 2.0
+  },
+  {
+    "step": 13,
+    "title": "Prometheus Telemetry (/metrics)",
+    "status": "PASS",
+    "detail": "Uptime and request counters validated",
+    "duration_ms": 13.04
+  },
+  {
+    "step": 14,
+    "title": "Single-Port React SPA Entrypoint (/)",
+    "status": "PASS",
+    "detail": "Served compiled React application with status 200",
+    "duration_ms": 3.41
+  },
+  {
+    "step": 15,
+    "title": "Content-Security-Policy Enforcement",
+    "status": "PASS",
+    "detail": "Hardened CSP present: default-src 'self'; script-src 'sel...",
+    "duration_ms": 0.0
+  },
+  {
+    "step": 16,
+    "title": "Unauthenticated API Rejection (HTTP 401)",
+    "status": "PASS",
+    "detail": "Enforced 401 Unauthorized for uncredentialed request",
+    "duration_ms": 25.94
+  },
+  {
+    "step": 17,
+    "title": "Reader Credential Authorization (HTTP 200)",
+    "status": "PASS",
+    "detail": "Accepted valid reader Bearer token",
+    "duration_ms": 16.98
+  },
+  {
+    "step": 18,
+    "title": "Synthetic Metadata Schema Validation",
+    "status": "PASS",
+    "detail": "Manifest SHA: b874f63bd921..., 3 regions",
+    "duration_ms": 0.0
+  },
+  {
+    "step": 19,
+    "title": "Regional Topologies (/api/v1/regions)",
+    "status": "PASS",
+    "detail": "Verified SYN_A, SYN_B, SYN_C regions (origin: 2030-03-31T23:00:00Z)",
+    "duration_ms": 15.07
+  },
+  {
+    "step": 20,
+    "title": "Schematic Transmission Graph (/api/v1/graph)",
+    "status": "PASS",
+    "detail": "3 hubs and 3 transmission corridors loaded",
+    "duration_ms": 16.06
+  },
+  {
+    "step": 21,
+    "title": "RBAC Policy Enforcement on Inference (HTTP 403)",
+    "status": "PASS",
+    "detail": "Reader forbidden from executing model inference",
+    "duration_ms": 13.9
+  },
+  {
+    "step": 22,
+    "title": "Worker Credential Inference Authorization (HTTP 200)",
+    "status": "PASS",
+    "detail": "Worker executed neural forecast successfully",
+    "duration_ms": 28.63
+  },
+  {
+    "step": 23,
+    "title": "24-Hour Horizon Neural Forecasting",
+    "status": "PASS",
+    "detail": "24 points generated: 309.6 MW to 305.8 MW",
+    "duration_ms": 0.0
+  },
+  {
+    "step": 24,
+    "title": "Conformal Uncertainty Bands (90% Confidence)",
+    "status": "PASS",
+    "detail": "P0 lower: 301.3 MW <= upper: 317.8 MW",
+    "duration_ms": 0.0
+  },
+  {
+    "step": 25,
+    "title": "Sensor Outage Detection & Imputation",
+    "status": "PASS",
+    "detail": "Degradation: SEVERE_OUTAGE",
+    "duration_ms": 38.71
+  },
+  {
+    "step": 26,
+    "title": "Conformal Uncertainty Inflation under Contingency",
+    "status": "PASS",
+    "detail": "Uncertainty inflation factor: 1.50x",
+    "duration_ms": 0.0
+  },
+  {
+    "step": 27,
+    "title": "Kirchhoff DC Power Flow Simulation",
+    "status": "PASS",
+    "detail": "DC power flow converged across 3 branches",
+    "duration_ms": 13.76
+  },
+  {
+    "step": 28,
+    "title": "Branch Thermal Loading vs 120MW Rating",
+    "status": "PASS",
+    "detail": "Corridor SYN_A-SYN_B: 119.2 MW (99.3% load)",
+    "duration_ms": 0.0
+  },
+  {
+    "step": 29,
+    "title": "HiGHS MILP Battery Storage Optimization",
+    "status": "PASS",
+    "detail": "Solved multi-period state-of-charge schedule",
+    "duration_ms": 28.03
+  },
+  {
+    "step": 30,
+    "title": "Storage Arbitrage Financial Metrics Realization",
+    "status": "PASS",
+    "detail": "Energy: 330696.95 CU, Net cost: 334319.09 CU",
+    "duration_ms": 0.0
+  },
+  {
+    "step": 31,
+    "title": "Dynamic Token Rotation (/api/v1/admin/rotate-token)",
+    "status": "PASS",
+    "detail": "Generated new worker credential: d7b694a25473...",
+    "duration_ms": 15.31
+  },
+  {
+    "step": 32,
+    "title": "Rotated Credential Immediate Authorization",
+    "status": "PASS",
+    "detail": "New rotated token validated and authorized",
+    "duration_ms": 20.94
+  },
+  {
+    "step": 33,
+    "title": "Immediate Token Revocation (/api/v1/admin/revoke-token)",
+    "status": "PASS",
+    "detail": "Revoked credential rejected immediately (HTTP 401)",
+    "duration_ms": 28.85
+  },
+  {
+    "step": 34,
+    "title": "Server Restart & SQLite WAL Persistence",
+    "status": "PASS",
+    "detail": "Restarted server loaded and validated existing tokens from WAL store",
+    "duration_ms": 527.16
+  },
+  {
+    "step": 35,
+    "title": "Graceful Shutdown & Port Release",
+    "status": "PASS",
+    "detail": "Terminated PID 30612, released port 8000, cleaned urbangraph.pid",
+    "duration_ms": 1.13
+  }
+]

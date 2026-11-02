@@ -1,0 +1,86 @@
+# Default values for energraph-ai Helm chart.
+replicaCount: 2
+
+image:
+  repository: urbangraph
+  pullPolicy: IfNotPresent
+  tag: "0.2.0rc3"
+
+serviceAccount:
+  create: true
+  name: "energraph-broker-sa"
+
+podSecurityContext:
+  runAsNonRoot: true
+  runAsUser: 65534
+  runAsGroup: 65534
+  fsGroup: 65534
+  seccompProfile:
+    type: RuntimeDefault
+
+securityContext:
+  allowPrivilegeEscalation: false
+  readOnlyRootFilesystem: true
+  runAsNonRoot: true
+  runAsUser: 65534
+  capabilities:
+    drop:
+      - ALL
+
+service:
+  type: ClusterIP
+  port: 8080
+
+resources:
+  limits:
+    cpu: 1000m
+    memory: 768Mi
+  requests:
+    cpu: 250m
+    memory: 256Mi
+
+probes:
+  liveness:
+    path: /healthz
+    initialDelaySeconds: 5
+    periodSeconds: 10
+  readiness:
+    path: /readyz
+    initialDelaySeconds: 3
+    periodSeconds: 5
+
+secrets:
+  enabled: true
+  name: "urbangraph-secrets"
+  adminToken: "ug_admin_staging_sec_7f9a2b8e4c1d6f30a9e8b7c6d5e4f3a2"
+  workerToken: "ug_worker_staging_sec_1a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d"
+  readerToken: "ug_reader_staging_sec_9f8e7d6c5b4a3f2e1d0c9b8a7f6e5d4c"
+
+tokenRotation:
+  enabled: true
+  rotationPeriodMinutes: 60
+  gracePeriodMinutes: 15
+
+config:
+  workers: 1
+  logLevel: INFO
+  environment: production
+  prometheusEnabled: true
+
+ingress:
+  enabled: false
+  className: ""
+  annotations: {}
+  hosts:
+    - host: urbangraph.local
+      paths:
+        - path: /
+          pathType: Prefix
+  tls: []
+
+podDisruptionBudget:
+  enabled: true
+  minAvailable: 1
+
+networkPolicy:
+  enabled: true

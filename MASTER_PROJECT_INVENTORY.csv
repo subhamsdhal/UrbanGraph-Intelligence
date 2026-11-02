@@ -1,0 +1,446 @@
+Relative Path,File Type,Category,Size Bytes,SHA-256,Purpose
+.env.example,.example,Project Root,738,5fe0a8c1a105c58b2f7e36fbafc79892e8e05e78b96dd8e54b236a97a40c3e37,"Repository governance, licensing & environment templates"
+.env.production.template,.template,Project Root,1034,5bc1dc927778f8c8271ff1f629ce0f60cb659f29b046438fa959c8092e6ef812,"Repository governance, licensing & environment templates"
+.gitattributes,none,Project Root,709,ec7087fd5364231aecde3466aa9750a3b865441cbd9e304dbadbab1ecf1b8bb2,"Repository governance, licensing & environment templates"
+.gitignore,none,Project Root,940,62a939618c8f560537a409557a477964c32624e8d8f9eb87200c2d60eb9db651,"Repository governance, licensing & environment templates"
+LICENSE,none,Project Root,6964,8cb756991c590578d855fad5308acd2ce633a2b3c50b912673aa6bcdff474332,"Repository governance, licensing & environment templates"
+MASTER_BACKUP_AND_CLEANUP_GUIDE.md,.md,Project Root,3453,2f303c9b3b488d4925e1fde4779433930122390b6e06dbb2f166eb83dbd52cb8,"Repository governance, licensing & environment templates"
+MASTER_PROJECT_FINAL_ACCEPTANCE.md,.md,Project Root,4021,89f13a9a3d53c418352a9f9dc0a4e0042520a0ad463552e0c6714cb96a6eab97,"Repository governance, licensing & environment templates"
+MASTER_PROJECT_INVENTORY.csv,.csv,Project Root,81047,45771c285a2715409ee73e0e7a9c04b45d81b2146bd062afa295cb77cedc0a3f,"Repository governance, licensing & environment templates"
+README.md,.md,Project Root,20104,24a744aacaead0d0ed462ac9bd6ad7c5c0bc6244d52ec2bddb11fe5f213e8513,"Repository governance, licensing & environment templates"
+acceptance/35_STEP_ACCEPTANCE_PROOF.json,.json,Acceptance Records,6838,d8c2c4bb9d0053be1ce6735c719a2bec519fa549673a527dd2aeb74516ecfec8,Acceptance ledgers & UI verification screenshots
+acceptance/FINAL_CLIENT_ACCEPTANCE_CHECKLIST.md,.md,Acceptance Records,1755,fbd73c5d2ec0d9c73dcd6153d4ada06ad46bc5ff97807d6b70f39019b06e3d47,Acceptance ledgers & UI verification screenshots
+acceptance/PRODUCTION_RELIABILITY_PROOF.json,.json,Acceptance Records,2430,f1ed458d23f1efe3cfce2e2f70180d1a1b5d0705d2232c09ffe26dbebebf412d,Acceptance ledgers & UI verification screenshots
+acceptance/screenshots/01_login_401_enforcement.png,.png,Acceptance Records,378955,4355e24ab4f46ab13a57baa829fa033b935c78f09a34e93da66aef500023cf77,Acceptance ledgers & UI verification screenshots
+acceptance/screenshots/02_dashboard_forecast.png,.png,Acceptance Records,478710,d8ea944b5415d787dd4633daf1c28956e279a18966a75fb01d864485c2f68908,Acceptance ledgers & UI verification screenshots
+acceptance/screenshots/03_geospatial_maplibre.png,.png,Acceptance Records,250226,3a3fde5f63b8ab372448011b3aec18d73228bd97f7de34f9e72d9f9dc9891752,Acceptance ledgers & UI verification screenshots
+acceptance/screenshots/04_dc_power_flow_simulation.png,.png,Acceptance Records,202160,e1521d3920be6f23e8a9a5318f17cebec9933a073045ad57601e164a2fc7ba9c,Acceptance ledgers & UI verification screenshots
+acceptance/screenshots/05_highs_battery_optimization.png,.png,Acceptance Records,187215,f08061e820baa08e0e4cebcfff9da931753be5c789c184fad0dce83e78bda1e2,Acceptance ledgers & UI verification screenshots
+config/production_config.yaml,.yaml,Configuration,387,66b393d39ee0f6a7719e537136153bbba092d51c733ec5daa59286753fa929b4,Runtime and staging configuration profiles
+config/urbangraph.config.yaml,.yaml,Configuration,787,5dc8cf95cbc8e313975931becd0b6d0459afb6a7c030730171165a705376b2f6,Runtime and staging configuration profiles
+docker/.dockerignore,none,Container Staging,214,e5b1a00cdfe47fbf3bd5714676587bff5bf1789de20c9afa627deff0cbee1067,"Hardened Dockerfiles, compose specs & proxy configs"
+docker/Caddyfile,none,Container Staging,2062,a8283c6a35ab908c7ac046e2159bdb30be13b85a5e9f95cc799f43c28e92117c,"Hardened Dockerfiles, compose specs & proxy configs"
+docker/Dockerfile.caddy,.caddy,Container Staging,189,b0a17fb74bedfd32f58ff24f06da050112755fb63b86236fc6d5b803c68dddff,"Hardened Dockerfiles, compose specs & proxy configs"
+docker/Dockerfile.production,.production,Container Staging,3125,9de9ad82845ce3372a44ef87d67aa93cd5878861b2daecf7c35301c15fb40e83,"Hardened Dockerfiles, compose specs & proxy configs"
+docker/docker-compose.production.yml,.yml,Container Staging,2399,3e012a6b815889a7290b91c632a78099a5be2038750e738adc9518c0608bcf6a,"Hardened Dockerfiles, compose specs & proxy configs"
+documentation/01_INSTALLATION_GUIDE.md,.md,Technical Documentation,2951,90df075507522185833028bdf49731c54f959e3981f93f062e359eb5f64caaf2,Comprehensive system & operational guides
+documentation/02_USER_MANUAL.md,.md,Technical Documentation,2574,5143a3a3d9402df588a1aaa352da535b7b4ebff643bf74722484dcbc8982ab1e,Comprehensive system & operational guides
+documentation/03_ADMIN_MANUAL.md,.md,Technical Documentation,2253,3aa36ff776ef3f7f1e8f8f1b912738453676efeabc11fd80a4513cfa17b3527b,Comprehensive system & operational guides
+documentation/04_API_REFERENCE.md,.md,Technical Documentation,2804,4300b561cbb177b1985dd573411d12a22c24c899cecfdc87700b5ad216ee6441,Comprehensive system & operational guides
+documentation/05_BACKEND_ARCHITECTURE.md,.md,Technical Documentation,2100,86007489f055a52addca965633d0a097a7084496c11ef2c7dd817cfc8af26025,Comprehensive system & operational guides
+documentation/06_FRONTEND_ARCHITECTURE.md,.md,Technical Documentation,902,8f1408926edc6387cb33eed6c2a2d90d810c35a5f848b17f00c7f844190a9bf3,Comprehensive system & operational guides
+documentation/07_MODEL_ARCHITECTURE.md,.md,Technical Documentation,1168,103e06c7d167767e2b585af80ee8d4a0163bc9686ea4f59ea1fda711d220313e,Comprehensive system & operational guides
+documentation/08_DATA_AND_FIXTURES.md,.md,Technical Documentation,1102,e72233e8ba77635d17ff1494186b6cedd8deaff3321e52e081c903f11ac9d78b,Comprehensive system & operational guides
+documentation/09_GRID_SIMULATION.md,.md,Technical Documentation,1370,25f6fd119061e693c9abcc3763f16f8002b4c85fa97110b7e60100e77f5dad69,Comprehensive system & operational guides
+documentation/10_SECURITY_ARCHITECTURE.md,.md,Technical Documentation,1084,79d22e4966b79439373d4367041dc671922033335b6fb4809382cbeb12821f4e,Comprehensive system & operational guides
+documentation/11_LOCALHOST_OPERATIONS.md,.md,Technical Documentation,729,853c6461b0ecf4baaee3a20d872815621724cb25d4beb005c35db1dd820cd1d4,Comprehensive system & operational guides
+documentation/12_DOCKER_DEPLOYMENT.md,.md,Technical Documentation,678,63bdb6d0feb11a6cfbb343f19133b18cbb7bb2dcd3d3decd5894b9b75ddf85d9,Comprehensive system & operational guides
+documentation/13_PRODUCTION_HOSTING.md,.md,Technical Documentation,626,e07b6b551918e8abcbe045c1e7c40f806cf3103f94785daa0da8b442522e1fe5,Comprehensive system & operational guides
+documentation/14_TROUBLESHOOTING.md,.md,Technical Documentation,749,6223c2987ae2c4329f9d89622bfbd44bffcb86ea5a207544e2e23c319fad177e,Comprehensive system & operational guides
+documentation/15_BACKUP_AND_RECOVERY.md,.md,Technical Documentation,672,0abd0f222e5457cdf32a37e664f957f678d179d8934d65697dacddc2074cf407,Comprehensive system & operational guides
+documentation/16_RELEASE_HISTORY.md,.md,Technical Documentation,1247,e81d6771f635420a7cc7a9742c010f2ab60d7ef27f63ac518c3edf2f6050166a,Comprehensive system & operational guides
+documentation/17_KNOWN_LIMITATIONS_AND_ROADMAP.md,.md,Technical Documentation,1082,4e5058fb27c0efbc730b7e427caa7f6e5aba8d0eae147a15376c65b9fa8dbd8d,Comprehensive system & operational guides
+evidence/00_INITIAL_WORKSPACE_INTEGRITY.md,.md,Audit Evidence,2296,ba236b3f551bfaf4a8dd404317855e47192d625869063e440f6d76e4c7206e37,"JUnit XML receipts, SBOM, and audit logs"
+evidence/00_PROTECTED_ARTIFACT_HASHES.txt,.txt,Audit Evidence,870,a034e18eafd301f470634db6c9caeef9168335ad8b87d1a0df99ae02f4cd2122,"JUnit XML receipts, SBOM, and audit logs"
+evidence/00_SOURCE_MANIFEST.json,.json,Audit Evidence,62086,a08d0124174dd9c74294555abe18ac2269eb3eea5e311128ecd69efe647e266e,"JUnit XML receipts, SBOM, and audit logs"
+evidence/00_TOOLCHAIN_INVENTORY.json,.json,Audit Evidence,1641,05a5774e422df78abe56f41c6628b77a33b3256850d1057d4ee3e4bc8ca5b52a,"JUnit XML receipts, SBOM, and audit logs"
+evidence/01_INDEPENDENT_REQUIREMENTS_AUDIT.md,.md,Audit Evidence,8499,b21efa72c20fdda851271b70e112f3ec71b0e6b50da53106e8d1686bf8bea582,"JUnit XML receipts, SBOM, and audit logs"
+evidence/01_SOURCE_TO_REQUIREMENT_TRACEABILITY.csv,.csv,Audit Evidence,6185,fba6e2329bb9c3f5ab3ab4dd83e9b1be4a20b7fb6d4cd434e95cb3df201b26b2,"JUnit XML receipts, SBOM, and audit logs"
+evidence/02_ARTIFACT_INTEGRITY_VERIFICATION.json,.json,Audit Evidence,4357,ae187408b8fa7f7a98fe1e1f1d7aadf86f9ff07ca9d93a59c4fbefae1b1977e2,"JUnit XML receipts, SBOM, and audit logs"
+evidence/02_PACKAGED_ASSET_COMPARISON.md,.md,Audit Evidence,3298,e794ce46946996e495964adbb8af1c827d461cb1c8b8f001873c625eb87f47c9,"JUnit XML receipts, SBOM, and audit logs"
+evidence/02_WHEEL_CONTENTS_MANIFEST.txt,.txt,Audit Evidence,19611,5ddd724867d8b9ded61a85efb9490cf484d3e35b362d9dac7d10aa204ab9acd6,"JUnit XML receipts, SBOM, and audit logs"
+evidence/03_AUTHORIZATION_MATRIX.csv,.csv,Audit Evidence,988,94d23a41fe26e5e6ecee094b33abe555076893889db9913c017367a82b3494a3,"JUnit XML receipts, SBOM, and audit logs"
+evidence/03_DEPENDENCY_VULNERABILITIES.json,.json,Audit Evidence,520,3c7b7e193d7f09015bb0bb863bc52414e64093d093b03c14dbf48135f9e987fd,"JUnit XML receipts, SBOM, and audit logs"
+evidence/03_SECURITY_AUDIT.md,.md,Audit Evidence,4128,283d2c5bfe6e0c2808d6808e0a47b50e7285b5f7257ea7e51e17135ddf138d74,"JUnit XML receipts, SBOM, and audit logs"
+evidence/03_SECURITY_NEGATIVE_TESTS.xml,.xml,Audit Evidence,1988,cb27c88485f9335d9ca078bcd8dfe4cdb2029720a3742dda3993e40d066f4b00,"JUnit XML receipts, SBOM, and audit logs"
+evidence/03_SOFTWARE_BILL_OF_MATERIALS.json,.json,Audit Evidence,1876,c671b4044620f3e1cb71a95f94a6a505600567b031b4888e2132038c6cb0f2a7,"JUnit XML receipts, SBOM, and audit logs"
+evidence/04_API_CONTRACT_RESULTS.xml,.xml,Audit Evidence,1358,a9792b5ad780e3c286c553f85ffc14b255e923a9db8693eada670b2adfdd2b58,"JUnit XML receipts, SBOM, and audit logs"
+evidence/04_BROWSER_JOURNEY_RESULTS.xml,.xml,Audit Evidence,752,506c63bae52fb1badc94700b24c737c49edc78269ef4010ee72bbc7c43a46a0e,"JUnit XML receipts, SBOM, and audit logs"
+evidence/04_FRONTEND_API_WORKFLOW_MATRIX.md,.md,Audit Evidence,5251,a8e2477f89da72162362ebdf8908833858127d13eac27f64c749b2db62eb19d9,"JUnit XML receipts, SBOM, and audit logs"
+evidence/05_GEOSPATIAL_BROWSER_TESTS.xml,.xml,Audit Evidence,480,31e77805db5fddc3d8c8e1df4996cd56350aafcbde31cb1d05c176bcbadc410f,"JUnit XML receipts, SBOM, and audit logs"
+evidence/05_MAPLIBRE_RUNTIME_VERIFICATION.md,.md,Audit Evidence,2033,4a77208bbaf65c35477b4130506057336d54964727c20f9d7b8343f896340a37,"JUnit XML receipts, SBOM, and audit logs"
+evidence/06_INFERENCE_HTTP_RESULTS.xml,.xml,Audit Evidence,743,33509f7b2002f17442ef6b706b0604c4e5bbe2b6343bef254ed5496f3cb8d04d,"JUnit XML receipts, SBOM, and audit logs"
+evidence/06_MODEL_BENCHMARK_PROVENANCE.md,.md,Audit Evidence,1003,aa4ae20796159e01f75aa828985dbec7b4da1435d3f62c99c3f0f97eebaac7ed,"JUnit XML receipts, SBOM, and audit logs"
+evidence/06_MODEL_SERVING_VALIDATION.md,.md,Audit Evidence,1407,faf5ded01e8882244a7238e0726007b6d9f7b3ec0a820fed8abc63a8b41fffe3,"JUnit XML receipts, SBOM, and audit logs"
+evidence/07_POWER_SYSTEM_VALIDATION.md,.md,Audit Evidence,1085,5996540ed4eaefbede7b6081faae4ec13a008695661ca9272d0fac3a9bbbdaf3,"JUnit XML receipts, SBOM, and audit logs"
+evidence/07_SIMULATION_VS_LIVE_OPERATION_BOUNDARIES.md,.md,Audit Evidence,1265,cec4706ba876df253dc8d86e24fb03b685b28b70ff27be5a4ffef365d21bb60f,"JUnit XML receipts, SBOM, and audit logs"
+evidence/08_METRICS_VERIFICATION.log,.log,Audit Evidence,1506,8eb487448d5f01a0b39d82e0df2bd7649bf081be17adecf0e70e0ddafb99c3b6,"JUnit XML receipts, SBOM, and audit logs"
+evidence/08_SUPPORTED_WORKER_CONFIGURATION.md,.md,Audit Evidence,662,2749c7d7a31ced95d2e2fc643f458a8ede464653e4e665b2f07f55d7d3984b5b,"JUnit XML receipts, SBOM, and audit logs"
+evidence/08_TELEMETRY_ARCHITECTURE_DECISION.md,.md,Audit Evidence,1836,8d282a5b0d2158310cb8d9a7ec693f1ff27714f5cddcdcb6fcec4c0c6cab69ae,"JUnit XML receipts, SBOM, and audit logs"
+evidence/09_CRASH_RECOVERY_RESULTS.xml,.xml,Audit Evidence,778,84aad4913e2c7ab9b34811c8f0e2b55fc9d52278cf3968b88a071aef47299824,"JUnit XML receipts, SBOM, and audit logs"
+evidence/09_PROCESS_LIFECYCLE_RESULTS.md,.md,Audit Evidence,785,492170f0b3fa43c60947870b3f99033d32eaa068788861946ec03eaf3c8fe396,"JUnit XML receipts, SBOM, and audit logs"
+evidence/10_BACKUP_RESTORE_VALIDATION.md,.md,Audit Evidence,880,b8b9b95d188c4c6c033b614bc3fc38cb05e17dfaf9f3517f8cb97d909bc0ec4f,"JUnit XML receipts, SBOM, and audit logs"
+evidence/10_DISASTER_RECOVERY_RUNBOOK.md,.md,Audit Evidence,995,1b3fdafd3695fd5c3ce477d430b9086686b7ea1d5ab55a0d966fbedf55499fb0,"JUnit XML receipts, SBOM, and audit logs"
+evidence/11_KAFKA_BROKER_TESTS.xml,.xml,Audit Evidence,687,b90b9606dc25e07240d98c28329d926b4b89e55d5548fdbc54decc86c89ebd58,"JUnit XML receipts, SBOM, and audit logs"
+evidence/11_KAFKA_INTEGRATION_REPORT.md,.md,Audit Evidence,2957,7c6c73fb6bed3e676051d75a1b689b9fdf6184120f3edac7b41d0702723c30ff,"JUnit XML receipts, SBOM, and audit logs"
+evidence/12_DEPLOYMENT_CONFIG_AUDIT.md,.md,Audit Evidence,941,f3fc315d36ee4757db5d7fa92cf5b4fc2366a83926c47518ba9fe6b62f6f9422,"JUnit XML receipts, SBOM, and audit logs"
+evidence/12_HELM_VALIDATION.md,.md,Audit Evidence,2221,59ea0ca078096e0cb02d1ebbcc3f47ba094407526b86e89b9e61ee8c6fc5971c,"JUnit XML receipts, SBOM, and audit logs"
+evidence/12_KUBERNETES_STAGING_RUNBOOK.md,.md,Audit Evidence,1785,2fb20f905c137ec83e4247ca77c23406350ba07afcf29fc26b4c1486d4abc7a8,"JUnit XML receipts, SBOM, and audit logs"
+evidence/13_BROWSER_TEST_REPORT.xml,.xml,Audit Evidence,1177,8bcf5b159c79b6301027733494f80ab732d054ee2e6391c5053d3dfd51d770c6,"JUnit XML receipts, SBOM, and audit logs"
+evidence/13_FRONTEND_QUALITY_REPORT.md,.md,Audit Evidence,3121,3e4c1229aa9112c938372b53c0a91750683df217c29135821f330c1f81c13598,"JUnit XML receipts, SBOM, and audit logs"
+evidence/14_FULL_PYTHON_REGRESSION_SUMMARY.md,.md,Audit Evidence,1996,0801512ac232d828e5787defd7632fbe0550559da2af4b681a240089c06adfcf,"JUnit XML receipts, SBOM, and audit logs"
+evidence/14_JUNIT/data.junit.xml,.xml,Audit Evidence,55164,3a127452164d731c733cb75e58e8b6cbc251dce92595f0650a34435dbc2eb545,"JUnit XML receipts, SBOM, and audit logs"
+evidence/14_JUNIT/datasets.junit.xml,.xml,Audit Evidence,38271,ea53f59f3d930fcabf10833d129c5f7650f5e3ca078dd1cf514229984d5ecaee,"JUnit XML receipts, SBOM, and audit logs"
+evidence/14_JUNIT/demo.junit.xml,.xml,Audit Evidence,9435,c43cdfd8901bf846abf4cd981030ab0b20576a0c4e0bfd1c35b660b075c11feb,"JUnit XML receipts, SBOM, and audit logs"
+evidence/14_JUNIT/energy.junit.xml,.xml,Audit Evidence,5133,7227071acff46295ee207953924f73676238892086dc84d250a483181765ed1e,"JUnit XML receipts, SBOM, and audit logs"
+evidence/14_JUNIT/governance-monitoring-integration.junit.xml,.xml,Audit Evidence,2587,0e4f3600543863aa0adafa39606152489d76e6afd020580b17f16bdaeff39f4c,"JUnit XML receipts, SBOM, and audit logs"
+evidence/14_JUNIT/governance-monitoring.junit.xml,.xml,Audit Evidence,6152,c4d05f6220356d8115e400d5a4435be5b3ec8c6bccd478a24e2cd4269af7e8cd,"JUnit XML receipts, SBOM, and audit logs"
+evidence/14_JUNIT/misc.junit.xml,.xml,Audit Evidence,1685,1f1399ad5fef498012e974c261d8fec9846211513dd76f98ce7e72aee59bfc59,"JUnit XML receipts, SBOM, and audit logs"
+evidence/14_JUNIT/neural-security.junit.xml,.xml,Audit Evidence,2351,1e50ee15dba3353335c31e4b8ace4fe66742d5f81bdace9a449d4ca0b5aebaee,"JUnit XML receipts, SBOM, and audit logs"
+evidence/14_JUNIT/partition1-energy.junit.xml,.xml,Audit Evidence,10017,0c1be1517a66136a6eeefbe8bdc33825562b00fe56bf2d5ed0626016535b03e4,"JUnit XML receipts, SBOM, and audit logs"
+evidence/14_JUNIT/partition10-security.junit.xml,.xml,Audit Evidence,1096,516c3f8d0db593c2db920c637e7cb194cad69d009e978152d7cc400af68cfbcc,"JUnit XML receipts, SBOM, and audit logs"
+evidence/14_JUNIT/partition11-governance.junit.xml,.xml,Audit Evidence,881,575d1f0ef0179c66db10eacc27ffa8de54be942f4bc8509828b7cc9e124d2128,"JUnit XML receipts, SBOM, and audit logs"
+evidence/14_JUNIT/partition2-serving.junit.xml,.xml,Audit Evidence,4584,d809ec3fc632904717333ab1d52a57ff9234e210080290b8aaee6ecc64d9e0c5,"JUnit XML receipts, SBOM, and audit logs"
+evidence/14_JUNIT/partition3-stgnn.junit.xml,.xml,Audit Evidence,2301,196c7e0eb843052323bcdece397b3481e48a4fd6ade91b0a5bd651acf0729a4f,"JUnit XML receipts, SBOM, and audit logs"
+evidence/14_JUNIT/partition4-neural.junit.xml,.xml,Audit Evidence,4625,64cc8fbb03fb84170b6e38d64bfe3398d16359157cab9fe6cfb99e480523f059,"JUnit XML receipts, SBOM, and audit logs"
+evidence/14_JUNIT/partition6-graphs.junit.xml,.xml,Audit Evidence,2558,1eea1c7d9c4025cbae8c9d1679b7aed78c033c5f5141075f2597967a10bc2e3f,"JUnit XML receipts, SBOM, and audit logs"
+evidence/14_JUNIT/partition7-uncertainty.junit.xml,.xml,Audit Evidence,2870,90fc430dbd1c0727656c963e0dd651e482ae2555a1853a94b7010a0089178901,"JUnit XML receipts, SBOM, and audit logs"
+evidence/14_JUNIT/partition8-monitoring.junit.xml,.xml,Audit Evidence,1088,dc383b497e8686964f06d7250cd9ea06be7aca21f36b6b0aa6722a219a45f604,"JUnit XML receipts, SBOM, and audit logs"
+evidence/14_JUNIT/partition9-integration.junit.xml,.xml,Audit Evidence,2795,6ffef20706fe6f5edcd7e9387a4c4e99fe8bb3a7050586f44dd4437e83354f02,"JUnit XML receipts, SBOM, and audit logs"
+evidence/14_JUNIT/serving.junit.xml,.xml,Audit Evidence,8113,6088f45613614fcc59d4612baa711ea39aa62716bad35c37a0ba8e04dd6970d2,"JUnit XML receipts, SBOM, and audit logs"
+evidence/14_PARTITION_EXIT_CODES.json,.json,Audit Evidence,1946,c239d7c1e12672f3d013dcb928aa1ab4bb0d42d9b56a68cfa0936fdf0b995ba7,"JUnit XML receipts, SBOM, and audit logs"
+evidence/15_FRONTEND_BUILD.log,.log,Audit Evidence,996,95447efa299f9eabbe6ae6a836d410efd4756980d00ee2d34ee2330b9abc5b85,"JUnit XML receipts, SBOM, and audit logs"
+evidence/15_PLAYWRIGHT.xml,.xml,Audit Evidence,1177,8bcf5b159c79b6301027733494f80ab732d054ee2e6391c5053d3dfd51d770c6,"JUnit XML receipts, SBOM, and audit logs"
+evidence/15_VITEST.xml,.xml,Audit Evidence,1458,93e12d6718719c40e05eba68d2de2e821c59b96340230675a78c6eb496ef3eda,"JUnit XML receipts, SBOM, and audit logs"
+evidence/16_CLEAN_ROOM_INSTALLATION.log,.log,Audit Evidence,252,a2d5913abdb07645dfdc32c75f3744c36b7a6dd3fe8fc6d558fc262c0c3fcff8,"JUnit XML receipts, SBOM, and audit logs"
+evidence/16_INSTALLED_PACKAGE_MANIFEST.txt,.txt,Audit Evidence,87,0fc508e3a51dd2194deb6f0760ba17100ce7f376b79c87629369b69ea0df44a3,"JUnit XML receipts, SBOM, and audit logs"
+evidence/16_PRODUCTION_HTTP_RESULTS.xml,.xml,Audit Evidence,1734,d509c096d82a189e0c9f785d0bddc1c2921fe1872732da3ea124033efb1c3626,"JUnit XML receipts, SBOM, and audit logs"
+evidence/16_PRODUCTION_RELEASE_ARTIFACT_INTEGRITY.json,.json,Audit Evidence,529,4d2fab8ac7a8573787b57b1cb4f279302e36bd01f89c6f9f58d9cfade4f11ac9,"JUnit XML receipts, SBOM, and audit logs"
+evidence/17_LOAD_TEST_RAW_DATA.csv,.csv,Audit Evidence,8956,19ac02066667e4dba0064ee0e964563febca93aaff0267ab74df59d98518f6cb,"JUnit XML receipts, SBOM, and audit logs"
+evidence/17_PERFORMANCE_AND_CAPACITY_REPORT.md,.md,Audit Evidence,1522,03e5fbbf62ba8e87076d81e4ccfb069ea7c8e2171e0bec8d9b5f655df7e8087b,"JUnit XML receipts, SBOM, and audit logs"
+evidence/18_ROLLBACK_TEST_RESULTS.xml,.xml,Audit Evidence,618,348ec8d98b46aef424226b5931f54bd2785173c406dd3bdc12325721a259a076,"JUnit XML receipts, SBOM, and audit logs"
+evidence/18_ROLLBACK_VERIFICATION.md,.md,Audit Evidence,1943,b7d2430b4108b6400d98692c7c9f77a075cd0647efa4a01dadac1ef857165e0f,"JUnit XML receipts, SBOM, and audit logs"
+evidence/EXECUTION_LEDGER.md,.md,Audit Evidence,6434,b980431e3912011ec2ae46e37bc60451e8552002056f75b8f3cf80cfca358a88,"JUnit XML receipts, SBOM, and audit logs"
+examples/api_client_example.py,.py,Developer Examples,960,1083f8a7893007b292fd6f3dba1b6233b9b53fc55087de1c468192a5699c02d7,API client usage snippets & curl scripts
+fixtures/FIXTURES_README.md,.md,Data Fixtures,552,a4325d286e6789840d7da50993b7a7136b8d192516e9599fa0bb30e07c52a5db,Synthetic power grid topologies & load profiles
+fixtures/eg006/fixtures/battery_scenario.json,.json,Data Fixtures,6782,e4b6475ca865b6380bc47b8185154a269c2e4761cc7f25e816f8a280323c9374,Synthetic power grid topologies & load profiles
+fixtures/eg006/fixtures/forecasts_and_intervals.json,.json,Data Fixtures,134121,104e11b4e0a1b685e4dcd5d18ffaf02e0b30c410beada832f9289b2f5fc28e71,Synthetic power grid topologies & load profiles
+fixtures/eg006/fixtures/graph.json,.json,Data Fixtures,826,53ab0372a5bdd8902fc829e149d7e741e52558fbf9a52a3a18cc6edd5e4c3790,Synthetic power grid topologies & load profiles
+fixtures/eg006/fixtures/hourly_energy.csv,.csv,Data Fixtures,96057,6e8b0fa2bca8eb10db068df20c647894c95a63eade9de096302a13bcc8b0e3c3,Synthetic power grid topologies & load profiles
+fixtures/eg006/manifest.json,.json,Data Fixtures,850,dbb346f67e45dccc6a0738244417856ad486e184b5f539b711e21ef5c526b9ae,Synthetic power grid topologies & load profiles
+frontend/README.md,.md,Source Code (Frontend),626,c6653911428515aae9c5a11d9ed72ed6863515ea6db1b0f1773454ba90d962cb,React 18 / TypeScript SPA user interface
+frontend/index.html,.html,Source Code (Frontend),391,294e14d72a24aefecd3845897d6758b0611509ed532d3bd4aa6eea2086a3d6be,React 18 / TypeScript SPA user interface
+frontend/package-lock.json,.json,Source Code (Frontend),142338,0f8b4685f81b6c9eadd2176c9273142fa39b2c52d2581b0e57e25d25b1991552,React 18 / TypeScript SPA user interface
+frontend/package.json,.json,Source Code (Frontend),866,567e51d3ea6b089982a12bf8ed8139012f380de584536da6d35d363e23a9e937,React 18 / TypeScript SPA user interface
+frontend/playwright.config.ts,.ts,Source Code (Frontend),2111,d5cc1c53e28472d4ef93d6f891757b62719d9cb6efba7fa76ecd75812b02bdbc,React 18 / TypeScript SPA user interface
+frontend/src/App.tsx,.tsx,Source Code (Frontend),14644,83d55849b54359b39ea399b6b34b53b7998b148996d366a9832eeaa49b3a5290,React 18 / TypeScript SPA user interface
+frontend/src/api.ts,.ts,Source Code (Frontend),7104,b49820d36dead9db09c367fb02b93986985d246a1538df50483d8019ef3a14ed,React 18 / TypeScript SPA user interface
+frontend/src/components/DeckGLGeospatialOverlay.tsx,.tsx,Source Code (Frontend),5327,64dd490e5d906dc2d220bfcb0d85fe95134de5356ca69ab9dfd343e547e814a4,React 18 / TypeScript SPA user interface
+frontend/src/components/GeospatialCommandCenter.tsx,.tsx,Source Code (Frontend),20325,7f15c24fa7a33be2462b52079e3ac117877ae5aae07406a3483c5ea551d0cedb,React 18 / TypeScript SPA user interface
+frontend/src/components/GridSimulationLab.tsx,.tsx,Source Code (Frontend),14299,d9c09f7cd058c423ef6f543a829ca494240905797f2dbe50204fa9f6ef9e943a,React 18 / TypeScript SPA user interface
+frontend/src/components/MapLibreGLMap.tsx,.tsx,Source Code (Frontend),6624,3c8c8a8e6a4e1abff789eee1cc18e1d895babadff617f1b5d4f5562835ac9bda,React 18 / TypeScript SPA user interface
+frontend/src/main.tsx,.tsx,Source Code (Frontend),227,ecbab1c0bdebdadc6f975be6c7e0bea157bc0c95f0059b30a57d3830173e1f85,React 18 / TypeScript SPA user interface
+frontend/src/style.css,.css,Source Code (Frontend),8896,433238d89220735688e8a8895b23ed9bca279125ace7a338fcd664b748fe73ad,React 18 / TypeScript SPA user interface
+frontend/src/vite-env.d.ts,.ts,Source Code (Frontend),39,424faf9241dd699dda995b367ed36665732da1e6ec1f33b2fd40394488ecac92,React 18 / TypeScript SPA user interface
+frontend/tests/App.test.tsx,.tsx,Source Code (Frontend),3206,1de0d139ddd2bd037dce98c86bc742708d4392aaba69ef8b37038bd8bb76f6d2,React 18 / TypeScript SPA user interface
+frontend/tests/GeospatialCommandCenter.test.tsx,.tsx,Source Code (Frontend),2666,8301b9b7b2840cd8bb79946a9b0ae074e3dde03e7480cef3eefd12af091df60b,React 18 / TypeScript SPA user interface
+frontend/tests/e2e/demo.spec.ts,.ts,Source Code (Frontend),9356,09169b94c39f8ff9cf180b117ed989b77b2b0267cb98ce815117a4e6e18bc614,React 18 / TypeScript SPA user interface
+frontend/tests/setup.ts,.ts,Source Code (Frontend),44,f71ca1cf640eac1977e9a2c151d989dbaebb2eaea41c87bfee752c8734520fc9,React 18 / TypeScript SPA user interface
+frontend/tsconfig.json,.json,Source Code (Frontend),345,e8909aae70711156d393b4e4f5472beb6ca3205994be24f88aabc91450583392,React 18 / TypeScript SPA user interface
+frontend/vite.config.ts,.ts,Source Code (Frontend),690,d8485bd1b6201f3d129c53abe896ac0e6c8b52606976230d84dce28ba886e389,React 18 / TypeScript SPA user interface
+infrastructure/README.md,.md,Infrastructure Deployment,177,7bd3e6563d57cf41b746ce17c5961f6b22aad2cef01d72377358fea8c2785740,Helm charts & Kubernetes manifests
+infrastructure/helm/energraph-ai/Chart.yaml,.yaml,Infrastructure Deployment,355,90e9cb30b1f9dc2de74dd5502255134b1653284fa78f897b41a382d4c142db18,Helm charts & Kubernetes manifests
+infrastructure/helm/energraph-ai/templates/configmap.yaml,.yaml,Infrastructure Deployment,570,317a4d3c588a3ea9237a0a54a2a203dfdce08880dd67c64ddc3499169155c38c,Helm charts & Kubernetes manifests
+infrastructure/helm/energraph-ai/templates/deployment.yaml,.yaml,Infrastructure Deployment,2419,c5adc716bbc5a44211c5e58b778fd569973132a06868909717241bfd41705247,Helm charts & Kubernetes manifests
+infrastructure/helm/energraph-ai/templates/ingress.yaml,.yaml,Infrastructure Deployment,1134,2ff30d52e3ded1da1254505c8739b0e198e38c635d356c95c0b42aeda81156c4,Helm charts & Kubernetes manifests
+infrastructure/helm/energraph-ai/templates/networkpolicy.yaml,.yaml,Infrastructure Deployment,844,3894c08760467d067ebc0f11934fc8b4fae7b404abcbb91d4f1d10d443f23cbe,Helm charts & Kubernetes manifests
+infrastructure/helm/energraph-ai/templates/pdb.yaml,.yaml,Infrastructure Deployment,483,29f71af99fc807355f48c066bacf92156ec6e4159e26ef28615091f5af705bb0,Helm charts & Kubernetes manifests
+infrastructure/helm/energraph-ai/templates/secret.yaml,.yaml,Infrastructure Deployment,519,f8c08c2e33ada84c8219b258001269b59534fde3b9dc51adf25904670b8b9355,Helm charts & Kubernetes manifests
+infrastructure/helm/energraph-ai/templates/service.yaml,.yaml,Infrastructure Deployment,455,ed40dc6c9fd418e0d03d36c2671cee8b38cc91a160199a52a2439534a8ced837,Helm charts & Kubernetes manifests
+infrastructure/helm/energraph-ai/templates/serviceaccount.yaml,.yaml,Infrastructure Deployment,294,d52aafdc58a793c8f0fc2493ef5a360e4d7042a538b88d88ef07bf6bf682886d,Helm charts & Kubernetes manifests
+infrastructure/helm/energraph-ai/values-production.yaml,.yaml,Infrastructure Deployment,2896,b4dd85b3e14e3c7cf9a986e2e06fb9be9ee67d26f168074dc07437c547622298,Helm charts & Kubernetes manifests
+infrastructure/helm/energraph-ai/values.yaml,.yaml,Infrastructure Deployment,1598,35aa2dc1a4ab83e205e99722381e4682e7a4716a3735f4e3a6390c5174fb4a09,Helm charts & Kubernetes manifests
+infrastructure/k8s/deployment.yaml,.yaml,Infrastructure Deployment,3355,52115ca74184b4f1852f431c8639a3e02c14b8f864ca2ac216e589c12b0b8d11,Helm charts & Kubernetes manifests
+infrastructure/k8s/service.yaml,.yaml,Infrastructure Deployment,1008,5032ee1b18d090398adb8eb3a19660195b61a5eccd7894be9ebd117aafa0ed3b,Helm charts & Kubernetes manifests
+models/MODEL_CARD.md,.md,Machine Learning Models,840,1cb0a78371592e36766ae86e7ca5eb4adf2c8faf51caa4cb752bfe9e995ddb41,Pretrained weights & model cards
+models/urbangraphformer_synth.pt,.pt,Machine Learning Models,307701,b4cce4e920fba2ebb88c2b54fe1b02d788e60c6b5f458d2004219631c2391e78,Pretrained weights & model cards
+monitoring/grafana_dashboard.json,.json,Monitoring & Telemetry,627,ce70701c64cc655f57361964bffec153fe8b1e2868356aa5ad23c2dd0912552d,Prometheus alerts & Grafana dashboards
+monitoring/prometheus_rules.yaml,.yaml,Monitoring & Telemetry,575,d64e6500d30063fdfcfccc1844743428bcb953638c432f8afe24fda0d8175f7e,Prometheus alerts & Grafana dashboards
+presentation/UrbanGraph_Intelligence_Project_Presentation.pptx,.pptx,Executive Presentation,1548020,1d0e847fd67b2388d3d4d1d22e236d07ff4f83b63d520e6cc7119b02b634b440,Slide deck briefing in editable PPTX format
+pyproject.toml,.toml,Project Root,1848,558889e19054df25f262545b7bd04cc6986d955171129947fece5a05aa20ac51,"Repository governance, licensing & environment templates"
+release/FINAL_RELEASE_SHA256.txt,.txt,Binary Release,390,b6a75033f4cc0b5c392da30251de4900f822114ee97443f84c65709dd57f8b2b,Authoritative wheel distribution & release metadata
+release/RELEASE_METADATA.json,.json,Binary Release,851,971024e6e16b1674f1712269869e9e9f5f6a95d1b24840c7fe19b7647435c90b,Authoritative wheel distribution & release metadata
+release/urbangraph-0.2.0rc3-py3-none-any.whl,.whl,Binary Release,1267084,b0cfc7297bbc6c5f76b790f15bd5cca40873e48c7d34089cc32460fb360b3c97,Authoritative wheel distribution & release metadata
+reports/UrbanGraph_Intelligence_Complete_Project_Report.md,.md,Project Reports,27840,9e9e3065edc5ca223a4b775f7aed0c29d7d4bb5da64ca65da859eadb914933d3,Definitive project report in Markdown and PDF
+reports/UrbanGraph_Intelligence_Complete_Project_Report.pdf,.pdf,Project Reports,30899,c4397b22b45ce4cac8466956b4ca5b7378721b21481fdf94f466584cb47a83d8,Definitive project report in Markdown and PDF
+scripts/generate_eg006_synthetic.py,.py,Operational Scripts,6367,138a1e4ab5c278de5c994d0522ab1baf9853b0f852d2c5f2652032981f324085,PowerShell & Python automation runbooks
+scripts/install_local.ps1,.ps1,Operational Scripts,6997,f64628c54802bcf3a790eb2cd6e778034b211e3d5853bf9a5888d19e1c2009fe,PowerShell & Python automation runbooks
+scripts/reset_local_demo.ps1,.ps1,Operational Scripts,2390,7c1b451e494fb19ae4fb8db3097d145cca93dc38d9963275c80e3541b1f05f85,PowerShell & Python automation runbooks
+scripts/run_eg006_demo.ps1,.ps1,Operational Scripts,2867,fa53516c44411811d40b6d2a8ce07594aa487430e41bf7e7a016f364cd7b9027,PowerShell & Python automation runbooks
+scripts/run_local_tests.ps1,.ps1,Operational Scripts,3216,1a3343b7c6532c5c292f0c6116fe64f0f1e21336154f534ebcfd805d61d73556,PowerShell & Python automation runbooks
+scripts/start_local.ps1,.ps1,Operational Scripts,7144,2abee72195f821f639e0fe064f474a4f6d2b62a8978248011b225aab88414b70,PowerShell & Python automation runbooks
+scripts/stop_local.ps1,.ps1,Operational Scripts,3011,2b7f2be96feabbe2b420966a8a0e54f323a32989d67884b1a5a0623cf4877de9,PowerShell & Python automation runbooks
+scripts/verify_local.ps1,.ps1,Operational Scripts,7322,4aea68c03990aa28a84218ed3abe3f8a74230159dd88b075ffbb00d15698ebcb,PowerShell & Python automation runbooks
+security/README.md,.md,Security & Governance,229,fb726d12c2237c7122265801afa5eb2c4fcdefe62291fc9469a98840c0984c87,"Security policies, threat model & RBAC matrices"
+src/energraph/__init__.py,.py,Source Code (Backend),86,a993fbdcb348141b030c5dbc86091cebfc16922289b1f5c1fe1116918f9e2910,Core Python application logic and bundled static assets
+src/energraph/artifacts.py,.py,Source Code (Backend),32649,e03852fcce566b8f393185aae8b778ed2a67bdb595604024fd78834db6992ef9,Core Python application logic and bundled static assets
+src/energraph/broker_adapter.py,.py,Source Code (Backend),12405,2afde1998c5ee1ec5a01983d20474dbcb87cead080546c43ec4d5ed7e4b77c93,Core Python application logic and bundled static assets
+src/energraph/broker_contract.py,.py,Source Code (Backend),6160,b1341781d79377219f55c1e56345d38dc907ae50ad829ccd0246ad1bca8c4c95,Core Python application logic and bundled static assets
+src/energraph/broker_registry.py,.py,Source Code (Backend),25831,daed9be74c59a6d63d218bfdd70ec4b77c20cfa566f664e128935bf837aeef1e,Core Python application logic and bundled static assets
+src/energraph/broker_service.py,.py,Source Code (Backend),7663,d5c24a710e42f292d1c43985eb5c2b3a2db0246e8dea87f81cbae924e28d0f31,Core Python application logic and bundled static assets
+src/energraph/broker_tree.py,.py,Source Code (Backend),5918,4e013873111cc216b5637ca36f253d286f69b9bd7ff226a162de32cddab5420d,Core Python application logic and bundled static assets
+src/energraph/canonical.py,.py,Source Code (Backend),12883,c558931c53237fbcd5a4517f22ca85828f07ee30308680b310f8da6faa4612e4,Core Python application logic and bundled static assets
+src/energraph/cli.py,.py,Source Code (Backend),17352,76ee6fed1a6fd58f725df6755e65bc49ad7d70dea03f27b8fb91a68a363ae681,Core Python application logic and bundled static assets
+src/energraph/contracts.py,.py,Source Code (Backend),3054,ff8557ba67842c9a9563ec019cf41b9be8a5638ae511bc31d43ecf1a9c735073,Core Python application logic and bundled static assets
+src/energraph/demo/__init__.py,.py,Source Code (Backend),86,c57ba9a1a29647567772340898c88bb2af1a6742060e7425e9f918fde43b37b8,Core Python application logic and bundled static assets
+src/energraph/demo/api.py,.py,Source Code (Backend),32886,4e54f06fa261d8aae1b25e260da7cf42d49c2cffedbc70c38f99e2eca7289965,Core Python application logic and bundled static assets
+src/energraph/demo/contracts.py,.py,Source Code (Backend),4791,8a8d60e54b8b2c5663d3e11e833e537b33b445f594234d733e1efc2a8182acd1,Core Python application logic and bundled static assets
+src/energraph/demo/fixtures.py,.py,Source Code (Backend),15523,2f909eaecad8ebf686faaf054766e326454c6c8de1dc57377f2275c3e74e513a,Core Python application logic and bundled static assets
+src/energraph/energy_boosting.py,.py,Source Code (Backend),28649,d99e5d2ca76b7c6826a8eb905261c68b32397fc3edbfaedbd08ad3c58a0cc069,Core Python application logic and bundled static assets
+src/energraph/energy_features.py,.py,Source Code (Backend),6135,6d9f900fc94709ea8509c3ec0c3749b9be5879abc8469de3ecf191dbd56bd10c,Core Python application logic and bundled static assets
+src/energraph/energy_graphs.py,.py,Source Code (Backend),33133,033903ecac426e794e2dd2bf4e3870dfbc2eb1bf1e50bef81ff8d04a68617444,Core Python application logic and bundled static assets
+src/energraph/evaluation.py,.py,Source Code (Backend),12084,d5bb2e3852e84f71e68f85a8114365ef90c2d4d082db6f572e1957bf58070964,Core Python application logic and bundled static assets
+src/energraph/experiments.py,.py,Source Code (Backend),24054,aeb8cd37e0cee4e0cec1d528c518adc828d7b5648160db5e6a1b93a2a632dce0,Core Python application logic and bundled static assets
+src/energraph/graph_authority.py,.py,Source Code (Backend),6021,733dcc5376ee34194a4c292f31f1255a140f38fa9c6ae0309c8568e7e22463df,Core Python application logic and bundled static assets
+src/energraph/graph_binding.py,.py,Source Code (Backend),3479,65b1ae44d0b47068352895a071e46b9eb5cd0ff2a8421f58dd4f01624549ac9f,Core Python application logic and bundled static assets
+src/energraph/graph_cli.py,.py,Source Code (Backend),5039,7485bde3952d045a27dbfbf7d0842e281d190f9ed51a5e3ce298b7e8898d0f4c,Core Python application logic and bundled static assets
+src/energraph/graph_models.py,.py,Source Code (Backend),5085,1f0c1fb4ff84987afb987d61f98b07ae3517f9a683791f374c1b32064151fb16,Core Python application logic and bundled static assets
+src/energraph/graph_research.py,.py,Source Code (Backend),23745,94b7338e66d80c778e6fe281b63d7880c20f35e7489cfa80c0c127ac0e4dbfa9,Core Python application logic and bundled static assets
+src/energraph/graph_windows.py,.py,Source Code (Backend),4015,9830614849a358053f391b9f3a9b9e436e52ed66e97261c2c6727d97750f42ae,Core Python application logic and bundled static assets
+src/energraph/lineage.py,.py,Source Code (Backend),11193,00e363aa7cdab0e7ef0536750907f47b5733ce59982ca8ab6ea71e62941904da,Core Python application logic and bundled static assets
+src/energraph/multivariable.py,.py,Source Code (Backend),20266,c96a6aee467a9a6ffeeaff35ee8144f957ee232e59ca5dbe172551ab2353f917,Core Python application logic and bundled static assets
+src/energraph/optimization/__init__.py,.py,Source Code (Backend),607,c0bc3ce9c6a5b2e48c3e2adfccaf42a3cb241766b3f462e82f83ded25f99a1ca,Core Python application logic and bundled static assets
+src/energraph/optimization/physical.py,.py,Source Code (Backend),8410,b0912f77926c01080e21b351e04670df8c7333c96ac55ef7ffdb285df7ec0af2,Core Python application logic and bundled static assets
+src/energraph/optimization/population.py,.py,Source Code (Backend),6109,65be30e08b2730d0d60e567e2f2b3abd12a689b8703b9775eb50cf482682060a,Core Python application logic and bundled static assets
+src/energraph/optimization/solver.py,.py,Source Code (Backend),6600,51067c1c182dbfd1cb027394770713b5c2a5a275ced917952455ec254c61ad31,Core Python application logic and bundled static assets
+src/energraph/regional_cli.py,.py,Source Code (Backend),11836,1ee0c13d543fe95e817dce4b9bf487382c7dd64496b7271fcb3f2247f2da715e,Core Python application logic and bundled static assets
+src/energraph/regional_data.py,.py,Source Code (Backend),20830,9e105e7c8ef392f8b1d9c8731a0b2b7ead72d1590ee11dc4955b1bc4db7e8d64,Core Python application logic and bundled static assets
+src/energraph/regional_research.py,.py,Source Code (Backend),28596,ccb8f423e94af83477b386ed30c683448472308c74f480fc8b869a8623073787,Core Python application logic and bundled static assets
+src/energraph/regions.py,.py,Source Code (Backend),6711,adcab03dab553c145047f24a571b1c2debdb55a561b68595fa602b314c00ab47,Core Python application logic and bundled static assets
+src/energraph/scientific_report.py,.py,Source Code (Backend),9569,148c498841f6e578cf4b27344f08a2e117dba8b0f89ba8c6a4805f7b95bd5fdb,Core Python application logic and bundled static assets
+src/energraph/scientific_validation.py,.py,Source Code (Backend),10167,68abc4c04bb6f1d28dfa53801446422dbb72020a1c125b4b7b3500a9c399abe4,Core Python application logic and bundled static assets
+src/energraph/target_plans.py,.py,Source Code (Backend),13412,a9376057de2760a521c5cb68d4ddf099aef14ab35e48ac98ba0265626055fadd,Core Python application logic and bundled static assets
+src/energraph/uncertainty/__init__.py,.py,Source Code (Backend),70,a06f25175e15221f9ab7260e729ecf70769a141319bf788798665c8731a44389,Core Python application logic and bundled static assets
+src/energraph/uncertainty/cli.py,.py,Source Code (Backend),7228,780ff5b151683b8ca3ed638d5e36cc75f192db21991bf72ffeeabad9634bf97c,Core Python application logic and bundled static assets
+src/energraph/uncertainty/conformal.py,.py,Source Code (Backend),7285,1756f30ffdc9e9b5cc17847f72eea107c54953c02b29835bb97b2f69fc14df99,Core Python application logic and bundled static assets
+src/energraph/uncertainty/metrics.py,.py,Source Code (Backend),3079,913f30c7eae4aa4d382ad0da9f104673bffe6f0fb0bb95c3a34b4d42392847c2,Core Python application logic and bundled static assets
+src/energraph/uncertainty/population.py,.py,Source Code (Backend),9066,92121406d47f050332e99a4e9cdecaa6550c736a0b8238ea76fd819ff9fb679f,Core Python application logic and bundled static assets
+src/energraph/uncertainty/research.py,.py,Source Code (Backend),24023,04caf07889557b61755e40ffab15562a7eb4a9e1a3fdcf199f7a5f52567d2126,Core Python application logic and bundled static assets
+src/energraph/uncertainty/validation.py,.py,Source Code (Backend),2551,0f8c1ef3220a14a352623df556e2a3afabc1b4c5a68f3d224225e476defbfada,Core Python application logic and bundled static assets
+src/energraph/variables.py,.py,Source Code (Backend),3790,96e4634f450f6f888c8fb90c797ef150990847944e328df76da09984d6d52511,Core Python application logic and bundled static assets
+src/urbangraph.egg-info/PKG-INFO,none,Source Code (Backend),39152,c986854d3bfd90d283499859b272c34ee2b0cdb04a54cfe26d5fe5e7c3727e96,Core Python application logic and bundled static assets
+src/urbangraph.egg-info/SOURCES.txt,.txt,Source Code (Backend),6729,020b9432cf580c0497fbee0f8520c12f0e3bc15ddf4e8afc0e7cd2394b53b9f0,Core Python application logic and bundled static assets
+src/urbangraph.egg-info/dependency_links.txt,.txt,Source Code (Backend),2,7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6,Core Python application logic and bundled static assets
+src/urbangraph.egg-info/entry_points.txt,.txt,Source Code (Backend),74,f8e4faf1b67ff211841fa233be1c415ddb6c73e80a047c7f02b4bc06c9edd1d4,Core Python application logic and bundled static assets
+src/urbangraph.egg-info/requires.txt,.txt,Source Code (Backend),469,05fb9583442f43831465a35be89737d178b8c404e77b874736a889ae9e8aee45,Core Python application logic and bundled static assets
+src/urbangraph.egg-info/top_level.txt,.txt,Source Code (Backend),23,d2c9b9cd6b182adf1c65927966c8d511de01aba6d1cf7578c609a2ca57495328,Core Python application logic and bundled static assets
+src/urbangraph/__init__.py,.py,Source Code (Backend),269,d6334ae5632fbfa8319b053410e1a85fc8517e141b72d3f0216c4970a4355b96,Core Python application logic and bundled static assets
+src/urbangraph/baselines/__init__.py,.py,Source Code (Backend),84,98b0982b60f8dd3a4ceea643f56d6ee42843c881eeacf8c2b12166e7ac39e046,Core Python application logic and bundled static assets
+src/urbangraph/baselines/artifacts.py,.py,Source Code (Backend),6032,99dfdc8af9e9064935fc0e20c11908e07a6153b358a785098c61744e46322cbd,Core Python application logic and bundled static assets
+src/urbangraph/baselines/cli.py,.py,Source Code (Backend),5332,74a08b4c31d4c929ee1b266952163a587adcbcbe544527ae8e0b4b9296ce2bd1,Core Python application logic and bundled static assets
+src/urbangraph/baselines/contracts.py,.py,Source Code (Backend),4495,90e6f7b432bc1db70c9c86fb6b87ed1be835d3bfdc9b5564c29d5f0b597d67e1,Core Python application logic and bundled static assets
+src/urbangraph/baselines/history.py,.py,Source Code (Backend),8012,6baa837b4bd1d760194bc098dd073ab08d7db831a451d4c827ed137373789c82,Core Python application logic and bundled static assets
+src/urbangraph/baselines/models.py,.py,Source Code (Backend),11312,f2bb9ea2be4c7a6194528fd18bf4d4d6fb2a10ecdc3ab51d54b87e25cae31d47,Core Python application logic and bundled static assets
+src/urbangraph/baselines/registry.py,.py,Source Code (Backend),1427,f57c310cf1680cba2b553e4c067387b4b7359bb8473f45b53aa5784e43f408c7,Core Python application logic and bundled static assets
+src/urbangraph/baselines/reporting.py,.py,Source Code (Backend),3075,61f8ed9d0661eef570c6a91a0f57de5bc56a2b4d8e300621c4192673fb6de072,Core Python application logic and bundled static assets
+src/urbangraph/baselines/runner.py,.py,Source Code (Backend),15902,86c3b7c3661eedc3acea790643c6fe87df228a7cb89eed1392dc6aa45bd5cf06,Core Python application logic and bundled static assets
+src/urbangraph/baselines/scoring.py,.py,Source Code (Backend),2497,a33190eb57bf7c307e635d44754705455f991e8ed4daa5d92c183e6b6f8bd4ca,Core Python application logic and bundled static assets
+src/urbangraph/baselines/state.py,.py,Source Code (Backend),2259,951567ff3ba1a37fb9af33a95d896239eeea32bbecd5587af30d68a6eae3606d,Core Python application logic and bundled static assets
+src/urbangraph/benchmarks/__init__.py,.py,Source Code (Backend),80,01092e8f952a0333760f02c3c52c0d0ed6a1a8446c950efe1f9f616574b2a5b9,Core Python application logic and bundled static assets
+src/urbangraph/benchmarks/audit.py,.py,Source Code (Backend),11194,e8f27b8c0cb9ac3856c6ebeb12fa69a55da0fcbfeba0886841c07306d4267f89,Core Python application logic and bundled static assets
+src/urbangraph/benchmarks/cli.py,.py,Source Code (Backend),7479,2a5b1336e305f8ac7449fac11ceea112146138f0769e194449416dccaf3ae280,Core Python application logic and bundled static assets
+src/urbangraph/benchmarks/pipeline.py,.py,Source Code (Backend),7108,0382aabc8a6d62dcefab4e567441eece0e40307d1b91adffd9ffc4e837f6ca63,Core Python application logic and bundled static assets
+src/urbangraph/benchmarks/reports.py,.py,Source Code (Backend),2984,7383c3340d5c322f26d572bf9ca4712feacf27bbef15b6017024f44002f4afaf,Core Python application logic and bundled static assets
+src/urbangraph/benchmarks/sources.py,.py,Source Code (Backend),2839,baefe5f43d47b0b15093093e8b8a10551a2ceaa1f28aa675e31daa167159a531,Core Python application logic and bundled static assets
+src/urbangraph/benchmarks/spatial.py,.py,Source Code (Backend),3479,d24a812dfe8378ec982ecf4b3a7c8066c9fbdefadc1ad595fb31936d4148d5e5,Core Python application logic and bundled static assets
+src/urbangraph/boosting/__init__.py,.py,Source Code (Backend),77,27ce340e4fdd284de1ff1ef2a22055812a47f51a6a2ea75cfcc587194bb5da24,Core Python application logic and bundled static assets
+src/urbangraph/boosting/artifacts.py,.py,Source Code (Backend),9814,4b1b8a1408e7a7301b80c176657814c99a994cf5b35da234e5b19b12d0fe8e94,Core Python application logic and bundled static assets
+src/urbangraph/boosting/cli.py,.py,Source Code (Backend),6222,42a545299c374cf09a04159aa525bc10cbe4c1949397e3a0ed52cde9f3185599,Core Python application logic and bundled static assets
+src/urbangraph/boosting/contracts.py,.py,Source Code (Backend),6611,ee849add1d2884516a79cfba49cb13a00902876f54bd6c48bf39faa9a42d789d,Core Python application logic and bundled static assets
+src/urbangraph/boosting/features.py,.py,Source Code (Backend),5156,871d23fde246f8c2aa84e944d6c52c69eaa616b78188bab4e82b91958890d4b9,Core Python application logic and bundled static assets
+src/urbangraph/boosting/models.py,.py,Source Code (Backend),9630,957c4544ae7cc22ee49e4ae77d4ff79d6f79492c0b4bec03b9d5749c0fdc8d35,Core Python application logic and bundled static assets
+src/urbangraph/boosting/reporting.py,.py,Source Code (Backend),2857,837a935600b1649485ea690ae5938665a1ad4bb1dc73ea9a1704456aee9009d4,Core Python application logic and bundled static assets
+src/urbangraph/boosting/runner.py,.py,Source Code (Backend),11387,1e7a6673d03751190705e66f1e0c0cc05341b776b456f1c47b8b434b13ec33cd,Core Python application logic and bundled static assets
+src/urbangraph/boosting/sampling.py,.py,Source Code (Backend),6976,f289d3c34bbeadbeb20713144ccc471968fdcb9d5e624bb2d0864752371c4b4c,Core Python application logic and bundled static assets
+src/urbangraph/boosting/tuning.py,.py,Source Code (Backend),3829,6a9d5bd6e27bb37ff0be53a8c91f8c35dc5e545201baabebd743d8bb192d2087,Core Python application logic and bundled static assets
+src/urbangraph/checkpoints/urbangraphformer_synth.pt,.pt,Source Code (Backend),307701,b4cce4e920fba2ebb88c2b54fe1b02d788e60c6b5f458d2004219631c2391e78,Core Python application logic and bundled static assets
+src/urbangraph/data/__init__.py,.py,Source Code (Backend),722,73713d0e7da170a60dd2b15427083342761365377ada4f429753eabb090f7bfb,Core Python application logic and bundled static assets
+src/urbangraph/data/cli.py,.py,Source Code (Backend),3961,c3faac80f3c71b544af2148f0e1fdb3bd9f4843c05d39c6a5018d3d4454014c3,Core Python application logic and bundled static assets
+src/urbangraph/data/contracts.py,.py,Source Code (Backend),11429,daf684b29ee82fa9aee08b414316fff506376189479d170800e5d315b8fd7009,Core Python application logic and bundled static assets
+src/urbangraph/data/filesystem.py,.py,Source Code (Backend),4927,51df6b85813bdc3708cf16229effb01de969d9307789cf59227d0d7c7df28a26,Core Python application logic and bundled static assets
+src/urbangraph/data/ingestion.py,.py,Source Code (Backend),7944,92c162902f69921bb870dc44ff9eea00b1af4b60c2a917272d537398fe47cf36,Core Python application logic and bundled static assets
+src/urbangraph/data/rights.py,.py,Source Code (Backend),10104,bf160b146d94c9900699b190ebe0729e762750d04204e2ee205ed8bf7c9df1ea,Core Python application logic and bundled static assets
+src/urbangraph/data/saved_trust.py,.py,Source Code (Backend),1914,ddbc6ac878eaaa2c6a6d1b7180b45e51b4859933e41ab53d140d7b23ec02f73a,Core Python application logic and bundled static assets
+src/urbangraph/data/saved_use.py,.py,Source Code (Backend),2536,5a0f1ae1418a8d3b0362bd6835b2b14725f0a86124643d4bdbb47ee729b6556d,Core Python application logic and bundled static assets
+src/urbangraph/data/verification.py,.py,Source Code (Backend),4815,72236597992066e8df748ed998a750f79ad9ceb919c496c9ca0674119c23e9b8,Core Python application logic and bundled static assets
+src/urbangraph/datasets/__init__.py,.py,Source Code (Backend),230,1b4e3156979ebc200aef7f1ae6cd58379f26be535dfe154301798bcc664f7387,Core Python application logic and bundled static assets
+src/urbangraph/datasets/canonical.py,.py,Source Code (Backend),6210,9a8a47d2da741755f515f1a5cb1d775295f274807e215c4224f5a52929288ebc,Core Python application logic and bundled static assets
+src/urbangraph/datasets/cli.py,.py,Source Code (Backend),6256,855c1b06af22364a2f910d0b828dd18bd4566e5b9eeb5571bcdfe4017d2352da,Core Python application logic and bundled static assets
+src/urbangraph/datasets/contracts.py,.py,Source Code (Backend),6903,c4b4b8671b243a07c1f2434ddea742179f8dd1783ffbfff87169251ea7bcc257,Core Python application logic and bundled static assets
+src/urbangraph/datasets/governed_canonical.py,.py,Source Code (Backend),3005,1fddbe371c234e03890decb10e491c2597ee8293cef143d6fd8959d8c532d788,Core Python application logic and bundled static assets
+src/urbangraph/datasets/hdf5_adapter.py,.py,Source Code (Backend),4574,0c74cd6e09a58b80f79c9743a895af295fe5a5d1c7ca1d449912fcc5586f0bef,Core Python application logic and bundled static assets
+src/urbangraph/datasets/materialization.py,.py,Source Code (Backend),15977,213a49de302f89246dbf4f15f1f7adb8a8ea934b6c30a0f4b45e19c701f13cb4,Core Python application logic and bundled static assets
+src/urbangraph/datasets/profiling.py,.py,Source Code (Backend),8764,fbdf2efcfa89a4643c9acca2159f0e50588a664198d04ce3cef46bb98ea990a7,Core Python application logic and bundled static assets
+src/urbangraph/datasets/registry.py,.py,Source Code (Backend),710,76eb81f40670c2738241ddea2f6a4ec5e3d2936589253a8608c17b166c5ce620,Core Python application logic and bundled static assets
+src/urbangraph/datasets/serialization.py,.py,Source Code (Backend),3528,f15b4a8cfd9c12ed5b00741c3d483ddea17f04569c95b1aab2195ecee1fc7f23,Core Python application logic and bundled static assets
+src/urbangraph/datasets/validation.py,.py,Source Code (Backend),6967,2450b8e68cbdaaa7e08249400c9c25a864545f18532556727053bf8c2136abd3,Core Python application logic and bundled static assets
+src/urbangraph/evaluation/__init__.py,.py,Source Code (Backend),93,494e96899ce284982975f03f63b2e7b9d558f4c03b43c2a2d5e56c28e9ca9d35,Core Python application logic and bundled static assets
+src/urbangraph/evaluation/artifacts.py,.py,Source Code (Backend),11078,74441ba3af5ebfd83544646e176a1d21d19ecc983e754c9e02d688fb3df5046c,Core Python application logic and bundled static assets
+src/urbangraph/evaluation/cli.py,.py,Source Code (Backend),5741,4fdfe28461a3b77cf0821c7dfe4825979277c8d90bd8e63e77a4462cdb4456c4,Core Python application logic and bundled static assets
+src/urbangraph/evaluation/compatibility.py,.py,Source Code (Backend),1391,216a28ae8c9535f48a6b26aaeafcd5fc179cfbfb6fcb04f415f043fb60974edd,Core Python application logic and bundled static assets
+src/urbangraph/evaluation/contracts.py,.py,Source Code (Backend),11523,95389b21744ecf3edf99524fb74284276ff317d0aa88035986668d92b4f1dd5b,Core Python application logic and bundled static assets
+src/urbangraph/evaluation/dataset.py,.py,Source Code (Backend),3058,a76fdc5dce887e1e513ef465fafe782cdca25b241cf88f5b61c3fa8f5d8d6310,Core Python application logic and bundled static assets
+src/urbangraph/evaluation/metrics.py,.py,Source Code (Backend),8324,8ffa18a61f2a9f0cb8f5621873ba76459da81a7531bc3a51cfff79719383fe76,Core Python application logic and bundled static assets
+src/urbangraph/evaluation/planning.py,.py,Source Code (Backend),7979,4d7811a4640e25ba0f09cc843dac99766be24da40dd34f73e5a908b2bc580540,Core Python application logic and bundled static assets
+src/urbangraph/evaluation/preprocessing.py,.py,Source Code (Backend),7095,2c8e51347a8021589ed593eaa95466577f979104e810e2f45ff2ddddaa5e9bb3,Core Python application logic and bundled static assets
+src/urbangraph/evaluation/temporal.py,.py,Source Code (Backend),4552,d6a4f06d5520b766d216a1c7571ff4bc393ff1c0c5d30a7aa2d8c1b6c5398632,Core Python application logic and bundled static assets
+src/urbangraph/evaluation/windows.py,.py,Source Code (Backend),6924,2a210c927551ee0b060c0d07abe019a4297b254066cd7682b9932f6caa7a490e,Core Python application logic and bundled static assets
+src/urbangraph/fixtures/eg006/fixtures/battery_scenario.json,.json,Source Code (Backend),6782,e4b6475ca865b6380bc47b8185154a269c2e4761cc7f25e816f8a280323c9374,Core Python application logic and bundled static assets
+src/urbangraph/fixtures/eg006/fixtures/forecasts_and_intervals.json,.json,Source Code (Backend),134121,104e11b4e0a1b685e4dcd5d18ffaf02e0b30c410beada832f9289b2f5fc28e71,Core Python application logic and bundled static assets
+src/urbangraph/fixtures/eg006/fixtures/graph.json,.json,Source Code (Backend),826,53ab0372a5bdd8902fc829e149d7e741e52558fbf9a52a3a18cc6edd5e4c3790,Core Python application logic and bundled static assets
+src/urbangraph/fixtures/eg006/fixtures/hourly_energy.csv,.csv,Source Code (Backend),96057,6e8b0fa2bca8eb10db068df20c647894c95a63eade9de096302a13bcc8b0e3c3,Core Python application logic and bundled static assets
+src/urbangraph/fixtures/eg006/manifest.json,.json,Source Code (Backend),850,dbb346f67e45dccc6a0738244417856ad486e184b5f539b711e21ef5c526b9ae,Core Python application logic and bundled static assets
+src/urbangraph/governance/__init__.py,.py,Source Code (Backend),415,eb48c021258fa4aef482a45c16a85cdd0424d50c4f89e0502540b8ba8408e87e,Core Python application logic and bundled static assets
+src/urbangraph/governance/lifecycle.py,.py,Source Code (Backend),8561,a98cedad23bef3a8e8cc017e2f2354124b2022ad07c1e8ecf5d5789be3f65584,Core Python application logic and bundled static assets
+src/urbangraph/graphs/__init__.py,.py,Source Code (Backend),80,1329ccb30c0acdd6e5efed72c957df8fde8ea8fe60666108306084f447dce3cf,Core Python application logic and bundled static assets
+src/urbangraph/graphs/artifacts.py,.py,Source Code (Backend),15913,6debcb4e8662d0930d4ae9acde66dc310948aad5ff71509e5453de85522022ab,Core Python application logic and bundled static assets
+src/urbangraph/graphs/cli.py,.py,Source Code (Backend),4279,6e762fa80e838e77cf454a3a939669130be72128abc17b628c8cc11a9426a59c,Core Python application logic and bundled static assets
+src/urbangraph/graphs/construction.py,.py,Source Code (Backend),4570,3aa183eaf31ea8d00aeedc13a4ed078944a1f03363be393739d66f7d4f620285,Core Python application logic and bundled static assets
+src/urbangraph/graphs/contracts.py,.py,Source Code (Backend),4236,5ee2de393951daea5dc530c7dadb060ccfbdb3d2a2b1c338a37e65e39786f758,Core Python application logic and bundled static assets
+src/urbangraph/graphs/governed.py,.py,Source Code (Backend),11931,8d17aba9cf1bddfc2594e502ee28c7ccd991738bff56171b355589e301cdec89,Core Python application logic and bundled static assets
+src/urbangraph/graphs/normalization.py,.py,Source Code (Backend),3065,0d9056d848ba8ec4a0cb3b944c813e5057b5e94d01f4f65480449e2956764943,Core Python application logic and bundled static assets
+src/urbangraph/graphs/sources.py,.py,Source Code (Backend),5140,3e29b3512eaf7746a65a8c245459259a36a6319f371167b3b219c87416105abb,Core Python application logic and bundled static assets
+src/urbangraph/inference_contract.py,.py,Source Code (Backend),7960,00dc5f2ee5015da5e27c3b151e0f7593b6c2e90383039a209a4cf72af84a9933,Core Python application logic and bundled static assets
+src/urbangraph/logging.py,.py,Source Code (Backend),2052,e0e56edc18b21ea683eec3e28c09e0be2a729805edb6ea4deb890b3c7cfd6573,Core Python application logic and bundled static assets
+src/urbangraph/monitoring/__init__.py,.py,Source Code (Backend),560,7da181cecee17a9b7a40ec941634d27aa91ef049ca117cced94a5838fc3521ec,Core Python application logic and bundled static assets
+src/urbangraph/monitoring/drift.py,.py,Source Code (Backend),8448,00833310b3b13f06097cdbaa9a678b2e6ad520e5196919c5ee2fb21c9ffa20e1,Core Python application logic and bundled static assets
+src/urbangraph/monitoring/observability.py,.py,Source Code (Backend),9822,befdb115afe1e6bbf6cfa3792f0ff7c8e6e6ea8b8fcb251e2167480ef18ced1f,Core Python application logic and bundled static assets
+src/urbangraph/neural/__init__.py,.py,Source Code (Backend),255,0b97513108bbefbc79872776a1e9e617a62a9458ad92053bac94d8a00befe118,Core Python application logic and bundled static assets
+src/urbangraph/neural/artifacts.py,.py,Source Code (Backend),9412,4518c5b9c82cac13b9c364418abca53d228aa923fd5f8726336502a77415f412,Core Python application logic and bundled static assets
+src/urbangraph/neural/checkpointing.py,.py,Source Code (Backend),3163,329ad0d1784f513af3a25f0a7f16305ed20bcd494e99fca97be23cd0e41a6f86,Core Python application logic and bundled static assets
+src/urbangraph/neural/cli.py,.py,Source Code (Backend),5314,61d4b63452b153a9e5dfa83eb3ab6c7280494a41845330356686a179a2f13f86,Core Python application logic and bundled static assets
+src/urbangraph/neural/contracts.py,.py,Source Code (Backend),4654,5a55a40d10de6f38daa3baaa7eb8655c03ff036cbb4b28eedc679ebea2100173,Core Python application logic and bundled static assets
+src/urbangraph/neural/dataloaders.py,.py,Source Code (Backend),2876,30831c6108a4ef49e7af2ea347f760159a3c26a63b62021df300dec1dc57b7c9,Core Python application logic and bundled static assets
+src/urbangraph/neural/datasets.py,.py,Source Code (Backend),5750,56f493a46662fe5d17018e248a3977dad245659010a780773c70981af0bac1aa,Core Python application logic and bundled static assets
+src/urbangraph/neural/evaluation.py,.py,Source Code (Backend),3448,e246eafaff576466e92dded5383ea4ecaac24a5058bff44e83599746b9d52844,Core Python application logic and bundled static assets
+src/urbangraph/neural/losses.py,.py,Source Code (Backend),1138,f6c9ee479c1f453750adbc9169a473d9f71edba315a47046572b075e5bd1b23e,Core Python application logic and bundled static assets
+src/urbangraph/neural/models.py,.py,Source Code (Backend),4273,f43e9b75ae6a2f0e3ad5e72aa08c6bccaa85278dc127209b5ab98db8de8b9df4,Core Python application logic and bundled static assets
+src/urbangraph/neural/preprocessing.py,.py,Source Code (Backend),1581,b6e23a334b688cfcc9ae24cedbf4c4cf12945f1e4eed3fe7b0ce714227b260ba,Core Python application logic and bundled static assets
+src/urbangraph/neural/reporting.py,.py,Source Code (Backend),3142,7e260797bfa6d56e109146dd9bc635b3ed85d254554502eaad4430c775a550c5,Core Python application logic and bundled static assets
+src/urbangraph/neural/runner.py,.py,Source Code (Backend),7545,16176c2f4c2bc03469903644d68a7f0d9386da2267558e0c189ebb599817dbb2,Core Python application logic and bundled static assets
+src/urbangraph/neural/trainer.py,.py,Source Code (Backend),10614,820d83152843135ab7638217bf3a1b00df8c3a86f8400c460262c44ecd762f24,Core Python application logic and bundled static assets
+src/urbangraph/neural/training_policy.py,.py,Source Code (Backend),1463,cb5b80f0214874a4fc8c7de4c7c7a679fd9d45cf8a31fc11d4074e168f5c9a24,Core Python application logic and bundled static assets
+src/urbangraph/neural/tuning.py,.py,Source Code (Backend),4151,3875c5b73022424acb93aa33654074577ce0776ad2a51c8a84011618963f4ecb,Core Python application logic and bundled static assets
+src/urbangraph/neural/urbangraphformer.py,.py,Source Code (Backend),17435,cefc7d8090bd9409c35877415c6bf642e51afb85c051b7ca2cb1b794c62730df,Core Python application logic and bundled static assets
+src/urbangraph/production_server.py,.py,Source Code (Backend),9818,aebeb66485b679e1c021068ab2a5b4a9906419ec28835557c167946a86c40db6,Core Python application logic and bundled static assets
+src/urbangraph/reproducibility.py,.py,Source Code (Backend),2996,137ba09f5647c1bce62f99bc7ad8261d0b4d421d60f474ed89b81019858b4e94,Core Python application logic and bundled static assets
+src/urbangraph/security/__init__.py,.py,Source Code (Backend),277,7d7edefa249d89b7beda5d92b0b2ef7448956d39a00a8526c97369b4bef2eec3,Core Python application logic and bundled static assets
+src/urbangraph/security/k8s_validator.py,.py,Source Code (Backend),12846,82379f4125767e5adb05ea10d5beba3640af48df065769795b5f31df15428ef8,Core Python application logic and bundled static assets
+src/urbangraph/security/token_rotation.py,.py,Source Code (Backend),17147,ae799a3096e928abb360a3fc77e01c97bfb0c47e363338b917880876bcb3f65f,Core Python application logic and bundled static assets
+src/urbangraph/serving/__init__.py,.py,Source Code (Backend),66,27fee574a47f1cb32d059d267a3bde49c9fd4eb7f1ac29f0a90207eda0fe332c,Core Python application logic and bundled static assets
+src/urbangraph/serving/bundle_preflight.py,.py,Source Code (Backend),6874,cdd85d24cb49ae1ce7f242ad71d0f1fb278abfe1343d0c5c9ebfef6f7065deb2,Core Python application logic and bundled static assets
+src/urbangraph/serving/kafka_adapter.py,.py,Source Code (Backend),7825,f9712964be6bf128c58ec3d358917e137fa648588959d4f7cc486decd4418df8,Core Python application logic and bundled static assets
+src/urbangraph/serving/local_synthetic.py,.py,Source Code (Backend),12477,b0d250a873083337d789bc5441fcef5d18650834fe793cb380e1cac0109e2466,Core Python application logic and bundled static assets
+src/urbangraph/serving/replay_checkpoint.py,.py,Source Code (Backend),6948,e660b7512fe52140a8cf7fd7292b2f27c7ff51a500e5336057f1c76246496365,Core Python application logic and bundled static assets
+src/urbangraph/serving/resilience.py,.py,Source Code (Backend),10053,eef84d43dbc44456ddd37a49249d2ad036ac7c1ddae8865b6b38ba10593ab586,Core Python application logic and bundled static assets
+src/urbangraph/serving/synthetic_replay.py,.py,Source Code (Backend),2382,7dea37b449c3f90ee04c75d9a25d4a93fa37cd1b990031b65a1b78c62e1d5b2c,Core Python application logic and bundled static assets
+src/urbangraph/static/assets/expression-Bl_GL2tO.js,.js,Source Code (Backend),1189,20d1b7302dd788b564719e869df6b88e0270dc136117a47661c884cfda3d9ca5,Core Python application logic and bundled static assets
+src/urbangraph/static/assets/index-B3Em4veZ.js,.js,Source Code (Backend),17037,2bc5523e71c6a096dd6a1ba53b6e9b22be4c19f5420123db573e4b8421bab275,Core Python application logic and bundled static assets
+src/urbangraph/static/assets/index-D1GD_yCk.css,.css,Source Code (Backend),80293,cd543afc0077f1f71e8c782fee24f0b834f57699f7c7abca8b8cf33050518362,Core Python application logic and bundled static assets
+src/urbangraph/static/assets/index-eliDLWdY.js,.js,Source Code (Backend),2070400,f1429960c4ae2bd652be9719fcf01139d42aa36febdfbfbeba35a628948952c8,Core Python application logic and bundled static assets
+src/urbangraph/static/assets/index-naVFO4fs.js,.js,Source Code (Backend),19313,e0dd8d4b8c10119fa2a15ef1cc9c1b69288ec037b2bf5264d49a8c8bf04960af,Core Python application logic and bundled static assets
+src/urbangraph/static/index.html,.html,Source Code (Backend),490,aa33d695ffbcd71491959a41c23efe42b771ce08f02813ddc767cc6e9aa2a7df,Core Python application logic and bundled static assets
+src/urbangraph/stgnn/__init__.py,.py,Source Code (Backend),77,e5361fdc0baf78125a9bd4be25424e3ec78b0f2c936e1484e00c593e7d0bc444,Core Python application logic and bundled static assets
+src/urbangraph/stgnn/artifacts.py,.py,Source Code (Backend),13738,a34c8015c85ba436fa4a08c131043cc8d5f00f85fc8090c405f2aad29b653dd0,Core Python application logic and bundled static assets
+src/urbangraph/stgnn/cli.py,.py,Source Code (Backend),3793,966048abb45daa481eeab012e6e5d1048c0a55cdc10d9dac07555b2357beabe4,Core Python application logic and bundled static assets
+src/urbangraph/stgnn/contracts.py,.py,Source Code (Backend),4014,4b9f8c73b4c62b01e0ab98e4346bc1092b372c67bc1ca94b697c69b461e6fc73,Core Python application logic and bundled static assets
+src/urbangraph/stgnn/graph_batching.py,.py,Source Code (Backend),1514,3268e5e74ece618e9025adaf3591b28d6ebfe20253a3c87b8265bdcfa01754f4,Core Python application logic and bundled static assets
+src/urbangraph/stgnn/models.py,.py,Source Code (Backend),10528,bc6db01b66e43f8e67102b7bbfb235e89d645639250a83e15b5dbf62107b414d,Core Python application logic and bundled static assets
+src/urbangraph/stgnn/reporting.py,.py,Source Code (Backend),2346,e78514668d666e105ca04eee1fa7aa76c9445eec6a3586840211508f08d1071d,Core Python application logic and bundled static assets
+src/urbangraph/stgnn/runner.py,.py,Source Code (Backend),14946,6a6a1e7d15f5df2c018993449e1a13c8d1ad51642946486a953400a0327d8366,Core Python application logic and bundled static assets
+src/urbangraph/uncertainty/__init__.py,.py,Source Code (Backend),745,d2b27a4a1663413ada7f91c92e1bdf68ea2f8782609e6094a3562b3a3c72465b,Core Python application logic and bundled static assets
+src/urbangraph/uncertainty/traffic_conformal.py,.py,Source Code (Backend),15789,07c275856ec268e272bb6ff6ca7288897cffa053538295f658985ff22dc9912d,Core Python application logic and bundled static assets
+src/urbangraph/uncertainty/workflow.py,.py,Source Code (Backend),6695,a1f9d09d6ff290a1cccff88a00c4e72ee6072328b54a9de2c59972ea61b21dd3,Core Python application logic and bundled static assets
+tests/baselines/__init__.py,.py,Test Suite,47,9df8bf2d4527feb2308532aa16423e8ed174be4b147a6ad7bbb6594ac8e91bb0,"Unit, integration, and E2E regression test cases"
+tests/baselines/test_models.py,.py,Test Suite,9680,efb69d19b2f363da022e658a5a8944c8f16975c28d77788a984cbc4e10845250,"Unit, integration, and E2E regression test cases"
+tests/baselines/test_runner.py,.py,Test Suite,15208,a6b98dfdfa11ce7236e72f35073cfecb25ec82fd4989ee8601802c77df06dbd2,"Unit, integration, and E2E regression test cases"
+tests/baselines/test_state_and_policies.py,.py,Test Suite,3861,43e2ff67b101c3dc05b7a17f6667ed2f4366dfca2de48a8d1774ef14abb018af,"Unit, integration, and E2E regression test cases"
+tests/benchmarks/test_workflow.py,.py,Test Suite,10665,e8b55fd2d7c2a638773c980690e76fb1ea4496e22db24662259b9a4946e671f7,"Unit, integration, and E2E regression test cases"
+tests/boosting/test_foundation.py,.py,Test Suite,7050,0a7cbec2c9b428933d8e117eaba86f17d4a4de54d4063d901078697b3f6c3d08,"Unit, integration, and E2E regression test cases"
+tests/boosting/test_runner.py,.py,Test Suite,11299,6bec72501cb18b9818bbf88bb085db36a66651c208e8f1c6bf4adf684c8a73f6,"Unit, integration, and E2E regression test cases"
+tests/conftest.py,.py,Test Suite,6953,3c418dfd7b365e10c0bc9eb750bff2c44a28c2e8521883091aba12807e3a5837,"Unit, integration, and E2E regression test cases"
+tests/data/conftest.py,.py,Test Suite,3275,5c6a58ac1139bdf0d45333e038dd971d62f80be71a68657e522fd238db7d149b,"Unit, integration, and E2E regression test cases"
+tests/data/test_cli.py,.py,Test Suite,3254,164cb4c9466e205925124083ba9153fdc17625ba4de02021a7fc9c7498573675,"Unit, integration, and E2E regression test cases"
+tests/data/test_contracts.py,.py,Test Suite,3162,dce24997d73617307922b825168dca5328a6ab3970fac8558406edf9b265dcba,"Unit, integration, and E2E regression test cases"
+tests/data/test_direct_reader_rights.py,.py,Test Suite,3592,ef6b775990f51eff571a92fd1baa4e1370988c82c812c404a2a89b56e2c799d0,"Unit, integration, and E2E regression test cases"
+tests/data/test_filesystem.py,.py,Test Suite,7113,f48288b60c1b6f8bdf5148d838bb1d38f40162a7a52f8fa72c38572e7d0f1cbf,"Unit, integration, and E2E regression test cases"
+tests/data/test_ingestion.py,.py,Test Suite,19801,3a82a820c1a40e82612b4dc004ac3ee1ec5b563e4e04b0473cc455ce4fa390b7,"Unit, integration, and E2E regression test cases"
+tests/data/test_rights_boundary.py,.py,Test Suite,10139,7a6f184943416649394c8392949aa5a6b994aeb0f11e530344d746caacc16f49,"Unit, integration, and E2E regression test cases"
+tests/data/test_saved_publication_boundary.py,.py,Test Suite,12140,8baf833d412f15ce1b637099f68c96e9f2d8ca3f4a884cdf5d236262ee9d1572,"Unit, integration, and E2E regression test cases"
+tests/data/test_saved_trust.py,.py,Test Suite,1175,1badf03b8c93b758f24d8c5656d6ba0fdd43ccd4df75ef72bb4620083f510f90,"Unit, integration, and E2E regression test cases"
+tests/data/test_source_governance_register.py,.py,Test Suite,3214,5919844e9ab3060a841e4d8c316ec445f69d4d1328f6b7eed4fbf987c61f751d,"Unit, integration, and E2E regression test cases"
+tests/data/test_verification.py,.py,Test Suite,5529,cdffcbcac1b5fea42f172b58c1979034437377dad498213715cf744afa2fe79a,"Unit, integration, and E2E regression test cases"
+tests/datasets/__init__.py,.py,Test Suite,421,2548acc0cfecb95c318d35913d4e5c1a93d618211eefdefbcabc858eb7a24d50,"Unit, integration, and E2E regression test cases"
+tests/datasets/conftest.py,.py,Test Suite,3886,336de9aea3338723f2b45494434143006284119f2295933a29211512d1496b88,"Unit, integration, and E2E regression test cases"
+tests/datasets/test_canonical_materialization.py,.py,Test Suite,10608,3c6d5f65f1c82ffed71fd25adfa5f186ebe16c876c4dc4bd5853876cdbc2a157,"Unit, integration, and E2E regression test cases"
+tests/datasets/test_dataset_cli.py,.py,Test Suite,3514,c49eff47b65588479a6c59c25c6e4f8dec8862ab7a915a3631b50380bba56807,"Unit, integration, and E2E regression test cases"
+tests/datasets/test_governed_canonical.py,.py,Test Suite,24446,4f4475c44a6f678270d9cc77e444b35f8f1246b291e4a37ff2417826db7fb9e3,"Unit, integration, and E2E regression test cases"
+tests/datasets/test_traffic_parsing.py,.py,Test Suite,10270,ce0d8faa2cb8f31736b5dd90142914c617c65ee447fb0de9eb4e28936b2ee551,"Unit, integration, and E2E regression test cases"
+tests/datasets/test_traffic_profiling.py,.py,Test Suite,5289,0d856f840d5d7e33cd8d8954a98cb080ed5e59266fa55429b7984cf24a194a0a,"Unit, integration, and E2E regression test cases"
+tests/demo/test_api.py,.py,Test Suite,12573,6b54295c5f8e588af958f3a08fedc4f0e1b19d4fb83d3b73dc7f1eeb89b508d6,"Unit, integration, and E2E regression test cases"
+tests/demo/test_fixtures.py,.py,Test Suite,3782,9598bc8e27b2120437612192c068eebbf527f0257422e77c1078a39f5b5fa6cb,"Unit, integration, and E2E regression test cases"
+tests/demo/test_scientific_report.py,.py,Test Suite,7311,f19ff1160c8fe14a083c89ce8107cea80a6e3bd499a57140e7ac4097315b7ed5,"Unit, integration, and E2E regression test cases"
+tests/demo/test_scientific_validation.py,.py,Test Suite,7704,18a9d2937c0849704e4157bafa97b3b6ac3dcf0586e6462dce993ce1070fa732,"Unit, integration, and E2E regression test cases"
+tests/energy/conftest.py,.py,Test Suite,6408,ad7365e7cd3beab322db1f1da1d9d8c4038edff74d95779cd929950302c8040f,"Unit, integration, and E2E regression test cases"
+tests/energy/test_broker_contract.py,.py,Test Suite,2025,83a585f221290e4b1a6f4ae728bb5a04c296d8091ef276ce64779a101a633337,"Unit, integration, and E2E regression test cases"
+tests/energy/test_broker_registry.py,.py,Test Suite,24107,afe56b263a2bf3ed46f80f1956771267acf87083351c7805f0334f2fb337bdce,"Unit, integration, and E2E regression test cases"
+tests/energy/test_broker_service.py,.py,Test Suite,14091,f99337001565fe126485bbecc1bacdc8906ed33b5f763a6fdf02b83c8d83c1e0,"Unit, integration, and E2E regression test cases"
+tests/energy/test_broker_tree.py,.py,Test Suite,2496,8e0f2ae4a6c76445175cfbfa369fcfd068799c6febabb3bd9d102b7e8ecdb280,"Unit, integration, and E2E regression test cases"
+tests/energy/test_energy.py,.py,Test Suite,33617,546d1516fca3ddf3c857b8d16eae7b3b47553fe796aaa007e187ae2a76ac2901,"Unit, integration, and E2E regression test cases"
+tests/energy/test_governed_derived.py,.py,Test Suite,6991,3ec42ef40616a36011f7f489ddd67e89a3fd087585c3385a763a8d70c75545bf,"Unit, integration, and E2E regression test cases"
+tests/energy/test_graph_neural.py,.py,Test Suite,16562,474dba382800c7e91d6892584a96bd2d127c7852fbfdb2d8867f49b84075dcde,"Unit, integration, and E2E regression test cases"
+tests/energy/test_multi_parent_lineage.py,.py,Test Suite,7800,92a10bc1c405ce13a0e5603a496adbfa566173786f7b88e791992f8d48d453ac,"Unit, integration, and E2E regression test cases"
+tests/energy/test_multiregion.py,.py,Test Suite,35443,05e45804eb76deade6863db483d149c0dd132dac35c0f45f23be7c14a1f0684e,"Unit, integration, and E2E regression test cases"
+tests/energy/test_optimization.py,.py,Test Suite,7082,6850120ac0131260ace72dca080952e275c5a1eb416ace88b322ec4795e35673,"Unit, integration, and E2E regression test cases"
+tests/energy/test_renewables.py,.py,Test Suite,17582,f06aa90b8ba7e0b29910196a00ddc3b9f76d3ed40f12c96963db0c0dcd8b6e44,"Unit, integration, and E2E regression test cases"
+tests/energy/test_uncertainty.py,.py,Test Suite,18476,d490e04e6d3fea8a4f2d4813755313ba0c2b6b215f7e89bb5e163cfa1a67b4d8,"Unit, integration, and E2E regression test cases"
+tests/evaluation/__init__.py,.py,Test Suite,60,a94d6b635c09b36dfbbd14796923f76ddac24249acfacc4c873f0ef6d3e47bba,"Unit, integration, and E2E regression test cases"
+tests/evaluation/conftest.py,.py,Test Suite,3828,170cc7f0b9a3d1488b9cf931c36985a1cb164dec07d016a1aed175c53f021091,"Unit, integration, and E2E regression test cases"
+tests/evaluation/fixtures/ug003r-code.json,.json,Test Suite,3721,e52f2080f07574fae1979b27751683cb0f1fc9f983027eebbcd57814d396374b,"Unit, integration, and E2E regression test cases"
+tests/evaluation/fixtures/ug003s-code.json,.json,Test Suite,3924,b62950b40d53b44bbcbaa101ca2c893423339b3b127c12c98f01fec5d51c7ca2,"Unit, integration, and E2E regression test cases"
+tests/evaluation/test_artifacts_cli.py,.py,Test Suite,10210,4f40356246d932618586697332abc7f61878924bdc1c6d03a6ad3f0d43517cce,"Unit, integration, and E2E regression test cases"
+tests/evaluation/test_compatibility.py,.py,Test Suite,4946,1a41acb67f22c8b91ce946e50549f794dc3bd3870e6eae97fd90de4ceb9b23f6,"Unit, integration, and E2E regression test cases"
+tests/evaluation/test_edge_contracts.py,.py,Test Suite,4816,4b8a302552494137ea25f18d735f59834e8858625e2b1e17ed01adcc7cde9d56,"Unit, integration, and E2E regression test cases"
+tests/evaluation/test_leakage_preprocessing.py,.py,Test Suite,7939,3e58e193eaa350b57cc9aa574e80d4312bd6fdb299f67919e9d9d368c5ae6899,"Unit, integration, and E2E regression test cases"
+tests/evaluation/test_metrics.py,.py,Test Suite,4330,c983751839e57127f93a49217b622fb64f7e8345b3c358fa390df0e008de69ec,"Unit, integration, and E2E regression test cases"
+tests/evaluation/test_planning_windows.py,.py,Test Suite,8825,15af27af849cab19904f7281373b1db41359d50a2bfd0c62dc14db3acce751cf,"Unit, integration, and E2E regression test cases"
+tests/evaluation/test_positional.py,.py,Test Suite,7039,0ab8e21553c4c63fee5688af1ffb120cfd64e93c1d2a3da0ef503795dcd78bc9,"Unit, integration, and E2E regression test cases"
+tests/fixtures/checkpoints/urbangraphformer_synth.pt,.pt,Test Suite,307701,b4cce4e920fba2ebb88c2b54fe1b02d788e60c6b5f458d2004219631c2391e78,"Unit, integration, and E2E regression test cases"
+tests/fixtures/eg006/fixtures/battery_scenario.json,.json,Test Suite,6782,e4b6475ca865b6380bc47b8185154a269c2e4761cc7f25e816f8a280323c9374,"Unit, integration, and E2E regression test cases"
+tests/fixtures/eg006/fixtures/forecasts_and_intervals.json,.json,Test Suite,134121,104e11b4e0a1b685e4dcd5d18ffaf02e0b30c410beada832f9289b2f5fc28e71,"Unit, integration, and E2E regression test cases"
+tests/fixtures/eg006/fixtures/graph.json,.json,Test Suite,826,53ab0372a5bdd8902fc829e149d7e741e52558fbf9a52a3a18cc6edd5e4c3790,"Unit, integration, and E2E regression test cases"
+tests/fixtures/eg006/fixtures/hourly_energy.csv,.csv,Test Suite,96057,6e8b0fa2bca8eb10db068df20c647894c95a63eade9de096302a13bcc8b0e3c3,"Unit, integration, and E2E regression test cases"
+tests/fixtures/eg006/manifest.json,.json,Test Suite,850,dbb346f67e45dccc6a0738244417856ad486e184b5f539b711e21ef5c526b9ae,"Unit, integration, and E2E regression test cases"
+tests/fixtures/p3_synthetic_bundle/calibration.json,.json,Test Suite,89,310ddea8006398213873b1f61afd333e50f9ec6b46ede9cd7c5a0feea74f57b8,"Unit, integration, and E2E regression test cases"
+tests/fixtures/p3_synthetic_bundle/graph.json,.json,Test Suite,106,500cf94768911e269475c71a9f70cfc6ffabbd7fdf4504ad746836617a97fc11,"Unit, integration, and E2E regression test cases"
+tests/fixtures/p3_synthetic_bundle/manifest.json,.json,Test Suite,968,82fa24b6e93f66b728e7d2ee6dfc1b9c5c803c9c6cab81897bd845f358dd9fcb,"Unit, integration, and E2E regression test cases"
+tests/fixtures/p3_synthetic_bundle/model.bin,.bin,Test Suite,107,838752a26004f505b3b904d604b307d0b60093fdbaadbd01f893385ef5cbe2cc,"Unit, integration, and E2E regression test cases"
+tests/fixtures/p3_synthetic_bundle/transform.json,.json,Test Suite,77,c61b0d79906a94ca9196eaa5944831caa513687f5e8b272a297c1ffb4cf21a59,"Unit, integration, and E2E regression test cases"
+tests/governance/test_lifecycle_and_recovery.py,.py,Test Suite,5202,4d0e5056a74e0141a33756be86eb5553625b4c19770f3c9b2b9080a9c6422912,"Unit, integration, and E2E regression test cases"
+tests/graphs/test_artifact_adversarial.py,.py,Test Suite,4807,87df272a0f192c360954cad54df26585c276aa125cc77925ac32aeb3050a399f,"Unit, integration, and E2E regression test cases"
+tests/graphs/test_graphs.py,.py,Test Suite,12060,88b970b35e9be95e9d771ac75b61d2211d6517615b5f7c171413c17ea52ee6d5,"Unit, integration, and E2E regression test cases"
+tests/integration/test_full_architecture_integration.py,.py,Test Suite,8013,d1cae2e0caf8a6ac90b3c516d5dca4e18c390d839a628f878bd78c05c3f0cc0e,"Unit, integration, and E2E regression test cases"
+tests/integration/test_multiprocess_network_acceptance.py,.py,Test Suite,12737,e9838ee418bf0f4ec5046cb068531e115ddf1b637c668bf08960a41c8f6d7dd2,"Unit, integration, and E2E regression test cases"
+tests/integration/test_true_end_to_end_system.py,.py,Test Suite,12313,2987e22d6f2a642e0fdf3398fbc09f50428d774c38370361fa0c4160a9a76f48,"Unit, integration, and E2E regression test cases"
+tests/monitoring/test_observability_and_drift.py,.py,Test Suite,5781,a39d999ffe7fe5efc490c98f11b8851374629f5f0ce912ca2351c94a22003eb8,"Unit, integration, and E2E regression test cases"
+tests/neural/test_neural_devices_temporal.py,.py,Test Suite,3019,e8a2fe570cbad7f8bcb61b06898c68ed65800aa82c128bbc1a7621e05fb195d7,"Unit, integration, and E2E regression test cases"
+tests/neural/test_neural_foundation.py,.py,Test Suite,7519,8c78c336cbe8cecd6b847aa68ebdfec15e2cef2dc1631100b1adf8032a440304,"Unit, integration, and E2E regression test cases"
+tests/neural/test_neural_integration.py,.py,Test Suite,7551,1352737192bc1649dba0aa05954c63f5c1d96805900c120297230242588a1490,"Unit, integration, and E2E regression test cases"
+tests/neural/test_neural_safety.py,.py,Test Suite,7789,ad7572a3797df3e49d515b8554e507c8a2e52f8b5eeae815ab9f03e9c5dbe6de,"Unit, integration, and E2E regression test cases"
+tests/neural/test_urbangraphformer.py,.py,Test Suite,10549,9acddeeac6f615d96a0a00beb49db654e0974e3ae0e6deffbad6765e5dd470d7,"Unit, integration, and E2E regression test cases"
+tests/security/test_distributed_token_store.py,.py,Test Suite,3295,4cd5e87764e6d4e098e2a26e8dc9c787c8de8ceaf648bdd5c7ae64cb5b001c9e,"Unit, integration, and E2E regression test cases"
+tests/security/test_security_contracts.py,.py,Test Suite,6195,54574e3a93b11d315b3b2284c3e542dbbe6771ac138c8d2deaf8028963ef17a3,"Unit, integration, and E2E regression test cases"
+tests/serving/test_bundle_preflight.py,.py,Test Suite,5774,773c62229a29d9c5e67b404ef0c2c0728af1a5323154ea6f30cebe5690539566,"Unit, integration, and E2E regression test cases"
+tests/serving/test_inference_contract.py,.py,Test Suite,5990,a5918e8ef2e3b26b3e13bfac15ff92ab9248047cf2616ccb9f97f7fd70a86fad,"Unit, integration, and E2E regression test cases"
+tests/serving/test_kafka_adapter.py,.py,Test Suite,3816,c788a84d822f1368fd3dcd9765da8e4ba516d73ab555e588b4cb8ff29f81649e,"Unit, integration, and E2E regression test cases"
+tests/serving/test_local_synthetic.py,.py,Test Suite,6550,75f66b37deef43afbfa45cb54eae1d2c4e9afd5cde4d13fbbf46d4ebffb9c3ef,"Unit, integration, and E2E regression test cases"
+tests/serving/test_replay_checkpoint.py,.py,Test Suite,6262,b641e00291719de0497d95f66929c078fe0536b82cb25ddd861568a46584f039,"Unit, integration, and E2E regression test cases"
+tests/serving/test_runtime_resilience.py,.py,Test Suite,5317,4f2da50d3e0ae9cbe6908dc714ab640722c78136483ce91709c5c08c7faed712,"Unit, integration, and E2E regression test cases"
+tests/serving/test_synthetic_replay.py,.py,Test Suite,3408,5b1df7bc814bc20e248abcabe2fefdd8e28e521c6a6a469db1384fc61ca93611,"Unit, integration, and E2E regression test cases"
+tests/stgnn/test_integration.py,.py,Test Suite,14912,9c8973b97028c35cf6a0ff800c351f78bfc20508cd66df77fb4ffb6b981ead60,"Unit, integration, and E2E regression test cases"
+tests/stgnn/test_models.py,.py,Test Suite,11407,782d71840ac512dac648cbc97d802f04e6789e6eaf24bb702243599790c4e508,"Unit, integration, and E2E regression test cases"
+tests/test_logging.py,.py,Test Suite,2370,99c2e6c12d64820e5928ad14264dcf661d79e01117c885033b43a76641edb971,"Unit, integration, and E2E regression test cases"
+tests/test_reproducibility.py,.py,Test Suite,4587,2d3c7e61b4d745939b658688bd03f5eb3df62f98cc4209fa890d7a2407e97fc4,"Unit, integration, and E2E regression test cases"
+tests/uncertainty/test_conformal_workflow.py,.py,Test Suite,7903,b3dd8a35ac1da11e65978996b2ab81c9c837fd79c8656bebc0a73298b59b615f,"Unit, integration, and E2E regression test cases"
+tests/uncertainty/test_traffic_conformal.py,.py,Test Suite,7274,0a472a08c05910d9d175cd11d698fc467db883b19ad85fe7f1698b641a26470b,"Unit, integration, and E2E regression test cases"
+checksums/SHA256SUMS.txt,.txt,Cryptographic Verification,46279,7b73c7fe09513c1a84131ecd538c86e06fdc8e76fd8c5fd845a18cf454b3587a,Authoritative SHA-256 signatures of all package files

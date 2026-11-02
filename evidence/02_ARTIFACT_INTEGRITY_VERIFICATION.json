@@ -1,0 +1,136 @@
+{
+  "original_wheel": {
+    "filename": "urbangraph-0.2.0rc2-py3-none-any.whl",
+    "sha256": "f41ef0dc08b63ea2fe277edbb5d46a20cef73e388266b5178d88930a6f4d0217",
+    "size_bytes": 1259602,
+    "is_stale_vs_current_frontend": true
+  },
+  "asset_comparison": [
+    {
+      "asset": "assets/expression-Bl_GL2tO.js",
+      "packaged_in_wheel": {
+        "sha256": "71e7147302c7fcea9e45948ec730d772f397a474154231115e5ecd040b6f02d2",
+        "size": 1188
+      },
+      "local_src_static": {
+        "sha256": "71e7147302c7fcea9e45948ec730d772f397a474154231115e5ecd040b6f02d2",
+        "size": 1188
+      },
+      "frontend_dist": {
+        "sha256": "71e7147302c7fcea9e45948ec730d772f397a474154231115e5ecd040b6f02d2",
+        "size": 1188
+      },
+      "matches_wheel": true,
+      "matches_frontend_dist": true
+    },
+    {
+      "asset": "assets/index-CMUR15TM.js",
+      "packaged_in_wheel": null,
+      "local_src_static": {
+        "sha256": "3576868bb88f5e6fbeb5b10078bece1b5c64a17e66033b8b2d53b149a7286a2b",
+        "size": 2056475
+      },
+      "frontend_dist": {
+        "sha256": "3576868bb88f5e6fbeb5b10078bece1b5c64a17e66033b8b2d53b149a7286a2b",
+        "size": 2056475
+      },
+      "matches_wheel": null,
+      "matches_frontend_dist": true
+    },
+    {
+      "asset": "assets/index-CzyO8_Yh.js",
+      "packaged_in_wheel": null,
+      "local_src_static": {
+        "sha256": "cd9482f14e8d7bc52dfcddcf488a9ff6df001c0fbc9e3cd75b4dd41764cf158c",
+        "size": 18966
+      },
+      "frontend_dist": {
+        "sha256": "cd9482f14e8d7bc52dfcddcf488a9ff6df001c0fbc9e3cd75b4dd41764cf158c",
+        "size": 18966
+      },
+      "matches_wheel": null,
+      "matches_frontend_dist": true
+    },
+    {
+      "asset": "assets/index-D1GD_yCk.css",
+      "packaged_in_wheel": {
+        "sha256": "59607fcbd73eff27a49e6df61b79bc7007c16f850affe37107b9c5579873d4c2",
+        "size": 80292
+      },
+      "local_src_static": {
+        "sha256": "59607fcbd73eff27a49e6df61b79bc7007c16f850affe37107b9c5579873d4c2",
+        "size": 80292
+      },
+      "frontend_dist": {
+        "sha256": "59607fcbd73eff27a49e6df61b79bc7007c16f850affe37107b9c5579873d4c2",
+        "size": 80292
+      },
+      "matches_wheel": true,
+      "matches_frontend_dist": true
+    },
+    {
+      "asset": "assets/index-DEx8_ghy.js",
+      "packaged_in_wheel": null,
+      "local_src_static": {
+        "sha256": "b609af4267d5f851dcb40b19f7000faa3bdb563b963c9bdec99a744b463b9b25",
+        "size": 16677
+      },
+      "frontend_dist": {
+        "sha256": "b609af4267d5f851dcb40b19f7000faa3bdb563b963c9bdec99a744b463b9b25",
+        "size": 16677
+      },
+      "matches_wheel": null,
+      "matches_frontend_dist": true
+    },
+    {
+      "asset": "assets/index-DGMEYuY9.js",
+      "packaged_in_wheel": {
+        "sha256": "905f6c0563f604c50d9675f49fd4ffb209eab75d285e566b7b39bd607b6acd68",
+        "size": 16677
+      },
+      "local_src_static": null,
+      "frontend_dist": null,
+      "matches_wheel": null,
+      "matches_frontend_dist": null
+    },
+    {
+      "asset": "assets/index-DYZtdEog.js",
+      "packaged_in_wheel": {
+        "sha256": "15aed70016c248969f1227031f3e5a28a52dc51ceebe70163ea31d318e301a2a",
+        "size": 18966
+      },
+      "local_src_static": null,
+      "frontend_dist": null,
+      "matches_wheel": null,
+      "matches_frontend_dist": null
+    },
+    {
+      "asset": "assets/index-DqWszptW.js",
+      "packaged_in_wheel": {
+        "sha256": "407194f077d44bea2ad8f7f3763945beb40dbc91a310136bae4d0fab6eccded7",
+        "size": 2056629
+      },
+      "local_src_static": null,
+      "frontend_dist": null,
+      "matches_wheel": null,
+      "matches_frontend_dist": null
+    },
+    {
+      "asset": "index.html",
+      "packaged_in_wheel": {
+        "sha256": "866acf2bf14161fbde4ea57535fbdbe43df32c0573e7f076043abae8b539fb48",
+        "size": 476
+      },
+      "local_src_static": {
+        "sha256": "fac3cc67ce4a2940404611c48ffc505060407a265b1a60558bb3fda8b1042db7",
+        "size": 476
+      },
+      "frontend_dist": {
+        "sha256": "fac3cc67ce4a2940404611c48ffc505060407a265b1a60558bb3fda8b1042db7",
+        "size": 476
+      },
+      "matches_wheel": false,
+      "matches_frontend_dist": true
+    }
+  ]
+}

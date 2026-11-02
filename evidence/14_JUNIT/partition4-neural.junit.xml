@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="4" failures="0" skipped="0" tests="4" time="2.404" timestamp="2026-11-01T12:23:21.716964+05:30" hostname="SWASTIK"><testcase classname="" name="tests.neural.test_neural_devices_temporal" time="0.000"><error message="collection failure">ImportError while importing test module '.\tests\neural\test_neural_devices_temporal.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/home/user\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests\neural\test_neural_devices_temporal.py:10: in &lt;module&gt;
+    from urbangraph.evaluation.dataset import EvaluationDataset
+src\urbangraph\evaluation\dataset.py:14: in &lt;module&gt;
+    from urbangraph.datasets.governed_canonical import read_canonical
+src\urbangraph\datasets\governed_canonical.py:17: in &lt;module&gt;
+    from urbangraph.datasets.materialization import (
+src\urbangraph\datasets\materialization.py:22: in &lt;module&gt;
+    from urbangraph.datasets.canonical import (
+src\urbangraph\datasets\canonical.py:12: in &lt;module&gt;
+    import pyarrow as pa  # type: ignore[import-untyped]
+E   ModuleNotFoundError: No module named 'pyarrow'</error></testcase><testcase classname="" name="tests.neural.test_neural_foundation" time="0.000"><error message="collection failure">ImportError while importing test module '.\tests\neural\test_neural_foundation.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/home/user\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests\neural\test_neural_foundation.py:15: in &lt;module&gt;
+    from urbangraph.evaluation.dataset import EvaluationDataset
+src\urbangraph\evaluation\dataset.py:14: in &lt;module&gt;
+    from urbangraph.datasets.governed_canonical import read_canonical
+src\urbangraph\datasets\governed_canonical.py:17: in &lt;module&gt;
+    from urbangraph.datasets.materialization import (
+src\urbangraph\datasets\materialization.py:22: in &lt;module&gt;
+    from urbangraph.datasets.canonical import (
+src\urbangraph\datasets\canonical.py:12: in &lt;module&gt;
+    import pyarrow as pa  # type: ignore[import-untyped]
+E   ModuleNotFoundError: No module named 'pyarrow'</error></testcase><testcase classname="" name="tests.neural.test_neural_integration" time="0.000"><error message="collection failure">ImportError while importing test module '.\tests\neural\test_neural_integration.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/home/user\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests\neural\test_neural_integration.py:11: in &lt;module&gt;
+    from urbangraph.datasets.governed_canonical import create_canonical
+src\urbangraph\datasets\governed_canonical.py:17: in &lt;module&gt;
+    from urbangraph.datasets.materialization import (
+src\urbangraph\datasets\materialization.py:22: in &lt;module&gt;
+    from urbangraph.datasets.canonical import (
+src\urbangraph\datasets\canonical.py:12: in &lt;module&gt;
+    import pyarrow as pa  # type: ignore[import-untyped]
+E   ModuleNotFoundError: No module named 'pyarrow'</error></testcase><testcase classname="" name="tests.neural.test_neural_safety" time="0.000"><error message="collection failure">ImportError while importing test module '.\tests\neural\test_neural_safety.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/home/user\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+tests\neural\test_neural_safety.py:11: in &lt;module&gt;
+    from urbangraph.evaluation.dataset import EvaluationDataset
+src\urbangraph\evaluation\dataset.py:14: in &lt;module&gt;
+    from urbangraph.datasets.governed_canonical import read_canonical
+src\urbangraph\datasets\governed_canonical.py:17: in &lt;module&gt;
+    from urbangraph.datasets.materialization import (
+src\urbangraph\datasets\materialization.py:22: in &lt;module&gt;
+    from urbangraph.datasets.canonical import (
+src\urbangraph\datasets\canonical.py:12: in &lt;module&gt;
+    import pyarrow as pa  # type: ignore[import-untyped]
+E   ModuleNotFoundError: No module named 'pyarrow'</error></testcase></testsuite></testsuites>

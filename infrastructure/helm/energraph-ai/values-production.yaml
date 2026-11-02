@@ -1,0 +1,113 @@
+# ==============================================================================
+# UrbanGraph Intelligence — Hardened Production Helm Values (values-production.yaml)
+# Kubernetes 1.28+ / Ingress with cert-manager / Zero-Trust Secrets
+# ==============================================================================
+
+replicaCount: 2
+
+image:
+  repository: ghcr.io/urbangraph/urbangraph
+  pullPolicy: IfNotPresent
+  tag: "0.2.0rc3"
+
+serviceAccount:
+  create: true
+  name: "energraph-production-sa"
+  annotations: {}
+
+podSecurityContext:
+  runAsNonRoot: true
+  runAsUser: 65534
+  runAsGroup: 65534
+  fsGroup: 65534
+  seccompProfile:
+    type: RuntimeDefault
+
+securityContext:
+  allowPrivilegeEscalation: false
+  readOnlyRootFilesystem: true
+  runAsNonRoot: true
+  runAsUser: 65534
+  capabilities:
+    drop:
+      - ALL
+
+service:
+  type: ClusterIP
+  port: 8080
+  targetPort: 8000
+
+resources:
+  limits:
+    cpu: 1000m
+    memory: 1024Mi
+  requests:
+    cpu: 250m
+    memory: 512Mi
+
+probes:
+  liveness:
+    path: /healthz
+    initialDelaySeconds: 10
+    periodSeconds: 15
+    timeoutSeconds: 3
+    failureThreshold: 3
+  readiness:
+    path: /readyz
+    initialDelaySeconds: 5
+    periodSeconds: 5
+    timeoutSeconds: 2
+    failureThreshold: 2
+
+# Secrets MUST be supplied via external secret manager (HashiCorp Vault, AWS Secrets Manager,
+# or injected via --set secrets.adminToken=$ADMIN_TOKEN) during deployment.
+# NEVER commit raw tokens to Git.
+secrets:
+  enabled: true
+  name: "urbangraph-production-secrets"
+  existingSecret: ""  # Set to use pre-existing K8s Secret
+  adminToken: ""      # Injected via CI/CD secrets at deploy time
+  workerToken: ""     # Injected via CI/CD secrets at deploy time
+  readerToken: ""     # Injected via CI/CD secrets at deploy time
+
+tokenRotation:
+  enabled: true
+  rotationPeriodMinutes: 60
+  gracePeriodMinutes: 15
+
+config:
+  workers: 1
+  logLevel: INFO
+  environment: production
+  prometheusEnabled: true
+
+ingress:
+  enabled: true
+  className: "nginx"
+  annotations:
+    cert-manager.io/cluster-issuer: "letsencrypt-prod"
+    nginx.ingress.kubernetes.io/ssl-redirect: "true"
+    nginx.ingress.kubernetes.io/limit-rps: "20"
+    nginx.ingress.kubernetes.io/limit-connections: "50"
+    nginx.ingress.kubernetes.io/proxy-body-size: "2m"
+    nginx.ingress.kubernetes.io/configuration-snippet: |
+      more_set_headers "X-Frame-Options: DENY";
+      more_set_headers "X-Content-Type-Options: nosniff";
+      more_set_headers "Referrer-Policy: strict-origin-when-cross-origin";
+  hosts:
+    - host: demo.urbangraph.org
+      paths:
+        - path: /
+          pathType: Prefix
+  tls:
+    - secretName: urbangraph-tls-cert
+      hosts:
+        - demo.urbangraph.org
+
+podDisruptionBudget:
+  enabled: true
+  minAvailable: 1
+
+networkPolicy:
+  enabled: true
+

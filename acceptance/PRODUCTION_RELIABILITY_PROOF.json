@@ -1,0 +1,94 @@
+{
+  "timestamp_utc": "2026-11-02 11:12:00 UTC",
+  "target_url": "http://127.0.0.1:8000",
+  "overall_verdict": "PASS",
+  "results": {
+    "artifact_audit": {
+      "artifact": "dist\\urbangraph-0.2.0rc3-py3-none-any.whl",
+      "size_bytes": 1267084,
+      "sha256": "b0cfc7297bbc6c5f76b790f15bd5cca40873e48c7d34089cc32460fb360b3c97",
+      "expected_sha256": "b0cfc7297bbc6c5f76b790f15bd5cca40873e48c7d34089cc32460fb360b3c97",
+      "valid": true
+    },
+    "concurrent_load": {
+      "total_requests": 200,
+      "concurrent_workers": 10,
+      "duration_seconds": 2.029,
+      "requests_per_second": 98.57,
+      "status_counts": {
+        "200": 200
+      },
+      "error_count": 0,
+      "error_rate_pct": 0.0,
+      "latency_ms": {
+        "min": 5.89,
+        "p50": 21.79,
+        "p95": 479.34,
+        "p99": 1259.5,
+        "max": 1327.94,
+        "avg": 88.55
+      }
+    },
+    "failure_injection": {
+      "cases": [
+        {
+          "case": "malformed_json",
+          "status": 422,
+          "expected": 422,
+          "pass": true
+        },
+        {
+          "case": "confidence_out_of_bounds",
+          "status": 422,
+          "expected": 422,
+          "pass": true
+        },
+        {
+          "case": "unknown_region",
+          "status": 404,
+          "expected": 404,
+          "pass": true
+        },
+        {
+          "case": "method_not_allowed",
+          "status": 405,
+          "expected": 405,
+          "pass": true
+        },
+        {
+          "case": "uncredentialed_rejected",
+          "status": 401,
+          "expected": 401,
+          "pass": true
+        },
+        {
+          "case": "reader_forbidden_from_predict",
+          "status": 403,
+          "expected": 403,
+          "pass": true
+        },
+        {
+          "case": "worker_forbidden_from_admin",
+          "status": 403,
+          "expected": 403,
+          "pass": true
+        }
+      ],
+      "all_passed": true
+    },
+    "db_backup_restore": {
+      "source_db": "logs\\urbangraph_tokens.db",
+      "backup_successful": true,
+      "restore_integrity": "ok",
+      "tokens_recovered": 18,
+      "passed": true
+    },
+    "token_rotation": {
+      "rotation_status": 200,
+      "new_token_authorized": true,
+      "revocation_status": 200,
+      "revoked_token_rejected": true,
+      "passed": true
+    }
+  }
+}

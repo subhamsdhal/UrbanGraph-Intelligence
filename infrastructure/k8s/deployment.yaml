@@ -1,0 +1,109 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: energraph-broker
+  namespace: urbangraph-secure
+  labels:
+    app.kubernetes.io/name: energraph-broker
+    app.kubernetes.io/part-of: urbangraph-intelligence
+    app.kubernetes.io/version: "2026-10-31"
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: energraph-broker
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: energraph-broker
+      annotations:
+        seccomp.security.alpha.kubernetes.io/pod: "runtime/default"
+    spec:
+      securityContext:
+        runAsNonRoot: true
+        runAsUser: 65534
+        runAsGroup: 65534
+        fsGroup: 65534
+        seccompProfile:
+          type: RuntimeDefault
+      containers:
+        - name: broker
+          image: urbangraph-broker:2026-10-31
+          imagePullPolicy: IfNotPresent
+          securityContext:
+            allowPrivilegeEscalation: false
+            readOnlyRootFilesystem: true
+            runAsNonRoot: true
+            runAsUser: 65534
+            capabilities:
+              drop:
+                - ALL
+          ports:
+            - name: http-broker
+              containerPort: 8080
+              protocol: TCP
+          env:
+            - name: UG_BROKER_PORT
+              value: "8080"
+            - name: UG_BROKER_DB
+              value: "/var/lib/broker/registry.sqlite"
+            - name: UG_BROKER_STAGING
+              value: "/var/lib/staging"
+            - name: UG_BROKER_ARTIFACTS
+              value: "/var/lib/artifacts"
+            - name: UG_BROKER_ADMIN_SECRET_FILE
+              value: "/run/secrets/admin_token"
+            - name: UG_BROKER_WORKER_SECRET_FILE
+              value: "/run/secrets/worker_token"
+            - name: UG_BROKER_READER_SECRET_FILE
+              value: "/run/secrets/reader_token"
+          resources:
+            requests:
+              cpu: "250m"
+              memory: "256Mi"
+            limits:
+              cpu: "1000m"
+              memory: "768Mi"
+          livenessProbe:
+            httpGet:
+              path: /v1/health
+              port: 8080
+            initialDelaySeconds: 5
+            periodSeconds: 10
+            timeoutSeconds: 3
+            failureThreshold: 3
+          readinessProbe:
+            httpGet:
+              path: /readyz
+              port: 8080
+            initialDelaySeconds: 3
+            periodSeconds: 5
+            timeoutSeconds: 2
+            failureThreshold: 2
+          volumeMounts:
+            - name: tmpfs-vol
+              mountPath: /tmp
+            - name: broker-data
+              mountPath: /var/lib/broker
+            - name: staging-data
+              mountPath: /var/lib/staging
+            - name: artifacts-data
+              mountPath: /var/lib/artifacts
+            - name: secret-tokens
+              mountPath: /run/secrets
+              readOnly: true
+      volumes:
+        - name: tmpfs-vol
+          emptyDir:
+            medium: Memory
+            sizeLimit: 64Mi
+        - name: broker-data
+          emptyDir: {}
+        - name: staging-data
+          emptyDir: {}
+        - name: artifacts-data
+          emptyDir: {}
+        - name: secret-tokens
+          secret:
+            secretName: broker-tokens
+            defaultMode: 0400

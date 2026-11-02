@@ -1,0 +1,1740 @@
+{
+  "total_files": 347,
+  "files": [
+    {
+      "path": ".gitignore",
+      "size_bytes": 1144,
+      "sha256": "0578ad901c628d3c3a2df2d6e3101a858a05f3a360a0bc7ed76566e6af937710"
+    },
+    {
+      "path": "PRODUCTION_RELEASE_ACCEPTANCE_REPORT.md",
+      "size_bytes": 24157,
+      "sha256": "61b8123e483c794818bd3f59ca59032caf7104dc4cb4317903b81348b3785bd3"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 36994,
+      "sha256": "08de270b2df07645701a77e4423ecaf8101ee50983eae007769ccbeeb1687dce"
+    },
+    {
+      "path": "RELEASE_METADATA.json",
+      "size_bytes": 519,
+      "sha256": "5a7706a0bd4d6aa29153d23a5ea2da941ffc542ecdebec67ddac0d2ee9c36456"
+    },
+    {
+      "path": "frontend/README.md",
+      "size_bytes": 621,
+      "sha256": "438d538f350725afe3347aede013679ac112fa6410a20e832afec2e4a00e9866"
+    },
+    {
+      "path": "frontend/index.html",
+      "size_bytes": 378,
+      "sha256": "e56f5be5cc107b7facc37b5904ff49dcc7683e79e1d576e59c7d847f69a1dab1"
+    },
+    {
+      "path": "frontend/package-lock.json",
+      "size_bytes": 138354,
+      "sha256": "cc75fe04b9e4fc51b10721e834e6cbc1cb7972010ebeb941676a386e6342228a"
+    },
+    {
+      "path": "frontend/package.json",
+      "size_bytes": 833,
+      "sha256": "399e97df8660c54b3f88f5691ec07bb1375ff09141a9eb614c9065a52000d31f"
+    },
+    {
+      "path": "frontend/playwright.config.ts",
+      "size_bytes": 2311,
+      "sha256": "1bbb75dc1974f67d1640af2928337a864841097b33ff7887f013dabd0e866982"
+    },
+    {
+      "path": "frontend/src/App.tsx",
+      "size_bytes": 14334,
+      "sha256": "4d17ebc11397e911e946ce80e77d8c93c1e625241774fcb973096ed9d60db698"
+    },
+    {
+      "path": "frontend/src/api.ts",
+      "size_bytes": 5907,
+      "sha256": "3e1788cd0a844e38915ccf1399aac0b3906c9562500571f2cb77b0893d565229"
+    },
+    {
+      "path": "frontend/src/components/DeckGLGeospatialOverlay.tsx",
+      "size_bytes": 5145,
+      "sha256": "1fd84207884573d6a7c18c15737675066e439a1ee339ab3c20dbfcb5490a5678"
+    },
+    {
+      "path": "frontend/src/components/GeospatialCommandCenter.tsx",
+      "size_bytes": 19837,
+      "sha256": "bec92f3a2acfb1d11909bc30e05284cd5992bb74fc3516033ba8df7e5bead831"
+    },
+    {
+      "path": "frontend/src/components/MapLibreGLMap.tsx",
+      "size_bytes": 6369,
+      "sha256": "140610769b05f646b77eba1df176242b5360d216357f21da52148a03239a2ede"
+    },
+    {
+      "path": "frontend/src/main.tsx",
+      "size_bytes": 221,
+      "sha256": "7e8d9e72e1c9e5dabe84f2061f6f0a249d5614666f454b46d17d09674680c1d2"
+    },
+    {
+      "path": "frontend/src/style.css",
+      "size_bytes": 8864,
+      "sha256": "56b384a3e6d948d2718c4903a1ac6f8477f262945d120752ff1d1904749c30d7"
+    },
+    {
+      "path": "frontend/src/vite-env.d.ts",
+      "size_bytes": 38,
+      "sha256": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5"
+    },
+    {
+      "path": "frontend/test-results/.last-run.json",
+      "size_bytes": 45,
+      "sha256": "91d1c43004802cd49950d78eb11c8fa7d05da8ffffe219a8b13b2f561bc00903"
+    },
+    {
+      "path": "frontend/tests/App.test.tsx",
+      "size_bytes": 3163,
+      "sha256": "a4525dc85a17304f2c4e9418888def7ca8a889411ed29e7a85ae1ed5686d5587"
+    },
+    {
+      "path": "frontend/tests/GeospatialCommandCenter.test.tsx",
+      "size_bytes": 2587,
+      "sha256": "34a272aba4b661d5c86cfe8368d8a8473bd345e169977dedf303ecaa19199943"
+    },
+    {
+      "path": "frontend/tests/e2e/demo.spec.ts",
+      "size_bytes": 4499,
+      "sha256": "f1b17ef44a5af7fda4bdf8c96d2d418cb64477546e3213f22e0046e1534ecc43"
+    },
+    {
+      "path": "frontend/tests/setup.ts",
+      "size_bytes": 43,
+      "sha256": "91a3c8962a0edcb956206a501d943fe99e1c78c6d4d8b5c9a948a3362c75978c"
+    },
+    {
+      "path": "frontend/tsconfig.json",
+      "size_bytes": 331,
+      "sha256": "71d7b060e8ba276ba0e883d3a86037cc5a160c4d4cd5f8b7e1fd2600313af363"
+    },
+    {
+      "path": "frontend/vite.config.ts",
+      "size_bytes": 671,
+      "sha256": "3181725736993d07868a7981d67e70479f96128f1205052fb87090a4d6d4d4c5"
+    },
+    {
+      "path": "pyproject.toml",
+      "size_bytes": 1487,
+      "sha256": "8ef21abe6e2118dd409a9b99eb1e99d2e54d77b6c2ec205602cd31f64fd25f18"
+    },
+    {
+      "path": "scripts/README.md",
+      "size_bytes": 946,
+      "sha256": "a427a4d6b14a3195cce676868a624aa6f260b50458c2d8135f3a01aa55c9c64b"
+    },
+    {
+      "path": "scripts/benchmark_urbangraphformer_vs_stgcn_lightgbm.py",
+      "size_bytes": 18613,
+      "sha256": "2e13080352c1d91b7a3a40331a9623b2c8936b88819a42a06d9d0f3b79e0f256"
+    },
+    {
+      "path": "scripts/eg000_legacy_audit.py",
+      "size_bytes": 1564,
+      "sha256": "40dfea875aa3e91fa387f480d8b4b3b0c6461cbfcedad53108fefcc1870e4d3d"
+    },
+    {
+      "path": "scripts/eg001a_report.py",
+      "size_bytes": 7237,
+      "sha256": "741527531ef5db419c4ae1f513a71ff20d86c1a61341e5dc2dc4f6e7867a855e"
+    },
+    {
+      "path": "scripts/eg001a_research.py",
+      "size_bytes": 3581,
+      "sha256": "df770ca40f7ac0bce903ececba2b56cb73131327fdc0a85726799ef6601025fc"
+    },
+    {
+      "path": "scripts/eg005.py",
+      "size_bytes": 18139,
+      "sha256": "25f56b73129d25dd033d692c4819cafccebe07218db87a49e37985e7c631dbbc"
+    },
+    {
+      "path": "scripts/generate_eg006_synthetic.py",
+      "size_bytes": 6200,
+      "sha256": "b98c3d3ad64168df91b92a322e1823ad2a2f00f75865504e01a391185be9b8ea"
+    },
+    {
+      "path": "scripts/generate_p3_synthetic_bundle.py",
+      "size_bytes": 2602,
+      "sha256": "858c5f77a634b7703e490e003fc114902f3703e8b6aaa231bbc6cd784708af38"
+    },
+    {
+      "path": "scripts/plot_eg005.py",
+      "size_bytes": 3399,
+      "sha256": "fda7cd0a69ef0ed4c8f74bdd7a40581b578adcad3f1e1f94882d0914aac5bab3"
+    },
+    {
+      "path": "scripts/probe_eg003.py",
+      "size_bytes": 3619,
+      "sha256": "c2686a21d78bf85309c9fcf79d322ae43c3177246732e4cfb4ee70c077b1ddf7"
+    },
+    {
+      "path": "scripts/report_eg001b.py",
+      "size_bytes": 12675,
+      "sha256": "253c1ab8c8f45f6a53c85db0a63fc09096e2df1176318801298cd41d4a645c54"
+    },
+    {
+      "path": "scripts/report_eg002.py",
+      "size_bytes": 10706,
+      "sha256": "bb251b03c02ab946efe403703e03911f4ceff09d18c94ecbc723eea3cbad80e8"
+    },
+    {
+      "path": "scripts/report_eg003.py",
+      "size_bytes": 14105,
+      "sha256": "c56c36d13499fcc5cf7105c3bec17ad6ab25c8e426407c37a04590aaab5e3c51"
+    },
+    {
+      "path": "scripts/report_eg004.py",
+      "size_bytes": 10514,
+      "sha256": "65b0301e397afc70f01e584c6619aa4f7ad7ca81a27bb78971188cc8b1367959"
+    },
+    {
+      "path": "scripts/run_eg001b.py",
+      "size_bytes": 3885,
+      "sha256": "32fff777b4a2ab3ac340d163940ea8d7811ab7104c000aa215e5d190bfb11190"
+    },
+    {
+      "path": "scripts/run_eg002.py",
+      "size_bytes": 5765,
+      "sha256": "3c57c9349e78aa0c7d105dd6aae2ec182e2d88baf80a9cea1049ba7a097bf04a"
+    },
+    {
+      "path": "scripts/run_eg003.py",
+      "size_bytes": 4579,
+      "sha256": "bec0244a406ff3414cdfcc9847c6e93fe040e65b5e24486fff17d76eb4275fcf"
+    },
+    {
+      "path": "scripts/run_eg004.py",
+      "size_bytes": 2898,
+      "sha256": "a2bd3ca61530227c55b23a3957ce0ffe710fa1c74b0a00b3c57a652a9e324d71"
+    },
+    {
+      "path": "scripts/run_eg005.py",
+      "size_bytes": 6581,
+      "sha256": "7b253293c6a336cfb14b3f151bd8e1f6b07776dde7ec2e8e54a495ba3a48c8aa"
+    },
+    {
+      "path": "scripts/run_eg005_controls.py",
+      "size_bytes": 7760,
+      "sha256": "d9dbe656d08fdff01e70b52331b18b65224684829222146193bf97d11b64f80c"
+    },
+    {
+      "path": "scripts/run_eg006_demo.ps1",
+      "size_bytes": 2813,
+      "sha256": "465dfa697d052ffa870f6fbe6ff48d59c2e857d072f3d816f1a8701e657fdb3c"
+    },
+    {
+      "path": "scripts/run_p6_synthetic_replay.py",
+      "size_bytes": 1478,
+      "sha256": "3bd2981c0d2f76db7addf1d75c41b039024eb2863d0dc9b2997c4afdc4f82d99"
+    },
+    {
+      "path": "scripts/stress_eg004.py",
+      "size_bytes": 5762,
+      "sha256": "71204329a0b81e3487ba727ddbcb899df807bb0c242b40e6f66a6a9c7dd7fa51"
+    },
+    {
+      "path": "scripts/train_and_persist_synth_urbangraphformer.py",
+      "size_bytes": 6235,
+      "sha256": "1253df08323c3411bac5ecf50e5dbe3aa3569a33db22ea545147437b6fec10c0"
+    },
+    {
+      "path": "scripts/ug001_smoke.py",
+      "size_bytes": 1904,
+      "sha256": "902ec251dbb31d254ba5ff864af74f22fc48705ed7da078357e8ec5c6b53af49"
+    },
+    {
+      "path": "scripts/ug002_smoke.py",
+      "size_bytes": 3374,
+      "sha256": "054ea1973d85fbfae475dcffb4a8b27d5ca2f7e15cc7a8d96732bccc9bfdf24c"
+    },
+    {
+      "path": "scripts/ug002a_smoke.py",
+      "size_bytes": 5519,
+      "sha256": "452c306328fff562a8e8fd344cba9bc483842bbdbcaef774b85b5238c84b609f"
+    },
+    {
+      "path": "scripts/ug003_smoke.py",
+      "size_bytes": 2274,
+      "sha256": "d89d5d0b87b4aec5a2db89ae157ccb6d5d8915bd9365db27db4dbee0be064fd6"
+    },
+    {
+      "path": "scripts/ug003a_experiments.py",
+      "size_bytes": 2377,
+      "sha256": "cd9ec4e31159375e46c59033c1b5d7af7cdf1a375058aa49f59229f1549ed557"
+    },
+    {
+      "path": "scripts/ug003a_report.py",
+      "size_bytes": 11188,
+      "sha256": "d1fa1736ce80e5d4b8d6b44cfb08e278313b86ee01ce1b2467483753fe88e4ec"
+    },
+    {
+      "path": "scripts/ug003a_smoke.py",
+      "size_bytes": 2555,
+      "sha256": "f6fda493b5264cea243cf807988d34c2f36b66f7048dee34a21548cb66045c60"
+    },
+    {
+      "path": "scripts/ug003a_verify.py",
+      "size_bytes": 4543,
+      "sha256": "768710f4a1663e145ad9ad58917b8f3aee2bb7d583bf5103e75e7234d3588277"
+    },
+    {
+      "path": "scripts/ug003b_analysis.py",
+      "size_bytes": 8901,
+      "sha256": "fb3fff75fe3dd97c6469e008bd03452b224d85246e919cdbb29c01a9127befc8"
+    },
+    {
+      "path": "scripts/ug003b_report.py",
+      "size_bytes": 10212,
+      "sha256": "2c5b1e6f12d0582a85ab0e78f536bd1f2502b0b186a66b854e68358cfb7e08c5"
+    },
+    {
+      "path": "scripts/ug003b_run.py",
+      "size_bytes": 1046,
+      "sha256": "29c82623eea4e8738434ead0aea7bab5ce3e56d140105e57ee4c6e2c39aa3405"
+    },
+    {
+      "path": "scripts/ug003b_verify.py",
+      "size_bytes": 2441,
+      "sha256": "4277b9a90993337028ef36ff30d1b38ed32ca68faa9fd5d1fab8e6a4016b39c2"
+    },
+    {
+      "path": "scripts/ug003c_ablation_report.py",
+      "size_bytes": 4076,
+      "sha256": "0a39f1b14b0fda98f57e21749b7f890d47158c63a4fbe82946ea87cd1623b196"
+    },
+    {
+      "path": "scripts/ug003c_checkpoint_audit.py",
+      "size_bytes": 3372,
+      "sha256": "cbb5e9f5bab3783d6c1e7dd5962a5726b2883b9254b23f346cfa05fe28dc08e3"
+    },
+    {
+      "path": "scripts/ug003c_figures.py",
+      "size_bytes": 3189,
+      "sha256": "f910ebe22162b9438736c6278dbd66e4229642cdbbc5eb04b0dedee8496a6d58"
+    },
+    {
+      "path": "scripts/ug003c_finalize_report.py",
+      "size_bytes": 11657,
+      "sha256": "ecd2ef36283c389dc3bb47905056d39364e1a0f6e7b3f47a335b796d249f973d"
+    },
+    {
+      "path": "scripts/ug003c_inference_probe.py",
+      "size_bytes": 3237,
+      "sha256": "7cdc3d8c0ba1b012d298a6879ed51afadc0611e99eae180967344e6a5759c342"
+    },
+    {
+      "path": "scripts/ug003c_report.py",
+      "size_bytes": 11215,
+      "sha256": "21948facba90161984577c0d7ed11397f3b099c05a1b64ebfd06206a09797d7f"
+    },
+    {
+      "path": "scripts/ug003c_research.py",
+      "size_bytes": 1591,
+      "sha256": "648af095d72f4f18ea2ce269710db40d89c50e533a89d4a9e5a6b30b0e9b1712"
+    },
+    {
+      "path": "scripts/ug003d_ablation_report.py",
+      "size_bytes": 4762,
+      "sha256": "26e870dd6a9ffd89d98bcd1b79c759f6a2198349fde7c19ac8bce0378edd0ee4"
+    },
+    {
+      "path": "scripts/ug003d_budget_audit.py",
+      "size_bytes": 2708,
+      "sha256": "eb827066125034d62ba8d10743b9c83ec52e299225389d0f0fe590db584d3be7"
+    },
+    {
+      "path": "scripts/ug003d_checkpoint_audit.py",
+      "size_bytes": 2235,
+      "sha256": "704014bf1eb638bba2ac0a630a809833c3841b38501369a6e979f75c867554f3"
+    },
+    {
+      "path": "scripts/ug003d_error_analysis.py",
+      "size_bytes": 7190,
+      "sha256": "3fa0e86d04d6b696158a19a91803cadbc5d5322d4501364bfa6086ad8c17fab6"
+    },
+    {
+      "path": "scripts/ug003d_graph_figures.py",
+      "size_bytes": 3458,
+      "sha256": "5389c15416884c759d0bd4a4c42dcf6f1c1addabf376360a62734864d194a6b2"
+    },
+    {
+      "path": "scripts/ug003d_report.py",
+      "size_bytes": 9163,
+      "sha256": "188685a2347bcc23f3fb8ccc7f2417e0727ab9075ffbd58ebfee014ea287d1ee"
+    },
+    {
+      "path": "scripts/ug003d_research.py",
+      "size_bytes": 1039,
+      "sha256": "f7a4d5588f912f56f6c1b3563b2e8c47381a9a203452a2cf6bc976fd5bb74c47"
+    },
+    {
+      "path": "scripts/ug003d_spatial_report.py",
+      "size_bytes": 6014,
+      "sha256": "371b4b6e6b053ad577c018552ecaeefbd8016026e769894d6ac7fb94313af379"
+    },
+    {
+      "path": "scripts/ug003s_verify.py",
+      "size_bytes": 9616,
+      "sha256": "e88a154d386209c7f81e6fcf4335e1d1d3479186ed82089cbb80a10db88f56a5"
+    },
+    {
+      "path": "src/energraph/__init__.py",
+      "size_bytes": 85,
+      "sha256": "36803e81bb1009f9e3575d9d284135b3bdaabd32af8f16ee7ece196eb6e9a64f"
+    },
+    {
+      "path": "src/energraph/artifacts.py",
+      "size_bytes": 31872,
+      "sha256": "4dc903c806c8ff777dfbb1c9f490fa713e1c69e2c51a7ff4b29018db71e7e97c"
+    },
+    {
+      "path": "src/energraph/broker_adapter.py",
+      "size_bytes": 12113,
+      "sha256": "13f443b7bd31579093939809296ca75b594c8564c61fa061453e2f4a177afe49"
+    },
+    {
+      "path": "src/energraph/broker_contract.py",
+      "size_bytes": 6003,
+      "sha256": "6abfe7fbbe830ba51928f1fb5aeb30866494479afc4b9c24fda6bac07bbb9e98"
+    },
+    {
+      "path": "src/energraph/broker_registry.py",
+      "size_bytes": 25278,
+      "sha256": "189d98c570ba3f6ea1d55913118cd40438468452d399aaf96bca99a6617874be"
+    },
+    {
+      "path": "src/energraph/broker_service.py",
+      "size_bytes": 7440,
+      "sha256": "2352b9e5a2bb52cb0f72f88794fc611acc4fa41e2983e3917008250051c88c5e"
+    },
+    {
+      "path": "src/energraph/broker_tree.py",
+      "size_bytes": 5773,
+      "sha256": "178fbb79a65bc838c9642b040ecb0ab46d673cca4c1880df02442e3878dc94ea"
+    },
+    {
+      "path": "src/energraph/canonical.py",
+      "size_bytes": 12587,
+      "sha256": "e12d2e8649da232db22728cbd2c0bcbf6507435515b09772ed27fcb4ecfdeafc"
+    },
+    {
+      "path": "src/energraph/cli.py",
+      "size_bytes": 16971,
+      "sha256": "a46df1942bb213085c6fde299303be528ae51805936fe99a3c510f02067aeeb4"
+    },
+    {
+      "path": "src/energraph/contracts.py",
+      "size_bytes": 2973,
+      "sha256": "b53e5780a5648e3d990bc533c530846c1206f3af4ba6bfbc2c845ded7a50a756"
+    },
+    {
+      "path": "src/energraph/demo/__init__.py",
+      "size_bytes": 85,
+      "sha256": "ea01ac49c1cf6feaae91e9c0b825a49498b1432f8d2efffa69a716a66f240d65"
+    },
+    {
+      "path": "src/energraph/demo/api.py",
+      "size_bytes": 20958,
+      "sha256": "c27d8fdadae5daf2fab993a6122584e12048984c60596705c3bddd145984c673"
+    },
+    {
+      "path": "src/energraph/demo/contracts.py",
+      "size_bytes": 3741,
+      "sha256": "609516b2bdd21fe30cd4f5a937035c6b39a55c08cdd56264e0747c0248e0efdb"
+    },
+    {
+      "path": "src/energraph/demo/fixtures.py",
+      "size_bytes": 15198,
+      "sha256": "85173e3adc818a58fd6c62146e21a9357789e22be7840a71938e106615608657"
+    },
+    {
+      "path": "src/energraph/energy_boosting.py",
+      "size_bytes": 27990,
+      "sha256": "a1bed477a7273003aa046f1ede54a278944ffdcdff49ba7017d80cc4496caa5e"
+    },
+    {
+      "path": "src/energraph/energy_features.py",
+      "size_bytes": 5991,
+      "sha256": "aa7a1fd7192d080c47bdc60d1fde0e8d251b69cf505194f3e1dc7c11c6d44298"
+    },
+    {
+      "path": "src/energraph/energy_graphs.py",
+      "size_bytes": 32391,
+      "sha256": "2c94b1dd73b7d5cf245b3745972f8eccf2c19ef609989c5a87a8dfa23ef38cd7"
+    },
+    {
+      "path": "src/energraph/evaluation.py",
+      "size_bytes": 11807,
+      "sha256": "82cec043c18ce462ced3f2ae07a374324911f6370ade8678cc2c582c659e3dd4"
+    },
+    {
+      "path": "src/energraph/experiments.py",
+      "size_bytes": 23504,
+      "sha256": "29f94f21f801e527ab558ca9f8e52168f5a2c02b47aa4c2a7b989ae99b9165c7"
+    },
+    {
+      "path": "src/energraph/graph_authority.py",
+      "size_bytes": 5900,
+      "sha256": "f3fec9a79ea0d6e701386eaa9b8d03b38d6bfcc0f8d74391303cfe6ce8195fdb"
+    },
+    {
+      "path": "src/energraph/graph_binding.py",
+      "size_bytes": 3397,
+      "sha256": "05f2e1c9efe75531485166e6f3228628e22d84a0ff974ac7bfa225228a920e5b"
+    },
+    {
+      "path": "src/energraph/graph_cli.py",
+      "size_bytes": 4924,
+      "sha256": "c5551e3c66a988737c1c4c5838d546666da2ceb1b53106b02b9965b5653b96ce"
+    },
+    {
+      "path": "src/energraph/graph_models.py",
+      "size_bytes": 4960,
+      "sha256": "27b2591f649ce6876400988667f1c87542c11281291d612043831bebba95ca4d"
+    },
+    {
+      "path": "src/energraph/graph_research.py",
+      "size_bytes": 23161,
+      "sha256": "10c0ca2ca41280799a5b33fc65c03f306f9eca9afd4529adb57ec8a9c1458acc"
+    },
+    {
+      "path": "src/energraph/graph_windows.py",
+      "size_bytes": 3923,
+      "sha256": "6ecf6dcafcbc1c158389e9f0d6226fbf6e3d0a5d1ceb477b7d027aa6b19a71d5"
+    },
+    {
+      "path": "src/energraph/lineage.py",
+      "size_bytes": 10926,
+      "sha256": "17b9d8bb4e03ad6ea0b7be3eef717033b1b18f19e1ef9cfb49567a185d26e665"
+    },
+    {
+      "path": "src/energraph/multivariable.py",
+      "size_bytes": 19805,
+      "sha256": "cd4c64497dbd855dc56b5bc4e9c797ff50dd1eb9b9803ac128b0ec6183109bc1"
+    },
+    {
+      "path": "src/energraph/optimization/__init__.py",
+      "size_bytes": 583,
+      "sha256": "f1730ede7be09da0b8d6390255149c3fa34a8f86aa322db1c020b8df444a5b52"
+    },
+    {
+      "path": "src/energraph/optimization/physical.py",
+      "size_bytes": 8176,
+      "sha256": "cd58c6ac604fbc4c222e16761e37268b6130d4d684075064fe0946df88adfcc8"
+    },
+    {
+      "path": "src/energraph/optimization/population.py",
+      "size_bytes": 5969,
+      "sha256": "81e84e8ac7ceca158e90efccbd8c9c2495a3bd1025067584cef6aa07a086aeab"
+    },
+    {
+      "path": "src/energraph/optimization/solver.py",
+      "size_bytes": 6425,
+      "sha256": "7b9e25e9dbccc6814cf62806da30eeb0d7768e8195242fd8d64fc5abbb4de217"
+    },
+    {
+      "path": "src/energraph/regional_cli.py",
+      "size_bytes": 11573,
+      "sha256": "56be7bd2c8cd0c294165b6270af3476495fce841ab3f7f5ecbb1cdfa17e15ab4"
+    },
+    {
+      "path": "src/energraph/regional_data.py",
+      "size_bytes": 20351,
+      "sha256": "0ca06875fb7fe00be5c89d8dc060c4a003810e6f8846c1ba28c48bc17e3232f2"
+    },
+    {
+      "path": "src/energraph/regional_research.py",
+      "size_bytes": 27963,
+      "sha256": "d981ef5095d8601ad693f9973ad5b63d3194ae249a4d74cb53734ab4565af3ea"
+    },
+    {
+      "path": "src/energraph/regions.py",
+      "size_bytes": 6519,
+      "sha256": "be379faef3cd0303777496b6af5366967d53161fe555c36133fc1929c7cf3b02"
+    },
+    {
+      "path": "src/energraph/scientific_report.py",
+      "size_bytes": 9311,
+      "sha256": "0ae6a06f73d7746bbe3f6cd5e28a7bd83284f91413fad4070e51132348fb90f8"
+    },
+    {
+      "path": "src/energraph/scientific_validation.py",
+      "size_bytes": 9903,
+      "sha256": "73bc40d445f905d882e0059f398ef4cbfa2d2da70bef722300b4a2937f409bfb"
+    },
+    {
+      "path": "src/energraph/target_plans.py",
+      "size_bytes": 13099,
+      "sha256": "834db34ca83b862bdcd5ee79415c5e86067a085f2331054afcd7f11c1a799d2c"
+    },
+    {
+      "path": "src/energraph/uncertainty/__init__.py",
+      "size_bytes": 69,
+      "sha256": "b34b8a25da5df2fc1600f833c39aade5f3e2741408895b28ab41b2b59a8c3ea1"
+    },
+    {
+      "path": "src/energraph/uncertainty/cli.py",
+      "size_bytes": 7065,
+      "sha256": "0f440accc9022a8a734119ef627253d51354d16b02c1c71f5b01d7c09e900a28"
+    },
+    {
+      "path": "src/energraph/uncertainty/conformal.py",
+      "size_bytes": 7088,
+      "sha256": "3d7b514e86b19ccecc6f4df32301b3fc28c570272efd3ae2201f2d102a22b212"
+    },
+    {
+      "path": "src/energraph/uncertainty/metrics.py",
+      "size_bytes": 3002,
+      "sha256": "054b845affbdf94a73ede924e878e6edc7879b79c642fe6ef3161bf68ed51df0"
+    },
+    {
+      "path": "src/energraph/uncertainty/population.py",
+      "size_bytes": 8855,
+      "sha256": "24888691d78174475473451c2b8c3349de8a78360f1c5aa54af8eaaa95e39d20"
+    },
+    {
+      "path": "src/energraph/uncertainty/research.py",
+      "size_bytes": 23453,
+      "sha256": "4e4742f56d6df5771c0f142775bca3f9f159cafa08df2ee26c2b5b726c5a9fcc"
+    },
+    {
+      "path": "src/energraph/uncertainty/validation.py",
+      "size_bytes": 2491,
+      "sha256": "e58f46e9fdfb02b7562313c020fded3f95de0549d6cf613b8dffb8b4bf400412"
+    },
+    {
+      "path": "src/energraph/variables.py",
+      "size_bytes": 3674,
+      "sha256": "366bfad6d0bd88a9eb76f6b6f84de88c197fb23541077cfe963cd4832a0346fa"
+    },
+    {
+      "path": "src/urbangraph.egg-info/PKG-INFO",
+      "size_bytes": 39152,
+      "sha256": "6b5dac26c6f1d6e6b8562ff03bb2e2fdaf73c1d49b7a9f99c3dac4bd13fc333e"
+    },
+    {
+      "path": "src/urbangraph.egg-info/SOURCES.txt",
+      "size_bytes": 6547,
+      "sha256": "9885f997fea30c4b75b7e4dd20d1213485705616d87fcf7b77c2032f2de0d853"
+    },
+    {
+      "path": "src/urbangraph.egg-info/dependency_links.txt",
+      "size_bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "src/urbangraph.egg-info/entry_points.txt",
+      "size_bytes": 72,
+      "sha256": "561170a3590716597105d4cd7d01f89dc062885973df0d2753aaced99b8c6c07"
+    },
+    {
+      "path": "src/urbangraph.egg-info/requires.txt",
+      "size_bytes": 430,
+      "sha256": "4883bbc35f1659cfab92e87462b8313ddff14acf95d9435ba753dcf0834d4993"
+    },
+    {
+      "path": "src/urbangraph.egg-info/top_level.txt",
+      "size_bytes": 21,
+      "sha256": "be00384136540d04024344a43ceaaa1a45197fbb14ad64d1aed06aa69874fede"
+    },
+    {
+      "path": "src/urbangraph/__init__.py",
+      "size_bytes": 259,
+      "sha256": "ca1d3724842374b2cc2f88a313bcf2a426266c764266ba2f2a00d8c4ab0376bd"
+    },
+    {
+      "path": "src/urbangraph/baselines/__init__.py",
+      "size_bytes": 83,
+      "sha256": "4c2230a8129a8b7439c72cb27965bedb8c7a242c3995a7eba1143286ca3cd746"
+    },
+    {
+      "path": "src/urbangraph/baselines/artifacts.py",
+      "size_bytes": 5882,
+      "sha256": "25e2b036d333dd234375409b3a8e2f09bf108727e9766a2886e0b52253e5368a"
+    },
+    {
+      "path": "src/urbangraph/baselines/cli.py",
+      "size_bytes": 5210,
+      "sha256": "2ff8225597df600f3807b7f5113297b893f58f13398d6d078d254f0b89416042"
+    },
+    {
+      "path": "src/urbangraph/baselines/contracts.py",
+      "size_bytes": 4376,
+      "sha256": "c7f9d853b1a5ebc132fdddf28347033fe40c7ea96a3a01711ecd0172c1a7b5b9"
+    },
+    {
+      "path": "src/urbangraph/baselines/history.py",
+      "size_bytes": 7808,
+      "sha256": "dfa81cf48d93050c5bc26e926258986f9ec0fdbbc58040aa9624e8b6b5a5ce5c"
+    },
+    {
+      "path": "src/urbangraph/baselines/models.py",
+      "size_bytes": 11060,
+      "sha256": "cc416dd00291e6aa4aebce07012cfe268a46a24e963f5c22f303702b6e433bb3"
+    },
+    {
+      "path": "src/urbangraph/baselines/registry.py",
+      "size_bytes": 1391,
+      "sha256": "87797905781706577105666768ece462c6d1f99e315a5ce379a5d262d1e15ac9"
+    },
+    {
+      "path": "src/urbangraph/baselines/reporting.py",
+      "size_bytes": 2998,
+      "sha256": "2d4327ec054670d0ef3177d73d7983a8504d89d50dbd744c59b34ac399d67ec0"
+    },
+    {
+      "path": "src/urbangraph/baselines/runner.py",
+      "size_bytes": 15565,
+      "sha256": "112fb12b24bddab3c050e431136a87749efdeade886e891ff41276e63ecccf5f"
+    },
+    {
+      "path": "src/urbangraph/baselines/scoring.py",
+      "size_bytes": 2437,
+      "sha256": "f5fda3639c76a5ff9f59277f56d70c130ac83c60eabefd5089d73b9bc4ac59a1"
+    },
+    {
+      "path": "src/urbangraph/baselines/state.py",
+      "size_bytes": 2200,
+      "sha256": "eb59df5999f9397b46e9f9c610a2c2cf1fda31894ea4575c0cffc4e52e8f44ae"
+    },
+    {
+      "path": "src/urbangraph/benchmarks/__init__.py",
+      "size_bytes": 79,
+      "sha256": "37d5685f1742b9adc5b8c2f7bfd9b7aae9926ed68a7fe1e42dc49bf0a248dda6"
+    },
+    {
+      "path": "src/urbangraph/benchmarks/audit.py",
+      "size_bytes": 10953,
+      "sha256": "22ecf66b9dd53d902490e3802a5a73c8a21d18a344d11d1d5df055ea833d6761"
+    },
+    {
+      "path": "src/urbangraph/benchmarks/cli.py",
+      "size_bytes": 7312,
+      "sha256": "8921e923330a74f360d9da7ce8799c1a8049dc04b3933ad4a4d98efe1911d777"
+    },
+    {
+      "path": "src/urbangraph/benchmarks/pipeline.py",
+      "size_bytes": 6933,
+      "sha256": "0a4aad441168d9a0ee5f1a5a501a12e1a3153478ca10beedca00bba26ac7e310"
+    },
+    {
+      "path": "src/urbangraph/benchmarks/reports.py",
+      "size_bytes": 2910,
+      "sha256": "76fb0412bb957f54d456a3e16ead49bcec3e214a51103f8f6fbb56fb51e2c33f"
+    },
+    {
+      "path": "src/urbangraph/benchmarks/sources.py",
+      "size_bytes": 2767,
+      "sha256": "9d4cff98fe8db6860d630889e4af899e279cc8b97ae248ae22e3dea86eba6b63"
+    },
+    {
+      "path": "src/urbangraph/benchmarks/spatial.py",
+      "size_bytes": 3402,
+      "sha256": "af7027a4fa1905c63d46f8f8eaed6e130a163740a91d30413a0cc2d70527d92e"
+    },
+    {
+      "path": "src/urbangraph/boosting/__init__.py",
+      "size_bytes": 76,
+      "sha256": "fad1296539a239293822ef95f2eb07a97580e7c026321e28cb00a22727464f9b"
+    },
+    {
+      "path": "src/urbangraph/boosting/artifacts.py",
+      "size_bytes": 9575,
+      "sha256": "c2c2612070b8ebeb3c9f5b25e4ac777b6ac9d9b3ccf34ac99ac3b3f5276ef2d1"
+    },
+    {
+      "path": "src/urbangraph/boosting/cli.py",
+      "size_bytes": 6080,
+      "sha256": "eb02321c898f152df7645ba42c134b961b43d1e19537cabcaf14b0776790e10b"
+    },
+    {
+      "path": "src/urbangraph/boosting/contracts.py",
+      "size_bytes": 6424,
+      "sha256": "4e89c43df544a76866c38178913f36da6f4f85dc271e6db0cf4daca70f5acaa4"
+    },
+    {
+      "path": "src/urbangraph/boosting/features.py",
+      "size_bytes": 5035,
+      "sha256": "e31e60e52252a5af4444b485dd0385d2f9c063b3e249fa14a94defa03f7ccb68"
+    },
+    {
+      "path": "src/urbangraph/boosting/models.py",
+      "size_bytes": 9367,
+      "sha256": "7144dfd7ccadfa41fc91cfc73ff2f9d09996ad1dccb3fd2b0ee93ea0b3d437c8"
+    },
+    {
+      "path": "src/urbangraph/boosting/reporting.py",
+      "size_bytes": 2786,
+      "sha256": "2c2041b944b8e9fec9aea74425dc9f72e3a46cc5a92ffce699a5e820903ee917"
+    },
+    {
+      "path": "src/urbangraph/boosting/runner.py",
+      "size_bytes": 11136,
+      "sha256": "c25435264f205da8bd45b9a1b5bb656c14107cfa6e0a6ab24cd0b9d2010b2d51"
+    },
+    {
+      "path": "src/urbangraph/boosting/sampling.py",
+      "size_bytes": 6798,
+      "sha256": "47afc4d3042385a0ab85773c4d51e2c1c05b12b9434b879e8c5b5d544828e932"
+    },
+    {
+      "path": "src/urbangraph/boosting/tuning.py",
+      "size_bytes": 3725,
+      "sha256": "e262d6a4997dd52139f11590ea0acd0f4c25e0ef01f5c97b8319c77e48856a42"
+    },
+    {
+      "path": "src/urbangraph/checkpoints/urbangraphformer_synth.pt",
+      "size_bytes": 307701,
+      "sha256": "b4cce4e920fba2ebb88c2b54fe1b02d788e60c6b5f458d2004219631c2391e78"
+    },
+    {
+      "path": "src/urbangraph/data/__init__.py",
+      "size_bytes": 692,
+      "sha256": "b67eb6eec103cfcc945cba03db8595d574cb9c82dfc8a2f85f975b94a9400664"
+    },
+    {
+      "path": "src/urbangraph/data/cli.py",
+      "size_bytes": 3861,
+      "sha256": "93f3ec59d51c36cc043a0880956fd023b163b56241c38b279c569edc1e690307"
+    },
+    {
+      "path": "src/urbangraph/data/contracts.py",
+      "size_bytes": 11121,
+      "sha256": "2e4785adc6ce28dae6b93fd7a76b1a04b234708a62c558cc738ed6b593106348"
+    },
+    {
+      "path": "src/urbangraph/data/filesystem.py",
+      "size_bytes": 4802,
+      "sha256": "c8bf28ee69bf224b4a09d5ec27fbaf8651875c93d0688127057cb4fe08e4a017"
+    },
+    {
+      "path": "src/urbangraph/data/ingestion.py",
+      "size_bytes": 7765,
+      "sha256": "788faccb79a4306eac012d70559c63380e580a625ed37f3f6d4a9b528691e558"
+    },
+    {
+      "path": "src/urbangraph/data/rights.py",
+      "size_bytes": 9839,
+      "sha256": "4bca5dbcd7e5c0281f4637ac672a01dddb8b3615d2283b45c8f88ca85e8989af"
+    },
+    {
+      "path": "src/urbangraph/data/saved_trust.py",
+      "size_bytes": 1860,
+      "sha256": "5cf8900919443cf1cdb665f2efa957c650f5893c823adc5738379300cf4f1fd8"
+    },
+    {
+      "path": "src/urbangraph/data/saved_use.py",
+      "size_bytes": 2477,
+      "sha256": "21fd0c01131516584bd932317cd9d5e4d58bd71cd1611c2ef791459470ac1795"
+    },
+    {
+      "path": "src/urbangraph/data/verification.py",
+      "size_bytes": 4701,
+      "sha256": "9e1ff1d74d1328258ac2dfec65996de9ea3bb44709b47bef4dfcfc840870ae90"
+    },
+    {
+      "path": "src/urbangraph/datasets/__init__.py",
+      "size_bytes": 225,
+      "sha256": "c4857e9238d7538c9e8e69e806d94469df7c6b76861141c899a8531f48f27ba5"
+    },
+    {
+      "path": "src/urbangraph/datasets/canonical.py",
+      "size_bytes": 6075,
+      "sha256": "74370640513ee899c10acb18798201e1e2abadc22c532fef8f32fbad86d578c0"
+    },
+    {
+      "path": "src/urbangraph/datasets/cli.py",
+      "size_bytes": 6113,
+      "sha256": "2791866eec5d35e32b29777cb89c995975ba163566be31718890df7a05f1ca80"
+    },
+    {
+      "path": "src/urbangraph/datasets/contracts.py",
+      "size_bytes": 6708,
+      "sha256": "4f39fa25bd299316ae1b6880cf6e532a0d2de9bee76880a51568d1a3b54bb1be"
+    },
+    {
+      "path": "src/urbangraph/datasets/governed_canonical.py",
+      "size_bytes": 2932,
+      "sha256": "1b7b175a2acd3205654ea14ac7db03241a13a07c39d9efb24929e5385205320d"
+    },
+    {
+      "path": "src/urbangraph/datasets/hdf5_adapter.py",
+      "size_bytes": 4473,
+      "sha256": "98beb128a3cdce3c0969b7e9c36c4456d5537dc82b87ee1e73fcec208230122f"
+    },
+    {
+      "path": "src/urbangraph/datasets/materialization.py",
+      "size_bytes": 15619,
+      "sha256": "46ac2875a9b983dacb6a1f9d85053f57ec7d16ecffa47ffc13ecd248b0642536"
+    },
+    {
+      "path": "src/urbangraph/datasets/profiling.py",
+      "size_bytes": 8555,
+      "sha256": "76b43ced6927fb7a4203479135befdd1b2fdd9a3ea3b1df8ab15dad45b22b768"
+    },
+    {
+      "path": "src/urbangraph/datasets/registry.py",
+      "size_bytes": 685,
+      "sha256": "9949414b9964e8d18831ad28fa093581f828bbc12dabe69f2e4ad9d82d66eb5e"
+    },
+    {
+      "path": "src/urbangraph/datasets/serialization.py",
+      "size_bytes": 3440,
+      "sha256": "16a72370967d290ad851d0c6947ebe79ed0bde5e2d522cc0224357544aae2c9c"
+    },
+    {
+      "path": "src/urbangraph/datasets/validation.py",
+      "size_bytes": 6802,
+      "sha256": "dd0f2d5a048147e64b5a80467f011e0faf57c19fa591e7d301009f3f038da4fb"
+    },
+    {
+      "path": "src/urbangraph/evaluation/__init__.py",
+      "size_bytes": 92,
+      "sha256": "40226207b57726c6de7d53341b689009c526806268849516014c3abbdb6e182c"
+    },
+    {
+      "path": "src/urbangraph/evaluation/artifacts.py",
+      "size_bytes": 10830,
+      "sha256": "f2cd3acfda7181cb99375c6a95b67db85d0926e0ba74ae876d173bef82f0d9fb"
+    },
+    {
+      "path": "src/urbangraph/evaluation/cli.py",
+      "size_bytes": 5599,
+      "sha256": "636beefb0bd155dcc9dc1fe268d9d22bd390c16216b3656fed620f2a7e89d49d"
+    },
+    {
+      "path": "src/urbangraph/evaluation/compatibility.py",
+      "size_bytes": 1355,
+      "sha256": "2696079ecdf19a6f060b243384cb44c99e0f4d7291286742fb5f3baeafa25286"
+    },
+    {
+      "path": "src/urbangraph/evaluation/contracts.py",
+      "size_bytes": 11216,
+      "sha256": "eeb55e1bec100d407f41317220c607c12fe8f5ea678fc99435234c3080e65c4f"
+    },
+    {
+      "path": "src/urbangraph/evaluation/dataset.py",
+      "size_bytes": 2978,
+      "sha256": "2cae34781c5b6de064cdeffe3210cc3fd01f5374fb235b80914e082a0c094c11"
+    },
+    {
+      "path": "src/urbangraph/evaluation/metrics.py",
+      "size_bytes": 8118,
+      "sha256": "45af94b248eea25a273f427fd536ebfec8817744e427e5301776dfb5de7010ff"
+    },
+    {
+      "path": "src/urbangraph/evaluation/planning.py",
+      "size_bytes": 7789,
+      "sha256": "e92c75d430d8eb8b9d9db00311ad896dbbb7fe06c6e016c35c1ae012fb874287"
+    },
+    {
+      "path": "src/urbangraph/evaluation/preprocessing.py",
+      "size_bytes": 6930,
+      "sha256": "bbe6d4e8f4ae399a08fb106731328373fc6a9c8ca922d2f52cec7a5f23be384d"
+    },
+    {
+      "path": "src/urbangraph/evaluation/temporal.py",
+      "size_bytes": 4456,
+      "sha256": "35ee07d65a1a387c0ce1bef0cd60f1a56c6c9cb0e3899ea0f75ce3f50224502b"
+    },
+    {
+      "path": "src/urbangraph/evaluation/windows.py",
+      "size_bytes": 6755,
+      "sha256": "b10cd41b0020f526334a50c2ba392b9d2d67c15d70f740bc20a8acacac96a6a4"
+    },
+    {
+      "path": "src/urbangraph/fixtures/eg006/fixtures/battery_scenario.json",
+      "size_bytes": 6529,
+      "sha256": "b1b096704215e0cb76badd385edb496546e7322e2a6bfddb5438cfc1560ba0a5"
+    },
+    {
+      "path": "src/urbangraph/fixtures/eg006/fixtures/forecasts_and_intervals.json",
+      "size_bytes": 129073,
+      "sha256": "df026d3a4e1b7ca10b534afcadb1c0d98441809fc8391f58dab30f540b949369"
+    },
+    {
+      "path": "src/urbangraph/fixtures/eg006/fixtures/graph.json",
+      "size_bytes": 783,
+      "sha256": "2bc6d22d1d9a3b51f86af31554d2dd76729df1a1de04f06d3d72d13fabf95831"
+    },
+    {
+      "path": "src/urbangraph/fixtures/eg006/fixtures/hourly_energy.csv",
+      "size_bytes": 93656,
+      "sha256": "82ba2590c498aceedf2883c3c5c1bacf491f44892c3be78f2ebecbec2084a5d9"
+    },
+    {
+      "path": "src/urbangraph/fixtures/eg006/manifest.json",
+      "size_bytes": 823,
+      "sha256": "b874f63bd9215a3defdf706691fdc703cf8c5147eaf7dce4415a237352ecf3bd"
+    },
+    {
+      "path": "src/urbangraph/governance/__init__.py",
+      "size_bytes": 398,
+      "sha256": "e2e802aa87be4c8b1cb403e0efa1335ef830cd4a6f18872c1a7c23b539ae340a"
+    },
+    {
+      "path": "src/urbangraph/governance/lifecycle.py",
+      "size_bytes": 8360,
+      "sha256": "79eea9dca7a6bf3e8a7750aa7fa5121f1ba880d3e2ea27f87540be3ca139683e"
+    },
+    {
+      "path": "src/urbangraph/graphs/__init__.py",
+      "size_bytes": 79,
+      "sha256": "d2bc0e45ab24dfffee154e3281659d8e50e5a271fdf5b23a39e0a2ccc451947b"
+    },
+    {
+      "path": "src/urbangraph/graphs/artifacts.py",
+      "size_bytes": 15527,
+      "sha256": "0d2a5e256192539c4fdbd3cfbb8aa9832c81245105583b040f05645666670b9e"
+    },
+    {
+      "path": "src/urbangraph/graphs/cli.py",
+      "size_bytes": 4181,
+      "sha256": "4272b34ea35136721c19e2d8039e5f91a79a44b16cd6034d1f1d2d2795a5c0c0"
+    },
+    {
+      "path": "src/urbangraph/graphs/construction.py",
+      "size_bytes": 4451,
+      "sha256": "acae19fe28e8f5956f0aa0987600a4a72c9c757eb93eb9b12f997e4171593f72"
+    },
+    {
+      "path": "src/urbangraph/graphs/contracts.py",
+      "size_bytes": 4110,
+      "sha256": "329b2c66e67d90b83c01a4357589442a155e156aa31b0f8284a3a1e413fa3267"
+    },
+    {
+      "path": "src/urbangraph/graphs/governed.py",
+      "size_bytes": 11648,
+      "sha256": "35899ba818adb30e51bbd44afbb6737c0e76fb51f51d515f8aa2cf3864f95885"
+    },
+    {
+      "path": "src/urbangraph/graphs/normalization.py",
+      "size_bytes": 2993,
+      "sha256": "afd51e0d5990227c26b24e153c5da3c092900407911d7203cd9bcc61829ba5f9"
+    },
+    {
+      "path": "src/urbangraph/graphs/sources.py",
+      "size_bytes": 5015,
+      "sha256": "ecfd5768be26d61862d852cfa919cc4d66bde9903b2a3156b1c716cc3f64dcb3"
+    },
+    {
+      "path": "src/urbangraph/inference_contract.py",
+      "size_bytes": 7769,
+      "sha256": "908ea1c0f7603683d72cde69df00f696afc153b2cbbc8b81ad2c13d7b667e452"
+    },
+    {
+      "path": "src/urbangraph/logging.py",
+      "size_bytes": 1993,
+      "sha256": "bb99a3bc02a5c497efbe16a4a796625830fb54acec1317bb7d521b0a76c9d034"
+    },
+    {
+      "path": "src/urbangraph/monitoring/__init__.py",
+      "size_bytes": 535,
+      "sha256": "64b8ac7f6008a8ea3f81a14d13ac94a4a93fc0fb432d7be6eb92db1bec8c5996"
+    },
+    {
+      "path": "src/urbangraph/monitoring/drift.py",
+      "size_bytes": 8237,
+      "sha256": "ce033d0f8eb2bdb893d00d8b94561a1d2efaac976ca28da9f54906fa9400df36"
+    },
+    {
+      "path": "src/urbangraph/monitoring/observability.py",
+      "size_bytes": 9581,
+      "sha256": "154039a9f6c1bc001e3006cbfb65aa5f1ea9348b343ffaf4ef01f0458af31419"
+    },
+    {
+      "path": "src/urbangraph/neural/__init__.py",
+      "size_bytes": 250,
+      "sha256": "be5da7e5512337bc1f86741e827b11663fc7ae6f64a36c851ab957a66cf62690"
+    },
+    {
+      "path": "src/urbangraph/neural/artifacts.py",
+      "size_bytes": 9192,
+      "sha256": "4ffae62e2cbef347cd74557bbf2a1328ca97e0c8f35330a5d3f733bed17e2ffc"
+    },
+    {
+      "path": "src/urbangraph/neural/checkpointing.py",
+      "size_bytes": 3081,
+      "sha256": "60078af04145f148f5ff90959a88858269162b649983258d2d4ae5c8772b9fa2"
+    },
+    {
+      "path": "src/urbangraph/neural/cli.py",
+      "size_bytes": 5190,
+      "sha256": "3c85cf4a33a9760d9120d4513783647460686bb985c6a47786fe6855e880cebf"
+    },
+    {
+      "path": "src/urbangraph/neural/contracts.py",
+      "size_bytes": 4527,
+      "sha256": "af0ae6418274cf78ed2a593051517db44820fc9922db098c8d2b4f0d19e48759"
+    },
+    {
+      "path": "src/urbangraph/neural/dataloaders.py",
+      "size_bytes": 2804,
+      "sha256": "7756e0714405485d0348d1624b6d4d5fd9ba64253a4d88aa6f6fc90ad3fac5fb"
+    },
+    {
+      "path": "src/urbangraph/neural/datasets.py",
+      "size_bytes": 5619,
+      "sha256": "1ae6a285601c4ab1922626ec2506886418231ad0ffea864d4a8ba94cd84da1c8"
+    },
+    {
+      "path": "src/urbangraph/neural/evaluation.py",
+      "size_bytes": 3372,
+      "sha256": "40ea02cf58d4e86cbcf1155b222f022507d202eacd1472964d8e40f07b731973"
+    },
+    {
+      "path": "src/urbangraph/neural/losses.py",
+      "size_bytes": 1112,
+      "sha256": "421a7cbe95da175c802ddf3a5a377d95bb86752357597a886d30e8950c4b44f6"
+    },
+    {
+      "path": "src/urbangraph/neural/models.py",
+      "size_bytes": 4177,
+      "sha256": "66d3ad5da5909f69359596a2848c135f772372acf682fefd83590363ea71ee1a"
+    },
+    {
+      "path": "src/urbangraph/neural/preprocessing.py",
+      "size_bytes": 1543,
+      "sha256": "372192561c385cf4939828f3831a693264a73400af6ce9054f20cc699b47ea98"
+    },
+    {
+      "path": "src/urbangraph/neural/reporting.py",
+      "size_bytes": 3065,
+      "sha256": "29ef84576f407fd1f4e540802ef4e6dd07d245ecc150d2ba1cdf220784f458e5"
+    },
+    {
+      "path": "src/urbangraph/neural/runner.py",
+      "size_bytes": 7366,
+      "sha256": "7ec8e4c3870ce5820eb0adbfda80b7a3dc77dba9e25db2ba89fe45c41ea6be49"
+    },
+    {
+      "path": "src/urbangraph/neural/trainer.py",
+      "size_bytes": 10352,
+      "sha256": "49cb139147f4afde5aa2cae225b3cb9dfdebbd8d5097fd493c564d5396cf1b6d"
+    },
+    {
+      "path": "src/urbangraph/neural/training_policy.py",
+      "size_bytes": 1387,
+      "sha256": "b9e3601e4a87d8cc550f20a2b970579f1181fdebdd336359a33d856a12dc1cc6"
+    },
+    {
+      "path": "src/urbangraph/neural/tuning.py",
+      "size_bytes": 4035,
+      "sha256": "d01dcc3d27bcd3ddb1f1f6206c9d0e245bc6ef62791c917b342ab73b345284a8"
+    },
+    {
+      "path": "src/urbangraph/neural/urbangraphformer.py",
+      "size_bytes": 16973,
+      "sha256": "0c6ae66dddb80c116feff8ac694eaa069edf977ee7a23a9ced19b72f952738dc"
+    },
+    {
+      "path": "src/urbangraph/production_server.py",
+      "size_bytes": 9471,
+      "sha256": "3a947ac8329aff1ebefe25a6d8cff91ea4f1f1279c5f077bfb7050667e5649e5"
+    },
+    {
+      "path": "src/urbangraph/reproducibility.py",
+      "size_bytes": 2911,
+      "sha256": "79d0c4347236574de57032da71c767ca8213b0fb7917c06fba339bc45695fa60"
+    },
+    {
+      "path": "src/urbangraph/security/__init__.py",
+      "size_bytes": 264,
+      "sha256": "335e39422fec9ae42689f66960a40fb7fb59b2fdbc8c20ae52cc53e4bc79ec81"
+    },
+    {
+      "path": "src/urbangraph/security/k8s_validator.py",
+      "size_bytes": 12485,
+      "sha256": "7cc18cdd82d3e1a8eb632bf0260e9c70db20214a6f05f934d21f9535275ccf30"
+    },
+    {
+      "path": "src/urbangraph/security/token_rotation.py",
+      "size_bytes": 5655,
+      "sha256": "7eee5ff121c1663a780bca475d21f27154a970bceba787b16d0746fc40e89dfd"
+    },
+    {
+      "path": "src/urbangraph/serving/__init__.py",
+      "size_bytes": 65,
+      "sha256": "74b70354a908b75ec0fd79d474558507b4936912539dbc1560e1d56075e828a1"
+    },
+    {
+      "path": "src/urbangraph/serving/bundle_preflight.py",
+      "size_bytes": 6694,
+      "sha256": "7446ead0454d657b8a8ec9690ea64e662b420d2b86d9e2d220d6178557368e59"
+    },
+    {
+      "path": "src/urbangraph/serving/kafka_adapter.py",
+      "size_bytes": 7619,
+      "sha256": "60106b803d216972fb0345d403aec469270f25673c3fea373e1c1dbca5531aa5"
+    },
+    {
+      "path": "src/urbangraph/serving/local_synthetic.py",
+      "size_bytes": 12187,
+      "sha256": "31873202cf32d14daa6097c39c466af2a2c6dea2f3039557190046a984e3d820"
+    },
+    {
+      "path": "src/urbangraph/serving/replay_checkpoint.py",
+      "size_bytes": 6770,
+      "sha256": "48bd9f3a4e7fe2ffed414592aa9ae1d0c71dbe4e162c61e9fc36252eefb60e40"
+    },
+    {
+      "path": "src/urbangraph/serving/resilience.py",
+      "size_bytes": 9794,
+      "sha256": "74bd2a066d32832691258aa491e880373eb5770828be8767e83e00b22b3856cd"
+    },
+    {
+      "path": "src/urbangraph/serving/synthetic_replay.py",
+      "size_bytes": 2312,
+      "sha256": "9c1b4a9583d8605b3f926a8d5726bb0fc35ad56e0dde1cf7f75b5b02813c06bc"
+    },
+    {
+      "path": "src/urbangraph/static/assets/expression-Bl_GL2tO.js",
+      "size_bytes": 1188,
+      "sha256": "71e7147302c7fcea9e45948ec730d772f397a474154231115e5ecd040b6f02d2"
+    },
+    {
+      "path": "src/urbangraph/static/assets/index-CMUR15TM.js",
+      "size_bytes": 2056475,
+      "sha256": "3576868bb88f5e6fbeb5b10078bece1b5c64a17e66033b8b2d53b149a7286a2b"
+    },
+    {
+      "path": "src/urbangraph/static/assets/index-CzyO8_Yh.js",
+      "size_bytes": 18966,
+      "sha256": "cd9482f14e8d7bc52dfcddcf488a9ff6df001c0fbc9e3cd75b4dd41764cf158c"
+    },
+    {
+      "path": "src/urbangraph/static/assets/index-D1GD_yCk.css",
+      "size_bytes": 80292,
+      "sha256": "59607fcbd73eff27a49e6df61b79bc7007c16f850affe37107b9c5579873d4c2"
+    },
+    {
+      "path": "src/urbangraph/static/assets/index-DEx8_ghy.js",
+      "size_bytes": 16677,
+      "sha256": "b609af4267d5f851dcb40b19f7000faa3bdb563b963c9bdec99a744b463b9b25"
+    },
+    {
+      "path": "src/urbangraph/static/index.html",
+      "size_bytes": 476,
+      "sha256": "fac3cc67ce4a2940404611c48ffc505060407a265b1a60558bb3fda8b1042db7"
+    },
+    {
+      "path": "src/urbangraph/stgnn/__init__.py",
+      "size_bytes": 76,
+      "sha256": "16bb69697dfca589a7207f05d89b58298e23db0c06e4219db1998d4248f63f39"
+    },
+    {
+      "path": "src/urbangraph/stgnn/artifacts.py",
+      "size_bytes": 13416,
+      "sha256": "0670c9e18bc98e545a23923704734b0bef6d95596019fb4f6073bae20b9a8ac8"
+    },
+    {
+      "path": "src/urbangraph/stgnn/cli.py",
+      "size_bytes": 3702,
+      "sha256": "d3bf7bbd336dbf2ee35498cafb5eb57c1f0c4981fe1b232b03292453cedd1f8c"
+    },
+    {
+      "path": "src/urbangraph/stgnn/contracts.py",
+      "size_bytes": 3895,
+      "sha256": "e041de829b428a8913f640e22e465f6db5238f7cdc6b32ce1bde9277968c8fe8"
+    },
+    {
+      "path": "src/urbangraph/stgnn/graph_batching.py",
+      "size_bytes": 1471,
+      "sha256": "74a3e897955b855c1094c06db795335204a7c11275f78ee913f0932038e3f8d1"
+    },
+    {
+      "path": "src/urbangraph/stgnn/models.py",
+      "size_bytes": 10288,
+      "sha256": "c1d7646c7c4b8a690cbda76c32f20b50a0a3686ae374150f187f5d007d3d6f3b"
+    },
+    {
+      "path": "src/urbangraph/stgnn/reporting.py",
+      "size_bytes": 2291,
+      "sha256": "32271667fa7c996b37cf8ff0cd376c457fc5f3327d4e7b95a1f1a42d5e06cfd2"
+    },
+    {
+      "path": "src/urbangraph/stgnn/runner.py",
+      "size_bytes": 14598,
+      "sha256": "7e38d1e5617b5d1a24cbe840a4b901d537694a8118bee59112032f3beac640cf"
+    },
+    {
+      "path": "src/urbangraph/uncertainty/__init__.py",
+      "size_bytes": 720,
+      "sha256": "80e076087b71a1de9e79cef7ce2659bc2694694cd4252f10b4f64aa6a54dd26d"
+    },
+    {
+      "path": "src/urbangraph/uncertainty/traffic_conformal.py",
+      "size_bytes": 15417,
+      "sha256": "a2c8cb82b1c4692bd53ba73569b98ea6978cebc7c8987dbc674ef358a78abe01"
+    },
+    {
+      "path": "src/urbangraph/uncertainty/workflow.py",
+      "size_bytes": 6510,
+      "sha256": "7c8566b02320809095678cfccb13868078cc27cd342ccfd86aa7b1b756c4a34e"
+    },
+    {
+      "path": "tests/baselines/__init__.py",
+      "size_bytes": 46,
+      "sha256": "c9a05021dd66469f7c2a0df363550fea6c0d7eb977c71c00dc5713b96beb5e0c"
+    },
+    {
+      "path": "tests/baselines/test_models.py",
+      "size_bytes": 9448,
+      "sha256": "16e0138e4e4d124a8fa132974191e0c7d15fc223098aaf9d7f6a5aa190bcfa48"
+    },
+    {
+      "path": "tests/baselines/test_runner.py",
+      "size_bytes": 14822,
+      "sha256": "5314d98d956ee554d958e7150b15de8a59c8c9b18931c58665728f7adeb1f29f"
+    },
+    {
+      "path": "tests/baselines/test_state_and_policies.py",
+      "size_bytes": 3780,
+      "sha256": "eeef51ece65f5b835f9dc9bf01c8177c4ab5ce3281a9fc89dcbd97be9308fd64"
+    },
+    {
+      "path": "tests/benchmarks/test_workflow.py",
+      "size_bytes": 10429,
+      "sha256": "3f73665ee531c1df29b30ab17367575ae35450d3289997ba9aaaf7753a6ccbb3"
+    },
+    {
+      "path": "tests/boosting/test_foundation.py",
+      "size_bytes": 6858,
+      "sha256": "6aad70df8122281b70c341f3380f2d423df88704801077eb9e62a252cd47799f"
+    },
+    {
+      "path": "tests/boosting/test_runner.py",
+      "size_bytes": 10996,
+      "sha256": "a919e591a29737cc79bf46a7817e6aceb873ce42609622cabb6129d7300ec05e"
+    },
+    {
+      "path": "tests/conftest.py",
+      "size_bytes": 6788,
+      "sha256": "56881438c0bd86165023a3d1bc2a097f2407a27103c26bfbc34fbca53b52d347"
+    },
+    {
+      "path": "tests/data/conftest.py",
+      "size_bytes": 3195,
+      "sha256": "d35ec9c5f5662fe2c9ff22e9da696b572641b689794fb130581f3f338070f62d"
+    },
+    {
+      "path": "tests/data/test_cli.py",
+      "size_bytes": 3172,
+      "sha256": "4aa1bfff1d7b0be7c3686e4f4e5078d76d48ca4bf57274de73fd6b75ef22ca54"
+    },
+    {
+      "path": "tests/data/test_contracts.py",
+      "size_bytes": 3046,
+      "sha256": "ec7e37f0a82cb46094d96e0bc34311d3216e7ff09770dc648261afd327ad0e04"
+    },
+    {
+      "path": "tests/data/test_direct_reader_rights.py",
+      "size_bytes": 3504,
+      "sha256": "2a8cf5d86012284da10ef21f0856676661f5e055384fc4e32205b8d2a7f3bfb3"
+    },
+    {
+      "path": "tests/data/test_filesystem.py",
+      "size_bytes": 6916,
+      "sha256": "182d526e172ac9968a35fc0c4f2a24308c1d9ad50f86e4b00797b63cde6be301"
+    },
+    {
+      "path": "tests/data/test_ingestion.py",
+      "size_bytes": 19339,
+      "sha256": "7c4268f4ef80ec6013af478985c00ffe47bc6f17dde1599a458c58ba68757dba"
+    },
+    {
+      "path": "tests/data/test_rights_boundary.py",
+      "size_bytes": 9897,
+      "sha256": "a81d5b3833b8c11d0825596bc7828a5203cd2a6d4ecc7b31609730d051f3bc46"
+    },
+    {
+      "path": "tests/data/test_saved_publication_boundary.py",
+      "size_bytes": 11853,
+      "sha256": "74cdd7c88cc14240366028a3e99817c5ea46d859b0c62b3cd9163de286d9b6b8"
+    },
+    {
+      "path": "tests/data/test_saved_trust.py",
+      "size_bytes": 1141,
+      "sha256": "66b751a61997631018065d4e08684ac18a036cd1f60b34054f89f081d055c1c5"
+    },
+    {
+      "path": "tests/data/test_source_governance_register.py",
+      "size_bytes": 3132,
+      "sha256": "be3fe4265d421c7b6da8fc5568eb1c5621079d55d25856dfca133f908bcb9831"
+    },
+    {
+      "path": "tests/data/test_verification.py",
+      "size_bytes": 5381,
+      "sha256": "f05031a8f74fe58d823e4b38188cf726a5b76a02aaa596abf3f5154839f3c62f"
+    },
+    {
+      "path": "tests/datasets/__init__.py",
+      "size_bytes": 404,
+      "sha256": "5ee7d2a13aedde794171834af5278061df60bc8e7196d58fc3d674b4f970d1c0"
+    },
+    {
+      "path": "tests/datasets/conftest.py",
+      "size_bytes": 3770,
+      "sha256": "5fdd4d609623de3f476220f14a85024149069c1986e22658b7197a1806484068"
+    },
+    {
+      "path": "tests/datasets/test_canonical_materialization.py",
+      "size_bytes": 10354,
+      "sha256": "e7f72c1eb898e6a2198dbcfe8cfdb64230f90831c7ab037698950351430368be"
+    },
+    {
+      "path": "tests/datasets/test_dataset_cli.py",
+      "size_bytes": 3410,
+      "sha256": "43f13d5898ee2d18042ec8c79317f52d8e36bc4944fcd0aaf88d47e4f36697cc"
+    },
+    {
+      "path": "tests/datasets/test_governed_canonical.py",
+      "size_bytes": 23874,
+      "sha256": "34660eeddef8daea59381f302b3fce57be11fb5008ef8dc85bd6d0cab4c524aa"
+    },
+    {
+      "path": "tests/datasets/test_traffic_parsing.py",
+      "size_bytes": 10024,
+      "sha256": "a0b391abf712df2fd1871b0f6b869c156add37273ea1a8942976a39bfbae8e50"
+    },
+    {
+      "path": "tests/datasets/test_traffic_profiling.py",
+      "size_bytes": 5151,
+      "sha256": "2fa197e66e2d1d81464370337fb18fc609b82c42de5ba9ba628f61212285bffb"
+    },
+    {
+      "path": "tests/demo/test_api.py",
+      "size_bytes": 12276,
+      "sha256": "248c6f6127d4ec51f5f7a46ca464c50b8734e1020192f247e9f07cece28229d8"
+    },
+    {
+      "path": "tests/demo/test_fixtures.py",
+      "size_bytes": 3681,
+      "sha256": "8243d54d735703dbaf7fbc5ed5dca84179f20d6a938f23a631525470bc4609d4"
+    },
+    {
+      "path": "tests/demo/test_scientific_report.py",
+      "size_bytes": 7110,
+      "sha256": "a400acade8ea7d51b1dba66b3fd27ee96905a14bcf1cebe1c7ece368e7d3da5c"
+    },
+    {
+      "path": "tests/demo/test_scientific_validation.py",
+      "size_bytes": 7491,
+      "sha256": "8253f115741cb5a6e0d46edf865351fa6819d1bb13cb573c554d9c3dd669f62f"
+    },
+    {
+      "path": "tests/energy/conftest.py",
+      "size_bytes": 6253,
+      "sha256": "af148764833f53953f339da1c8bd594e579a5bdff21ff8a7b91f92f24be8b491"
+    },
+    {
+      "path": "tests/energy/test_broker_contract.py",
+      "size_bytes": 1962,
+      "sha256": "f15011643c33cff3d42ddda5db52049e2d18a3977ded76ca0c282ec820023737"
+    },
+    {
+      "path": "tests/energy/test_broker_registry.py",
+      "size_bytes": 23507,
+      "sha256": "3b647c9f90ab43ed33cf91a0ef48c3739f56591ea3b45657f836935049eb3188"
+    },
+    {
+      "path": "tests/energy/test_broker_service.py",
+      "size_bytes": 13735,
+      "sha256": "bee6f737189b7e1d901449ff4f3fc5f58cbd9e2d4896c8620264bae0341ce49a"
+    },
+    {
+      "path": "tests/energy/test_broker_tree.py",
+      "size_bytes": 2431,
+      "sha256": "ef191571be954872c4f1e0e957735c9c1bb54f15ac9bef54788902539fa5b48d"
+    },
+    {
+      "path": "tests/energy/test_energy.py",
+      "size_bytes": 32696,
+      "sha256": "26c5a103e6bc05f5dcec89276b766c1110dea55c67d1e26715181ea6458b3d1a"
+    },
+    {
+      "path": "tests/energy/test_governed_derived.py",
+      "size_bytes": 6813,
+      "sha256": "e57a8467ae2e133c9189ad6aa7b7b0204edc8d1e160906be4c6be295414fa272"
+    },
+    {
+      "path": "tests/energy/test_graph_neural.py",
+      "size_bytes": 16080,
+      "sha256": "38ca4bf9170ce1b0235585d0545d656227935cfb9641c1c09471399422f6a96a"
+    },
+    {
+      "path": "tests/energy/test_multi_parent_lineage.py",
+      "size_bytes": 7624,
+      "sha256": "cb27c4509436cb9d0e23fd6df2b54aee89da5b73bf4c7f05741e1824dfdf4743"
+    },
+    {
+      "path": "tests/energy/test_multiregion.py",
+      "size_bytes": 34490,
+      "sha256": "ec52c86edbb47c4dc9c897687701935dd60ca7951b5a680450e5811477826fa3"
+    },
+    {
+      "path": "tests/energy/test_optimization.py",
+      "size_bytes": 6906,
+      "sha256": "e37cb2e064d3448dcdfb3128093b33166e714de1a99ff6a2bfe5c474468bd0bf"
+    },
+    {
+      "path": "tests/energy/test_renewables.py",
+      "size_bytes": 17118,
+      "sha256": "139ed2ac328cdb620dd9d4dab540e58b667d47e7da753379e05ed243ac137040"
+    },
+    {
+      "path": "tests/energy/test_uncertainty.py",
+      "size_bytes": 17992,
+      "sha256": "c2315fb9aa1771b53553c87c8945e63b2765d5c85f2002a3ba0207287cac0e3c"
+    },
+    {
+      "path": "tests/evaluation/__init__.py",
+      "size_bytes": 59,
+      "sha256": "48b5f57de100d65d9bd6b7e6ac03a9af960fad8c54dcce7d3efac14c65c1d553"
+    },
+    {
+      "path": "tests/evaluation/conftest.py",
+      "size_bytes": 3731,
+      "sha256": "74f0bb2056d86ce38ce34a12608617f7eb40f53825d20725aa4de9503b09eb26"
+    },
+    {
+      "path": "tests/evaluation/fixtures/ug003r-code.json",
+      "size_bytes": 3670,
+      "sha256": "bf74e488f37c2448f1b6a4be8fd180fb57e75056a4a934e0928556186e39ece0"
+    },
+    {
+      "path": "tests/evaluation/fixtures/ug003s-code.json",
+      "size_bytes": 3871,
+      "sha256": "2399d62d2a2da55b51f0d08a1c7ddb06b7bade10427bbd7deed315a5e787d662"
+    },
+    {
+      "path": "tests/evaluation/test_artifacts_cli.py",
+      "size_bytes": 9938,
+      "sha256": "047ce2cd169402c179a5baa7719d5263c89876a25e2445570fba0068e3dcff00"
+    },
+    {
+      "path": "tests/evaluation/test_compatibility.py",
+      "size_bytes": 4827,
+      "sha256": "5c275b67c14751948aa540b27694044e2c652daf59c2468fd33faef973697968"
+    },
+    {
+      "path": "tests/evaluation/test_edge_contracts.py",
+      "size_bytes": 4694,
+      "sha256": "48c5270a2fe5b85c9fe2073c0b3b0bb2076644508d989c165d2b834756ae5c0f"
+    },
+    {
+      "path": "tests/evaluation/test_leakage_preprocessing.py",
+      "size_bytes": 7756,
+      "sha256": "786d701d2ea869c0fe443f61a00d8348ed21c3e3deecb1f2041e9768a1c23785"
+    },
+    {
+      "path": "tests/evaluation/test_metrics.py",
+      "size_bytes": 4225,
+      "sha256": "f202b4e432efb2bfa6323f1acabbad94f3332f59705e0c4de267bd4eec255b2c"
+    },
+    {
+      "path": "tests/evaluation/test_planning_windows.py",
+      "size_bytes": 8615,
+      "sha256": "9a2bcfe5bbaa88560de09a68861715b02a61e0689492a7f60cf998b3cc94b00b"
+    },
+    {
+      "path": "tests/evaluation/test_positional.py",
+      "size_bytes": 6883,
+      "sha256": "7e8af9e7223255f6fa3cf163c4574636c549130b49017b358c4c8bb430f71f13"
+    },
+    {
+      "path": "tests/fixtures/checkpoints/urbangraphformer_synth.pt",
+      "size_bytes": 307701,
+      "sha256": "b4cce4e920fba2ebb88c2b54fe1b02d788e60c6b5f458d2004219631c2391e78"
+    },
+    {
+      "path": "tests/fixtures/eg006/fixtures/battery_scenario.json",
+      "size_bytes": 6529,
+      "sha256": "b1b096704215e0cb76badd385edb496546e7322e2a6bfddb5438cfc1560ba0a5"
+    },
+    {
+      "path": "tests/fixtures/eg006/fixtures/forecasts_and_intervals.json",
+      "size_bytes": 129073,
+      "sha256": "df026d3a4e1b7ca10b534afcadb1c0d98441809fc8391f58dab30f540b949369"
+    },
+    {
+      "path": "tests/fixtures/eg006/fixtures/graph.json",
+      "size_bytes": 783,
+      "sha256": "2bc6d22d1d9a3b51f86af31554d2dd76729df1a1de04f06d3d72d13fabf95831"
+    },
+    {
+      "path": "tests/fixtures/eg006/fixtures/hourly_energy.csv",
+      "size_bytes": 93656,
+      "sha256": "82ba2590c498aceedf2883c3c5c1bacf491f44892c3be78f2ebecbec2084a5d9"
+    },
+    {
+      "path": "tests/fixtures/eg006/manifest.json",
+      "size_bytes": 823,
+      "sha256": "b874f63bd9215a3defdf706691fdc703cf8c5147eaf7dce4415a237352ecf3bd"
+    },
+    {
+      "path": "tests/fixtures/p3_synthetic_bundle/calibration.json",
+      "size_bytes": 88,
+      "sha256": "22b6e70d162317c9fc73242594387a6f25b3a92504be18ef11eb689a777b635c"
+    },
+    {
+      "path": "tests/fixtures/p3_synthetic_bundle/graph.json",
+      "size_bytes": 105,
+      "sha256": "4998a0e73feb31e01acb2ac2644405f10e309ac1c2bd0dec67c9f692f91a7dbf"
+    },
+    {
+      "path": "tests/fixtures/p3_synthetic_bundle/manifest.json",
+      "size_bytes": 967,
+      "sha256": "0864c1993288a5460c771211332bda622aacbca31156c10f2f62f3d0f4bc4405"
+    },
+    {
+      "path": "tests/fixtures/p3_synthetic_bundle/model.bin",
+      "size_bytes": 106,
+      "sha256": "06b99631f0777f182c229f140e6a66e1b2aecb020492a59c0cddc8be10eff825"
+    },
+    {
+      "path": "tests/fixtures/p3_synthetic_bundle/transform.json",
+      "size_bytes": 76,
+      "sha256": "d32e54d020c98f06cd3b2f59074fef2cb5ee196c3d9615a89d6f53cf79bdaf9c"
+    },
+    {
+      "path": "tests/governance/test_lifecycle_and_recovery.py",
+      "size_bytes": 5061,
+      "sha256": "802a04dfa6319991c4e3eeb19fa786e87e5910471168c3e958b5ebc13021ab71"
+    },
+    {
+      "path": "tests/graphs/test_artifact_adversarial.py",
+      "size_bytes": 4685,
+      "sha256": "59f5173118a30d4eb017451fbe09817b5db6a0062e9242f9c635094c45f41afd"
+    },
+    {
+      "path": "tests/graphs/test_graphs.py",
+      "size_bytes": 11762,
+      "sha256": "c8a4d1f9da849d497925140cbb41048af6c20b1fdc600a4f71bae3999040f72c"
+    },
+    {
+      "path": "tests/integration/test_full_architecture_integration.py",
+      "size_bytes": 7816,
+      "sha256": "25674bfb8d21fb668b85233d7734c6bcfd27706da7227191a5cdb0857ca977c4"
+    },
+    {
+      "path": "tests/integration/test_multiprocess_network_acceptance.py",
+      "size_bytes": 12445,
+      "sha256": "e501f56ae123271da5059337337806881746c6b31a7b977b131bd02957ed3420"
+    },
+    {
+      "path": "tests/integration/test_true_end_to_end_system.py",
+      "size_bytes": 12053,
+      "sha256": "f92e06408c0e9f4bb5454d73d760bbc891f05ad4a1b58611f84ccdbafebdc055"
+    },
+    {
+      "path": "tests/monitoring/test_observability_and_drift.py",
+      "size_bytes": 5630,
+      "sha256": "fbf501d7500424d8485bcae1825064ea67daa689abfa2ad00ab47266edbfc700"
+    },
+    {
+      "path": "tests/neural/test_neural_devices_temporal.py",
+      "size_bytes": 2954,
+      "sha256": "6ed417691d682b5af8a4dc75f8d05cddb7389e46702490c489bf537b1aa79aea"
+    },
+    {
+      "path": "tests/neural/test_neural_foundation.py",
+      "size_bytes": 7329,
+      "sha256": "a2dcaeff08af24ca35c5a71e1e3de6f8e5b71f8ac40be3d24f8bea631f266998"
+    },
+    {
+      "path": "tests/neural/test_neural_integration.py",
+      "size_bytes": 7353,
+      "sha256": "51b379a4600be35569a39f48dacbf79784893d2264b623ecf1f6ade31510f510"
+    },
+    {
+      "path": "tests/neural/test_neural_safety.py",
+      "size_bytes": 7607,
+      "sha256": "ef96804cdbb40c64a0dad3abcc18357f2fbff34b9b713dc64b51b423ed059b04"
+    },
+    {
+      "path": "tests/neural/test_urbangraphformer.py",
+      "size_bytes": 10271,
+      "sha256": "db844528ff178e37d8a2fe0238043281ff602fa39cba1bd2b111f06a6c080897"
+    },
+    {
+      "path": "tests/security/test_security_contracts.py",
+      "size_bytes": 6039,
+      "sha256": "bfc997cba4a87228748badf887eeee885f794e0353d4ca21b418c8003d551076"
+    },
+    {
+      "path": "tests/serving/test_bundle_preflight.py",
+      "size_bytes": 5608,
+      "sha256": "37b944aed01bec43ff39b8dc04dede6fa97a3a705cd6f4b08816b178e5f3539c"
+    },
+    {
+      "path": "tests/serving/test_inference_contract.py",
+      "size_bytes": 5827,
+      "sha256": "65d470f74a280d55db01cd5788dbaf1675606ba20a65e606003a09d751048de3"
+    },
+    {
+      "path": "tests/serving/test_kafka_adapter.py",
+      "size_bytes": 3710,
+      "sha256": "4604bc80532827e20f3c73b1d380ac6c7adda29e46bab7c4a46add15ab3a571d"
+    },
+    {
+      "path": "tests/serving/test_local_synthetic.py",
+      "size_bytes": 6393,
+      "sha256": "b7d87511dd24aa357bafb039db66a288095d528fe0f80961cf6193675fb2d264"
+    },
+    {
+      "path": "tests/serving/test_replay_checkpoint.py",
+      "size_bytes": 6113,
+      "sha256": "97311c1afd4a9e3571639a07de2f73304b5dd8af5867dcf58ef305527d07ef1d"
+    },
+    {
+      "path": "tests/serving/test_runtime_resilience.py",
+      "size_bytes": 5158,
+      "sha256": "288b72038228c18b7d2ca7ccb02241fb5ba8a55698e0bc7fd34772b250666575"
+    },
+    {
+      "path": "tests/serving/test_synthetic_replay.py",
+      "size_bytes": 3324,
+      "sha256": "4c4640ba6c02bcd492046f865f165eefec7109b2c5fe52bc90fbad52dfc16835"
+    },
+    {
+      "path": "tests/stgnn/test_integration.py",
+      "size_bytes": 14580,
+      "sha256": "5af4515b070a0aed3fb9862d4559cb551492e90696705285bdae0e2f4624b888"
+    },
+    {
+      "path": "tests/stgnn/test_models.py",
+      "size_bytes": 11143,
+      "sha256": "52b457cdf39ee716d799ff27771a3813056239307a4d03703ae2ce80ff7d48ac"
+    },
+    {
+      "path": "tests/test_logging.py",
+      "size_bytes": 2306,
+      "sha256": "68a6b31cfb766a1c50bc1e40b4be8318af9d618de9b5ab19db87c59ad8161ace"
+    },
+    {
+      "path": "tests/test_reproducibility.py",
+      "size_bytes": 4478,
+      "sha256": "0b72ed001b82493870830832d50b7ad7b292660255b47ba795a02869d75ece41"
+    },
+    {
+      "path": "tests/uncertainty/test_conformal_workflow.py",
+      "size_bytes": 7710,
+      "sha256": "a43a17ac0d8506de7413bad5c47639791972e2c5ca3868768ee0cc4ff1bc1753"
+    },
+    {
+      "path": "tests/uncertainty/test_traffic_conformal.py",
+      "size_bytes": 7068,
+      "sha256": "defb1e01a36dfb7876303ddaca95f279c0c792cf5aa021522f34e9bd9ccd05fe"
+    }
+  ]
+}

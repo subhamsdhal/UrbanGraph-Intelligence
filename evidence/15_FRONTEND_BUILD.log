@@ -1,0 +1,21 @@
+
+> energraph-synthetic-demo@0.1.0 build
+> tsc --noEmit && vite build
+
+vite v7.3.7 building client environment for production...
+transforming...
+✓ 961 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                         0.48 kB │ gzip:   0.31 kB
+dist/assets/index-D1GD_yCk.css         80.29 kB │ gzip:  12.62 kB
+dist/assets/expression-Bl_GL2tO.js      1.19 kB │ gzip:   0.51 kB
+dist/assets/index-DEx8_ghy.js          16.68 kB │ gzip:   4.96 kB
+dist/assets/index-CzyO8_Yh.js          18.97 kB │ gzip:   6.63 kB
+dist/assets/index-CMUR15TM.js       2,056.48 kB │ gzip: 579.29 kB
+
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 8.57s

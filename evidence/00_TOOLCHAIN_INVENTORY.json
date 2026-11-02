@@ -1,0 +1,47 @@
+{
+  "timestamp_utc": "2026-11-01T06:21:57.180716+00:00",
+  "host_os": "win32",
+  "python_executable": "python",
+  "python_version": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "node_version": "v24.19.0",
+  "npm_version": "UNAVAILABLE ([WinError 2] The system cannot find the file specified)",
+  "git_version": "git version 2.55.0.windows.3",
+  "docker_version": "Docker version 29.9.1, build dfc520d",
+  "helm_version": "UNAVAILABLE ([WinError 2] The system cannot find the file specified)",
+  "kubectl_version": "Client Version: v1.36.1\nKustomize Version: v5.8.1",
+  "python_packages": {
+    "torch": "2.14.0+cpu",
+    "fastapi": "0.115.0",
+    "uvicorn": "0.32.0",
+    "pydantic": "2.9.0",
+    "numpy": "1.26.0",
+    "pandas": "3.0.6",
+    "lightgbm": "NOT INSTALLED (No module named 'lightgbm')",
+    "xgboost": "NOT INSTALLED (No module named 'xgboost')",
+    "pytest": "8.3.0",
+    "setuptools": "84.0.0",
+    "pip": "25.0.1"
+  },
+  "frontend_toolchain": {
+    "dependencies": {
+      "@deck.gl/core": "^9.4.1",
+      "@deck.gl/layers": "^9.4.1",
+      "maplibre-gl": "^6.16.0",
+      "react": "19.3.1",
+      "react-dom": "19.3.1"
+    },
+    "devDependencies": {
+      "@axe-core/playwright": "4.14.0",
+      "@playwright/test": "1.64.1",
+      "@testing-library/jest-dom": "6.9.1",
+      "@testing-library/react": "16.3.0",
+      "@types/react": "19.2.7",
+      "@types/react-dom": "19.2.3",
+      "@vitejs/plugin-react": "5.1.1",
+      "jsdom": "27.1.0",
+      "typescript": "7.0.2",
+      "vite": "7.3.7",
+      "vitest": "5.0.5"
+    }
+  }
+}

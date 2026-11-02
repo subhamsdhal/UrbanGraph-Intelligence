@@ -1,0 +1,1 @@
+"""Synthetic forecasting regression tests."""

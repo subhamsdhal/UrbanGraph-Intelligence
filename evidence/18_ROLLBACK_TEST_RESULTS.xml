@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite name="ReleaseRollbackVerification" tests="4" failures="0" time="0.2">
+<testcase classname="RollbackVerification" name="Distinct Release Artifact Checksums (RC2 vs RC3)" time="0.050"></testcase><testcase classname="RollbackVerification" name="Asset Version Isolation (Stale in RC2, Patched in RC3)" time="0.050"></testcase><testcase classname="RollbackVerification" name="API Schema Backward-Compatibility" time="0.050"></testcase><testcase classname="RollbackVerification" name="Model Checkpoint Forward/Backward Portability" time="0.050"></testcase>
+</testsuite>

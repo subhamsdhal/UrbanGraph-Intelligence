@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+  <testsuite name="playwright-browser-journey" tests="6" failures="0">
+    <testcase name="synthetic forecast, graph, and battery journey (desktop)" time="24.60" />
+    <testcase name="synthetic forecast, graph, and battery journey (mobile)" time="21.90" />
+    <testcase name="geospatial command center interactive journey (desktop)" time="4.50" />
+    <testcase name="geospatial command center interactive journey (mobile)" time="3.30" />
+    <testcase name="deck.gl webgl, maplibre vector style, and svg fallback toggling (desktop)" time="1.90" />
+    <testcase name="deck.gl webgl, maplibre vector style, and svg fallback toggling (mobile)" time="2.00" />
+  </testsuite>
+</testsuites>

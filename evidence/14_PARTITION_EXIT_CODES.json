@@ -1,0 +1,89 @@
+{
+  "suite": "UrbanGraph Intelligence RC2 - Host-Executable + Docker Baseline",
+  "timestamp_utc": "2026-11-01T07:01:35Z",
+  "host_executable": {
+    "passed": 392,
+    "failed": 46,
+    "skipped": 11,
+    "errors": 0,
+    "overall_exit_code": 1
+  },
+  "docker_baseline": {
+    "note": "924 passed, 10 skipped \u2014 previously verified in Docker environment",
+    "evidence": "urbangraph-final-verified-release-evidence-2026-10-31/"
+  },
+  "partitions": {
+    "data": {
+      "exit_code": 1,
+      "status": "FAIL",
+      "passed": 163,
+      "failed": 23,
+      "skipped": 5,
+      "errors": 0,
+      "elapsed_s": 15.4
+    },
+    "datasets": {
+      "exit_code": 1,
+      "status": "FAIL",
+      "passed": 22,
+      "failed": 23,
+      "skipped": 0,
+      "errors": 0,
+      "elapsed_s": 6.0
+    },
+    "demo": {
+      "exit_code": 0,
+      "status": "PASS",
+      "passed": 68,
+      "failed": 0,
+      "skipped": 2,
+      "errors": 0,
+      "elapsed_s": 6.9
+    },
+    "energy": {
+      "exit_code": 0,
+      "status": "PASS",
+      "passed": 29,
+      "failed": 0,
+      "skipped": 4,
+      "errors": 0,
+      "elapsed_s": 5.1
+    },
+    "governance-monitoring-integration": {
+      "exit_code": 0,
+      "status": "PASS",
+      "passed": 18,
+      "failed": 0,
+      "skipped": 0,
+      "errors": 0,
+      "elapsed_s": 3.9
+    },
+    "neural-security": {
+      "exit_code": 0,
+      "status": "PASS",
+      "passed": 18,
+      "failed": 0,
+      "skipped": 0,
+      "errors": 0,
+      "elapsed_s": 7.0
+    },
+    "serving": {
+      "exit_code": 0,
+      "status": "PASS",
+      "passed": 59,
+      "failed": 0,
+      "skipped": 0,
+      "errors": 0,
+      "elapsed_s": 3.8
+    },
+    "misc": {
+      "exit_code": 0,
+      "status": "PASS",
+      "passed": 15,
+      "failed": 0,
+      "skipped": 0,
+      "errors": 0,
+      "elapsed_s": 0.7
+    }
+  }
+}

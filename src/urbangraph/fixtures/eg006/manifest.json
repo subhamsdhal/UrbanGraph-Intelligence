@@ -1,0 +1,27 @@
+{
+  "file_count": 4,
+  "files": [
+    {
+      "sha256": "b1b096704215e0cb76badd385edb496546e7322e2a6bfddb5438cfc1560ba0a5",
+      "relative_path": "fixtures/battery_scenario.json",
+      "size_bytes": 6529
+    },
+    {
+      "sha256": "df026d3a4e1b7ca10b534afcadb1c0d98441809fc8391f58dab30f540b949369",
+      "relative_path": "fixtures/forecasts_and_intervals.json",
+      "size_bytes": 129073
+    },
+    {
+      "sha256": "2bc6d22d1d9a3b51f86af31554d2dd76729df1a1de04f06d3d72d13fabf95831",
+      "relative_path": "fixtures/graph.json",
+      "size_bytes": 783
+    },
+    {
+      "sha256": "82ba2590c498aceedf2883c3c5c1bacf491f44892c3be78f2ebecbec2084a5d9",
+      "relative_path": "fixtures/hourly_energy.csv",
+      "size_bytes": 93656
+    }
+  ],
+  "total_bytes": 230041.0,
+  "schema_version": "eg006-demo-fixtures-1.0"
+}

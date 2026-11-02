@@ -1,0 +1,9 @@
+# Protected Artifact Hash Manifest — Generated 2026-11-01T06:21:52.689757+00:00
+[DIRECTORY]  .\urbangraph-p6-integrated-application-2026-10-26
+[DIRECTORY]  .\urbangraph-production-rc1-2026-10-31
+7ea5fc12de1cd6118d864e1cddfc0ff8d54c357932c45c35dcf8e83f4021b63c  15731899 bytes  .\urbangraph-final-source-release-2026-10-31.zip
+ac9a2a93a3d3b4d22ac8465066afed4ac31a0ab2083af2d7c0191ebd58107ff8  5010571 bytes  ..zip
+[DIRECTORY]  .\urbangraph-production-rc1-evidence-2026-10-31
+d29e1d7fb3412ed9e80c093ac26ee85ad4ecac5082dbca1311d0e7f263f810a9  2148259 bytes  .\urbangraph-production-rc1-2026-10-31\dist\urbangraph-0.1.0-py3-none-any.whl
+f41ef0dc08b63ea2fe277edbb5d46a20cef73e388266b5178d88930a6f4d0217  1259602 bytes  .\dist\urbangraph-0.2.0rc2-py3-none-any.whl
+5a7706a0bd4d6aa29153d23a5ea2da941ffc542ecdebec67ddac0d2ee9c36456  519 bytes  .\RELEASE_METADATA.json

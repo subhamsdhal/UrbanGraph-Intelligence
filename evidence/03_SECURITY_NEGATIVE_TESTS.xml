@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+  <testsuite name="security-negative-and-rbac" tests="16" failures="0">
+    <testcase name="Missing Bearer Token -> 401 Unauthorized" time="0.0258">
+    </testcase>
+    <testcase name="Malformed / Invalid Bearer Token -> 401 Unauthorized" time="0.0022">
+    </testcase>
+    <testcase name="Static Enterprise Token -> 200 OK (Full Access)" time="0.0032">
+    </testcase>
+    <testcase name="Reader Token -> 200 OK on Read Endpoints (/meta, /regions)" time="0.0055">
+    </testcase>
+    <testcase name="Reader Token on /predict -> 403 Forbidden (RBAC Enforcement)" time="0.0016">
+    </testcase>
+    <testcase name="Reader Token on /admin/rotate-token -> 403 Forbidden (RBAC Enforcement)" time="0.0017">
+    </testcase>
+    <testcase name="Worker Token on /predict -> 200 OK (Authorized Inference)" time="0.0209">
+    </testcase>
+    <testcase name="Worker Token on /admin/rotate-token -> 403 Forbidden (RBAC Enforcement)" time="0.0021">
+    </testcase>
+    <testcase name="Admin Token Rotation Endpoint -> 200 OK (New Token Issued)" time="0.0032">
+    </testcase>
+    <testcase name="Dual-Token Grace Period -> Both Old and New Tokens Valid for In-Flight Requests" time="0.0432">
+    </testcase>
+    <testcase name="OWASP Security Headers (CSP, Frame-Options, Sniff, Referrer, No-Store)" time="0.0042">
+    </testcase>
+    <testcase name="SQL Injection In Param -> 404 Clean Rejection (No Error Exposure)" time="0.0036">
+    </testcase>
+    <testcase name="Path Traversal String -> Safe 404 Rejection" time="0.0026">
+    </testcase>
+    <testcase name="Malformed JSON Request Body -> 422 Unprocessable Entity" time="0.0026">
+    </testcase>
+    <testcase name="Unsupported DELETE Method on /predict -> 405 Method Not Allowed" time="0.0023">
+    </testcase>
+    <testcase name="Token Inventory Endpoint -> Secrets Redacted via Fingerprints" time="0.0031">
+    </testcase>
+  </testsuite>
+</testsuites>

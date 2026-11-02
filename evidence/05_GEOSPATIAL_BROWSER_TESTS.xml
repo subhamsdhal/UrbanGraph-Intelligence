@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+  <testsuite name="maplibre-geospatial-browser-tests" tests="4" failures="0">
+    <testcase name="maplibre-offline-vector-render-desktop" time="1.92" />
+    <testcase name="maplibre-offline-vector-render-mobile" time="2.01" />
+    <testcase name="geospatial-command-center-interaction-desktop" time="4.50" />
+    <testcase name="geospatial-command-center-interaction-mobile" time="3.31" />
+  </testsuite>
+</testsuites>

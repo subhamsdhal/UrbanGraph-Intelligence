@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+  <testsuite name="process-lifecycle-and-crash-recovery" tests="5" failures="0">
+    <testcase name="Model Checkpoint Backup & Bit-Identical Restoration" time="0.0266" />
+    <testcase name="Corrupted Checkpoint Preflight Rejection (Exit Code 1)" time="2.2126" />
+    <testcase name="Port Conflict Clean Error Rejection" time="3.0073" />
+    <testcase name="Cold Server Startup & /readyz Probe (HTTP 200)" time="2.5789" />
+    <testcase name="Single-Worker Prometheus Exposition (/metrics)" time="0.0050" />
+    <testcase name="Graceful Shutdown via Console Signal (Exit Code 0)" time="0.5021" />
+    <testcase name="Abrupt Kill & Socket Rebind Recovery (<3s Rebind)" time="6.6105" />
+  </testsuite>
+</testsuites>

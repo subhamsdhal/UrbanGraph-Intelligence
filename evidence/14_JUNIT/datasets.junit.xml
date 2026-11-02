@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="23" skipped="0" tests="45" time="4.951" timestamp="2026-11-01T12:31:03.118591+05:30" hostname="SWASTIK"><testcase classname="tests.datasets.test_dataset_cli" name="test_dataset_commands" time="0.007"><failure message="ImportError: `Import pytables` failed.  Use pip or conda to install the pytables package.">/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\compat\_optional.py:158: in import_optional_dependency
+    module = importlib.import_module(name)
+/home/user\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+E   ModuleNotFoundError: No module named 'tables'
+
+The above exception was the direct cause of the following exception:
+tests\datasets\test_dataset_cli.py:26: in test_dataset_commands
+    raw = snapshot_factory(traffic_frame)
+tests\datasets\conftest.py:79: in create
+    frame.to_hdf(path, key=key, mode="w", format=storage)
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\generic.py:2776: in to_hdf
+    pytables.to_hdf(
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\pytables.py:313: in to_hdf
+    with HDFStore(
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\pytables.py:578: in __init__
+    tables = import_optional_dependency("tables")
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\compat\_optional.py:161: in import_optional_dependency
+    raise ImportError(msg) from err
+E   ImportError: `Import pytables` failed.  Use pip or conda to install the pytables package.</failure></testcase><testcase classname="tests.datasets.test_dataset_cli" name="test_cli_validation_error" time="0.003"><failure message="ImportError: `Import pytables` failed.  Use pip or conda to install the pytables package.">/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\compat\_optional.py:158: in import_optional_dependency
+    module = importlib.import_module(name)
+/home/user\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+E   ModuleNotFoundError: No module named 'tables'
+
+The above exception was the direct cause of the following exception:
+tests\datasets\test_dataset_cli.py:61: in test_cli_validation_error
+    raw = snapshot_factory(traffic_frame.iloc[::-1])
+tests\datasets\conftest.py:79: in create
+    frame.to_hdf(path, key=key, mode="w", format=storage)
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\generic.py:2776: in to_hdf
+    pytables.to_hdf(
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\pytables.py:313: in to_hdf
+    with HDFStore(
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\pytables.py:578: in __init__
+    tables = import_optional_dependency("tables")
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\compat\_optional.py:161: in import_optional_dependency
+    raise ImportError(msg) from err
+E   ImportError: `Import pytables` failed.  Use pip or conda to install the pytables package.</failure></testcase><testcase classname="tests.datasets.test_dataset_cli" name="test_cli_policy_failure" time="0.003"><failure message="ImportError: `Import pytables` failed.  Use pip or conda to install the pytables package.">/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\compat\_optional.py:158: in import_optional_dependency
+    module = importlib.import_module(name)
+/home/user\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+E   ModuleNotFoundError: No module named 'tables'
+
+The above exception was the direct cause of the following exception:
+tests\datasets\test_dataset_cli.py:70: in test_cli_policy_failure
+    raw = snapshot_factory(traffic_frame)
+tests\datasets\conftest.py:79: in create
+    frame.to_hdf(path, key=key, mode="w", format=storage)
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\generic.py:2776: in to_hdf
+    pytables.to_hdf(
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\pytables.py:313: in to_hdf
+    with HDFStore(
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\pytables.py:578: in __init__
+    tables = import_optional_dependency("tables")
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\compat\_optional.py:161: in import_optional_dependency
+    raise ImportError(msg) from err
+E   ImportError: `Import pytables` failed.  Use pip or conda to install the pytables package.</failure></testcase><testcase classname="tests.datasets.test_dataset_cli" name="test_dataset_help[validate]" time="0.172" /><testcase classname="tests.datasets.test_dataset_cli" name="test_dataset_help[profile]" time="0.176" /><testcase classname="tests.datasets.test_dataset_cli" name="test_dataset_help[materialize]" time="0.171" /><testcase classname="tests.datasets.test_dataset_cli" name="test_dataset_help[verify]" time="0.165" /><testcase classname="tests.datasets.test_dataset_cli" name="test_missing_snapshot_error" time="0.770" /><testcase classname="tests.datasets.test_dataset_cli" name="test_base_import_does_not_load_data_stack" time="0.167" /><testcase classname="tests.datasets.test_traffic_parsing" name="test_non_native_numeric_byte_order" time="0.001" /><testcase classname="tests.datasets.test_traffic_parsing" name="test_hdf_adapters[fixed-metr-la]" time="0.003"><failure message="ImportError: `Import pytables` failed.  Use pip or conda to install the pytables package.">/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\compat\_optional.py:158: in import_optional_dependency
+    module = importlib.import_module(name)
+/home/user\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+E   ModuleNotFoundError: No module named 'tables'
+
+The above exception was the direct cause of the following exception:
+tests\datasets\test_traffic_parsing.py:36: in test_hdf_adapters
+    raw = snapshot_factory(
+tests\datasets\conftest.py:79: in create
+    frame.to_hdf(path, key=key, mode="w", format=storage)
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\generic.py:2776: in to_hdf
+    pytables.to_hdf(
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\pytables.py:313: in to_hdf
+    with HDFStore(
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\pytables.py:578: in __init__
+    tables = import_optional_dependency("tables")
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\compat\_optional.py:161: in import_optional_dependency
+    raise ImportError(msg) from err
+E   ImportError: `Import pytables` failed.  Use pip or conda to install the pytables package.</failure></testcase><testcase classname="tests.datasets.test_traffic_parsing" name="test_hdf_adapters[fixed-pems-bay]" time="0.003"><failure message="ImportError: `Import pytables` failed.  Use pip or conda to install the pytables package.">/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\compat\_optional.py:158: in import_optional_dependency
+    module = importlib.import_module(name)
+/home/user\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+E   ModuleNotFoundError: No module named 'tables'
+
+The above exception was the direct cause of the following exception:
+tests\datasets\test_traffic_parsing.py:36: in test_hdf_adapters
+    raw = snapshot_factory(
+tests\datasets\conftest.py:79: in create
+    frame.to_hdf(path, key=key, mode="w", format=storage)
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\generic.py:2776: in to_hdf
+    pytables.to_hdf(
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\pytables.py:313: in to_hdf
+    with HDFStore(
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\pytables.py:578: in __init__
+    tables = import_optional_dependency("tables")
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\compat\_optional.py:161: in import_optional_dependency
+    raise ImportError(msg) from err
+E   ImportError: `Import pytables` failed.  Use pip or conda to install the pytables package.</failure></testcase><testcase classname="tests.datasets.test_traffic_parsing" name="test_hdf_adapters[table-metr-la]" time="0.003"><failure message="ImportError: `Import pytables` failed.  Use pip or conda to install the pytables package.">/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\compat\_optional.py:158: in import_optional_dependency
+    module = importlib.import_module(name)
+/home/user\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+E   ModuleNotFoundError: No module named 'tables'
+
+The above exception was the direct cause of the following exception:
+tests\datasets\test_traffic_parsing.py:36: in test_hdf_adapters
+    raw = snapshot_factory(
+tests\datasets\conftest.py:79: in create
+    frame.to_hdf(path, key=key, mode="w", format=storage)
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\generic.py:2776: in to_hdf
+    pytables.to_hdf(
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\pytables.py:313: in to_hdf
+    with HDFStore(
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\pytables.py:578: in __init__
+    tables = import_optional_dependency("tables")
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\compat\_optional.py:161: in import_optional_dependency
+    raise ImportError(msg) from err
+E   ImportError: `Import pytables` failed.  Use pip or conda to install the pytables package.</failure></testcase><testcase classname="tests.datasets.test_traffic_parsing" name="test_hdf_adapters[table-pems-bay]" time="0.003"><failure message="ImportError: `Import pytables` failed.  Use pip or conda to install the pytables package.">/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\compat\_optional.py:158: in import_optional_dependency
+    module = importlib.import_module(name)
+/home/user\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+E   ModuleNotFoundError: No module named 'tables'
+
+The above exception was the direct cause of the following exception:
+tests\datasets\test_traffic_parsing.py:36: in test_hdf_adapters
+    raw = snapshot_factory(
+tests\datasets\conftest.py:79: in create
+    frame.to_hdf(path, key=key, mode="w", format=storage)
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\generic.py:2776: in to_hdf
+    pytables.to_hdf(
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\pytables.py:313: in to_hdf
+    with HDFStore(
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\pytables.py:578: in __init__
+    tables = import_optional_dependency("tables")
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\compat\_optional.py:161: in import_optional_dependency
+    raise ImportError(msg) from err
+E   ImportError: `Import pytables` failed.  Use pip or conda to install the pytables package.</failure></testcase><testcase classname="tests.datasets.test_traffic_parsing" name="test_multiple_keys" time="0.003"><failure message="ImportError: `Import pytables` failed.  Use pip or conda to install the pytables package.">/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\compat\_optional.py:158: in import_optional_dependency
+    module = importlib.import_module(name)
+/home/user\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+E   ModuleNotFoundError: No module named 'tables'
+
+The above exception was the direct cause of the following exception:
+tests\datasets\test_traffic_parsing.py:53: in test_multiple_keys
+    raw = snapshot_factory(traffic_frame, other=traffic_frame * 2)
+tests\datasets\conftest.py:79: in create
+    frame.to_hdf(path, key=key, mode="w", format=storage)
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\generic.py:2776: in to_hdf
+    pytables.to_hdf(
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\pytables.py:313: in to_hdf
+    with HDFStore(
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\pytables.py:578: in __init__
+    tables = import_optional_dependency("tables")
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\compat\_optional.py:161: in import_optional_dependency
+    raise ImportError(msg) from err
+E   ImportError: `Import pytables` failed.  Use pip or conda to install the pytables package.</failure></testcase><testcase classname="tests.datasets.test_traffic_parsing" name="test_identity_mismatch" time="0.002"><failure message="ImportError: `Import pytables` failed.  Use pip or conda to install the pytables package.">/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\compat\_optional.py:158: in import_optional_dependency
+    module = importlib.import_module(name)
+/home/user\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+E   ModuleNotFoundError: No module named 'tables'
+
+The above exception was the direct cause of the following exception:
+tests\datasets\test_traffic_parsing.py:63: in test_identity_mismatch
+    raw = snapshot_factory(traffic_frame)
+tests\datasets\conftest.py:79: in create
+    frame.to_hdf(path, key=key, mode="w", format=storage)
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\generic.py:2776: in to_hdf
+    pytables.to_hdf(
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\pytables.py:313: in to_hdf
+    with HDFStore(
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\pytables.py:578: in __init__
+    tables = import_optional_dependency("tables")
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\compat\_optional.py:161: in import_optional_dependency
+    raise ImportError(msg) from err
+E   ImportError: `Import pytables` failed.  Use pip or conda to install the pytables package.</failure></testcase><testcase classname="tests.datasets.test_traffic_parsing" name="test_unsupported_payloads[missing-file]" time="0.125" /><testcase classname="tests.datasets.test_traffic_parsing" name="test_unsupported_payloads[invalid-hdf]" time="0.142" /><testcase classname="tests.datasets.test_traffic_parsing" name="test_unsupported_payloads[series]" time="0.003"><failure message="ImportError: `Import pytables` failed.  Use pip or conda to install the pytables package.">/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\compat\_optional.py:158: in import_optional_dependency
+    module = importlib.import_module(name)
+/home/user\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+E   ModuleNotFoundError: No module named 'tables'
+
+The above exception was the direct cause of the following exception:
+tests\datasets\test_traffic_parsing.py:74: in test_unsupported_payloads
+    pd.Series([1.0, 2.0]).to_hdf(payload, key="traffic", mode="w")
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\generic.py:2776: in to_hdf
+    pytables.to_hdf(
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\pytables.py:313: in to_hdf
+    with HDFStore(
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\pytables.py:578: in __init__
+    tables = import_optional_dependency("tables")
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\compat\_optional.py:161: in import_optional_dependency
+    raise ImportError(msg) from err
+E   ImportError: `Import pytables` failed.  Use pip or conda to install the pytables package.</failure></testcase><testcase classname="tests.datasets.test_traffic_parsing" name="test_unsupported_payloads[arbitrary-hdf]" time="0.003"><failure message="ModuleNotFoundError: No module named 'tables'">tests\datasets\test_traffic_parsing.py:76: in test_unsupported_payloads
+    import tables  # type: ignore[import-untyped]
+E   ModuleNotFoundError: No module named 'tables'</failure></testcase><testcase classname="tests.datasets.test_traffic_parsing" name="test_corrupted_raw_rejected" time="0.005"><failure message="ImportError: `Import pytables` failed.  Use pip or conda to install the pytables package.">/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\compat\_optional.py:158: in import_optional_dependency
+    module = importlib.import_module(name)
+/home/user\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+E   ModuleNotFoundError: No module named 'tables'
+
+The above exception was the direct cause of the following exception:
+tests\datasets\test_traffic_parsing.py:122: in test_corrupted_raw_rejected
+    raw = snapshot_factory(traffic_frame)
+tests\datasets\conftest.py:79: in create
+    frame.to_hdf(path, key=key, mode="w", format=storage)
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\generic.py:2776: in to_hdf
+    pytables.to_hdf(
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\pytables.py:313: in to_hdf
+    with HDFStore(
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\pytables.py:578: in __init__
+    tables = import_optional_dependency("tables")
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\compat\_optional.py:161: in import_optional_dependency
+    raise ImportError(msg) from err
+E   ImportError: `Import pytables` failed.  Use pip or conda to install the pytables package.</failure></testcase><testcase classname="tests.datasets.test_traffic_parsing" name="test_bad_timestamps[duplicate]" time="0.003"><failure message="ImportError: `Import pytables` failed.  Use pip or conda to install the pytables package.">/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\compat\_optional.py:158: in import_optional_dependency
+    module = importlib.import_module(name)
+/home/user\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+E   ModuleNotFoundError: No module named 'tables'
+
+The above exception was the direct cause of the following exception:
+tests\datasets\test_traffic_parsing.py:150: in test_bad_timestamps
+    raw = snapshot_factory(frame)
+tests\datasets\conftest.py:79: in create
+    frame.to_hdf(path, key=key, mode="w", format=storage)
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\generic.py:2776: in to_hdf
+    pytables.to_hdf(
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\pytables.py:313: in to_hdf
+    with HDFStore(
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\pytables.py:578: in __init__
+    tables = import_optional_dependency("tables")
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\compat\_optional.py:161: in import_optional_dependency
+    raise ImportError(msg) from err
+E   ImportError: `Import pytables` failed.  Use pip or conda to install the pytables package.</failure></testcase><testcase classname="tests.datasets.test_traffic_parsing" name="test_bad_timestamps[unsorted]" time="0.003"><failure message="ImportError: `Import pytables` failed.  Use pip or conda to install the pytables package.">/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\compat\_optional.py:158: in import_optional_dependency
+    module = importlib.import_module(name)
+/home/user\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+E   ModuleNotFoundError: No module named 'tables'
+
+The above exception was the direct cause of the following exception:
+tests\datasets\test_traffic_parsing.py:150: in test_bad_timestamps
+    raw = snapshot_factory(frame)
+tests\datasets\conftest.py:79: in create
+    frame.to_hdf(path, key=key, mode="w", format=storage)
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\generic.py:2776: in to_hdf
+    pytables.to_hdf(
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\pytables.py:313: in to_hdf
+    with HDFStore(
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\pytables.py:578: in __init__
+    tables = import_optional_dependency("tables")
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\compat\_optional.py:161: in import_optional_dependency
+    raise ImportError(msg) from err
+E   ImportError: `Import pytables` failed.  Use pip or conda to install the pytables package.</failure></testcase><testcase classname="tests.datasets.test_traffic_parsing" name="test_bad_timestamps[nat]" time="0.003"><failure message="ImportError: `Import pytables` failed.  Use pip or conda to install the pytables package.">/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\compat\_optional.py:158: in import_optional_dependency
+    module = importlib.import_module(name)
+/home/user\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+E   ModuleNotFoundError: No module named 'tables'
+
+The above exception was the direct cause of the following exception:
+tests\datasets\test_traffic_parsing.py:150: in test_bad_timestamps
+    raw = snapshot_factory(frame)
+tests\datasets\conftest.py:79: in create
+    frame.to_hdf(path, key=key, mode="w", format=storage)
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\generic.py:2776: in to_hdf
+    pytables.to_hdf(
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\pytables.py:313: in to_hdf
+    with HDFStore(
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\pytables.py:578: in __init__
+    tables = import_optional_dependency("tables")
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\compat\_optional.py:161: in import_optional_dependency
+    raise ImportError(msg) from err
+E   ImportError: `Import pytables` failed.  Use pip or conda to install the pytables package.</failure></testcase><testcase classname="tests.datasets.test_traffic_parsing" name="test_bad_timestamps[string-index]" time="0.003"><failure message="ImportError: `Import pytables` failed.  Use pip or conda to install the pytables package.">/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\compat\_optional.py:158: in import_optional_dependency
+    module = importlib.import_module(name)
+/home/user\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+E   ModuleNotFoundError: No module named 'tables'
+
+The above exception was the direct cause of the following exception:
+tests\datasets\test_traffic_parsing.py:150: in test_bad_timestamps
+    raw = snapshot_factory(frame)
+tests\datasets\conftest.py:79: in create
+    frame.to_hdf(path, key=key, mode="w", format=storage)
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\generic.py:2776: in to_hdf
+    pytables.to_hdf(
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\pytables.py:313: in to_hdf
+    with HDFStore(
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\pytables.py:578: in __init__
+    tables = import_optional_dependency("tables")
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\compat\_optional.py:161: in import_optional_dependency
+    raise ImportError(msg) from err
+E   ImportError: `Import pytables` failed.  Use pip or conda to install the pytables package.</failure></testcase><testcase classname="tests.datasets.test_traffic_parsing" name="test_sensor_structural_checks[labels0-duplicate_sensors]" time="0.002" /><testcase classname="tests.datasets.test_traffic_parsing" name="test_sensor_structural_checks[labels1-sensor_normalization_collision]" time="0.001" /><testcase classname="tests.datasets.test_traffic_parsing" name="test_sensor_structural_checks[labels2-sensor_normalization_collision]" time="0.001" /><testcase classname="tests.datasets.test_traffic_parsing" name="test_sensor_structural_checks[labels3-missing_sensor_id]" time="0.001" /><testcase classname="tests.datasets.test_traffic_parsing" name="test_sensor_structural_checks[labels4-missing_sensor_id]" time="0.001" /><testcase classname="tests.datasets.test_traffic_parsing" name="test_sensor_structural_checks[labels5-sensor_type]" time="0.002" /><testcase classname="tests.datasets.test_traffic_parsing" name="test_nonnumeric_rejected" time="0.003"><failure message="ImportError: `Import pytables` failed.  Use pip or conda to install the pytables package.">/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\compat\_optional.py:158: in import_optional_dependency
+    module = importlib.import_module(name)
+/home/user\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+E   ModuleNotFoundError: No module named 'tables'
+
+The above exception was the direct cause of the following exception:
+tests\datasets\test_traffic_parsing.py:178: in test_nonnumeric_rejected
+    raw = snapshot_factory(traffic_frame)
+tests\datasets\conftest.py:79: in create
+    frame.to_hdf(path, key=key, mode="w", format=storage)
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\generic.py:2776: in to_hdf
+    pytables.to_hdf(
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\pytables.py:313: in to_hdf
+    with HDFStore(
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\pytables.py:578: in __init__
+    tables = import_optional_dependency("tables")
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\compat\_optional.py:161: in import_optional_dependency
+    raise ImportError(msg) from err
+E   ImportError: `Import pytables` failed.  Use pip or conda to install the pytables package.</failure></testcase><testcase classname="tests.datasets.test_traffic_parsing" name="test_original_sensor_identity" time="0.003"><failure message="ImportError: `Import pytables` failed.  Use pip or conda to install the pytables package.">/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\compat\_optional.py:158: in import_optional_dependency
+    module = importlib.import_module(name)
+/home/user\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+E   ModuleNotFoundError: No module named 'tables'
+
+The above exception was the direct cause of the following exception:
+tests\datasets\test_traffic_parsing.py:185: in test_original_sensor_identity
+    parsed = parse_snapshot(snapshot_factory(frame).directory)
+tests\datasets\conftest.py:79: in create
+    frame.to_hdf(path, key=key, mode="w", format=storage)
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\generic.py:2776: in to_hdf
+    pytables.to_hdf(
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\pytables.py:313: in to_hdf
+    with HDFStore(
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\pytables.py:578: in __init__
+    tables = import_optional_dependency("tables")
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\compat\_optional.py:161: in import_optional_dependency
+    raise ImportError(msg) from err
+E   ImportError: `Import pytables` failed.  Use pip or conda to install the pytables package.</failure></testcase><testcase classname="tests.datasets.test_traffic_parsing" name="test_upstream_nan_label_conversion_is_rejected" time="0.003"><failure message="ImportError: `Import pytables` failed.  Use pip or conda to install the pytables package.">/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\compat\_optional.py:158: in import_optional_dependency
+    module = importlib.import_module(name)
+/home/user\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+E   ModuleNotFoundError: No module named 'tables'
+
+The above exception was the direct cause of the following exception:
+tests\datasets\test_traffic_parsing.py:195: in test_upstream_nan_label_conversion_is_rejected
+    raw = snapshot_factory(frame)
+tests\datasets\conftest.py:79: in create
+    frame.to_hdf(path, key=key, mode="w", format=storage)
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\generic.py:2776: in to_hdf
+    pytables.to_hdf(
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\pytables.py:313: in to_hdf
+    with HDFStore(
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\pytables.py:578: in __init__
+    tables = import_optional_dependency("tables")
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\compat\_optional.py:161: in import_optional_dependency
+    raise ImportError(msg) from err
+E   ImportError: `Import pytables` failed.  Use pip or conda to install the pytables package.</failure></testcase><testcase classname="tests.datasets.test_traffic_parsing" name="test_temporal_grid[offsets0-0-0-0]" time="0.003"><failure message="ImportError: `Import pytables` failed.  Use pip or conda to install the pytables package.">/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\compat\_optional.py:158: in import_optional_dependency
+    module = importlib.import_module(name)
+/home/user\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+E   ModuleNotFoundError: No module named 'tables'
+
+The above exception was the direct cause of the following exception:
+tests\datasets\test_traffic_parsing.py:220: in test_temporal_grid
+    parsed = parse_snapshot(snapshot_factory(frame).directory)
+tests\datasets\conftest.py:79: in create
+    frame.to_hdf(path, key=key, mode="w", format=storage)
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\generic.py:2776: in to_hdf
+    pytables.to_hdf(
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\pytables.py:313: in to_hdf
+    with HDFStore(
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\pytables.py:578: in __init__
+    tables = import_optional_dependency("tables")
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\compat\_optional.py:161: in import_optional_dependency
+    raise ImportError(msg) from err
+E   ImportError: `Import pytables` failed.  Use pip or conda to install the pytables package.</failure></testcase><testcase classname="tests.datasets.test_traffic_parsing" name="test_temporal_grid[offsets1-1-1-0]" time="0.003"><failure message="ImportError: `Import pytables` failed.  Use pip or conda to install the pytables package.">/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\compat\_optional.py:158: in import_optional_dependency
+    module = importlib.import_module(name)
+/home/user\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+E   ModuleNotFoundError: No module named 'tables'
+
+The above exception was the direct cause of the following exception:
+tests\datasets\test_traffic_parsing.py:220: in test_temporal_grid
+    parsed = parse_snapshot(snapshot_factory(frame).directory)
+tests\datasets\conftest.py:79: in create
+    frame.to_hdf(path, key=key, mode="w", format=storage)
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\generic.py:2776: in to_hdf
+    pytables.to_hdf(
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\pytables.py:313: in to_hdf
+    with HDFStore(
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\pytables.py:578: in __init__
+    tables = import_optional_dependency("tables")
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\compat\_optional.py:161: in import_optional_dependency
+    raise ImportError(msg) from err
+E   ImportError: `Import pytables` failed.  Use pip or conda to install the pytables package.</failure></testcase><testcase classname="tests.datasets.test_traffic_parsing" name="test_temporal_grid[offsets2-1-2-2]" time="0.003"><failure message="ImportError: `Import pytables` failed.  Use pip or conda to install the pytables package.">/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\compat\_optional.py:158: in import_optional_dependency
+    module = importlib.import_module(name)
+/home/user\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+E   ModuleNotFoundError: No module named 'tables'
+
+The above exception was the direct cause of the following exception:
+tests\datasets\test_traffic_parsing.py:220: in test_temporal_grid
+    parsed = parse_snapshot(snapshot_factory(frame).directory)
+tests\datasets\conftest.py:79: in create
+    frame.to_hdf(path, key=key, mode="w", format=storage)
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\generic.py:2776: in to_hdf
+    pytables.to_hdf(
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\pytables.py:313: in to_hdf
+    with HDFStore(
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\pytables.py:578: in __init__
+    tables = import_optional_dependency("tables")
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\compat\_optional.py:161: in import_optional_dependency
+    raise ImportError(msg) from err
+E   ImportError: `Import pytables` failed.  Use pip or conda to install the pytables package.</failure></testcase><testcase classname="tests.datasets.test_traffic_parsing" name="test_temporal_grid[offsets3-0-0-0]" time="0.003"><failure message="ImportError: `Import pytables` failed.  Use pip or conda to install the pytables package.">/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\compat\_optional.py:158: in import_optional_dependency
+    module = importlib.import_module(name)
+/home/user\AppData\Local\Programs\Python\Python312\Lib\importlib\__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+E   ModuleNotFoundError: No module named 'tables'
+
+The above exception was the direct cause of the following exception:
+tests\datasets\test_traffic_parsing.py:220: in test_temporal_grid
+    parsed = parse_snapshot(snapshot_factory(frame).directory)
+tests\datasets\conftest.py:79: in create
+    frame.to_hdf(path, key=key, mode="w", format=storage)
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\core\generic.py:2776: in to_hdf
+    pytables.to_hdf(
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\pytables.py:313: in to_hdf
+    with HDFStore(
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\io\pytables.py:578: in __init__
+    tables = import_optional_dependency("tables")
+/home/user\AppData\Local\Programs\Python\Python312\Lib\site-packages\pandas\compat\_optional.py:161: in import_optional_dependency
+    raise ImportError(msg) from err
+E   ImportError: `Import pytables` failed.  Use pip or conda to install the pytables package.</failure></testcase><testcase classname="tests.datasets.test_traffic_parsing" name="test_explicit_units_require_evidence" time="0.000" /><testcase classname="tests.datasets.test_traffic_profiling" name="test_invalid_policy[kwargs0]" time="0.002" /><testcase classname="tests.datasets.test_traffic_profiling" name="test_invalid_policy[kwargs1]" time="0.000" /><testcase classname="tests.datasets.test_traffic_profiling" name="test_invalid_policy[kwargs2]" time="0.000" /><testcase classname="tests.datasets.test_traffic_profiling" name="test_invalid_policy[kwargs3]" time="0.000" /><testcase classname="tests.datasets.test_traffic_profiling" name="test_invalid_policy[kwargs4]" time="0.000" /><testcase classname="tests.datasets.test_traffic_profiling" name="test_invalid_policy[kwargs5]" time="0.000" /></testsuite></testsuites>

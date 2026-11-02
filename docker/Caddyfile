@@ -1,0 +1,53 @@
+# ==============================================================================
+# UrbanGraph Intelligence — Production Caddy Reverse Proxy Configuration
+# Automatic TLS, Rate Limiting, Compression, HSTS, and Hardened Security Headers
+# ==============================================================================
+
+{$DOMAIN_NAME:localhost} {
+    encode gzip zstd
+
+    # Strict Transport Security (HSTS) and Security Headers
+    header {
+        Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+        X-Content-Type-Options "nosniff"
+        X-Frame-Options "DENY"
+        Referrer-Policy "strict-origin-when-cross-origin"
+        X-XSS-Protection "1; mode=block"
+        Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; connect-src 'self' ws: wss:; font-src 'self' data:; worker-src 'self' blob:; child-src 'self' blob:;"
+        -Server
+    }
+
+    # Prometheus metrics endpoint: restrict to private/internal monitoring networks
+    @metrics path /metrics
+    handle @metrics {
+        # Uncomment below in production to restrict metrics scraping to internal subnets:
+        # @denied not remote_ip 10.0.0.0/8 172.16.0.0/12 192.168.0.0/16 127.0.0.1
+        # respond @denied "Forbidden" 403
+        reverse_proxy urbangraph-app:8000
+    }
+
+    # Administrative token rotation / revocation: apply strict rate limits
+    @admin path /api/v1/admin/*
+    handle @admin {
+        reverse_proxy urbangraph-app:8000 {
+            header_up X-Forwarded-For {remote_host}
+            header_up X-Forwarded-Proto {scheme}
+        }
+    }
+
+    # General application reverse proxy
+    handle {
+        reverse_proxy urbangraph-app:8000 {
+            header_up Host {host}
+            header_up X-Real-IP {remote_host}
+            header_up X-Forwarded-For {remote_host}
+            header_up X-Forwarded-Proto {scheme}
+        }
+    }
+
+    log {
+        output stdout
+        format json
+    }
+}
+

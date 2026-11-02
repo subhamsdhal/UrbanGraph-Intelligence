@@ -1,0 +1,17 @@
+groups:
+  - name: urbangraph_alerts
+    rules:
+      - alert: UrbanGraphHighLatency
+        expr: http_request_duration_seconds{quantile="0.95"} > 0.5
+        for: 2m
+        labels:
+          severity: warning
+        annotations:
+          summary: "P95 request latency exceeds 500ms"
+      - alert: UrbanGraphHighErrorRate
+        expr: rate(http_requests_total{status=~"5.."}[5m]) / rate(http_requests_total[5m]) > 0.01
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "HTTP 5xx error rate exceeds 1%"

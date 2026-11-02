@@ -1,0 +1,76 @@
+[build-system]
+requires = ["setuptools>=68.0.0", "wheel>=0.40.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "urbangraph"
+version = "0.2.0rc3"
+description = "Spatiotemporal Urban Energy Grid Analytics and Simulation Platform"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+authors = [
+    {name = "UrbanGraph Engineering Team", email = "engineering@urbangraph.local"}
+]
+keywords = [
+    "energy-grid",
+    "power-flow",
+    "graph-neural-network",
+    "optimization",
+    "highs-solver",
+    "geospatial",
+    "fastapi"
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering"
+]
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.30.0",
+    "pydantic>=2.8.0",
+    "torch>=2.2.0",
+    "scipy>=1.11.0",
+    "numpy>=1.26.0",
+    "pandas>=2.2.0",
+    "pyarrow>=19.0.0",
+    "highspy>=1.7.0",
+    "pyyaml>=6.0.1",
+    "pydantic-settings>=2.4.0",
+    "prometheus-client>=0.20.0"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.23.0",
+    "httpx>=0.27.0",
+    "pip-audit>=2.7.0",
+    "ruff>=0.5.0",
+    "mypy>=1.10.0"
+]
+
+[project.scripts]
+urbangraph = "urbangraph.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+urbangraph = [
+    "static/**/*",
+    "fixtures/**/*",
+    "checkpoints/**/*"
+]
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = "-ra -q --tb=short"
+testpaths = ["tests"]
+asyncio_mode = "auto"

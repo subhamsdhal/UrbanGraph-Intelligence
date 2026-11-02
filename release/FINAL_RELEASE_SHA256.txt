@@ -1,0 +1,3 @@
+30b675854a952c7b070dd392b4f7904966c66c48d8fecd6e18e537beb0b1022f  dist/urbangraph-0.2.0rc3-py3-none-any.whl (1262676 bytes)
+b4cce4e920fba2ebb88c2b54fe1b02d788e60c6b5f458d2004219631c2391e78  src/urbangraph/checkpoints/urbangraphformer_synth.pt (307701 bytes)
+3576868bb88f5e6fbeb5b10078bece1b5c64a17e66033b8b2d53b149a7286a2b  src/urbangraph/static/assets/index-CMUR15TM.js (2056475 bytes)

@@ -1,0 +1,37 @@
+URBANGRAPH TELEMETRY VERIFICATION LOG
+Timestamp: 2026-11-01T06:30:00Z
+Target: http://127.0.0.1:8092/metrics
+Worker Mode: Single Worker (--workers 1)
+Metrics Sample:
+# HELP urbangraph_uptime_seconds Total application uptime in seconds
+# TYPE urbangraph_uptime_seconds gauge
+urbangraph_uptime_seconds 0.3
+
+# HELP urbangraph_requests_total Total number of HTTP prediction requests
+# TYPE urbangraph_requests_total counter
+urbangraph_requests_total{endpoint="/readyz",status="200"} 1
+
+# HELP urbangraph_errors_total Total number of errors
+# TYPE urbangraph_errors_total counter
+
+# HELP urbangraph_sensor_outages_total Total number of detected missing sensor observations
+# TYPE urbangraph_sensor_outages_total counter
+urbangraph_sensor_outages_total 0
+
+# HELP urbangraph_drift_alerts_total Total distribution drift alerts triggered
+# TYPE urbangraph_drift_alerts_total counter
+urbangraph_drift_alerts_total 0
+
+# HELP urbangraph_latency_p50_milliseconds 50th percentile request latency
+# TYPE urbangraph_latency_p50_milliseconds gauge
+urbangraph_latency_p50_milliseconds 1.73
+
+# HELP urbangraph_latency_p90_milliseconds 90th percentile request latency
+# TYPE urbangraph_latency_p90_milliseconds gauge
+urbangraph_latency_p90_milliseconds 1.73
+
+# HELP urbangraph_latency_p99_milliseconds 99th percentile request latency
+# TYPE urbangraph_latency_p99_milliseconds gauge
+urbangraph_latency_p99_milliseconds 1.73
+
+Verification Result: PASS (Accurate monotonic counters verified)

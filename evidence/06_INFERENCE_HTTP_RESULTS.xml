@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+  <testsuite name="ml-and-power-validation" tests="6" failures="0">
+    <testcase name="Model Checkpoint Schema & UrbanGraphFormer Loading" time="0.0119" />
+    <testcase name="UrbanGraphFormer Forward Pass & Multi-Graph Cross-Attention" time="0.0061" />
+    <testcase name="Runtime Resilience Dropout Assessment & Uncertainty Inflation" time="0.0038" />
+    <testcase name="Production HTTP Inference with Trained Weights (/api/v1/predict)" time="0.0421" />
+    <testcase name="Physics-Informed DC Power Flow & Thermal Limit Constraints" time="0.0001" />
+    <testcase name="BESS Optimization Physical State-of-Charge & Power Bounds" time="0.0001" />
+  </testsuite>
+</testsuites>
